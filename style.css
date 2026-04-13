@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    colour: #fff;
+    background-color: #000;
 }
 
 .hidden {

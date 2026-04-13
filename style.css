@@ -8,15 +8,6 @@ body {
     display: none;
 }
 
-div {
-    padding: 20px;
-    margin-top: 10px;
-}
-
-.md {
-    width: 80vw;
-}
-
 .lgfont {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;

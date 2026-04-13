@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loot goblins v1.5.6</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav><a href="#" class="corea">CORE</a> | <a href="#" class="lorea">LORE</a> | <a href="#" class="playa">PLAY EX</a></nav>
+
+    <div class="core">
+        <zero-md src="core.md"></zero-md>
+    </div>
+
+    <div class="lore">
+        <zero-md src="/wip/lore.md"></zero-md>
+    </div>
+
+    <div class="play">
+        <zero-md src="/wip/play-examples.md"></zero-md>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".corea").click(function () {
+                $(".core").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".lorea").click(function () {
+                $(".lore").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".play").click(function () {
+                $(".playa").toggle();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

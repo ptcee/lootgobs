@@ -12,38 +12,32 @@
 </head>
 
 <body>
-    <nav><button class="corea" onclick="toggleDiv('core')">CORE</button> | <button class="lorea" onclick="toggleDiv('lore')">LORE</button> | <button class="playa" onclick="toggleDiv('play')">PLAY EX</button></nav>
+    <nav><button class="corea" onclick="toggleDiv('core')">CORE</button> | <button class="lorea"
+            onclick="toggleDiv('lore')">LORE</button> | <button class="playa" onclick="toggleDiv('play')">PLAY
+            EX</button></nav>
 
     <div id="core" class="core hidden">
         <zero-md src="core.md"></zero-md>
     </div>
 
-   <div id="lore" class="lore hidden">
+    <div id="lore" class="lore hidden">
         <zero-md src="wip/lore.md"></zero-md>
     </div>
 
-   <div id="play" class="play hidden">
+    <div id="play" class="play hidden">
         <zero-md src="wip/play-examples.md"></zero-md>
     </div>
 
     <script>
-        $(document).ready(function () {
-            $(".corea").click(function () {
-                $(".core").toggle();
-            });
-        });
+        function toggleDiv(className) {
+            var element = document.getElementsByClassName(className)[0];
 
-        $(document).ready(function () {
-            $(".lorea").click(function () {
-                $(".lore").toggle();
-            });
-        });
-
-        $(document).ready(function () {
-            $(".playa").click(function () {
-                $(".play").toggle();
-            });
-        });
+            if (element.style.display === "block") {
+                element.style.display = "none";
+            } else {
+                element.style.display = "block";
+            }
+        }
     </script>
 
 </body>

@@ -2829,6 +2829,7 @@ Sizes are noted as [XYZ...] where each digit represents a column, and the value 
 
 > Gold values represent what a fence will offer (roughly 20% of true market value).
 > A private buyer, a collector, or someone who specifically needs the item will pay more.
+> For a rough full value of an item, multiple the value by 5.
 > The Gobfather's fence offers these prices as a baseline. 
 
 Roll **1d100** when generating loot.

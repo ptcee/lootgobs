@@ -13,3 +13,8 @@ div {
   margin-top: 10px;
   border: 1px solid #ccc;
 }
+
+.md {
+    background-color: #fff;
+    color: #000;
+}

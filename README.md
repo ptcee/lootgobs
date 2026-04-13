@@ -1,1 +1,3 @@
-www.ptcee.github.io/lootgobs
+(clean document)[https://ptcee.github.io/lootgobs]
+
+need responsive fix

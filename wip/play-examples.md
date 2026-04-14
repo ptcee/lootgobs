@@ -20,7 +20,7 @@ GM: A good night. You clear 1 Stress for every 10 gold pulled — that's 11 Stre
 
 Snot: [rolls: 5] Rumormonger.
 
-GM: There's a half-elf named Fenwick who operates out of the back booth of a tavern called the Sticky Toad in the Warrens. Knows something about everything, sells it cheap, and has a particular interest in dungeon gossip. Loyalty 2 — professional. Standard cost, no trouble. Want to note them down?
+GM: There's a half-elf named Fenwick who operates out of the back booth of a tavern called the Sticky Toad in the Warrens. Knows something about everything, sells it cheap and has a particular interest in dungeon gossip. Loyalty 2 — professional. Standard cost, no trouble. Want to note them down?
 
 Snot: In the ledger. What about you, Dribble?
 
@@ -34,7 +34,7 @@ GM: Smart framing. Roll WITS. What's your save?
 
 Dribble: WITS is 11, so save is 4 plus. [rolls Gob Die: 3] Miss!
 
-GM: Well, partial progress — the framing works but the name you get is a false one. Someone deliberately muddied this trail. You don't find who the letter was addressed to, but you do find out that two separate people have been asking the same question you're asking, and neither of them is a courier. Something happened with that letter that's bigger than a lost delivery. And one of those people is now aware someone new is asking questions.
+GM: Well, partial progress — the framing works but the name you get is a false one. Someone deliberately muddied this trail. You don't find who the letter was addressed to, but you do find out that two separate people have been asking the same question you're asking and neither of them is a courier. Something happened with that letter that's bigger than a lost delivery. And one of those people is now aware someone new is asking questions.
 
 Dribble: [taking notes] "Letter — false trail. Two others looking. One knows about us."
 
@@ -44,7 +44,7 @@ GM: Hey, something still happened. The day was never wasted, be careful pulling 
 
 *Three goblins are moving through an abandoned watchtower that's been converted into a bandit camp. Bandits cleared out a week ago — or so the rumour said. Itch starts at 20.*
 
-GM: You're inside. Ground floor, stone walls, gaps in the masonry where torches used to sit. A wide staircase leads up. There's a smell — old cooking fire, leather, and something recent. Something that hasn't been gone a week. What do you do?
+GM: You're inside. Ground floor, stone walls, gaps in the masonry where torches used to sit. A wide staircase leads up. There's a smell — old cooking fire, leather and something recent. Something that hasn't been gone a week. What do you do?
 
 Yark: I press my ear trumpet against the east wall before we go anywhere.
 

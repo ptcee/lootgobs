@@ -479,11 +479,11 @@ img {
 }
 
 a {
-    color: var(--vscode-textLink-foreground);
+    color: #218c00;
 }
 
 a:hover {
-    color: var(--vscode-textLink-activeForeground);
+    color: #85c771;
 }
 
 a:focus,

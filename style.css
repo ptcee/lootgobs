@@ -75,6 +75,10 @@ button:hover {
     text-decoration: none;
 }
 
+.index {
+    font-size: 0.75rem;
+}
+
 :root {
     --markdown-font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", system-ui, "Ubuntu", "Droid Sans", sans-serif;
     --markdown-font-size: 14px;
@@ -783,6 +787,7 @@ h6 {
 table {
     border-collapse: collapse;
     margin-bottom: 0.7em;
+    font-size: 0.8rem;
 }
 
 th {

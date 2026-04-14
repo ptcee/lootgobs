@@ -839,7 +839,7 @@ pre {
 }
 
 .vscode-high-contrast h1 {
-    border-color: rgb(155, 93, 0);
+    border-color: rgb(182, 0, 115);
 }
 
 .vscode-light th {
@@ -854,14 +854,14 @@ pre {
 .vscode-light h2,
 .vscode-light hr,
 .vscode-light td {
-    border-color: rgb(199, 143, 0);
+    border-color: rgb(182, 0, 115);
 }
 
 .vscode-dark h1,
 .vscode-dark h2,
 .vscode-dark hr,
 .vscode-dark td {
-    border-color: rgb(199, 143, 0);
+    border-color: rgb(182, 0, 115);
 }
 
 

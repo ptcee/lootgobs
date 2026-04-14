@@ -568,6 +568,8 @@ The Watchdog's companion. A small, stupid, loyal, and extremely bitey puppy.
 - **Dangerous Situations:** Rolls WITS. On a failure it ignores commands until it feels safe.
 - **At 0 MEAT:** Goes unconscious - does not die. Recovers with rest. Takes up [22] in a pack.
 
+> Worgling img
+
 ---
 
 ## GOBLIN NAMES (d66)
@@ -696,7 +698,7 @@ To roll: Roll two d6. The first die is the row (1-6), the second die is the colu
 
 When the party returns to the Underhold, they may add any treasure they have acquired to the Hoard. Take those items and add them to the Hoard and tally up the sum value of all the items. Divide that sum evenly among all players as XP. Players may choose to not add items to the Hoard to keep for themselves or sell for gold, those items do not contribute to XP.
 
-> Players can also donate gold. 1g = 1xp.
+> Players can also donate gold. 1g rewards 1 XP.
 
 | Level | XP Required |
 |---|---|
@@ -716,9 +718,9 @@ When the party returns to the Underhold, they may add any treasure they have acq
 
 A goblin peaks at level 4, this is their prime. At level 5 and above age begins to take it's toll and a goblin's stats may slowly decrease forcing death by old age or retirement.
 
-If a level up would cause MEAT to reduce to 0 that goblin dies of old age.  
-ZEST being reduced to 0 causes the goblin to lose their love for adventure.  
-WITS hitting 0 signifies a goblin's mind deteriorating to a point where adventuring is off the table.
+- If a level up would cause MEAT to reduce to 0 that goblin dies of old age.
+- ZEST being reduced to 0 causes the goblin to lose their love for adventure.
+- WITS hitting 0 signifies a goblin's mind deteriorating to a point where adventuring is off the table.
 
 
 ---
@@ -731,11 +733,15 @@ WITS hitting 0 signifies a goblin's mind deteriorating to a point where adventur
 
 ### Initiative
 
-If the party has the jump on the enemy they go first. Otherwise roll a MEAT save - on a success that player acts before the enemies, on a failure they act after. If enemies surprise the party, the enemies go first.
+- If the party **has the jump** on the enemy they **go first**
+- Otherwise roll a **ZEST save** 
+  - on a **success** that **player acts before** the enemies
+  - on a **failure** they **act after**
+- If **enemies surprise the party**, the **enemies go first**
 
 ### Round Structure
 
-Each character gets **one action and one move** per Round. A Round is a few seconds of combat time. Goblins can move roughly 15' in one round.
+Each character gets **one action and one move** per Round. A Round is a few seconds of combat time. Goblins can move roughly 15ft in one round.
 
 ### Gang Up
 

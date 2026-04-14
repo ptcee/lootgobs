@@ -14,9 +14,9 @@
 
 ## THE OPENING DAY
 
-The market bells clang twice before the Underhold properly wakes up. This is not laziness. This is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed, and the streets above are full of people too tired to notice tiny shadows scurrying about.
+The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed, and the streets above are full of people too tired to notice tiny shadows scurrying about.
 
-The Rusty Fang fills up around bell-two-and-a-bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
+The Rusty Fang fills up around bell three and a bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
 
 A folded note arrives by the hand of a nervous Lowfling who refuses to make eye contact. It has the Gobfather's seal, not his real seal of course, just one he uses when he wants to be believed without being implicated. There is a job. There's always a job. The party has until nightfall to be two streets north of the Merchant's Gate, at which point a locked door will be unlocked for exactly one minute.
 
@@ -38,30 +38,40 @@ The City of roughly 100,000 residents (permanent and not) is governed by the **C
 
 **Districts worth knowing:**
 
-- **the Coin Quarter**, Merchants, money, noise, crowds, excellent cover. The kind of place where a small figure moving quickly is assumed to be making a delivery. The markets run three watches a day; the black market runs all four.
+- **The Coin Quarter**, merchants, money, noise, crowds, excellent cover. The kind of place where a small figure moving quickly is assumed to be making a delivery. The markets run three watches a day; the black market runs all four.
 
-- **the Docks**,  colloquially known as **The Planks** to locals. No questions asked, which is a motto, a promise and occasionally an epitaph. Everything that enters Glimmerhold unofficially comes through the Planks first. Smells worse than the Underhold, which the Underhold finds quite offensive.
+- **The Docks**, colloquially known as **The Planks** to locals. No questions asked, which is a motto, a promise and occasionally an epitaph. Everything that enters Glimmerhold unofficially comes through the Planks first. Smells worse than the Underhold, which the Underhold finds quite offensive.
 
-- **The Pale Ward**, Where the wealthy live. High walls, private guards, the kind of quiet that is purchased and maintained. Goblins have no business here. This has never, in all of recorded history, stopped them.
+- **The Anvil**, a clanging industrial headache where smiths turn steel into swords and the Watch arrive like clockwork to soothe the sensitive ears of the Pale Ward next door. To craft so much as a rivet in the City, one has to first craft a business plan and present to **Jarvis Pennington** and his construct K-47, who make sure that every craftsman is honest about their trade.
 
-- **The Warrens**, A surface-adjacent district of cramped housing and even more cramped ambitions. Some goblins and one or two kobolds of particular confidence, have managed to integrate here. They are considered eccentric by their surface neighbours and regarded with mild envy by the Underhold, which has its principles and its pride but is also, it must be said, quite dark and damp.
+- **The Pale Ward**, where the wealthy live. High walls, private guards, the kind of quiet that is purchased and maintained. Goblins have no business here. This has never, in all of recorded history, stopped them.
 
-- **Temple Row**, Eight temples to eight gods. Standing in a line like an argument that has been going on too long to remember why it started.  The temple's clergy are mostly harmless. The crypts beneath them are most definitely not, but that's a job for another time.
+- **The Warrens**, a surface-adjacent district of cramped housing and even more cramped ambitions. Some goblins and one or two kobolds of particular confidence, have managed to integrate here. They are considered eccentric by their surface neighbours and regarded with mild envy by the Underhold, which has its principles and its pride but is also, it must be said, quite dark and damp.
 
-  > A note on medicine: proper physicians in Glimmerhold are rare and expensive, but there exists a recognised profession somewhere between healer and hedge wizard known as a **Whyzician**. Practitioners who have studied enough magic to apply it medically and just enough medicine to know when to stop applying magic. They are not entirely respected by either the Academy or the Temple physicians, which they consider a mark of quality. 
-  >
-  > The most famous Whyzician in Glimmerhold is **Grimbus Goldfinch**. Grimbus operates out of a cluttered set of rooms near the Warrens. He charges what he thinks you can afford (which is sometimes more than you expect and occasionally nothing at all), he does not discriminate by species, and he keeps meticulous records that have been stolen from him twice and returned both times. Whoever took them found them too useful to destroy and too dangerous to sell.
-  > 
-  > A goblin with sufficient WITS and a willing mentor could qualify as a Whyzician. The Academy would find this outrageous. Grimbus Goldfinch would find it humorous.
+- **Temple Row**, eight temples to eight gods. Standing in a line like an argument that has been going on too long to remember why it started.  The temple's clergy are mostly harmless. The crypts beneath them are most definitely not, but that's a job for another time.
+
+The eight gods are: 
+- **Gorrath**, god of fire and industry
+- **the Drowned King** (yes, that one, or something wearing his face), god of rivers and endings
+- **the Pale Lady**, goddess of winter and long memory
+- **Vresh**, god of roads and travellers (Corvin's patron)
+- **the Howler**, god of luck and poor decisions
+- **the Builder**, god of walls, foundations, and things meant to last
+- **the Unnamed**, whose temple is the smallest and whose congregation is the most serious
+- **Ol' Grum**, god of honest work, who has the largest congregation and the least impressive architecture, which his followers consider appropriate
 
 
 **A brief history of Magic:**
 
 Magic in Orrelia is a regulated profession, formally administered by the **Academy of Sanctioned Arts**, which issues licences, sets examinations, and maintains a registry of every trained practitioner in the realm. Becoming a wizard takes centuries of study and mentorship, and wielding magic without a current licence is a criminal offence carrying penalties the Academy describes as "significant".
 
-Scroll magic exists in a legal grey area that the Academy insists is not grey at all, actually quite clearly black, because someone has been imbuing spells into portable scrolls and selling them through channels the Academy cannot trace and the Watch cannot find. Goblins find scrolls the way goblins find most things - in places they weren't supposed to be, left by people who had bigger problems.
+Scroll magic exists in a legal grey area that the Academy insists is not grey at all, actually quite clearly black, because someone has been imbuing spells into portable scrolls and selling them through channels the Academy cannot trace and the Watch cannot find. Goblins find scrolls the way goblins find most things; in places they weren't supposed to be, left by people who had bigger problems.
 
 Occasionally a wizard will go rogue, operating outside the law, traveling around the realm practicing unlicensed magic. Usually the Watch manages to bring them in but some of such criminals, or heroes depending on who you talk to, are still at large.
+
+  > A note on medicine: proper physicians in Glimmerhold are rare and expensive, but there exists a recognised profession somewhere between healer and hedge wizard known as a **Whyzician**. Practitioners who have studied enough magic to apply it medically and just enough medicine to know when to stop the magic. They are not entirely respected by either the Academy or the Temple physicians. 
+  > 
+  > A goblin with sufficient WITS and a willing mentor could qualify as a Whyzician. The Academy would find this outrageous. Grimbus Goldfinch would find it humorous.
 
 ---
 
@@ -75,9 +85,9 @@ Goblins did not build the Underhold, they inherited it. They made it home and th
 
 **The Underhold is not a goblin city.** It is a city where goblins were first, a distinction they are proud of and a distinction they would argue matters, they would argue this quite a lot in fact. The Gobfather does not rule his goblins. He *provides* for everything in the Underhold. All of it. The trolls, the kobolds, the one very old gnome who has been here so long nobody can remember them arriving. The Gobfather sees the Underhold as his, in the way a shepherd sees a flock; with genuine affection, clear authority, and absolutely no illusions about the relationship.
 
-If you are unwanted up above, the Underhold will take you and that is not sentiment, it is policy.
+If you are unwanted up above, the Underhold will take you in. That is not sentiment, it is policy.
 
-**Who lives in the Underhold:**
+**The folks of Underhold:**
 
 **Goblins** are the most numerous and the most visible. Remarkable given that visibility is supposedly their least preferred quality. The goblin community is fractious, loud, and staggeringly resilient. They work for the Gobfather, they complain about the Gobfather, and they would die and occasionally do die, for the Gobfather. This is their idea of community.
 
@@ -101,11 +111,11 @@ The proprietor is **Spit**. Spit is a goblin of indeterminate age, tremendous ex
 
 Spit does not take sides and does not extend credit. She makes a stew that contains something different every day and is quite remarkable every time. If you ask what's in it you will be asked to leave.
 
-**The Job Board**, a cork board outside the Rusty Fang covered in waterproofed parchment squares. This is where jobs get posted when the Gobfather doesn't have work. Nobody reputable posts on this board. This is not a deterrent. It is, for most of the Underhold, an endorsement.
+**The Board**, a cork job board outside the Rusty Fang covered in waterproofed parchment squares. This is where jobs get posted when the Gobfather doesn't have work. Nobody reputable posts on this board. This is not a deterrent. It is, for most of the Underhold, an endorsement.
 
 **The Gobfather's operation** runs from somewhere deep in the Underhold that only a handful of people have ever been invited to see. The invitations were not optional. Messages come up by Crowfolk runner or Lowfling intermediary and gold comes down in quantities the surface world would find alarming if it knew. The arrangement sustains approximately four-thousand residents of the Underhold and, indirectly, much of the surface black market.
 
-Also let's not forget the fabulous author of these words; Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous person in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold, and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name Lucious Caesar, and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that *actually* matters and reports it all to the big man below because that's the job and the job is what he loves.
+Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous person in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold, and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name Lucious Caesar, and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that *actually* matters and reports it all to the big man below because that's the job and the job is what he loves.
 
 
 
@@ -116,9 +126,9 @@ Also let's not forget the fabulous author of these words; Tony Goblioni. I.. he.
 
 ## FACTION FRAMEWORK
 
-Every faction in the Loot Goblins world should be understood through three elements: **goals, resources, and fears.** A faction without fear is a faction without leverage, and leverage is where the interesting stories live.
+Every faction in the Loot Goblins world should be understood through three elements: **goals, resources, and fears.** A faction without fear is a faction unable to be leveraged, and leverage is where the interesting stories live.
 
-Factions interact with the goblins primarily as employers, obstacles, or complications. They interact with *each other* regardless of the goblins entirely, and the best sessions are the ones where the goblins slot into someone else's conflict like a very small, very motivated wrench into an already-straining mechanism.
+Factions interact with the goblins primarily as employers, obstacles, or complications. They interact with *each other* regardless of the goblins entirely, and the best sessions are the ones where the goblins slot into someone else's conflict like a very small, very motivated wrench into an already straining mechanism.
 
 ---
 
@@ -247,15 +257,7 @@ With him travels **Dardanel Moonswaddle**, a flamboyant elf of considerable magi
 
 The eight temples of Temple Row maintain a formal alliance of neutrality, mutual aid, and collective silence on theological disagreements that would, if aired publicly, make the Ward Council's budget arguments look cordial. They have a shared treasury, a shared archive, and a shared blind eye toward the Underhold. Mostly because several of their lower clergy have been getting their medicines from a kobold apothecary and a certain Whyzician for years and nobody wants to make that official.
 
-The eight gods are: 
-- **Gorrath**, god of fire and industry
-- **the Drowned King** (yes, that one, or something wearing his face), god of rivers and endings
-- **the Pale Lady**, goddess of winter and long memory
-- **Vresh**, god of roads and travellers (Corvin's patron)
-- **the Howler**, god of luck and poor decisions
-- **the Builder**, god of walls, foundations, and things meant to last
-- **the Unnamed**, whose temple is the smallest and whose congregation is the most serious
-- **Ol' Grum**, god of honest work, who has the largest congregation and the least impressive architecture, which his followers consider appropriate
+**Lady Yonathan**, steward of the eight, was a retired Watch officer who’d once helped Boubastous Shakur avert the Apocalypse. An event she found remarkably untidy. Having successfully saved the world, she promptly retired to her hobbies, though she held onto her nervous disposition. It wasn't that she feared the end of days returning; she just worried that someone, somewhere, wasn't being properly looked after.
 
 **Relationship with players:** Individual clergy can be Contacts. The Compact as an institution is useful for healing, information, and sanctuary, at a price framed as a donation.
 
@@ -449,6 +451,8 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 **Boubastous Shakur**, A retired Watch officer who now runs a soup kitchen near the Warrens. He knows where every body is buried because he put several of them there during his career and he's been making amends ever since, in a very practical manner. He has contacts in every district and an inexplicable soft spot for kobolds.
 
 **The Archivist of Temple Row**, Not a person but a rotating position. Currently held by an elderly gnome named **Tuck** who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.
+
+**Grimbus Goldfinch**, the most famous Whyzician in Glimmerhold. Grimbus operates out of a cluttered set of rooms near the Warrens. He charges what he thinks you can afford (which is sometimes more than you expect and occasionally nothing at all), he does not discriminate by species, and he keeps meticulous records that have been stolen from him twice and returned both times.
 
 ---
 

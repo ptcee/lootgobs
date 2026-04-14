@@ -91,8 +91,8 @@ button:hover {
     --vscode-icon-foreground: #424242;
     --vscode-focusBorder: #0090f1;
     --vscode-textSeparator-foreground: rgba(0, 0, 0, 0.18);
-    --vscode-textLink-foreground: #b10088;
-    --vscode-textLink-activeForeground: #7f7f7f;;
+    --vscode-textLink-foreground: #7f7f7f;
+    --vscode-textLink-activeForeground: #e62a7f;
     --vscode-textPreformat-foreground: #a31515;
     --vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
     --vscode-textBlockQuote-border: rgba(0, 204, 3, 0.5);

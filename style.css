@@ -500,7 +500,7 @@ code {
 
 blockquote {
     background: var(--vscode-textBlockQuote-background);
-    border-color: var(--vscode-textBlockQuote-border);
+    border-color: rgba(4, 140, 0, 0.5);
 }
 
 kbd {

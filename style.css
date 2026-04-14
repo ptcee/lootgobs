@@ -90,11 +90,11 @@ button:hover {
     --vscode-icon-foreground: #424242;
     --vscode-focusBorder: #0090f1;
     --vscode-textSeparator-foreground: rgba(0, 0, 0, 0.18);
-    --vscode-textLink-foreground: #006ab1;
-    --vscode-textLink-activeForeground: #006ab1;
+    --vscode-textLink-foreground: #00b11d;
+    --vscode-textLink-activeForeground: #2ae64c;
     --vscode-textPreformat-foreground: #a31515;
     --vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
-    --vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+    --vscode-textBlockQuote-border: rgba(0, 204, 3, 0.5);
     --vscode-textCodeBlock-background: rgba(220, 220, 220, 0.4);
     --vscode-widget-shadow: #a8a8a8;
     --vscode-input-background: #ffffff;

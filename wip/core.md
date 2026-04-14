@@ -28,6 +28,7 @@
   - [CONDITIONS REFERENCE](#conditions-reference)
 - [SECTION 2: CHARACTER CREATION](#section-2-character-creation)
   - [THE GOBFATHERS HOARD](#the-gobfathers-hoard)
+    - [The Gobfather's Ledger](#the-gobfathers-ledger)
   - [CHARACTER CREATION](#character-creation)
   - [BACKGROUNDS](#backgrounds)
     - [MEAT Backgrounds](#meat-backgrounds)
@@ -101,23 +102,36 @@
     - [Stocking Hexes](#stocking-hexes)
       - [What goes in a Hex](#what-goes-in-a-hex)
       - [Hex Stocking Table](#hex-stocking-table)
+  - [| 8 | A crater, recent, with no obvious cause. Something is off with the area. |](#-8--a-crater-recent-with-no-obvious-cause-something-is-off-with-the-area-)
+  - [| 8 | It's not what it looks like. Everyone who lives nearby knows this but says nothing. |](#-8--its-not-what-it-looks-like-everyone-who-lives-nearby-knows-this-but-says-nothing-)
     - [Hex Design Principles](#hex-design-principles)
     - [Example Hexes](#example-hexes)
   - [RUMOURS](#rumours)
     - [Generic Rumour Table (d10)](#generic-rumour-table-d10)
+  - [| 10 | The Gobfather has an interest in this location. |](#-10--the-gobfather-has-an-interest-in-this-location-)
     - [Regional Modifiers](#regional-modifiers)
+  - [| 6 | There's something on the bottom. It's been there a long time and it's not a wreck. |](#-6--theres-something-on-the-bottom-its-been-there-a-long-time-and-its-not-a-wreck-)
+  - [| 6 | There was a settlement here once. Nobody knows what happened to the inhabitants. |](#-6--there-was-a-settlement-here-once-nobody-knows-what-happened-to-the-inhabitants-)
+  - [| 6 | The last group brought back gold that crumbled to dust within a week. |](#-6--the-last-group-brought-back-gold-that-crumbled-to-dust-within-a-week-)
+  - [| 6 | Whatever lives there has been watching the treeline for weeks. It knows the party is coming. |](#-6--whatever-lives-there-has-been-watching-the-treeline-for-weeks-it-knows-the-party-is-coming-)
+  - [| 6 | A merchant who passed nearby last week is offering money for information about what's inside. |](#-6--a-merchant-who-passed-nearby-last-week-is-offering-money-for-information-about-whats-inside-)
+  - [| 6 | Whatever is there goes dormant in winter. It's almost winter. |](#-6--whatever-is-there-goes-dormant-in-winter-its-almost-winter-)
+  - [| 6 | The dwarves sealed this place. The seal was broken from the inside. |](#-6--the-dwarves-sealed-this-place-the-seal-was-broken-from-the-inside-)
+  - [| 6 | The Gobfather is investigating this area. |](#-6--the-gobfather-is-investigating-this-area-)
   - [BUILDING A DUNGEON](#building-a-dungeon)
     - [Factions](#factions)
     - [Rooms](#rooms)
       - [The 3 Line Room](#the-3-line-room)
       - [Room Contents](#room-contents)
       - [Doors](#doors)
+  - [| 6 | Secret. Requires a WITS save or specific interaction to find. |](#-6--secret-requires-a-wits-save-or-specific-interaction-to-find-)
       - [Traps](#traps-1)
   - [TREASURE](#treasure)
   - [THE ITCH IN CONTEXT](#the-itch-in-context)
   - [DUNGEON DESIGN PRINCIPLES](#dungeon-design-principles)
   - [SAMPLE DUNGEON: THE BLEACHED CELLAR](#sample-dungeon-the-bleached-cellar)
     - [The Bleached Cellar](#the-bleached-cellar)
+  - [| 6 | Two cult members emerge from room 5 together, moving quickly. They have the idol and they're leaving. |](#-6--two-cult-members-emerge-from-room-5-together-moving-quickly-they-have-the-idol-and-theyre-leaving-)
     - [Room 1 - The Cellar Entrance](#room-1---the-cellar-entrance)
     - [Room 2 - The Nest](#room-2---the-nest)
     - [Room 3 - The Collapsed Corridor](#room-3---the-collapsed-corridor)
@@ -130,6 +144,7 @@
     - [Craft](#craft)
     - [Scheme](#scheme)
   - [TROUBLE TABLE](#trouble-table)
+  - [| 12 | The Gobfather heard everything. He is not angry, he's disappointed. |](#-12--the-gobfather-heard-everything-he-is-not-angry-hes-disappointed-)
   - [THE SAFE HOUSE](#the-safe-house)
     - [Getting One](#getting-one)
     - [What It Does](#what-it-does)
@@ -219,11 +234,11 @@
   - [GOODS \& SERVICES](#goods--services)
 
 
----
+
 ---
 # SECTION 1: CORE MECHANICS
----
----
+
+
 
 ## STATS
 
@@ -245,7 +260,6 @@ Every goblin has three stats. Roll **3d6 drop the lowest** for each, assigned in
 
 Stat damage lowers your effective stat value until you recover. Your **maximum stat value never changes.**
 
----
 
 ## TARGET NUMBERS & SAVES
 
@@ -260,7 +274,7 @@ To do so, they roll equal to or above the target number on the **Gob Die** or an
 | 13-15 | 3+ |
 | 16+ | 2+ |
 
----
+
 
 ## STRESS, DAMAGE & COURAGE
 
@@ -286,17 +300,17 @@ When a goblin would take damage, they can attempt to grit their way through the 
 
 ### Courage
 
-COURAGE is boldness, recklessness, and goblin heart. It is a tracked resource with a **max cap of your ZEST stat.** Each point of COURAGE represents one six sided die. When you gain COURAGE, stack a d6 on your COURAGE slot.
+COURAGE is boldness, recklessness and goblin heart. It is a tracked resource with a **max cap of your ZEST stat.** Each point of COURAGE represents one six sided die. When you gain COURAGE, stack a d6 on your COURAGE slot.
 
 - Roll a **d4** at character creation for your **starting COURAGE pool**
 - Gain COURAGE when 
      - you **succeed on your Gob die**
      - **2 or more** non STRESS **dice match**
 - Spend COURAGE to add a d6 to your pool
-- Additional COURAGE sources come from backgrounds, items, and special circumstances
+- Additional COURAGE sources come from backgrounds, items and special circumstances
 - A GM may award a player a COURAGE when they do something that would make their goblin feel confident
 
----
+
 
 ## THE GOB DIE
 
@@ -343,7 +357,7 @@ A die may never be rerolled more than once.
 - **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This is the only way STRESS dice can be added to attack pools. 
 - **Bolstered** - when something significantly aids you add one free COURAGE die to your dice pool.
 
----
+
 
 ## REST & RECOVERY
 
@@ -370,7 +384,7 @@ Rations have **(4\*)** uses. Each use represents one meal.
 
 A goblin must take **at least 1 full Watch of sleep per day** or gain the **Exhausted** condition.
 
----
+
 
 ## TIME
 
@@ -395,7 +409,7 @@ A grid like below for night, morning, afternoon and evening to represent 1 full 
 | ◯ | ◯ | ◯ | ◯ | ◯ | ◯ |
 | ◯ | ◯ | ◯ | ◯ | ◯ | ◯ |
 
----
+
 
 ## CONDITIONS
 
@@ -434,11 +448,10 @@ All conditions are [1]
 
 Permanent injuries occupy the relevant body slot and can only be healed by magic. As a GM, create any relevant condition you need, be creative about it!
 
----
+
 ---
 # SECTION 2: CHARACTER CREATION
----
----
+
 
 ## THE GOBFATHERS HOARD
 
@@ -447,9 +460,18 @@ At campaign start, roll the following for the Gobfather's starting Hoard:
 - **(Player count) +2** rolls on the Hoard Armour table
 - **(Player count) x2** rolls on the Hoard Odds and Ends table
 - **(Player count) x2** rolls on the generic Loot Table (page X)
+- **3d10 x1000** for Hoard raw gold value
+
+### The Gobfather's Ledger
+
+To help take some cognitive load off the GM a character may choose to start with the Gobfather's Ledger.   
+This player will be known as the Accountant.
+- The accountant keeps track of the amount of gold currently in the Hoard during the campaign.
+- The accountant tallies the value of treasures added to the gold.
+- While in possession of the Gobfather's Ledger, their rolls are bolstered anytime they roll to interact with the Gobfather.
+> Gobfather's Ledger item, folds out into sheet with spots to keep track of everything.
 
 These items will be used for character creation and interact with many mechanics in Loot Goblins.
-
 
 ## CHARACTER CREATION
 
@@ -466,14 +488,13 @@ These items will be used for character creation and interact with many mechanics
 8. **Roll Physical Trait** - Roll d66 once on the Physical Traits table.
 9. **Roll Quirk** - Roll d66 once on the Quirks table.
 
----
 
 ## BACKGROUNDS
 
 | | COURAGE 1 | COURAGE 2 | COURAGE 3 | COURAGE 4 |
 |---|---|---|---|---|
 | **MEAT** | Junkmonger | Sliprat | Pugpug | Zerkling |
-| **ZEST** | Grumbler | Watchdog | Grubseer | Dingdonger |
+| **ZEST** | Grumbler | Watchdog | Grubseer | Dingdong |
 | **WITS** | Lurkfish | Filchweasel | Snitch | Boombro |
 
 ### MEAT Backgrounds
@@ -522,7 +543,7 @@ These items will be used for character creation and interact with many mechanics
 - **Sacred beetle idol** - while carried, your STRESS dice are d8s instead of d6s.
 - Dung ball (4*)
 
-**Dingdonger** *(Death has wrung their bell a few times)*
+**Dingdong** *(Death has wrung their bell a few times)*
 - Pack: 1x4
 - Ration, torch, rope, weapon of choice
 - **Soul in a jar** - When you would gain Frightened, gain 1 COURAGE instead.
@@ -530,7 +551,7 @@ These items will be used for character creation and interact with many mechanics
 
 ### WITS Backgrounds
 
-**Lurkfish** *(Watches... waits... keeps waiting)*
+**Lurkfish** *(Watches, waits, prefers to take notes)*
 - Pack: 3x2
 - Ration, torch, rope, weapon of choice
 - **Ear trumpet** - Press against any surface to hear through it. Detect number of creatures and vague intent on the other side.
@@ -555,11 +576,9 @@ These items will be used for character creation and interact with many mechanics
 - **Volatile experimental bombs (6)** d8+d0, Custom Load: before throwing declare a mode - Smoke (blinds all in area), Shrapnel (hits all in area for 2 damage), or Concussive (forces Vital Blow on affected). Oops: when the combat die rolls a 1 the bomb goes off in the Boombro's hand instead.
 - Mysterious vial labeled "DO NOT" (1*)
 
----
-
 #### Worglings
 
-The Watchdog's companion. A small, stupid, loyal, and extremely bitey puppy.
+The Watchdog's companion. A small, stupid, loyal and extremely bitey puppy.
 
 - **character creation:** Roll 1d6 for each of MEAT / ZEST / WITS / STRESS Threshold independently.
 - **Combat:** Bite: d4+d4.
@@ -568,9 +587,8 @@ The Watchdog's companion. A small, stupid, loyal, and extremely bitey puppy.
 - **Dangerous Situations:** Rolls WITS. On a failure it ignores commands until it feels safe.
 - **At 0 MEAT:** Goes unconscious - does not die. Recovers with rest. Takes up [22] in a pack.
 
-> Worgling img
+> Worgling sheet img
 
----
 
 ## GOBLIN NAMES (d66)
 
@@ -585,7 +603,6 @@ Roll twice and combine for your full name. Example: rolling 3 and 5 then 6 and 2
 | **5** | Boggle | Filch | Pox | Gnaw | Sludge | Twitch |
 | **6** | Grisle | Dribble | Squirm | Putch | Clod | Scrag |
 
----
 
 ## QUIRKS AND TRAITS (d66)
 
@@ -607,7 +624,7 @@ To roll: Roll two d6. The first die is the row (1-6), the second die is the colu
 * **12. Translucent Skin:** Your flesh is like thin parchment; veins are faintly visible.
 * **13. Hardened Nails:** Your fingernails are exceptionally thick and yellowed.
 * **14. Shimmer-Trace:** You leave a faint, iridescent trail on objects you touch.
-* **15. Forked Tongue:** Exceptionally long, blue, and constantly flicking.
+* **15. Forked Tongue:** Exceptionally long, blue and constantly flicking.
 * **16. Patchy Hair:** Your hair grows in wild, matted clumps with smooth bald spots.
 * **21. Whistling Neck:** Small vents on your neck that whistle when you breathe hard.
 * **22. Hollow Bones:** You clatter like dry sticks whenever you move quickly.
@@ -640,7 +657,6 @@ To roll: Roll two d6. The first die is the row (1-6), the second die is the colu
 * **65. Fungal Growth:** Small, shelf-like mushrooms grow in damp areas of your skin.
 * **66. Single Brow:** A massive, protruding ridge of bone sits over your eyes.
 
----
 
 ### Quirks (d66)
 
@@ -692,7 +708,6 @@ To roll: Roll two d6. The first die is the row (1-6), the second die is the colu
 * **66. Hoard-Sniffer:** You claim to smell gold by pressing your nose to the floor.
 
 
----
 
 ## ADVANCEMENT
 
@@ -724,10 +739,7 @@ A goblin peaks at level 4, this is their prime. At level 5 and above age begins 
 
 
 ---
----
 # SECTION 3: COMBAT
----
----
 
 ## COMBAT
 
@@ -836,7 +848,7 @@ Roll **the Gob Die** after a failed Vital Blow save. You cannot add COURAGE to t
 
 > Reminder: a 6 on the Gob Die clears a STRESS.
 
----
+
 
 ### Permanent Injuries
 
@@ -855,10 +867,7 @@ Permanent injuries must be placed in the slot corresponding to the injured body 
 
 
 ---
----
 # SECTION 4: EQUIPMENT
----
----
 
 ## INVENTORY
 
@@ -883,7 +892,7 @@ Permanent injuries must be placed in the slot corresponding to the injured body 
 
 ### Item Sizes
 
-Sizes are noted as [XYZ...] where each digit represents a column, and the value of that digit is how many cells are filled in that column.
+Sizes are noted as [XYZ...] where each digit represents a column and the value of that digit is how many cells are filled in that column.
 
 #### Examples  
 [1] - Quick and light weapons, small items, light armour, accessories
@@ -937,7 +946,6 @@ Items marked **(n)** can be repaired or restocked at a relevant merchant or trad
 
 Consumables marked **(n\*)** cannot be repaired or restocked - they must be replaced.
 
----
 
 ## WEAPONS
 
@@ -957,7 +965,6 @@ All weapons have (3) unless stated otherwise.
 
 Ranged dice will be noted as **rd** ie: 1rd6 for a ranged d6.
 
----
 
 ## ARMOUR
 
@@ -972,11 +979,10 @@ All armour has (3) unless stated otherwise.
 
 Unarmoured creatures have DEF1.
 
----
 
 ## SHIELDS
 
-Shields absorb incoming damage. When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses, the character takes 1 damage, the shield is destroyed, and remaining damage is discarded. Using a shield requires **MEAT 7+.**
+Shields absorb incoming damage. When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses, the character takes 1 damage, the shield is destroyed and remaining damage is discarded. Using a shield requires **MEAT 7+.**
 
 | Shield | Uses | Slots | Notes |
 |---|---|---|---|
@@ -986,10 +992,7 @@ Shields absorb incoming damage. When a shield's uses are fully marked it breaks.
 | **Tower shield** | (7) | [2] | Takes up both hands |
 
 ---
----
 ## MAGIC SCROLLS
----
----
 
 Magic is exceedingly rare for goblins to find. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read. 
 
@@ -997,7 +1000,6 @@ When they find a spell scroll they squint at it until something happens. Roll a 
 
 Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a usage per die. When all uses are marked the scroll turns to ash, unless Major Mishap 6 is rolled.
 
----
 
 ### Casting
 
@@ -1022,7 +1024,6 @@ When a spell calls for a save, the target rolls the relevant stat save.
 - **ZEST save:** shake off fear, resist compulsion, hold your nerve
 - **WITS save:** see through illusions, resist mental domination, notice danger
 
----
 
 ### Flow table (d12)
 
@@ -1041,7 +1042,6 @@ When a spell calls for a save, the target rolls the relevant stat save.
 | 11 | **Shatter** | Break apart, fragment, destabilise, cause to fall to pieces |
 | 12 | **Speak** | Communicate, command, compel through words, give voice to |
 
----
 
 ### Facet table (d12)
 
@@ -1060,7 +1060,6 @@ When a spell calls for a save, the target rolls the relevant stat save.
 | 11 | **Name** | Identity, true nature, reputation, what a thing fundamentally is |
 | 12 | **Hunger** | Appetite, void, emptiness, consuming need, the absence of things |
 
----
 
 ### Mishap tables
 
@@ -1092,7 +1091,6 @@ When all three dice match, roll on the Major Mishap table instead; the spell may
 | 5 | **Swap:** Caster and target exchange positions and current STRESS. WITS save to resist. |
 | 6 | **Amplified:** Spell casts and regains all uses. |
 
----
 
 ### Crafting Spell Scrolls
 
@@ -1100,7 +1098,6 @@ When all three dice match, roll on the Major Mishap table instead; the spell may
 
 **Identifying magic items:** Make a WITS save to identify a magic item's properties without triggering it. On a failure, the item activates.
 
----
 #### Tips 
 The 144 Flow and Facet combinations are intentionally open. When a goblin rolls a result, get the player to give a brief description of the spell and roll with it. A few principles:
 
@@ -1109,13 +1106,8 @@ The 144 Flow and Facet combinations are intentionally open. When a goblin rolls 
 - **Weird combinations are the point:** Cloak Hunger, Rot Name, Speak Door - lean into them. The spell table is designed to create chaotic creative results.
 - **Reversed mishaps are a gift:** When result 6 comes up on the minor table, ask the player what the opposite of this spell would be and make it happen.
 
-
-
----
 ---
 # SECTION 5: EXPLORING DUNGEONS
----
----
 
 > For information on creating dungeons, see [Section 6: Running the Game](#section-6-running-the-game).
 
@@ -1130,11 +1122,6 @@ The Itch represents the dungeon waking up to the party's presence. It starts at 
 - **Taking a rest** - increase the Itch die by one step (d6 > d8 > d10 > d12 > d20), resets upon leaving the dungeon.
 
 The Itch only advances on turns. Combat rounds do not advance the Itch and the Itch die cannot step above d20.
-
----
-
-
----
 
 ## DUNGEON PROCEDURES
 
@@ -1179,7 +1166,7 @@ Results are not permanent. How the party behaves or negotiates will shift the re
 
 > **Running Social Encounters**
 >
-> Loot Goblins doesn't have a dedicated social system but it doesn't need one. The reaction roll, a WITS or ZEST save, and the Gob Die are sufficient, but they work best when the GM has a clear sense of how to apply them.
+> Loot Goblins doesn't have a dedicated social system but it doesn't need one. The reaction roll, a WITS or ZEST save and the Gob Die are sufficient, but they work best when the GM has a clear sense of how to apply them.
 >
 > **The reaction roll sets the opening position, not the outcome.** A result of Wary means the NPC is cautious, not hostile. What happens next depends entirely on what the party does. Players who say the right thing, offer something valuable, or create a clever distraction can shift a Wary result to Curious or Friendly without any additional roll. The dice resolve uncertainty; creative engagement should be rewarded directly, before bringing the dice out.
 >
@@ -1191,13 +1178,11 @@ Results are not permanent. How the party behaves or negotiates will shift the re
 >
 > **Failed social rolls produce complications, not dead ends.** A failed save doesn't mean the NPC attacks or the conversation ends - it means the party's position weakened, the NPC's suspicion increased, or the window for a particular approach closed. Something still happens. The scene continues. On a failure, introduce a complication: the NPC asks a question the party can't easily answer, a third party arrives, the clock gets louder. GMs can track an NPCs standing on the reaction table as the players interact if it helps.
 >
-> **Multi-goblin social encounters can use group saves.** If multiple goblins are contributing to a negotiation, run it as a group save - everyone rolls, and if there are equal or more successes than failures, it works. This makes the party's collective nerve and presence matter, and means the goblin with the shakiest stat can still contribute by succeeding their individual roll.
+> **Multi-goblin social encounters can use group saves.** If multiple goblins are contributing to a negotiation, run it as a group save - everyone rolls and if there are equal or more successes than failures, it works. This makes the party's collective nerve and presence matter and means the goblin with the shakiest stat can still contribute by succeeding their individual roll.
 
 ---
----
 # SECTION 6: RUNNING THE GAME
----
----
+
 
 ## THE CITY BELOW THE CITY
 
@@ -1217,9 +1202,9 @@ Let this shape everything about how you build and run your game.
 
 **The Watch is an obstacle, not an enemy.** Guards are just doing their job. They do not specifically hate goblins, they're just trained to hate what goblins represent; unrest and chaos. A goblin who causes no visible disorder is a goblin the Watch has no reason to notice.
 
-**The Gobfather is the means and the end.** He is the reason the party has work, shelter, and access to the Hoard. He is also the reason they cannot simply take what they want and leave. He is an open secret in The City, and much of the realms - everyone knows he exists, knows roughly what he does, and has decided that removing him would be more trouble than tolerating him. The lords and the Watch could come for him but thus far have chosen not to.
+**The Gobfather is the means and the end.** He is the reason the party has work, shelter and access to the Hoard. He is also the reason they cannot simply take what they want and leave. He is an open secret in The City and much of the realms - everyone knows he exists, knows roughly what he does and has decided that removing him would be more trouble than tolerating him. The lords and the Watch could come for him but thus far have chosen not to.
 
-**Goblins are not stupid.** A common, and rude stereotype. Goblins are merely underestimated. Yet a goblin who is perceived as stupid has an enormous advantage. The best goblin plans look like chaos from the outside and are something else entirely from the inside. Make sure your players lean into this, unless of course they want to play as a stupid goblin.
+**Goblins are not stupid.** A common and rude stereotype. Goblins are merely underestimated. Yet a goblin who is perceived as stupid has an enormous advantage. The best goblin plans look like chaos from the outside and are something else entirely from the inside. Make sure your players lean into this, unless of course they want to play as a stupid goblin.
 
 **Player skill, not character skill.** Loot Goblins is a game about what the players do, not what's written on their character sheets. A goblin with WITS 3 can still talk their way past a guard if the player says the right thing. A goblin with MEAT 15 can still fall into a pit if the player is not paying attention. The dice resolve uncertainty, but collaborative creative thinking is why we're all at the table.
 
@@ -1275,16 +1260,13 @@ Do not start with backstory. Backstory comes out in play, through quirks and nam
 The first session should end with the party having done one thing they are proud of and one thing they're unsure whether they should have done. Either way if everyone is having fun you're doing it right. Including you, the GM is there to have fun too.
 
 
----
 ## CREATING THE WORLD
----
-
 
 ### Stocking Hexes
 
 Most campaigns of Loot Goblins take place on a compact 5x5 hex; one centre hex, six hexes around it and twelve hexes around those. You can run your campaign map however you like, but this is the easiest jumping off point.
 
-The centre hex is where The City (and subsequently the Underhold) reside. The six hexes immediately surrounding The City are the near ring - familiar, travelled, relatively safe. The twelve hexes beyond that are the far ring - expedition territory, harder to reach, stranger things live there, and better loot.
+The centre hex is where The City (and subsequently the Underhold) reside. The six hexes immediately surrounding The City are the near ring - familiar, travelled, relatively safe. The twelve hexes beyond that are the far ring - expedition territory, harder to reach, stranger things live there and better loot.
 
 Not every hex needs to be stocked before play. Stock the near ring before the first session. Stock the far ring as the players push toward it.
 
@@ -1292,7 +1274,6 @@ The City hex does not need stocking. It is its own system.
 
 Each hex is roughly 25km across.
 
----
 
 #### What goes in a Hex
 
@@ -1302,11 +1283,10 @@ A fully stocked hex has four elements:
 
 **Landmark** - something visible from adjacent hexes or immediately obvious on arrival. A landmark orients the players and makes the hex memorable. It doesn't need to be the dungeon.
 
-**Rumour** - one piece of information about this hex that the party could learn in The City before they go. Rumours should be partially true to keep them interesting, and allow the players to put the pieces together.
+**Rumour** - one piece of information about this hex that the party could learn in The City before they go. Rumours should be partially true to keep them interesting and allow the players to put the pieces together.
 
 **Wandering faction** - a group that moves through or operates in this hex. Not fixed to the dungeon. They have their own agenda and may appear as an encounter, a contact opportunity, or a complication.
 
----
 
 #### Hex Stocking Table
 
@@ -1327,6 +1307,8 @@ Roll once on each table to generate a hex. Adjust the result to flavour it for y
 | 9 | Trap - looks like an adventure site, but is a trap. Someone or something lies in wait. |
 | 10 | The dungeon is hidden. A WITS save or local knowledge required to find it. Roll again. |
 
+---
+
 **Landmark (d8)**
 
 | d8 | Landmark |
@@ -1339,6 +1321,7 @@ Roll once on each table to generate a hex. Adjust the result to flavour it for y
 | 6 | A tower on high ground, visible for several hexes. Lights up at night. |
 | 7 | A unique tree so large it can be seen from the road. |
 | 8 | A crater, recent, with no obvious cause. Something is off with the area. |
+---
 
 **Rumour (d8)**
 
@@ -1352,6 +1335,7 @@ Roll once on each table to generate a hex. Adjust the result to flavour it for y
 | 6 | There's a way through to somewhere much more dangerous. Most folks go around. |
 | 7 | Something was taken from there recently. The original owner wants it back. |
 | 8 | It's not what it looks like. Everyone who lives nearby knows this but says nothing. |
+---
 
 **Wandering Faction (d8)**
 
@@ -1383,9 +1367,8 @@ A faction moving through a hex means the party might encounter them on the way i
 The six hexes around The City have rumours circulating in every tavern. The party should arrive with partial information. The far ring is stranger, rumours are older, vaguer, or simply wrong.
 
 **The City casts a shadow.**
-The Gobfather's reach extends into the near ring. Jobs, contacts, and rivals operate in these hexes. The far ring is outside his territory. What happens there stays there, unless the party escalates things.
+The Gobfather's reach extends into the near ring. Jobs, contacts and rivals operate in these hexes. The far ring is outside his territory. What happens there stays there, unless the party escalates things.
 
----
 
 ### Example Hexes
 
@@ -1453,6 +1436,7 @@ Rumours are usually only partially true. That's why they're rumours.
 | 8 | It's not what it looks like from outside. Everyone who lives nearby knows this. Nobody talks about it. |
 | 9 | Something valuable was taken from there recently. The original owner is actively looking for it. |
 | 10 | The Gobfather has an interest in this location. |
+---
 
 ### Regional Modifiers
 
@@ -1468,6 +1452,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | A boat was found drifting nearby. No crew and no damage. |
 | 5 | The thing everyone is afraid of only comes out at night. |
 | 6 | There's something on the bottom. It's been there a long time and it's not a wreck. |
+---
 
 **Swamp**
 
@@ -1479,6 +1464,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | The ground looks solid. It's not. The locals know where to step. |
 | 5 | Whatever is in there has been there longer than The City has existed. |
 | 6 | There was a settlement here once. Nobody knows what happened to the inhabitants. |
+---
 
 **Desert**
 
@@ -1490,6 +1476,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | The ruins are older than anyone can date. What is written on the walls is not a language anyone recognises. |
 | 5 | Something beneath the sand tracks movement by vibration. Standing still helps. |
 | 6 | The last group brought back gold that crumbled to dust within a week. |
+---
 
 **Forest**
 
@@ -1501,6 +1488,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | That forest is older than The City. It remembers things and doesn't like visitors. |
 | 5 | There is a clearing at the centre but nothing will grow in it. Nothing has for years. |
 | 6 | Whatever lives there has been watching the treeline for weeks. It knows the party is coming. |
+---
 
 **Grassland**
 
@@ -1512,6 +1500,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | The locals give it a wide berth. They will not say why. |
 | 5 | Something happened there during the last war. The area is dying. |
 | 6 | A merchant who passed nearby last week is offering money for information about what's inside. |
+---
 
 **Tundra**
 
@@ -1523,6 +1512,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | Sound carries differently out there. The party will hear things before they see them... or they think they do. |
 | 5 | There are tracks in the snow leading in but none leading out. |
 | 6 | Whatever is there goes dormant in winter. It's almost winter. |
+---
 
 **Mountain**
 
@@ -1534,6 +1524,7 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | The air gets thin higher up. ZEST saves to push through. |
 | 5 | Something nests on the cliffs above the entrance. It's territorial. |
 | 6 | The dwarves sealed this place. The seal was broken from the inside. |
+---
 
 **City**
 
@@ -1545,10 +1536,11 @@ After rolling on the generic table, roll d6 on the table matching the hex terrai
 | 4 | There is a second entrance through the sewers. It's not on any map the party has seen. |
 | 5 | The neighbours have learned not to ask questions. |
 | 6 | The Gobfather is investigating this area. |
+---
 
 ## BUILDING A DUNGEON
 
-A dungeon should be a place with a history, a present, and a problem. The history explains why it exists. The present explains who is in it now and why. The problem is what makes it interesting to venture into.
+A dungeon should be a place with a history, a present and a problem. The history explains why it exists. The present explains who is in it now and why. The problem is what makes it interesting to venture into.
 
 Before you draw a single room, answer three questions:
 
@@ -1556,11 +1548,11 @@ Before you draw a single room, answer three questions:
 - ***Who* is here now?** Two groups with conflicting interests make the most interseting dungeons. A group doesn't need to be a faction, merely a presence with a goal.
 - ***What* is worth taking?** The treasure should feel like it belongs here. A tomb has grave goods and a corpse with expensive taste, a bandit fort has a payroll chest and stolen gear, a vampire castle has ornate valuables.
 
----
+
 
 ### Factions
 
-Every dungeon should have at least two factions. A faction is any group with its own goals, territory, and reaction to intruders. Factions do not need to be aware of each other but they should have reasons to conflict if they meet.
+Every dungeon should have at least two factions. A faction is any group with its own goals, territory and reaction to intruders. Factions do not need to be aware of each other but they should have reasons to conflict if they meet.
 
 **Faction statblock:**
 - Who they are and roughly how many
@@ -1572,11 +1564,10 @@ Every dungeon should have at least two factions. A faction is any group with its
 
 Clever goblins should be able to play factions against eachother to avoid direct conflict. Trick a party of Heroes into fighting a dragon, lead the group of bandits to an undead swarm, etc. 
 
----
 
 ### Rooms
 
-A dungeon is a collection of keyed rooms connected by corridors, doors, and secrets. Each room needs only enough information to run it at the table.
+A dungeon is a collection of keyed rooms connected by corridors, doors and secrets. Each room needs only enough information to run it at the table.
 
 Using the Five Room Dungeon as a guide, you can quickly create dungeons for your adventures. When you feel comfortable, create larger and more complex dungeons.
 
@@ -1612,7 +1603,7 @@ When stocking a room, roll d6 to determine what it contains. Apply this to every
 | 5 | Treasure. Roll on a relevant Loot table. |
 | 6 | Creature and treasure. Roll both. The creature is either guarding it or has no idea it is there. |
 
-Empty rooms are not wasted rooms. They build tension, provide breathing space, and make the rooms with something in them feel earned.
+Empty rooms are not wasted rooms. They build tension, provide breathing space and make the rooms with something in them feel earned.
 
 #### Doors
 
@@ -1626,6 +1617,7 @@ Doors, doors, doors. The final boss of TTRPGs. Every door the party opens costs 
 | 4 | Closed, locked. MEAT save to pick. Target Number +2 if not using lockpicks. |
 | 5 | Barred from the other side. Cannot be picked - must be forced or circumvented. |
 | 6 | Secret. Requires a WITS save or specific interaction to find. |
+---
 
 #### Traps
 
@@ -1633,7 +1625,7 @@ Traps should be discoverable before they trigger. A good trap has a tell to clue
 
 **Trap effects** - use conditions where possible with relevant saves. A trap that applies Immobilized, Bleed, or Poisoned is more interesting than one that just deals damage. A trap that makes noise and ticks the Itch is scarier than one that does neither.
 
----
+
 
 ## TREASURE
 
@@ -1648,7 +1640,7 @@ Treasure should feel like it belongs to the dungeon. A bandit's hoard is differe
 **Treasure and the Gobfather:**
 Keep in mind that the Gobfather assumes all treasure looted will go into the Hoard. The goblins know this. The interesting question is whether they will keep it for themselves or give it to the greater goblin good.
 
----
+
 
 ## THE ITCH IN CONTEXT
 
@@ -1662,7 +1654,7 @@ A few principles for running it:
 - **Encounters are not always combat.** A patrol that walks past a hiding party is more tense than one that attacks. A creature that is clearly fleeing something raises more questions than one that charges directly at the party.
 - **Noise has consequences.** Tossing a stick of dynamite should wake the dungeon floor. A fight in the entrance hall should get the attention of nearby rooms. The Itch supports this for you, use it honestly.
 
----
+
 
 ## DUNGEON DESIGN PRINCIPLES
 
@@ -1670,7 +1662,7 @@ A few principles for running it:
 If a room neither reveals something about the dungeon nor makes the players curious about what's ahead, does it need to exist? 
 
 **Reward engagement.**
-Players who search, listen, ask questions, and interact with the environment should find things. Not everything but enough that the behaviour feels worth doing.
+Players who search, listen, ask questions and interact with the environment should find things. Not everything but enough that the behaviour feels worth doing.
 
 **Let factions breathe.**
 If two factions are in the same dungeon, think about what happens when they meet. Not just when the goblins arrive but what was happening before the goblins got there? What is still happening while the goblins are moving through the dungeon?
@@ -1682,9 +1674,8 @@ Piles of trash and waste, sleeping areas, marking on the walls. Things that live
 A dungeon you can run from three lines per room is better than a dungeon you cannot run because it's not finished or it's overwhelmingly complex. At minimum write enough for your session. Fill in the rest at the table.
 
 
----
+
 ## SAMPLE DUNGEON: THE BLEACHED CELLAR
----
 
 
 ### The Bleached Cellar
@@ -1703,6 +1694,7 @@ A dungeon you can run from three lines per room is better than a dungeon you can
 | 4 | The idol in room 5 hums. Every rat in the dungeon goes still for one turn. |
 | 5 | A Watch patrol passes by the tannery. Decrease the Itch by 5. |
 | 6 | Two cult members emerge from room 5 together, moving quickly. They have the idol and they're leaving. |
+---
 
 **Who is here now?**
 
@@ -1710,10 +1702,10 @@ A dungeon you can run from three lines per room is better than a dungeon you can
 
 *The Cultists* - two surviving cult members have returned to retrieve their ritual materials. They don't want a fight. They do want what is in room 5. They'll negotiate, lie, or run.
 
-**What is worth taking?** The cult's lockbox in room 5, a piece of loot on a body in room 3, and the idol in room 5.
+**What is worth taking?** The cult's lockbox in room 5, a piece of loot on a body in room 3 and the idol in room 5.
 > The idol is a [11] piece of treasure that charms all Rats in the area when activated.
 
----
+
 
 ### Room 1 - The Cellar Entrance
 
@@ -1758,7 +1750,7 @@ A dungeon you can run from three lines per room is better than a dungeon you can
 
 ### Room 5 - The Ritual Chamber
 
-*A vaulted room, larger than expected. An altar of stone at the far end. On it, a black iron idol the size of a fist, and a battered lockbox. Two figures in patched cult robes turn as you enter.*
+*A vaulted room, larger than expected. An altar of stone at the far end. On it, a black iron idol the size of a fist and a battered lockbox. Two figures in patched cult robes turn as you enter.*
 
 - The two cult remnants. Reaction roll - they are frightened but determined. They want the idol and claim the lockbox is theirs too. It's not.
 - The lockbox requires the key from room 3. Inside: d6x50 gold and a roll on the Loot table (41-70 range).
@@ -1767,10 +1759,7 @@ A dungeon you can run from three lines per room is better than a dungeon you can
 
 
 ---
----
 # SECTION 7: TRAVEL, DOWNTIME & THE City
----
----
 
 
 ## DOWNTIME
@@ -1840,7 +1829,6 @@ Spend a day pursuing something that doesn't fit any other activity - tracking do
 
 On a success, you make meaningful progress or achieve the goal outright. On a failure, you make partial progress, hit a complication, or attract unwanted attention. Either way something happens; the day is never wasted.
 
----
 
 ## TROUBLE TABLE
 
@@ -1860,8 +1848,6 @@ Roll **1d12** on a failed Carouse.
 | 10 | You owe a favour to someone the Gobfather does not like. Both of them know. |
 | 11 | You are pretty sure you got married. |
 | 12 | The Gobfather heard everything. He is not angry, he's disappointed. |
-
----
 ---
 
 ## THE SAFE HOUSE
@@ -1880,7 +1866,7 @@ The party may acquire a safe house by spending gold from the Hoard. The Gobfathe
 
 ### What It Does
 
-A safe house is where the party sleeps, plans, and keeps things they don't want to take out adventuring. 
+A safe house is where the party sleeps, plans and keeps things they don't want to take out adventuring. 
 
 It provides:
 
@@ -1909,12 +1895,9 @@ If the Watch, a rival crew, or an enemy finds the safe house the party has one r
 
 A compromised safe house can be abandoned and a new one purchased. Any upgrades are lost.
 
----
----
-
 ## THE GOBFATHER
 
-The Gobfather is THE boss, THE bank, and your only safety net. Treasure goes to him. The Hoard is his. New goblins come from his resources. Everything flows through him.
+The Gobfather is THE boss, THE bank and your only safety net. Treasure goes to him. The Hoard is his. New goblins come from his resources. Everything flows through him.
 
 He tracks what you do in The City. He hears things and he doesn't forget.
 
@@ -1942,7 +1925,7 @@ Move the X left or right whenever the party shifts their standing to track how t
 
 ### Tony Goblioni
 
-Tony Goblioni is the Gobfather's right hand man. A reknowned cartographer throughout the realms, he maps everything, says nothing, and reports it all back to the big man. When the party is in Bad Standing, Tony may appear; on a delve, in town, at the table next to you in the tavern. He's always taking notes.
+Tony Goblioni is the Gobfather's right hand man. A reknowned cartographer throughout the realms, he maps everything, says nothing and reports it all back to the big man. When the party is in Bad Standing, Tony may appear; on a delve, in town, at the table next to you in the tavern. He's always taking notes.
 
 Tony automatically succeeds at navigation during overland travel and uses a standard goblin stat block.
 
@@ -1967,7 +1950,7 @@ Very rarely will he meet the party in person, if he does it's probably very impo
 
 **Square** - business as usual. He assigns work and take his cut. The party is a tool that is currently working correctly.
 
-**In Debt** - he's patient but he is counting. Jobs may come with conditions attached. He mentions the debt once, clearly, and does not mention it again until it matters.
+**In Debt** - he's patient but he is counting. Jobs may come with conditions attached. He mentions the debt once, clearly and does not mention it again until it matters.
 
 **Bad Standing** - he's watching. Tony Goblioni may appear. Jobs dry up or come with impossible conditions. He's not punishing the party, he's testing whether they're worth the trouble to keep around. If the party proves their worth, move them back to Square. If they don't, the Gobfather stops returning their messages.
 
@@ -1985,18 +1968,16 @@ He does not send someone to hurt them, he simply removes the reasons that folks 
 
 ### The Gobfather as a Quest Giver
 
-Jobs from the Gobfather should feel different from jobs off the job board. They are more specific, better paid, and more dangerous. They also carry implicit expectations; the Gobfather doesn't assign jobs he expects to fail. If he sends the party somewhere, he believes they can handle it.
+Jobs from the Gobfather should feel different from jobs off the job board. They are more specific, better paid and more dangerous. They also carry implicit expectations; the Gobfather doesn't assign jobs he expects to fail. If he sends the party somewhere, he believes they can handle it.
 
 Occasionally a job from the Gobfather has a second objective he hasn't mentioned. The party may discover this mid job or not at all. He isn't deceiving them, he simply doesn' share information he doesn't think they need.
 
 > *The job was to retrieve a magical idol. What he actually wanted was to know who else was in that cellar and whether they had opened the sealed door. He expects the party's to find out and let him know, but doesn't specifically mention this.*
 
 
----
-
 ## JOBS
 
-The Gobfather assigns work when he has it. When he doesn't or when he's not speaking to the party, there's a board in the Underhold outside the Rusty Fang pub where folks post jobs they don't want to handle themselves. Nobody reputable posts on that board, there are other less shady job boards around The City, and if the party is sneaky enough or has the contacts they can take on those jobs.
+The Gobfather assigns work when he has it. When he doesn't or when he's not speaking to the party, there's a board in the Underhold outside the Rusty Fang pub where folks post jobs they don't want to handle themselves. Nobody reputable posts on that board, there are other less shady job boards around The City and if the party is sneaky enough or has the contacts they can take on those jobs.
 
 When the Gobfather assigns a job it takes priority. Refusing drops Standing immediately. Cleanly finishing a job for the Gobfather will increase Standing.
 
@@ -2034,7 +2015,6 @@ If you want to put the job in a random hex:
 | 19 | Recover Hoard loot that went missing | Somewhere in the last dungeon the party visited | Another goblin crew took it |
 | 20 | The Gobfather calls in a favour | It's personal, he won't say more | This wasn't posted by the Gobfather |
 
----
 ---
 
 ## CONTACTS
@@ -2097,7 +2077,6 @@ The two systems work off each other.
 | 7 | **Cultist** | Access to strange items and stranger favours, suspicious |
 | 8 | **Rival goblin crew** | Uneasy truce. Will trade information. |
 
----
 
 ## CAPTURE
 
@@ -2151,14 +2130,12 @@ Items stripped on capture are held in evidence or taken as loot depending on who
 
 If arrested by the Watch, charges hang over the goblins until resolved. While charges are outstanding, the goblin cannot use the Hustle action - nobody will hire someone the Watch is looking for. Charges can be cleared by a bribe, a contact, the Gobfather, or simply leaving The City for long enough that everyone forgets.
 
----
----
 
 ## OVERLAND TRAVEL
 
 The City sits at the centre of the world. Everything worth looting is a few hexes out and everything worth fearing is further.
 
-The party operates on a **5x5 hex flower.** The City occupies the centre hex. The surrounding ring of six hexes is within easy reach. The outer ring of twelve hexes is expedition territory - getting there, doing a job, and getting back is more costly.
+The party operates on a **5x5 hex flower.** The City occupies the centre hex. The surrounding ring of six hexes is within easy reach. The outer ring of twelve hexes is expedition territory - getting there, doing a job and getting back is more costly.
 
 ### The Travel Sequence
 
@@ -2229,7 +2206,6 @@ At the start of each Watch of travel, roll d6 on the table for the current seaso
 | 5 | Cold and clear | No effect. |
 | 6 | Unexpectedly mild | No effect. Goblins are very suspicious. |
 
----
 
 ### Getting Lost
 
@@ -2245,13 +2221,10 @@ A fire is warm and comfortable and may be visible one hex over.
 
 ### Regional Encounter Tables
 
-Each distinct region on the hex has its own d6 encounter table, using the same structure as dungeon encounter tables. Results should include weather events, evidence of danger, travellers, and things that are simply strange. A 6 is always bad. You can find example encounter tables in the Tables section.
+Each distinct region on the hex has its own d6 encounter table, using the same structure as dungeon encounter tables. Results should include weather events, evidence of danger, travellers and things that are simply strange. A 6 is always bad. You can find example encounter tables in the Tables section.
 
 ---
----
 # SECTION 8: BESTIARY
----
----
 
 ## BASIC BESTIARY
 
@@ -2265,135 +2238,123 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 Use the following stat blocks as a framework for your own monsters and NPCs.
 
----
+> **GIANT RAT** - *Scum*
+> - MEAT 4(6+) / ZEST 6(5+) / WITS 3(6+) / STRESS 3 / DEF1
+> - **Bite:** d4+d4
+> - **Vital Blow:** Diseased. 
+> - **Special:** Pack Hunters: If three or more rats are present they are all Bolstered.
 
-**GIANT RAT** - *Scum*
-- MEAT 4(6+) / ZEST 6(5+) / WITS 3(6+) / STRESS 3 / DEF1
-- **Bite:** d4+d4
-- **Vital Blow:** Diseased. 
-- **Special:** Pack Hunters: If three or more rats are present they are all Bolstered.
+> **BAT SWARM** - *Scum*
+> - MEAT 7(5+) / ZEST 5(6+) / WITS 4(6+) / STRESS 0 / DEF1
+> - **Smother:** d4+d6
+> - **Vital Blow:** Disoriented.
+> - **Special:** Each point of MEAT represents one bat. Fire attacks are Bolstered against them.
 
----
+> **GOBLIN** - *Scum*
+> - MEAT 5(6+) / ZEST 4(6+) / WITS 7(5+) / STRESS 4 / DEF2
+> - **Dagger:** d4+d6
+> - **Slingshot:** rd4+rd6
+> - **Vital Blow:** Standard.
+> - **Special:** None.
 
-**BAT SWARM** - *Scum*
-- MEAT 7(5+) / ZEST 5(6+) / WITS 4(6+) / STRESS 0 / DEF1
-- **Smother:** d4+d6
-- **Vital Blow:** Disoriented.
-- **Special:** Each point of MEAT represents one bat. Fire attacks are Bolstered against them.
+> **UNDEAD** - *Danger*
+> - MEAT 12(4+) / ZEST 0(-) / WITS 3(6+) / STRESS 8 / DEF2
+> - **Rotting Claw:** d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. ZEST 0 means permanently feral, attacking the nearest non-undead mindlessly. Immune to Frightened and Rattled.
 
----
+> **HELLHOUND** - *Danger*
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 6(5+) / STRESS 4 / DEF2
+> - **Flame Bite:** d6+d6
+> - **Vital Blow:** Apply Burning.
+> - **Special:** Pack Hunters. If three or more Hellhounds are present they are all Bolstered.
 
-**GOBLIN** - *Scum*
-- MEAT 5(6+) / ZEST 4(6+) / WITS 7(5+) / STRESS 4 / DEF2
-- **Dagger:** d4+d6
-- **Slingshot:** rd4+rd6
-- **Vital Blow:** Standard.
-- **Special:** None.
-
----
-
-**UNDEAD** - *Danger*
-- MEAT 12(4+) / ZEST 0(-) / WITS 3(6+) / STRESS 8 / DEF2
-- **Rotting Claw:** d6+d6
-- **Vital Blow:** Rattled.
-- **Special:** Indomitable. ZEST 0 means permanently feral, attacking the nearest non-undead mindlessly. Immune to Frightened and Rattled.
-
----
-
-**HELLHOUND** - *Danger*
-- MEAT 8(5+) / ZEST 7(5+) / WITS 6(5+) / STRESS 4 / DEF2
-- **Flame Bite** - d6+d6
-- **Vital Blow:** Apply Burning.
-- **Special** - Pack Hunters. If three or more Hellhounds are present they are all Bolstered.
+> **GIANT SPIDER** - *Danger*
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 9(5+) / STRESS 4 / DEF2
+> - **Venomous Bite:** d4+d8 on hit the target gains Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Ambush: first attack from hiding is Bolstered. Web: once per encounter Hinder all attacks against it for one round.
 
 ---
 
-**GIANT SPIDER** - *Danger*
-- MEAT 8(5+) / ZEST 7(5+) / WITS 9(5+) / STRESS 4 / DEF2
-- **Venomous Bite:** d4+d8 on hit the target gains Poisoned.
-- **Vital Blow:** Trigger Poisoned.
-- **Special:** Ambush: first attack from hiding is Bolstered. Web: once per encounter Hinder all attacks against it for one round.
+> **ORC WARRIOR** - *Danger*
+> - MEAT 12(4+) / ZEST 10(4+) / WITS 5(6+) / STRESS 6 / DEF3
+> - **Greatclub:** d8+d8
+> - **Vital Blow:** Concussed.
+> - **Special:** Thick Skull: Vital Blow threshold is 5 instead of 3.
 
 ---
 
-**ORC WARRIOR** - *Danger*
-- MEAT 12(4+) / ZEST 10(4+) / WITS 5(6+) / STRESS 6 / DEF3
-- **Greatclub:** d8+d8
-- **Vital Blow:** Concussed.
-- **Special:** Thick Skull: Vital Blow threshold is 5 instead of 3.
+> **OGRE** - *Run*
+> - MEAT 18(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 10 / DEF3
+> - **Massive Fist:** d8+d10
+> - **Vital Blow:** Knocked.
+> - **Special:** Thick Hide: DEF counts as 4 against d4 and d6 Break dice.
 
 ---
 
-**OGRE** - *Run*
-- MEAT 18(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 10 / DEF3
-- **Massive Fist:** d8+d10
-- **Vital Blow:** Knocked.
-- **Special:** Thick Hide: DEF counts as 4 against d4 and d6 Break dice.
+> **GIANT SLIME** - *Run*
+> - MEAT 20(2+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
+> - **Engulf:** d6+d6 ignores shields.
+> - **Vital Blow:** Slimed.
+> - **Special:** Indomitable. Split: when the slime takes 5 or more MEAT damage from a single hit it splits into two smaller slimes (MEAT 5 each) instead of taking that damage. Immune to poison and acid.
 
 ---
 
-**GIANT SLIME** - *Run*
-- MEAT 20(2+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
-- **Engulf:** d6+d6 ignores shields.
-- **Vital Blow:** Slimed.
-- **Special:** Indomitable. Split: when the slime takes 5 or more MEAT damage from a single hit it splits into two smaller slimes (MEAT 5 each) instead of taking that damage. Immune to poison and acid.
+> **KNIGHT ERRANT** - *Doom*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 10 / DEF5. 
+> - **Mounted Lance:** d8+d10
+> - **On foot, Sword:** d8+d8
+> - **Vital Blow:** Rattled. 
+> - **Special:** Indomitable. Mounted Charge: first round on horseback is Bolstered and if it lands the target must pass a MEAT save or be Knocked. See Horse stat block below.
+
+
+> **HORSE** *Scum*
+> - MEAT 12(4+) / ZEST 8(5+) / WITS 4(6+) / STRESS 6 / DEF1
+> - **Kick:** d6+d6 only attacks when cornered or panicked.
+> - **Special:** Panic: when the horse takes damage or is exposed to fire, it must pass a ZEST save or bolt in a random direction. A rider must pass a MEAT save or be thrown, taking d4 MEAT damage. Mount: a mounted rider moves 30ft per round instead of 15ft.
 
 ---
 
-**KNIGHT ERRANT** - *Doom*
-- MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 10 / DEF5. 
-- **Mounted Lance:** d8+d10
-- **On foot, Sword:** d8+d8
-- **Vital Blow:** Rattled. 
-- **Special:** Indomitable. Mounted Charge: first round on horseback is Bolstered and if it lands the target must pass a MEAT save or be Knocked. See Horse stat block below.
-
-
-**HORSE** *Scum*
-- MEAT 12(4+) / ZEST 8(5+) / WITS 4(6+) / STRESS 6 / DEF1
-- **Kick:** d6+d6 only attacks when cornered or panicked.
-- **Special:** Panic: when the horse takes damage or is exposed to fire, it must pass a ZEST save or bolt in a random direction. A rider must pass a MEAT save or be thrown, taking d4 MEAT damage. Mount: a mounted rider moves 30ft per round instead of 15ft.
+> **DRAGON** - *Doom*
+> - MEAT 30(2+) / ZEST 16(2+) / WITS 14(3+) / STRESS 15 / DEF5
+> - **Claw:** d8+d10
+> - **Fire Breath (3\*):** rd10+4rd10, assign one Break die and the remaining dce as damage to different targets.
+> - **Vital Blow:** Burning.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hoard Sense: always knows if something has been taken from its hoard. Parley: a good offer (and WITS save) may pause combat to chat.
 
 ---
 
-**DRAGON** - *Doom*
-- MEAT 30(2+) / ZEST 16(2+) / WITS 14(3+) / STRESS 15 / DEF5
-- **Claw:** d8+d10
-- **Fire Breath (3\*):** rd10+4rd10, assign one Break die and the remaining dce as damage to different targets.
-- **Vital Blow:** Burning.
-- **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hoard Sense: always knows if something has been taken from its hoard. Parley: a good offer (and WITS save) may pause combat to chat.
+> **HERO - WIZARD** - *Doom*
+> - MEAT 6(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 4 / DEF1
+> - **Staff:** d4+d6
+> - **Fireball (3\*):** rd6+4rd6, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable.
 
 ---
 
-**HERO - WIZARD** - *Doom*
-- MEAT 6(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 4 / DEF1
-- **Staff:** d4+d6
-- - **Fireball (3\*):** rd6+4rd6, assign one Break die and the remaining dice as damage to different targets.
-- **Vital Blow:** Concussed.
-- **Special:** Indomitable.
+> **HERO - FIGHTER** - *Doom*
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 12 / DEF5
+> - **Hero Sword:** d8+d8
+> - **Vital Blow:** Rattled and Disoriented.
+> - **Special:** Indomitable. Riposte: when parrying, use d12+d8.
 
 ---
 
-**HERO - FIGHTER** - *Doom*
-- MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 12 / DEF5
-- **Hero Sword:** d8+d8
-- **Vital Blow:** Rattled and Disoriented.
-- **Special:** Indomitable. Riposte: when parrying, use d12+d8.
+> **HERO - ROGUE** - *Doom*
+> - MEAT 8(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
+> - **Twin Daggers:** d6+d6+d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Vanish: if the Rogue dealt no MEAT damage with their attack they vanish. They cannot be targeted until they attack again.
 
 ---
 
-**HERO - ROGUE** - *Doom*
-- MEAT 8(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
-- **Twin Daggers:** d6+d6+d6+d6
-- **Vital Blow:** Rattled.
-- **Special:** Indomitable. Vanish: if the Rogue dealt no MEAT damage with their attack they vanish. They cannot be targeted until they attack again.
-
----
-
-**HERO - CLERIC** - *Doom*
-- MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
-- **Blessed Mace:** d6+d8
-- **Vital Blow:** Frightened.
-- **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric.
+> **HERO - CLERIC** - *Doom*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
+> - **Blessed Mace:** d6+d8
+> - **Vital Blow:** Frightened.
+> - **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric.
 
 ---
 
@@ -2406,278 +2367,278 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 ### AQUATIC
 
-**SNAPPING TURTLE** - *Scum*
-- MEAT 7(5+) / ZEST 6(5+) / WITS 3(6+) / STRESS 4 / DEF3
-- **Bite:** d6+d6
-- **Vital Blow:** Knocked.
-- **Special:** Shell: when the turtle takes a Vital Blow it retreats into its shell, gaining DEF5 until its next action. Cannot attack while shelled.
+> **SNAPPING TURTLE** - *Scum*
+> - MEAT 7(5+) / ZEST 6(5+) / WITS 3(6+) / STRESS 4 / DEF3
+> - **Bite:** d6+d6
+> - **Vital Blow:** Knocked.
+> - **Special:** Shell: when the turtle takes a Vital Blow it retreats into its shell, gaining DEF5 until its next action. Cannot attack while shelled.
 
 ---
 
-**RIVER TROLL** - *Danger*
-- MEAT 14(3+) / ZEST 8(5+) / WITS 4(6+) / STRESS 8 / DEF3
-- **Greatclub:** d8+d8
-- **Vital Blow:** Slimed.
-- **Special:** Regenerate: restore 2 damage at the start of each action. Burning stops regeneration.
+> **RIVER TROLL** - *Danger*
+> - MEAT 14(3+) / ZEST 8(5+) / WITS 4(6+) / STRESS 8 / DEF3
+> - **Greatclub:** d8+d8
+> - **Vital Blow:** Slimed.
+> - **Special:** Regenerate: restore 2 damage at the start of each action. Burning stops regeneration.
 
 ---
 
-**WATER ELEMENTAL** - *Run*
-- MEAT 18(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
-- **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets.
-- **Vital Blow:** Drowning - gain Immobilized, while persists take d4 damage at the start of their action.
-- **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons. 
+> **WATER ELEMENTAL** - *Run*
+> - MEAT 18(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
+> - **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Drowning: gain Immobilized, while persists take d4 damage at the start of their action.
+> - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons. 
 
 ---
 
-**THE DROWNED KING** - *Doom*
-- MEAT 28(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 16 / DEF4
-- **Crushing Current:** d10+d10 ignores shields.
-- **Tidal Command (2\*):** pulls all creatures in the area toward it. MEAT save or be dragged adjacent and take d6 ZEST damage.
-- **Vital Blow:** Standard.
-- **Special:** Indomitable. Command the Drowned: once per encounter, raises 1d4 drowned Undead that attack the nearest living creature.
+> **THE DROWNED KING** - *Doom*
+> - MEAT 28(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 16 / DEF4
+> - **Crushing Current:** d10+d10 ignores shields.
+> - **Tidal Command (2\*):** pulls all creatures in the area toward it. MEAT save or be dragged adjacent and take d6 ZEST damage.
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Command the Drowned: once per encounter, raises 1d4 drowned Undead that attack the nearest living creature.
 
 
 ### SWAMP
 
-**GIANT TICK** - *Scum*
-- MEAT 4(6+) / ZEST 7(5+) / WITS 2(6+) / STRESS 3 / DEF1
-- **Latch:** d4+d4 on hit the tick attaches. Attached ticks deal 1 damage at the start of their action until removed with a MEAT save or they gain Burning.
-- **Vital Blow:** The target gains Bleed.
-- **Special:** Swarm: when three or more ticks are attached to the same target, that target is Hindered on all rolls.
+> **GIANT TICK** - *Scum*
+> - MEAT 4(6+) / ZEST 7(5+) / WITS 2(6+) / STRESS 3 / DEF1
+> - **Latch:** d4+d4 on hit the tick attaches. Attached ticks deal 1 damage at the start of their action until removed with a MEAT save or they gain Burning.
+> - **Vital Blow:** The target gains Bleed.
+> - **Special:** Swarm: when three or more ticks are attached to the same target, that target is Hindered on all rolls.
 
 ---
 
-**BOG WRAITH** - *Danger*
-- MEAT 9(5+) / ZEST 0(-) / WITS 8(5+) / STRESS 5 / DEF2
-- **Draining Touch:** d6+d6 ZEST damage
-- **Vital Blow:** Standard.
-- **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up).
+> **BOG WRAITH** - *Danger*
+> - MEAT 9(5+) / ZEST 0(-) / WITS 8(5+) / STRESS 5 / DEF2
+> - **Draining Touch:** d6+d6 ZEST damage
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up).
 
 ---
 
-**HYDRA** - *Run*
-- MEAT 20(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 12 / DEF2
-- **Multi-Bite:** d6+3d6, assign one Break die and the remaining dice as damage to different targets.
-- **Vital Blow:** Standard.
-- **Special:** Indomitable. Regrow: when the Hydra takes 5 or more MEAT damage from a single hit it regrows - restore 4 STRESS. Burning prevents regrowth.
+> **HYDRA** - *Run*
+> - MEAT 20(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 12 / DEF2
+> - **Multi-Bite:** d6+3d6, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Regrow: when the Hydra takes 5 or more MEAT damage from a single hit it regrows; restore 4 STRESS. Burning prevents regrowth.
 
 ---
 
-**THE MOTHER OF FLIES** - *Doom*
-- MEAT 24(2+) / ZEST 10(4+) / WITS 18(2+) / STRESS 14 / DEF2
-- **Swarm:** d8+5d4 assign one Break die and the remaining dice as damage to different targets.
-- **Putrefy** - d6+d0 on hit target gains Diseased and Exhausted.
-- **Vital Blow:** Mind Burrow - if the target has Diseased they take d6 WITS damage.
-- **Special** - Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hive Mind: while the Mother lives, all insects in the area are Bolstered. 
+> **THE MOTHER OF FLIES** - *Doom*
+> - MEAT 24(2+) / ZEST 10(4+) / WITS 18(2+) / STRESS 14 / DEF2
+> - **Swarm:** d8+5d4 assign one Break die and the remaining dice as damage to different targets.
+> - **Putrefy:** d6+d0 on hit target gains Diseased and Exhausted.
+> - **Vital Blow:** Mind Burrow: if the target has Diseased they take d6 WITS damage.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hive Mind: while the Mother lives, all insects in the area are Bolstered. 
 
 
 ### DESERT
 
-**SAND VIPER** - *Scum*
-- MEAT 4(6+) / ZEST 5(6+) / WITS 7(5+) / STRESS 2 / DEF1
-- **Venomous Bite** - d4+d4 on hit the target gains Poisoned.
-- **Vital Blow:** Trigger Poisoned.
-- **Special** - Ambush: Attacks from beneath sand is Bolstered. Burrowing: can burrow under sand to move, not targetable while burrowed.
+> **SAND VIPER** - *Scum*
+> - MEAT 4(6+) / ZEST 5(6+) / WITS 7(5+) / STRESS 2 / DEF1
+> - **Venomous Bite:** d4+d4 on hit the target gains Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Ambush: Attacks from beneath sand is Bolstered. Burrowing: can burrow under sand to move, not targetable while burrowed.
 
 ---
 
-**DUST DEVIL** - *Danger*
-- MEAT 10(4+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
-- **Scour** - d6+3d6 assign one Break die and the remaining dice as damage to different targets.
-- **Vital Blow:** Blinded.
-- **Special** - Indomitable. Elemental: takes half damage (rounded up) from non magical weapons.
+> **DUST DEVIL** - *Danger*
+> - MEAT 10(4+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
+> - **Scour:** d6+3d6 assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Blinded.
+> - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons.
 
 ---
 
-**DEATH WORM** - *Run*
-- MEAT 22(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 12 / DEF3
-- **Crush** - d8+d10, target is Immobilized on hit.
-- **Acid Spit (2\*)** - rd6+rd8, damage is doubled vs shields.
-- **Vital Blow:** Equipped armour DEF reduced by 1 permanently.
-- **Special** - Indomitable. Tremorsense: detects all movement within area through vibration, cannot be surprised. Burrowing: can burrow under sand to move, not targetable while burrowed.
+> **DEATH WORM** - *Run*
+> - MEAT 22(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 12 / DEF3
+> - **Crush:** d8+d10, target is Immobilized on hit.
+> - **Acid Spit (2\*):** rd6+rd8, damage is doubled vs shields.
+> - **Vital Blow:** Equipped armour DEF reduced by 1 permanently.
+> - **Special:** Indomitable. Tremorsense: detects all movement within area through vibration, cannot be surprised. Burrowing: can burrow under sand to move, not targetable while burrowed.
 
 ---
 
-**THE GLASS SPHINX** - *Doom*
-- MEAT 26(2+) / ZEST 18(2+) / WITS 20(2+) / STRESS 16 / DEF5
-- **Claw** - d8+d10
-- **Eye Beams:** Target must make a WITS save or take d6 WITS damage and come Immobilized.
-- **Vital Blow:** If target is Immobilized, they take d6 MEAT damage as they begin to petrify.
-- **Special** - Indomitable. Ancient Knowledge: the Sphinx knows one true thing about every hex surrounding the hex it's in. It will share this information for the correct price. Parley: a clever riddle or a sufficiently interesting question pauses combat.
+> **THE GLASS SPHINX** - *Doom*
+> - MEAT 26(2+) / ZEST 18(2+) / WITS 20(2+) / STRESS 16 / DEF5
+> - **Claw:** d8+d10
+> - **Eye Beams:** Target must make a WITS save or take d6 WITS damage and come Immobilized.
+> - **Vital Blow:** If target is Immobilized, they take d6 MEAT damage as they begin to petrify.
+> - **Special:** Indomitable. Ancient Knowledge: the Sphinx knows one true thing about every hex surrounding the hex it's in. It will share this information for the correct price. Parley: a clever riddle or a sufficiently interesting question pauses combat.
 
 ### FOREST
 
 
-**GROVEHOUND** - *Scum*
-- MEAT 7(5+) / ZEST 8(5+) / WITS 6(5+) / STRESS 4 / DEF1
-- **Bite** - d4+d8
-- **Vital Blow:** Knocked.
-- **Special** - Pack Hunters: if three or more grovehounds are present they are all Bolstered.
+> **GROVEHOUND** - *Scum*
+> - MEAT 7(5+) / ZEST 8(5+) / WITS 6(5+) / STRESS 4 / DEF1
+> - **Bite:** d4+d8
+> - **Vital Blow:** Knocked.
+> - **Special:** Pack Hunters: if three or more grovehounds are present they are all Bolstered.
 
 ---
 
-**TREANT** - *Danger*
-- MEAT 16(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 10 / DEF3
-- **Branch Slam** - d8+d8
-- **Vital Blow:** Immobilized and Knocked.
-- **Special** - Indomitable. Fire Vulnerability: Burning deals double damage and must make a ZEST save or flee. Root Network: when one Treant is attacked, all Treants within the forest are aware.
+> **TREANT** - *Danger*
+> - MEAT 16(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 10 / DEF3
+> - **Branch Slam:** d8+d8
+> - **Vital Blow:** Immobilized and Knocked.
+> - **Special:** Indomitable. Fire Vulnerability: Burning deals double damage and must make a ZEST save or flee. Root Network: when one Treant is attacked, all Treants within the forest are aware.
 
 ---
 
-**GREEN DRAGON** - *Run*
-- MEAT 24(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 14 / DEF4
-- **Claw** - d8+d10
-- **Poison Breath (2\*)** - rd6+5rd4, assign one Break die and the remaining dice as damage to different targets. Any target hit is Poisoned.
-- **Vital Blow:** Trigger Poisoned.
-- **Special** - Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Camouflage: in forest terrain, first attack from concealment is always Bolstered. Parley: dragons negotiate. A sufficiently interesting offer may pause combat.
+> **GREEN DRAGON** - *Run*
+> - MEAT 24(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 14 / DEF4
+> - **Claw:** d8+d10
+> - **Poison Breath (2\*):** rd6+5rd4, assign one Break die and the remaining dice as damage to different targets. Any target hit is Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Camouflage: in forest terrain, first attack from concealment is always Bolstered. Parley: dragons negotiate. A sufficiently interesting offer may pause combat.
 
 ---
 
-**THE HORNED BEAST** - *Doom*
-- MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 12 / DEF3
-- **Gore** - d8+d10
-- **Vital Blow:** Target flies 10ft and is Knocked, Winded and Bleeds upon landing.
-- **Special** - Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Thing always result in Hostile, it does not negotiate.
+> **THE HORNED BEAST** - *Doom*
+> - MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 12 / DEF3
+> - **Gore:** d8+d10
+> - **Vital Blow:** Target flies 10ft and is Knocked, Winded and Bleeds upon landing.
+> - **Special:** Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Thing always result in Hostile, it does not negotiate.
 
 
 ### GRASSLAND
 
-**GIANT VULTURE** - *Scum*
-- MEAT 8(5+) / ZEST 9(5+) / WITS 10(4+) / STRESS 4 / DEF2
-- **Talon** - d6+d6
-- **Vital Blow:** Target is grabbed and lifted; Immobilized. MEAT save each round to break free or when the Vulture drops them. 1d6 falling damage per 10 feet.
-- **Special** - Airborne: cannot be targeted by non-ranged attacks while flying. Keen Sight: cannot be surprised, detects hidden creatures automatically.
+> **GIANT VULTURE** - *Scum*
+> - MEAT 8(5+) / ZEST 9(5+) / WITS 10(4+) / STRESS 4 / DEF2
+> - **Talon:** d6+d6
+> - **Vital Blow:** Target is grabbed and lifted; Immobilized. MEAT save each round to break free or when the Vulture drops them. 1d6 falling damage per 10 feet.
+> - **Special:** Airborne: cannot be targeted by non-ranged attacks while flying. Keen Sight: cannot be surprised, detects hidden creatures automatically.
 
 ---
 
-**MANTICORE** - *Danger*
-- MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 8 / DEF3
-- **Claw** - d8+d8
-- **Tail Spike (3\*)** - rd6+rd6
-- **Vital Blow:** Winded and Bleed.
-- **Special** - Airborne: cannot be targeted by non-ranged attacks while flying. Tail Volley: may fire up to three tail spikes at different targets in one action, rolling separately for each.
+> **MANTICORE** - *Danger*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 8 / DEF3
+> - **Claw** - d8+d8
+> - **Tail Spike (3\*):** rd6+rd6
+> - **Vital Blow:** Winded and Bleed.
+> - **Special:** Airborne: cannot be targeted by non-ranged attacks while flying. Tail Volley: may fire up to three tail spikes at different targets in one action, rolling separately for each.
 
 ---
 
-**WARLORD** - *Run*
-- MEAT 18(2+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF4
-- **Greataxe** - d8+d10
-- **Vital Blow:** Rattled.
-- **Special** - Indomitable. Rally: once per encounter as a free action, all allied creatures in sight restore d6 STRESS. Command: while the Warlord lives, all allied creatures are Bolstered on Vital Blow morale rolls.
+> **WARLORD** - *Run*
+> - MEAT 18(2+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF4
+> - **Greataxe:** d8+d10
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Rally: once per encounter as a free action, all allied creatures in sight restore d6 STRESS. Command: while the Warlord lives, all allied creatures are Bolstered on Vital Blow morale rolls.
 
 ---
 
-**THE SIEGE GOLEM** - *Doom*
-- MEAT 30(2+) / ZEST 0(-) / WITS 0(-) / STRESS 20 / DEF5
-- **Crushing Fist** - d10+d10
-- **Sweep** - d8+3d8, assign one Break die and the remaining dice as damage to different targets.
-- **Vital Blow:** Target immediately rolls on the Permanent Injury table.
-- **Special** - Indomitable. Construct: immune to conditions. Siege Engine: attacks against structures and doors automatically succeed. Slow: moves only 10ft per round, cannot move and attack in the same round.
+> **THE SIEGE GOLEM** - *Doom*
+> - MEAT 30(2+) / ZEST 0(-) / WITS 0(-) / STRESS 20 / DEF5
+> - **Crushing Fist:** d10+d10
+> - **Sweep:** d8+3d8, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Target immediately rolls on the Permanent Injury table.
+> - **Special:** Indomitable. Construct: immune to conditions. Siege Engine: attacks against structures and doors automatically succeed. Slow: moves only 10ft per round, cannot move and attack in the same round.
 
 
 ### TUNDRA
 
-**HOARFOX** - *Scum*
-- MEAT 9(5+) / ZEST 8(5+) / WITS 7(5+) / STRESS 5 / DEF2
-- **Bite** - d6+d6
-- **Vital Blow:** Chilled.
-- **Special** - Pack Hunters: if three or more are present they are all Bolstered. Tireless: cannot be outrun in tundra terrain.
+> **HOARFOX** - *Scum*
+> - MEAT 9(5+) / ZEST 8(5+) / WITS 7(5+) / STRESS 5 / DEF2
+> - **Bite:** d6+d6
+> - **Vital Blow:** Chilled.
+> - **Special:** Pack Hunters: if three or more are present they are all Bolstered. Tireless: cannot be outrun in tundra terrain.
 
 ---
 
-**FROST WRAITH** - *Danger*
-- MEAT 10(4+) / ZEST 0(-) / WITS 10(4+) / STRESS 6 / DEF2
-- **Freeze** - d6+d6 ignores shields.
-- **Vital Blow:** Immobilized and Chilled.
-- **Special** - Indomitable. Incorporeal: halve all damage taken (rounded up). Cold Aura: all creatures adjacent to the wraith are Hindered on ZEST saves.
+> **FROST WRAITH** - *Danger*
+> - MEAT 10(4+) / ZEST 0(-) / WITS 10(4+) / STRESS 6 / DEF2
+> - **Freeze:** d6+d6 ignores shields.
+> - **Vital Blow:** Immobilized and Chilled.
+> - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up). Cold Aura: all creatures adjacent to the wraith are Hindered on ZEST saves.
 
 ---
 
-**FROST GIANT** - *Run*
-- MEAT 22(2+) / ZEST 14(3+) / WITS 6(5+) / STRESS 12 / DEF4
-- **Boulder** - rd8+rd10
-- **Vital Blow:** Knocked.
-- **Special** - Indomitable. Throw: instead of attacking, the giant hurls a party member d3 x10ft. They take d6 damage on landing.
+> **FROST GIANT** - *Run*
+> - MEAT 22(2+) / ZEST 14(3+) / WITS 6(5+) / STRESS 12 / DEF4
+> - **Boulder:** rd8+rd10
+> - **Vital Blow:** Knocked.
+> - **Special:** Indomitable. Throw: instead of attacking, the giant hurls a party member d3 x10ft. They take d6 damage on landing.
 
 ---
 
-**THE WHITE DEATH** - *Doom*
-- MEAT 28(2+) / ZEST 16(2+) / WITS 10(4+) / STRESS 16 / DEF3
-- **Claw** - d10+d10
-- **Vital Blow:** Immobilized and Chilled.
-- **Special** - Indomitable. Blizzard: once per encounter, summons a blizzard. All attacks Hindered for d4 rounds. Cannot be outrun in tundra. Apex Predator: when The White Death reduces a creature to 0 MEAT it immediately attacks again as a free action.
+> **THE WHITE DEATH** - *Doom*
+> - MEAT 28(2+) / ZEST 16(2+) / WITS 10(4+) / STRESS 16 / DEF3
+> - **Claw:** d10+d10
+> - **Vital Blow:** Immobilized and Chilled.
+> - **Special:** Indomitable. Blizzard: once per encounter, summons a blizzard. All attacks Hindered for d4 rounds. Cannot be outrun in tundra. Apex Predator: when The White Death reduces a creature to 0 MEAT it immediately attacks again as a free action.
 
 
 ### MOUNTAIN
 
 
-**GIANT MOUNTAIN GOAT** - *Scum*
-- MEAT 8(5+) / ZEST 9(5+) / WITS 5(6+) / STRESS 4 / DEF1
-- **Headbutt** - d6+d6
-- **Vital Blow:** Knocked.
-- **Special** - Sure-Footed: immune to terrain movement penalties. Charge: if the goat moves before attacking, the attack is Bolstered.
+> **GIANT MOUNTAIN GOAT** - *Scum*
+> - MEAT 8(5+) / ZEST 9(5+) / WITS 5(6+) / STRESS 4 / DEF1
+> - **Headbutt:** d6+d6
+> - **Vital Blow:** Knocked.
+> - **Special:** Sure-Footed: immune to terrain movement penalties. Charge: if the goat moves before attacking, the attack is Bolstered.
 
 ---
 
-**STONE TROLL** - *Danger*
-- MEAT 18(2+) / ZEST 10(4+) / WITS 4(6+) / STRESS 10 / DEF4
-- **Boulder Fist** - d8+d10
-- **Vital Blow:** Concussed.
-- **Special** - Indomitable. Thick Hide: DEF counts as 5 against d4 and d6 attacks. Petrify: in direct sunlight, the troll turns to stone.
+> **STONE TROLL** - *Danger*
+> - MEAT 18(2+) / ZEST 10(4+) / WITS 4(6+) / STRESS 10 / DEF4
+> - **Boulder Fist:** d8+d10
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable. Thick Hide: DEF counts as 5 against d4 and d6 attacks. Petrify: in direct sunlight, the troll turns to stone.
 
 ---
 
-**WYVERN** - *Run*
-- MEAT 24(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 14 / DEF4
-- **Claw** - d8+d10
-- **Tail Sting** - d6+d8 on hit apply Poisoned.
-- **Vital Blow:** Trigger Poisoned.
-- **Special** - Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Dives to attack, retreats to the air after each round.
+> **WYVERN** - *Run*
+> - MEAT 24(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 14 / DEF4
+> - **Claw:** d8+d10
+> - **Tail Sting:** d6+d8 on hit apply Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Dives to attack, retreats to the air after each round.
 
 ---
 
-**THE LIVING MOUNTAIN** - *Doom*
-- MEAT 35(2+) / ZEST 18(2+) / WITS 6(5+) / STRESS 20 / DEF5
-- **Slam** - d10+d10
-- **Rockfall** - Once per encounter, collapses a section of terrain. All creatures in the area must make a MEAT save or take d8 damage and be Immobilized under rubble.
-- **Vital Blow:** Crush - target takes an additional d8 damage and is Immobilized.
-- **Special** - Indomitable. Ancient Stone: immune to elements. Tremor: if The Living Mountain takes 6 or more damage in a single hit, all creatures in the area must pass a MEAT save or gain Knocked.
+> **THE LIVING MOUNTAIN** - *Doom*
+> - MEAT 35(2+) / ZEST 18(2+) / WITS 6(5+) / STRESS 20 / DEF5
+> - **Slam:** d10+d10
+> - **Rockfall:** Once per encounter, collapses a section of terrain. All creatures in the area must make a MEAT save or take d8 damage and be Immobilized under rubble.
+> - **Vital Blow:** Crush - target takes an additional d8 damage and is Immobilized.
+> - **Special:** Indomitable. Ancient Stone: immune to elements. Tremor: if The Living Mountain takes 6 or more damage in a single hit, all creatures in the area must pass a MEAT save or gain Knocked.
 
 
 ### CITY
 
 
-**CITY GUARD** - *Scum*
-- MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 4 / DEF2
-- **Club** - d6+d6
-- **Vital Blow:** Standard.
-- **Special** - Numbers: for every guard beyond the first attacking the same target, that target is Hindered on their next roll. Scatter: when half the guards in the encounter are killed or flee, the rest flee.
+> **CITY GUARD** - *Scum*
+> - MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 4 / DEF2
+> - **Club:** d6+d6
+> - **Vital Blow:** Standard.
+> - **Special:** Numbers: for every guard beyond the first attacking the same target, that target is Hindered on their next roll. Scatter: when half the guards in the encounter are killed or flee, the rest flee.
 
 ---
 
-**CITY WATCH CAPTAIN** - *Danger*
-- MEAT 12(4+) / ZEST 10(4+) / WITS 12(4+) / STRESS 8 / DEF3
-- **Shortsword** - d6+d8
-- **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
-- **Special** - Backup: at the end of each round, d4 additional guards arrive until the captain whistles them off. Authoritative: During the first round all enemies must pass a ZEST save or be Hindered on their first action.
+> **CITY WATCH CAPTAIN** - *Danger*
+> - MEAT 12(4+) / ZEST 10(4+) / WITS 12(4+) / STRESS 8 / DEF3
+> - **Shortsword:** d6+d8
+> - **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
+> - **Special:** Backup: at the end of each round, d4 additional guards arrive until the captain whistles them off. Authoritative: During the first round all enemies must pass a ZEST save or be Hindered on their first action.
 
 ---
 
-**GUILD ENFORCER** - *Run*
-- MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
-- **paired blades** - d6+d6+d6+d6
-- **Vital Blow:** Rattled.
-- **Special** - Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.
+> **GUILD ENFORCER** - *Run*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
+> - **paired blades:** d6+d6+d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.
 
 ---
 
-**THE GREY MAGISTER** - *Doom*
-- MEAT 8(5+) / ZEST 14(3+) / WITS 20(2+) / STRESS 10 / DEF2
-- **Quarterstaff** - d4+d6
-- **Soul Bolt (4\*)** - rd8+rd8 ZEST damage
-- **Vital Blow:** Concussed.
-- **Special** - Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 10 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
+> **THE GREY MAGISTER** - *Doom*
+> - MEAT 8(5+) / ZEST 14(3+) / WITS 20(2+) / STRESS 10 / DEF2
+> - **Quarterstaff:** d4+d6
+> - **Soul Bolt (4\*):** rd8+rd8 ZEST damage
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 10 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
 
 ---
 
@@ -2685,119 +2646,119 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 ### GLIMMERHOLD
 
-**CAPTAIN HESSA VORN** - *Danger*
-- MEAT 12(4+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF3
-- **Shortsword** - d6+d8
-- **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
-- **Special** - *Backup:* Can summon d6 City Guards as an action. They arrive next round. *Authoritative:* During the first round all enemies must pass a ZEST save or be Hindered on their first action.
+> **CAPTAIN HESSA VORN** - *Danger*
+> - MEAT 12(4+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF3
+> - **Shortsword:** d6+d8
+> - **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
+> - **Special:** *Backup:* Can summon d6 City Guards as an action. They arrive next round. *Authoritative:* During the first round all enemies must pass a ZEST save or be Hindered on their first action.
 
 ---
 
-**GRIMBUS GOLDFINCH** - *Danger*
-- MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF2
-- **Illusionary Scalpel:** d4+d6
-- **Target Vitals (4\*)**, d6+d0, causes an automatic Vital Blow.
-- **Vital Blow:** Standard.
-- **Special:** *Scroll of Restoration (3\*):* may use their action to restore d10 STRESS to any creature visible.
+> **GRIMBUS GOLDFINCH** - *Danger*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF2
+> - **Illusionary Scalpel:** d4+d6
+> - **Target Vitals (4\*)**, d6+d0, causes an automatic Vital Blow.
+> - **Vital Blow:** Standard.
+> - **Special:** *Scroll of Restoration (3\*):* may use their action to restore d10 STRESS to any creature visible.
 
 ---
 
 
 ### UNDERHOLD
 
-**THE GOBFATHER** - *Doom*
-- MEAT 30(2+) / ZEST 18(2+) / WITS 13(3+) / STRESS 20 / DEF4
-- **Giant Gob Fists** - d8+d6+d8+d6
-- **Vital Blow:** Concussed, Knocked.
-- **Special** - Indomitable. *Gob's Eyes:* Cannot be surprised. *The Family:* After each round 1d6 goblins come to his aid.
+> **THE GOBFATHER:** *Doom*
+> - MEAT 30(2+) / ZEST 18(2+) / WITS 13(3+) / STRESS 20 / DEF4
+> - **Giant Gob Fists:** d8+d6+d8+d6
+> - **Vital Blow:** Concussed, Knocked.
+> - **Special:** Indomitable. *Gob's Eyes:* Cannot be surprised. *The Family:* After each round 1d6 goblins come to his aid.
 
 ---
 
-**TONY GOBLIONI** - *Scum*
-- MEAT 7(6+) / ZEST 10(5+) / WITS 15(2+) / STRESS 6 / DEF2
-- **Heavy Tome:** d6+d6
-- **Vital Blow:** Concussed.
-- **Special:** Indomitable, if Gobfather is present. *Sense of Direction:* Immune to Disoriented, Concussed and Immobilized. *Master Cartographer:* Can never be lost. *Master Spy:* Has DEF5 vs Hindered attacks.
+> **TONY GOBLIONI** - *Scum*
+> - MEAT 7(6+) / ZEST 10(5+) / WITS 15(2+) / STRESS 6 / DEF2
+> - **Heavy Tome:** d6+d6
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable, if Gobfather is present. *Sense of Direction:* Immune to Disoriented, Concussed and Immobilized. *Master Cartographer:* Can never be lost. *Master Spy:* Has DEF5 vs Hindered attacks.
 
 
 
 ### BRIGHTWATCH COMPANY
 
-**ALDRIC VANE**, *Fighter, Doom tier*
-- MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5
-- **Hero Sword**, d8+d8
-- **Shield Bash**, d4+d6, on hit target gains Knocked. Requires shield equipped.
-- **Vital Blow:** Rattled and Disoriented.
-- **Special**, Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
+> **ALDRIC VANE**, *Fighter, Doom tier*
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5
+> - **Hero Sword**, d8+d8
+> - **Shield Bash**, d4+d6, on hit target gains Knocked. Requires shield equipped.
+> - **Vital Blow:** Rattled and Disoriented.
+> - **Special**, Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
 
 ---
 
-**MAREN ASHVEIL**, *Wizard, Doom tier*
-- MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1
-- **Staff**, d4+d6
-- **Arcane Bolt (4\*)**, rd6+rd8, WITS damage. Ignores non-magical DEF.
-- **Seeker (3\*)**, summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.
-- **Vital Blow:** Concussed.
-- **Special**, Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds, and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
+> **MAREN ASHVEIL**, *Wizard, Doom tier*
+> - MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1
+> - **Staff**, d4+d6
+> - **Arcane Bolt (4\*)**, rd6+rd8, WITS damage. Ignores non-magical DEF.
+> - **Seeker (3\*)**, summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.
+> - **Vital Blow:** Concussed.
+> - **Special**, Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
 
 ---
 
-**SARBORAS FESS**, *Rogue, Doom tier*
-- MEAT 18(2+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
-- **Twin Daggers**, d6+d6+d6+d6
-- **Garrotte (2\*)**, MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.
-- **Vital Blow:** Rattled.
-- **Special**, Indomitable. *Vanish:* if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. *Lift:* Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. *Professional Habit:* Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.
+> **SARBORAS FESS**, *Rogue, Doom tier*
+> - MEAT 18(2+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
+> - **Twin Daggers**, d6+d6+d6+d6
+> - **Garrotte (2\*)**, MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.
+> - **Vital Blow:** Rattled.
+> - **Special**, Indomitable. *Vanish:* if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. *Lift:* Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. *Professional Habit:* Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.
 
 ---
 
-**CORVIN SALTMARSH**, *Cleric, Doom tier*
-- MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3
-- **Blessed Mace**, d6+d8
-- **Vital Blow:** Frightened.
-- **Special**, Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
+> **CORVIN SALTMARSH**, *Cleric, Doom tier*
+> - MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3
+> - **Blessed Mace**, d6+d8
+> - **Vital Blow:** Frightened.
+> - **Special**, Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
 
 ### THE OPEN COATS
 
-**RUMBLESTRIDE** - *Doom*
-- MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 12 / DEF3
-- **Conjured Ice Blade** - d8+d8, on hit target gains Chilled.
-- **Vital Blow:** Immobilized (the cold gets into the joints).
-- **Special** - *Indomitable.* *Stilled Moment:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 1d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* something about it. Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
+> **RUMBLESTRIDE** - *Doom*
+> - MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 12 / DEF3
+> - **Conjured Ice Blade:** d8+d8, on hit target gains Chilled.
+> - **Vital Blow:** Immobilized (the cold gets into the joints).
+> - **Special:** *Indomitable.* *Stilled Moment:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 1d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* something about it. Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
 
 ---
 
-**DARDANEL MOONSWADDLE** - *Doom*
-- MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 10 / DEF2
-- **Void Lance (4\*)** - rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact.
-- **Vital Blow:** Rattled and Disoriented (the colours are overwhelming).
-- **Special** - *Indomitable.* *Grease Field (2\*):* covers a 15ft area. All creatures entering or starting their turn in the area must pass a MEAT save or gain Knocked. *Dramatic Positioning:* Dardanel is always in the most visually interesting part of the room. He cannot be flanked because he has already considered all possible angles. Add 1 free COURAGE die to any Void Lance roll made from an elevated position.
+> **DARDANEL MOONSWADDLE** - *Doom*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 10 / DEF2
+> - **Void Lance (4\*):** rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact.
+> - **Vital Blow:** Rattled and Disoriented (the colours are overwhelming).
+> - **Special:** *Indomitable.* *Grease Field (2\*):* covers a 15ft area. All creatures entering or starting their turn in the area must pass a MEAT save or gain Knocked. *Dramatic Positioning:* Dardanel is always in the most visually interesting part of the room. He cannot be flanked because he has already considered all possible angles. Add 1 free COURAGE die to any Void Lance roll made from an elevated position.
 
 ---
 
-**ROLART THE MAD** - *Doom*
-- MEAT 8(5+) / ZEST 20(2+) / WITS 5(6+) / STRESS 20 / DEF1
-- **Stefin's Suggestion** - d4+d4, the canary indicates a target and something unpleasant happens to them.
-- **Conflagration (3\*)** - rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table.
-- **Vital Blow:** Burning.
-- **Special** - *Indomitable.* *Stefin Knows:* the canary cannot be fooled, charmed, or surprised, and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Cascading Incident:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *What Does He Want:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral and observing, 5-6 he has decided something needs to be on fire.
+> **ROLART THE MAD** - *Doom*
+> - MEAT 8(5+) / ZEST 20(2+) / WITS 5(6+) / STRESS 20 / DEF1
+> - **Stefin's Suggestion:** d4+d4, the canary indicates a target and something unpleasant happens to them.
+> - **Conflagration (3\*):** rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table.
+> - **Vital Blow:** Burning.
+> - **Special:** *Indomitable.* *Stefin Knows:* the canary cannot be fooled, charmed, or surprised and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Cascading Incident:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *What Does He Want:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral and observing, 5-6 he has decided something needs to be on fire.
 
 ### OTHERS
 
-**THE SCREAMING LICH**, *Lich, Doom tier*
-- MEAT 0(6+) / ZEST 0(6+) / WITS 30(2+) / STRESS 40 / DEF4
-- **Finger of Death:** d8+d8, if this kills a creature they are raised the next round as an Undead.
-- **Necrotic Scream (2\*)**, ZEST save or take 8d8 chronic MEAT damage.
-- **Vital Blow:** Chilled, Rattled, Exhausted.
-- **Special**, Indomitable. *Death Ward:* The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. *Phylactery:* If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.
+> **THE SCREAMING LICH**, *Lich, Doom tier*
+> - MEAT 0(6+) / ZEST 0(6+) / WITS 30(2+) / STRESS 40 / DEF4
+> - **Finger of Death:** d8+d8, if this kills a creature they are raised the next round as an Undead.
+> - **Necrotic Scream (2\*)**, ZEST save or take 8d8 chronic MEAT damage.
+> - **Vital Blow:** Chilled, Rattled, Exhausted.
+> - **Special**, Indomitable. *Death Ward:* The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. *Phylactery:* If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.
 
 ---
 
-**SIGVALD OF THE CUT** - *Run*
-- MEAT 12(3+) / ZEST 20(2+) / WITS 8(4+) / STRESS 15 / DEF5
-- **Grum's Greataxe** - d8+d10
-- **Vital Blow:** Standard and Bleed.
-- **Special** - Indomitable. *Stoneflesh:* Sigvald is weathered from the peaks and ignores any critical hit damage dice. *Favoured of Grum:* Sigvald cannot be Concussed, Disoriented or Knocked.
+> **SIGVALD OF THE CUT** - *Run*
+> - MEAT 12(3+) / ZEST 20(2+) / WITS 8(4+) / STRESS 15 / DEF5
+> - **Grum's Greataxe:** d8+d10
+> - **Vital Blow:** Standard and Bleed.
+> - **Special:** Indomitable. *Stoneflesh:* Sigvald is weathered from the peaks and ignores any critical hit damage dice. *Favoured of Grum:* Sigvald cannot be Concussed, Disoriented or Knocked.
 
 
 
@@ -2810,7 +2771,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 ### Item Sizes
 
-Sizes are noted as [XYZ...] where each digit represents a column, and the value of that digit is how many cells are filled in that column.
+Sizes are noted as [XYZ...] where each digit represents a column and the value of that digit is how many cells are filled in that column.
 
 #### Examples  
 [1] - Quick and light weapons, small items, light armour, accessories
@@ -2859,7 +2820,7 @@ Roll **1d100** when generating loot.
 | 7 | Broken Sword | (2\*) | [1] | 6g | d6+d6 |
 | 8 | Splintered Spear | (2\*) | [11] | 8g | d4+d10 |
 | 9 | Empty Potion Bottles | (3\*) | [1] | 4g | On hit applies Bleed. |
-| 10 | Moldy Cloak | (3) | [1] | 12g | ZEST target number -1 when resisting disease, toxins, bad food, and similar effects. |
+| 10 | Moldy Cloak | (3) | [1] | 12g | ZEST target number -1 when resisting disease, toxins, bad food and similar effects. |
 | 11 | Sack of Nails | (3) | [1] | 2g | A sack of nails. |
 | 12 | Grease Flask | (2\*) | [1] | 3g | A flask of grease. |
 | 13 | Rope Bundle | - | [2] | 5g | 50ft, always useful. |
@@ -3172,7 +3133,7 @@ At campaign start, roll the following for the Gobfather's starting Hoard:
 - **(Player count) x2** rolls on the Hoard Odds and Ends table
 - **(Player count) x2** rolls on the generic Loot Table
 
-Each new goblin takes **1 item and 1 weapon** from the Hoard at character creation in addition to their rations, torch, and rope.
+Each new goblin takes **1 item and 1 weapon** from the Hoard at character creation in addition to their rations, torch and rope.
 
 ---
 

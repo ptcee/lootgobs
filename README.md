@@ -1,3 +1,3 @@
-[clean document](https://ptcee.github.io/lootgobs)
+[rules docs](https://ptcee.github.io/lootgobs)
 
-need responsive fix
+- need responsive fix

@@ -1018,9 +1018,9 @@ Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a u
 
 When a spell calls for a save, the target rolls the relevant stat save.
 
-- **MEAT save** — dodge, resist physical force, endure pain
-- **ZEST save** — shake off fear, resist compulsion, hold your nerve
-- **WITS save** — see through illusions, resist mental domination, notice danger
+- **MEAT save:**  dodge, resist physical force, endure pain
+- **ZEST save:** shake off fear, resist compulsion, hold your nerve
+- **WITS save:** see through illusions, resist mental domination, notice danger
 
 ---
 
@@ -1028,7 +1028,7 @@ When a spell calls for a save, the target rolls the relevant stat save.
 
 | d12 | Flow | Could mean |
 |-----|------|----------|
-| 1 | **Blast** | Force or energy hurled outward — damage, knockback, destruction |
+| 1 | **Blast** | Force or energy hurled outward - damage, knockback, destruction |
 | 2 | **Bind** | Hold, restrain, fix in place, seal shut, fuse together |
 | 3 | **Shrink** | Reduce in size, diminish in power, compress, weaken |
 | 4 | **Summon** | Call forth, conjure, drag here from somewhere else |
@@ -1064,29 +1064,33 @@ When a spell calls for a save, the target rolls the relevant stat save.
 
 ### Mishap tables
 
-When two or more power dice match, roll on the Minor Mishap table. The spell still casts unless noted. When all three dice match, roll on the Major Mishap table instead; the spell may not cast at all.
+Spell Scrolls, at least compared to a Wizard casting a spell organically, are extremely unstable. 
+
+When two or more power dice match, roll on the Minor Mishap table. The spell still casts unless noted. 
+
+When all three dice match, roll on the Major Mishap table instead; the spell may not cast at all.
 
 #### Minor mishap (d6)
 
 | d6 | Effect |
 |----|--------|
-| 1 | **Backfire** — Caster takes the spell's weakest effect. ZEST save to halve. |
-| 2 | **Misfire** — Spell hits the nearest ally instead. They make the relevant save as normal. |
-| 3 | **Blowback** — Gain Winded and Concussed. |
-| 4 | **Loud** — Take d4 chronic WITS damage. |
-| 5 | **Unstable Arcana** — Spellbook loses an extra charge on top of normal use. |
-| 6 | **Reversed** — Flow and Facet swap roles or invert the spell entirely. |
+| 1 | **Backfire:** Caster takes the spell's weakest effect. ZEST save to halve. |
+| 2 | **Misfire:** Spell hits the nearest ally instead. They make the relevant save as normal. |
+| 3 | **Blowback:** Gain Winded and Concussed. |
+| 4 | **Loud:** Take d4 chronic WITS damage. |
+| 5 | **Unstable Arcana:** Spellbook loses an extra charge on top of normal use. |
+| 6 | **Reversed:** Flow and Facet swap roles or invert the spell entirely. |
 
 #### Major mishap (d6)
 
 | d6 | Effect |
 |----|--------|
-| 1 | **Possession** — WITS immediately goes to 0. |
-| 2 | **Destroyed** — Spell fails and the book is destroyed. |
-| 3 | **Wild surge** — Roll again on both mishap tables simultaneously. |
-| 4 | **Tear** — A rift opens. All creatures in melee range are pulled through on a failed MEAT save. |
-| 5 | **Swap** — Caster and target exchange positions and current STRESS. WITS save to resist. |
-| 6 | **Amplified** — Spell casts and regains all uses. |
+| 1 | **Possession:** WITS immediately goes to 0. |
+| 2 | **Destroyed:** Spell fails and the book is destroyed. |
+| 3 | **Wild surge:** Roll again on both mishap tables simultaneously. |
+| 4 | **Tear:** A rift opens. All creatures in melee range are pulled through on a failed MEAT save. |
+| 5 | **Swap:** Caster and target exchange positions and current STRESS. WITS save to resist. |
+| 6 | **Amplified:** Spell casts and regains all uses. |
 
 ---
 
@@ -1102,7 +1106,7 @@ The 144 Flow and Facet combinations are intentionally open. When a goblin rolls 
 
 - **Scale with tier:** 1d6 is a minor inconvenience affecting one thing for one moment. 3d6 fills a room and lasts the turn. The same Blast Flesh at tier 1 chips bone; at tier 3 it detonates creatures.
 - **Saves match the threat:** Physical effects hit MEAT. Fear and compulsion hit ZEST. Illusions and mental effects hit WITS.
-- **Weird combinations are the point:** Cloak Hunger, Rot Name, Speak Door — lean into them. The spell table is designed to create chaotic creative results.
+- **Weird combinations are the point:** Cloak Hunger, Rot Name, Speak Door - lean into them. The spell table is designed to create chaotic creative results.
 - **Reversed mishaps are a gift:** When result 6 comes up on the minor table, ask the player what the opposite of this spell would be and make it happen.
 
 
@@ -1181,13 +1185,13 @@ Results are not permanent. How the party behaves or negotiates will shift the re
 >
 > **Saves are for persuasion under pressure.** If the party is negotiating from a position of strength, with good information and a plausible offer, no roll is needed, whatever they're trying to do just works. Saves are for situations where success is genuinely uncertain: bluffing past someone who has reason to be suspicious, talking their way out of a fight that's already started, convincing someone to do something against their immediate interests. WITS are for when interacting with their minds, ZEST for their emotions.
 >
-> **Reward player cleverness with bonus dice, not automatic success.** When a player does something genuinely inventive — using an item in an unexpected way, finding information that changes the dynamic, framing an offer in terms the NPC actually cares about — bolster their roll rather than bypassing the roll entirely. This keeps the dice in play while signalling that the idea was good.
+> **Reward player cleverness with bonus dice, not automatic success.** When a player does something genuinely inventive - using an item in an unexpected way, finding information that changes the dynamic, framing an offer in terms the NPC actually cares about - bolster their roll rather than bypassing the roll entirely. This keeps the dice in play while signalling that the idea was good.
 >
-> **COURAGE follows cleverness.** The GM can award COURAGE directly for social victories that feel earned — a bluff that worked, a negotiation that found an unexpected common ground, a moment where the goblins used their perceived stupidity as an advantage. This is the primary lever for rewarding player skill in social play. If a player feels proud or is exciting for something they pulled off, their goblin should as well.
+> **COURAGE follows cleverness.** The GM can award COURAGE directly for social victories that feel earned - a bluff that worked, a negotiation that found an unexpected common ground, a moment where the goblins used their perceived stupidity as an advantage. This is the primary lever for rewarding player skill in social play. If a player feels proud or is exciting for something they pulled off, their goblin should as well.
 >
-> **Failed social rolls produce complications, not dead ends.** A failed save doesn't mean the NPC attacks or the conversation ends — it means the party's position weakened, the NPC's suspicion increased, or the window for a particular approach closed. Something still happens. The scene continues. On a failure, introduce a complication: the NPC asks a question the party can't easily answer, a third party arrives, the clock gets louder. GMs can track an NPCs standing on the reaction table as the players interact if it helps.
+> **Failed social rolls produce complications, not dead ends.** A failed save doesn't mean the NPC attacks or the conversation ends - it means the party's position weakened, the NPC's suspicion increased, or the window for a particular approach closed. Something still happens. The scene continues. On a failure, introduce a complication: the NPC asks a question the party can't easily answer, a third party arrives, the clock gets louder. GMs can track an NPCs standing on the reaction table as the players interact if it helps.
 >
-> **Multi-goblin social encounters can use group saves.** If multiple goblins are contributing to a negotiation, run it as a group save — everyone rolls, and if there are equal or more successes than failures, it works. This makes the party's collective nerve and presence matter, and means the goblin with the shakiest stat can still contribute by succeeding their individual roll.
+> **Multi-goblin social encounters can use group saves.** If multiple goblins are contributing to a negotiation, run it as a group save - everyone rolls, and if there are equal or more successes than failures, it works. This makes the party's collective nerve and presence matter, and means the goblin with the shakiest stat can still contribute by succeeding their individual roll.
 
 ---
 ---
@@ -2850,40 +2854,40 @@ Roll **1d100** when generating loot.
 | 2 | Bent Shield | (1) | [1] | 3g | |
 | 3 | Half-Burnt Torch | (2\*) | [1] | 1g | |
 | 4 | Mystery Meat | (3\*) | [1] | 2g | Eat to clear 3 STRESS. Roll ZEST or gain both Diseased and Hungry. |
-| 5 | Loose Teeth Pouch | — | [1] | 5g | Makes a rattling noise. |
-| 6 | Cracked Goggles | — | [1] | 10g | Negates darkness Hindered penalty in combat only. |
+| 5 | Loose Teeth Pouch | - | [1] | 5g | Makes a rattling noise. |
+| 6 | Cracked Goggles | - | [1] | 10g | Negates darkness Hindered penalty in combat only. |
 | 7 | Broken Sword | (2\*) | [1] | 6g | d6+d6 |
 | 8 | Splintered Spear | (2\*) | [11] | 8g | d4+d10 |
 | 9 | Empty Potion Bottles | (3\*) | [1] | 4g | On hit applies Bleed. |
 | 10 | Moldy Cloak | (3) | [1] | 12g | ZEST target number -1 when resisting disease, toxins, bad food, and similar effects. |
 | 11 | Sack of Nails | (3) | [1] | 2g | A sack of nails. |
 | 12 | Grease Flask | (2\*) | [1] | 3g | A flask of grease. |
-| 13 | Rope Bundle | — | [2] | 5g | 50ft, always useful. |
-| 14 | Hook on Chain | — | [2] | 4g | |
-| 15 | Bone Dice Set | — | [1] | 15g | Once per session reroll one Gob Die result and take either. |
-| 16 | Tarnished Ring | — | [1] | 30g | Worth 30 gold. |
+| 13 | Rope Bundle | - | [2] | 5g | 50ft, always useful. |
+| 14 | Hook on Chain | - | [2] | 4g | |
+| 15 | Bone Dice Set | - | [1] | 15g | Once per session reroll one Gob Die result and take either. |
+| 16 | Tarnished Ring | - | [1] | 30g | Worth 30 gold. |
 | 17 | Flickering Lantern | (6\*) | [11] | 12g | Mark use every 4 turns instead of 3. |
-| 18 | Old Boots | — | [1] | 18g | Ignore movement penalties from difficult terrain. |
-| 19 | Scrap Armour | — | [1] | 10g | DEF2. Destroyed when the wearer takes a Vital Blow. |
-| 20 | Rat Cage | — | [22] | 8g | Holds 1 Giant Rat, worth gold to the right buyer. |
+| 18 | Old Boots | - | [1] | 18g | Ignore movement penalties from difficult terrain. |
+| 19 | Scrap Armour | - | [1] | 10g | DEF2. Destroyed when the wearer takes a Vital Blow. |
+| 20 | Rat Cage | - | [22] | 8g | Holds 1 Giant Rat, worth gold to the right buyer. |
 | 21 | Smelly Cheese | (4\*) | [1] | 2g | Very smelly cheese. |
 | 22 | Flask of Weak Ale | (3\*) | [1] | 3g | Drink: roll a d4. On a 2-4 clear 1 STRESS. On a 1 gain Disoriented. |
 | 23 | Rusty Bear Trap | (1\*) | [11] | 14g | Place on ground. First creature to step on it takes d6 damage and gains Immobilized. |
-| 24 | Tattered Map Fragment | — | [1] | 10g | Shows partial layout of one dungeon area, GM decides which. |
-| 25 | Shiny Rock | — | [1] | 1g | Gain 1 COURAGE when you first find it. |
-| 26 | Bent Crown | — | [1] | 50g | Worth 50 gold. |
-| 27 | Bone Charm | — | [1] | 20g | Discard to ignore one Frightened condition. |
+| 24 | Tattered Map Fragment | - | [1] | 10g | Shows partial layout of one dungeon area, GM decides which. |
+| 25 | Shiny Rock | - | [1] | 1g | Gain 1 COURAGE when you first find it. |
+| 26 | Bent Crown | - | [1] | 50g | Worth 50 gold. |
+| 27 | Bone Charm | - | [1] | 20g | Discard to ignore one Frightened condition. |
 | 28 | Crude Shield | (2) | [1] | 5g | |
 | 29 | Firestarter Kit | (4\*) | [1] | 8g | Guaranteed fire in any conditions. |
-| 30 | Empty Sack | — | [1] | 2g | Can hold two [1] items. |
-| 31 | Small Whistle | — | [1] | 3g | |
+| 30 | Empty Sack | - | [1] | 2g | Can hold two [1] items. |
+| 31 | Small Whistle | - | [1] | 3g | |
 | 32 | Broken Crossbow | (2\*) | [2] | 12g | rd6+rd8 |
 | 33 | Dull Knife | (2) | [1] | 4g | d4+d4. Good for buttering. |
 | 34 | Salt Packet | (2\*) | [1] | 6g | Deals 1d12 damage to slimes and oozes. |
 | 35 | Rotten Rations | (2\*) | [1] | 1g | Clears 1 STRESS. Roll ZEST or gain Hungry. |
 | 36 | Glass Shards | (2\*) | [1] | 1g | A handful of broken glass. |
 | 37 | Stick Bomb | (1\*) | [11] | 25g | rd4+4rd4. Assign 1 Break die and the rest as damage vs any number of targets. |
-| 38 | Tarnished Amulet | — | [1] | 20g | Worth 20 gold. |
+| 38 | Tarnished Amulet | - | [1] | 20g | Worth 20 gold. |
 | 39 | Chalk | (8\*) | [1] | 1g | Mark paths, leave messages, draw crude pictures. |
 | 40 | Bucket Helmet | (3) | [1] | 15g | Negates one Permanent Injury to the head slot then becomes stuck and cannot be removed without help. |
 
@@ -2899,7 +2903,7 @@ Roll **1d100** when generating loot.
 | 43 | Acid Glob | (2\*) | [1] | 60g | Throw at a target, MEAT save or reduces their armour DEF by 1 permanently. |
 | 44 | Volatile Core | (1\*) | [1] | 70g | rd10+rd10. If both dice match it explodes in your hand instead. |
 | 45 | Sticky Tongue | (3\*) | [11] | 55g | rd4+rd6. WITS save on hit to pull a [1] item from target to you. |
-| 46 | False Treasure Trap | — | [22] | 35g | Looks like a gilded chest, is actually a trap. |
+| 46 | False Treasure Trap | - | [22] | 35g | Looks like a gilded chest, is actually a trap. |
 | 47 | Ogre Femur | (5\*) | [11] | 30g | d8+d8. Smells terrible. |
 | 48 | Sack of Rocks | (3) | [1] | 5g | rd4+rd4. Never runs out of rocks. |
 | 49 | Ritual Dagger | (2) | [1] | 80g | d4+d4. Gain 1 COURAGE each time you deal MEAT damage with it. |
@@ -2912,7 +2916,7 @@ Roll **1d100** when generating loot.
 | 56 | Slime-Coated Armour | (3) | [1] | 70g | DEF3. Immune to acid damage, ZEST target number +1 while worn. |
 | 57 | Mimic Tooth Necklace | (3) | [1] | 55g | While wearing, can sense mimics and dopplegangers. |
 | 58 | Cult Robes | (3) | [1] | 80g | DEF1. Cultists and undead react as Curious instead of Hostile. |
-| 59 | Giant Tooth | — | [1] | 25g | d6+d6. Counts as both a weapon and a very large tooth. |
+| 59 | Giant Tooth | - | [1] | 25g | d6+d6. Counts as both a weapon and a very large tooth. |
 | 60 | Spider Silk Armour | (3) | [1] | 110g | DEF3. Bolstered on saves to climb. |
 | 61 | Venom Blade | (3) | [1] | 120g | d6+d8. On hit apply Poisoned. |
 | 62 | Acid Flask | (2\*) | [1] | 50g | rd4+rd4. Ignores shields. |
@@ -2932,7 +2936,7 @@ Roll **1d100** when generating loot.
 
 | Roll | Item | Uses | Size | Value | Notes |
 |:---:|---|:---:|:---:|:---:|---|
-| 71 | Polished Breastplate | (3) | [1] | 180g | DEF4. Take 2 STRESS when first equipped — it was not made for goblins. |
+| 71 | Polished Breastplate | (3) | [1] | 180g | DEF4. Take 2 STRESS when first equipped - it was not made for goblins. |
 | 72 | Tower Crest Shield | (7) | [2] | 140g | Emblazoned with the crest of a noble house. |
 | 73 | Trueshot Longbow | (3) | [2] | 200g | rd8+rd8. Hitting a target marks them, attacks against them are Bolstered this round. |
 | 74 | Cloak of Leaves | (3) | [1] | 160g | Bolstered on all saves to hide or move silently. |
@@ -2951,7 +2955,7 @@ Roll **1d100** when generating loot.
 | 87 | Hero's Belt | (3) | [1] | 220g | Gain 1 COURAGE each time you succeed on a roll while at no STRESS. |
 | 88 | Blessed Shield | (5) | [1] | 250g | Can reroll all dice in a Vital Blow save while wielding. |
 | 89 | Glinting Cloak | (1) | [1] | 280g | Mark a use to negate one attack completely. Recharges after Long Rest. |
-| 90 | Hero Pack | — | [111] | 350g | Can be placed outside the pack. Has 3 grid inventory spots. |
+| 90 | Hero Pack | - | [111] | 350g | Can be placed outside the pack. Has 3 grid inventory spots. |
 
 ---
 
@@ -2960,7 +2964,7 @@ Roll **1d100** when generating loot.
 
 | Roll | Item | Uses | Size | Value | Notes |
 |:---:|---|:---:|:---:|:---:|---|
-| 91 | Bag of Holding | (4\*) | [1] | 600g | Can place up to 6 [1] items on this item. Retrieving an item not on top requires a ZEST save — failure marks a use. When consumed all items inside are destroyed. |
+| 91 | Bag of Holding | (4\*) | [1] | 600g | Can place up to 6 [1] items on this item. Retrieving an item not on top requires a ZEST save - failure marks a use. When consumed all items inside are destroyed. |
 | 92 | Gob Crown | (3) | [1] | 400g | Gain 1 COURAGE at the start of each turn. All non-goblins react as Hostile to the wearer. |
 | 93 | The Hero's Map | (3) | [11] | 500g | Reveals the full dungeon layout it's found in. The Itch die increases one step permanently when found. |
 | 94 | Soul Coin | (1\*) | [1] | 800g | When the bearer dies, roll a d6. On a 1-3 they die as normal. On a 4-6 they come back to life at 1 MEAT and permanently lose 3 ZEST. |
@@ -2975,7 +2979,7 @@ Roll **1d100** when generating loot.
 
 ## MAGIC ITEMS
 
-Roll **d66** — first die is tens, second is units. Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.
+Roll **d66** - first die is tens, second is units. Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.
 
 > All magic item values below are fence prices. A wizard, collector, or desperate soul will pay considerably more.
 
@@ -2996,7 +3000,7 @@ Roll **d66** — first die is tens, second is units. Magic items cannot be craft
 |:---:|---|:---:|:---:|:---:|---|
 | 21 | Wraithplate | (3) | [1] | 600g | DEF4. The wearer cannot be seen in complete darkness; they simply aren't there. They do not cast a shadow. |
 | 22 | Skinsuit | (3) | [1] | 500g | DEF2. Once per day, take the appearance of the last humanoid creature killed while wearing this. Lasts until the wearer speaks. Can only be repaired with more skin. |
-| 23 | Plate of the Fallen Hero | — | [11] | 900g | DEF5. While worn, immune to Winded, Frightened, Rattled, Concussed and Disoriented. Heroes react as Hostile on sight. The armour fits perfectly despite being made for someone much larger. |
+| 23 | Plate of the Fallen Hero | - | [11] | 900g | DEF5. While worn, immune to Winded, Frightened, Rattled, Concussed and Disoriented. Heroes react as Hostile on sight. The armour fits perfectly despite being made for someone much larger. |
 | 24 | Robes of the Rat Saint | (3) | [1] | 450g | DEF2. Rats treat the wearer as Friendly. Mark a use to transform into a Giant Rat. On hitting 0 MEAT revert back to goblin. Repaired with rat hides. |
 | 25 | Carapace | (3) | [1] | 700g | DEF3. When the wearer takes a Vital Blow, the armour absorbs it entirely. Needs a full day to regenerate before it can do so again. |
 | 26 | Armour of Borrowed Time | (3) | [1] | 1000g | DEF3. Once per session, when the wearer would die, they survive on 1 MEAT. The armour goes inert 2 days after this. |
@@ -3017,7 +3021,7 @@ Roll **d66** — first die is tens, second is units. Magic items cannot be craft
 | Roll | Item | Uses | Size | Value | Notes |
 |:---:|---|:---:|:---:|:---:|---|
 | 41 | Ring of the Open Gateway | (3) | [1] | 550g | Locks of any kind open for the wearer. So do things that were not meant to be opened. The wearer cannot close any door they have opened. |
-| 42 | Amulet of Second Thought | (3) | [1] | 400g | Once per session reroll any single die and take either result. Each use after the first causes 1 chronic WITS damage — the amulet is tired of being second-guessed. |
+| 42 | Amulet of Second Thought | (3) | [1] | 400g | Once per session reroll any single die and take either result. Each use after the first causes 1 chronic WITS damage - the amulet is tired of being second-guessed. |
 | 43 | Ring of Whispers | (3) | [1] | 450g | The wearer can hear any conversation happening within 30ft regardless of walls or distance. |
 | 44 | Amulet of the Hungry Dark | (3) | [1] | 500g | See perfectly in complete darkness. In bright light, vision is Hindered. Always slightly warm and occasionally pulls toward something underground. |
 | 45 | Ring of the Rat King | (3) | [1] | 400g | If wielding any other Rat King items, mark a use to summon 1d10 Giant Rats. You can understand and speak with rats. |
@@ -3051,7 +3055,7 @@ Roll **d66** — first die is tens, second is units. Magic items cannot be craft
 
 Roll **d100** when the party finds something worth taking or to fill a room. 
 
-> Gold values are approximate — the Gobfather's fence will have opinions.
+> Gold values are approximate - the Gobfather's fence will have opinions.
 
 | d100 | Valuable | Size | Value |
 |:---:|---|:---:|:---:|
@@ -3220,9 +3224,9 @@ Each new goblin takes **1 item and 1 weapon** from the Hoard at character creati
 
 | Roll | Item | Uses | Size | Value | Notes |
 |:---:|---|:---:|:---:|:---:|---|
-| 1 | Collapsible rod (6ft) | — | [1] | 5g | Poke things, trigger traps, prop doors open. |
-| 2 | Small hand shovel | — | [1] | 4g | d3+d3 improvised weapon. |
-| 3 | Hand mirror | — | [1] | 5g | See around corners, check for breath on a corpse. |
+| 1 | Collapsible rod (6ft) | - | [1] | 5g | Poke things, trigger traps, prop doors open. |
+| 2 | Small hand shovel | - | [1] | 4g | d3+d3 improvised weapon. |
+| 3 | Hand mirror | - | [1] | 5g | See around corners, check for breath on a corpse. |
 | 4 | Chalk | (8\*) | [1] | 1g | Mark your path. |
 | 5 | Flask of ale | (3\*) | [1] | 3g | Clear 1 STRESS. |
 | 6 | Firestarter kit | (4\*) | [1] | 8g | Guaranteed fire. |
@@ -3231,15 +3235,15 @@ Each new goblin takes **1 item and 1 weapon** from the Hoard at character creati
 | 9 | Wooden shield | (3) | [1] | 15g | |
 | 10 | Rusty bear trap | (1) | [11] | 14g | d8 damage. |
 | 11 | Bandages | (4\*) | [1] | 8g | Clear 1 STRESS when applied. |
-| 12 | Lantern | — | [11] | 12g | Steady light, needs oil. |
+| 12 | Lantern | - | [11] | 12g | Steady light, needs oil. |
 | 13 | Oil flask | (4) | [1] | 8g | Fuel for lantern or throwable fire. |
-| 14 | Crowbar | — | [1] | 8g | Bolstered on forcing doors or prying. |
-| 15 | Grappling hook | — | [1] | 10g | With 30ft rope. |
+| 14 | Crowbar | - | [1] | 8g | Bolstered on forcing doors or prying. |
+| 15 | Grappling hook | - | [1] | 10g | With 30ft rope. |
 | 16 | Poison vial | (2\*) | [1] | 40g | Apply to weapon, Poisoned on hit. |
-| 17 | Tattered cloak | — | [1] | 5g | Bolstered when hiding. |
+| 17 | Tattered cloak | - | [1] | 5g | Bolstered when hiding. |
 | 18 | Cigarettes | (6\*) | [1] | 10g | On use clears 3 STRESS. Using more than 1 between rests causes Winded. |
-| 19 | Small Whistle | — | [1] | 3g | Alert allies or distract enemies. |
-| 20 | Bag of marbles | — | [1] | 4g | Scatter, creatures must MEAT save or be Knocked. |
+| 19 | Small Whistle | - | [1] | 3g | Alert allies or distract enemies. |
+| 20 | Bag of marbles | - | [1] | 4g | Scatter, creatures must MEAT save or be Knocked. |
 
 ## GOBLIN NAMES & ATTRIBUTES
 

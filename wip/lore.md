@@ -1,6 +1,6 @@
 # THE WORLD AT LARGE, AND BELOW
 
-### Meticulously curated notes about the current state of the realm of Orrelia, written by one Lucious Caesar and definitely not one Anthony Goblioni.
+> Meticulously curated notes about the current state of the realm of Orrelia. Written and curated by one "Lucious Caesar" and definitely not one Anthony Goblioni.
 
 ---
 
@@ -59,7 +59,7 @@ The City of roughly 100,000 residents (permanent and not) is governed by the **C
 
 Magic in Orrelia is a regulated profession, formally administered by the **Academy of Sanctioned Arts**, which issues licences, sets examinations, and maintains a registry of every trained practitioner in the realm. Becoming a wizard takes centuries of study and mentorship, and wielding magic without a current licence is a criminal offence carrying penalties the Academy describes as "significant".
 
-Scroll magic exists in a legal grey area that the Academy insists is not grey at all, actually quite clearly black, because someone has been imbuing spells into portable scrolls and selling them through channels the Academy cannot trace and the Watch cannot find. Goblins find scrolls the way goblins find most things — in places they weren't supposed to be, left by people who had bigger problems.
+Scroll magic exists in a legal grey area that the Academy insists is not grey at all, actually quite clearly black, because someone has been imbuing spells into portable scrolls and selling them through channels the Academy cannot trace and the Watch cannot find. Goblins find scrolls the way goblins find most things - in places they weren't supposed to be, left by people who had bigger problems.
 
 Occasionally a wizard will go rogue, operating outside the law, traveling around the realm practicing unlicensed magic. Usually the Watch manages to bring them in but some of such criminals, or heroes depending on who you talk to, are still at large.
 
@@ -286,7 +286,7 @@ It started ninety-four years ago as a border dispute between House Aldenmarch an
 
 The Ward Council of Glimmerhold attempted to mediate twice. The first time, both parties attended and agreed to terms. The second time, one party sent a representative and the other sent soldiers to the representative's camp. The Ward Council issued a formal statement of neutrality and has maintained that position for seventy-eight years, which in practice means the war has been happening within half a day's ride of the city's northern gate for almost a century.
 
-The conflict absorbed two smaller disputes — a land claim by the Ferrymen's Guild over river tolls, and a religious disagreement between two Temple Row factions about which god technically owns water rights. This became something more structural than any of its original parts. There are veterans on both sides who have been fighting for years and don't remember what the original quarrel was. There are soldiers who have switched sides twice and consider this pragmatic rather than disloyal. There are settlements that have been occupied, liberated, re-occupied, and liberated again so many times that the residents have learned to bury their valuables before any army arrives regardless of which flag it's flying.
+The conflict absorbed two smaller disputes - a land claim by the Ferrymen's Guild over river tolls, and a religious disagreement between two Temple Row factions about which god technically owns water rights. This became something more structural than any of its original parts. There are veterans on both sides who have been fighting for years and don't remember what the original quarrel was. There are soldiers who have switched sides twice and consider this pragmatic rather than disloyal. There are settlements that have been occupied, liberated, re-occupied, and liberated again so many times that the residents have learned to bury their valuables before any army arrives regardless of which flag it's flying.
 
 The current status is technically peace. A new treaty was signed fourteen months ago at a neutral inn in the grassland south of both territories. The treaty is contested by three parties, two of whom signed it. The fighting has reduced to intermittent raiding rather than sustained campaigns, which everyone involved describes as "the situation improving."
 

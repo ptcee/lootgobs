@@ -69,7 +69,7 @@ Scroll magic exists in a legal grey area that the Academy insists is not grey at
 
 Occasionally a wizard will go rogue, operating outside the law, traveling around the realm practicing unlicensed magic. Usually the Watch manages to bring them in but some of such criminals, or heroes depending on who you talk to, are still at large.
 
-  > A note on medicine: proper physicians in Glimmerhold are rare and expensive, but there exists a recognised profession somewhere between healer and hedge wizard known as a **Whyzician**. Practitioners who have studied enough magic to apply it medically and just enough medicine to know when to stop the magic. They are not entirely respected by either the Academy or the Temple physicians. 
+  > A note on magic and medicine: proper physicians in Glimmerhold are rare and expensive, but there exists a recognised profession somewhere between healer and hedge wizard known as a **Whyzician**. Practitioners who have studied enough magic to apply it medically and just enough medicine to know when to stop the magic. They are not entirely respected by either the Academy or the Temple physicians. 
   > 
   > A goblin with sufficient WITS and a willing mentor could qualify as a Whyzician. The Academy would find this outrageous. Grimbus Goldfinch would find it humorous.
 

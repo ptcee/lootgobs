@@ -619,7 +619,7 @@ h6 {
     margin-top: 24px;
     margin-bottom: 16px;
     line-height: 1.25;
-    border-bottom-color: #c57300;
+    border-bottom-color: rgb(182, 0, 115);
 }
 
 #code-csp-warning {
@@ -687,11 +687,11 @@ body.showEditorSelection li.code-line:hover:before {
 }
 
 .vscode-high-contrast.showEditorSelection .code-active-line:before {
-    border-left: 3px solid rgba(255, 160, 0, 0.7);
+    border-left: 3px solid rgb(182, 0, 115);
 }
 
 .vscode-high-contrast.showEditorSelection .code-line:hover:before {
-    border-left: 3px solid rgba(255, 160, 0, 1);
+    border-left: 3px solid rgb(182, 0, 115);
 }
 
 /* Prevent `sub` and `sup` elements from affecting line height */
@@ -745,7 +745,7 @@ ol {
 hr {
     border: 0;
     height: 1px;
-    border-bottom: 2px solid rgb(182, 134, 0);
+    border-bottom: 2px solid rgb(182, 0, 115);
     margin-top: 20px;
 }
 

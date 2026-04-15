@@ -1674,7 +1674,7 @@ A dungeon you can run from three lines per room is better than a dungeon you can
 
 
 ---
-# SECTION 7: TRAVEL, DOWNTIME & THE City
+# SECTION 7: TRAVEL, DOWNTIME & THE CITY
 
 
 ## DOWNTIME

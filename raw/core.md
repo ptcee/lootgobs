@@ -884,7 +884,7 @@ Unarmoured creatures have DEF1.
 
 ## SHIELDS
 
-Shields absorb incoming damage. When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses, the character takes 1 damage, the shield is destroyed and remaining damage is discarded. Using a shield requires **MEAT 7+.**
+Shields absorb incoming damage. When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses the player takes it as normal. Using a shield requires **MEAT 7+.**
 
 | Shield | Uses | Slots | Notes |
 |---|---|---|---|
@@ -898,9 +898,9 @@ Shields absorb incoming damage. When a shield's uses are fully marked it breaks.
 
 Magic is exceedingly rare for goblins to find. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read.
 
-Magic spells are cast with three incantations that shape the spell. They always follow Flow > Form > Facet.
+Magic spells are cast with three incantations that shape the spell. They always follow Form > Flow > Facet.
 
-When goblins find a spell scroll and wish to cast it, they squint at it until something happens. Roll a **Flow**, a **Form** and a **Facet** to find out what the spell does, then commit dice for power. The player then explains what the spell does. An illiterate goblin commits to how powerful a spell is before knowing what it does.
+When goblins find a spell scroll and wish to cast it, they squint at it until something happens. Roll a **Form**, a **Flow** and a **Facet** to find out what the spell does, then commit dice for power. The player then explains what the spell does. An illiterate goblin commits to how powerful a spell is before knowing what it does.
 
 Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a usage per die. When all uses are marked the scroll turns to ash, unless Major Mishap 6 is rolled.
 
@@ -910,7 +910,7 @@ Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a u
 ### Casting
 
 1. Make a **WITS save**. On a failure you can't read the spell; swap step 2 and 3.
-2. Roll **1d12 Flow**, **1d12 Form** then **1d12 Facet** to see what the spell does.
+2. Roll **1d12 Form**, **1d12 Flow** then **1d12 Facet** to see what the spell does.
 3. Declare how many dice you are committing: **1d6, 2d6, or 3d6**.
 4. Roll all power dice simultaneously.
 5. If any two dice **match** there is a Mishap. If all three match there is a Major Mishap.
@@ -931,23 +931,6 @@ When a spell calls for a save, the target rolls the relevant stat save.
 - **WITS save:** see through illusions, resist mental domination, notice danger
 
 
-### Flow table (d12)
-
-| d12 | Flow | Could mean |
-|-----|------|----------|
-| 1 | **Blast** | Force or energy hurled outward - damage, knockback, destruction |
-| 2 | **Bind** | Hold, restrain, fix in place, seal shut, fuse together |
-| 3 | **Shrink** | Reduce in size, diminish in power, compress, weaken |
-| 4 | **Summon** | Call forth, conjure, drag here from somewhere else |
-| 5 | **Rot** | Decay, corrupt, curse, wither, foul |
-| 6 | **Swap** | Exchange, reverse, invert, transpose two things |
-| 7 | **Grow** | Enlarge, multiply, amplify, spread, accelerate |
-| 8 | **Steal** | Extract, drain, take without touching, siphon away |
-| 9 | **Reveal** | Expose, illuminate, unmask, make visible or known |
-| 10 | **Cloak** | Hide, obscure, disguise, render invisible or undetectable |
-| 11 | **Shatter** | Break apart, fragment, destabilise, cause to fall to pieces |
-| 12 | **Speak** | Communicate, command, compel through words, give voice to |
-
 ### Form table (d12)
 
 | d12 | Form | Shapes |
@@ -964,6 +947,23 @@ When a spell calls for a save, the target rolls the relevant stat save.
 | 10 | **Tangled** | Knotted, complicated, affecting multiple things at once |
 | 11 | **Fractured** | Split, fragmented, affecting things in pieces |
 | 12 | **Distant** | Remote, removed, affecting things far away or long ago |
+
+### Flow table (d12)
+
+| d12 | Flow | Could mean |
+|-----|------|----------|
+| 1 | **Blast** | Force or energy hurled outward - damage, knockback, destruction |
+| 2 | **Bind** | Hold, restrain, fix in place, seal shut, fuse together |
+| 3 | **Shrink** | Reduce in size, diminish in power, compress, weaken |
+| 4 | **Summon** | Call forth, conjure, drag here from somewhere else |
+| 5 | **Rot** | Decay, corrupt, curse, wither, foul |
+| 6 | **Swap** | Exchange, reverse, invert, transpose two things |
+| 7 | **Grow** | Enlarge, multiply, amplify, spread, accelerate |
+| 8 | **Steal** | Extract, drain, take without touching, siphon away |
+| 9 | **Reveal** | Expose, illuminate, unmask, make visible or known |
+| 10 | **Cloak** | Hide, obscure, disguise, render invisible or undetectable |
+| 11 | **Shatter** | Break apart, fragment, destabilise, cause to fall to pieces |
+| 12 | **Speak** | Communicate, command, compel through words, give voice to |
 
 ### Facet table (d12)
 
@@ -996,20 +996,20 @@ When all three dice match, roll on the Major Mishap table instead; the spell may
 | d6 | Effect |
 |----|--------|
 | 1 | **Backfire:** Caster takes the spell's weakest effect. ZEST save to halve. |
-| 2 | **Misfire:** Spell hits the nearest ally instead. They make the relevant save as normal. |
+| 2 | **Misfire:** Spell hits the nearest ally instead. They make a relevant save if needed. |
 | 3 | **Blowback:** Gain Winded and Concussed. |
 | 4 | **Loud:** Take d4 chronic WITS damage. |
 | 5 | **Unstable Arcana:** Spellbook loses an extra charge on top of normal use. |
-| 6 | **Reversed:** Flow and Facet swap roles or invert the spell entirely. |
+| 6 | **Reversed:** Flow and Facet swap places or invert the spell entirely. |
 
 #### Major mishap (d6)
 
 | d6 | Effect |
 |----|--------|
-| 1 | **Possession:** WITS immediately goes to 0. |
+| 1 | **Possession:** WITS goes to 0 until Long Rest. |
 | 2 | **Destroyed:** Spell fails and the book is destroyed. |
 | 3 | **Wild surge:** Roll again on both mishap tables simultaneously. |
-| 4 | **Tear:** A rift opens. All creatures in melee range are pulled through on a failed MEAT save. |
+| 4 | **Tear:** A rift to another hex opens. All creatures in close range are pulled through on a failed MEAT save. |
 | 5 | **Swap:** Caster and target exchange positions and current STRESS. WITS save to resist. |
 | 6 | **Amplified:** Spell casts and regains all uses. |
 
@@ -1030,24 +1030,24 @@ The Itch represents the dungeon waking up to the party's presence. It starts at 
 - Every time the party takes a turn doing something, or makes noise, roll a d6 and subtract from the Itch
 - **Itch hits 3** - foreshadow danger
 - **Itch hits exactly 0** - increase it to 3 and foreshadow danger
-- **Itch drops below 0** - roll an encounter
-- **Taking a rest** - increase the Itch die by one step (d6 > d8 > d10 > d12 > d20), resets upon leaving the dungeon.
+- **Itch drops below 0** - roll an encounter and reset to 20
+- **Taking a rest** - increase the Itch die by one step (d6 > d8 > d10 > d12 > d20), resets upon leaving the dungeon for a Watch or longer.
 
-The Itch only advances on turns. Combat rounds do not advance the Itch and the Itch die cannot step above d20.
+The Itch only advances on Turns. Combat Rounds do not advance the Itch and the Itch die cannot step above d20.
 
 ## DUNGEON PROCEDURES
 
 ### Taking a Turn
 
-Mark a turn whenever the party takes an action that would take meaningful time; searching a room, picking a lock, treating a wound, having an argument. When a turn is marked, roll the Itch die and subtract from the Itch.
+Mark a Turn whenever the party takes an action that would take meaningful time; searching a room, picking a lock, treating a wound, having an argument. When a Turn is marked, roll the Itch die and subtract from the Itch.
 
 ### Noise
 
-When the party makes significant noise such as a fight, a dropped torch, a Boombro doing their thing, roll the Itch die immediately and subtract from the Itch. This is in addition to any turn that may have been marked.
+When the party makes significant noise such as a fight, a dropped torch, a Boombro doing their thing, roll the Itch die immediately and subtract from the Itch. This is in addition to any Turn that may have been marked.
 
 ### Light and Darkness
 
-Torches have **(4*)** uses. Mark a use every **3 turns.**
+Torches generall have **(4\*)** uses. Mark a use every **3 turns.**
 
 Goblins in darkness:
 - All saves are hindered.
@@ -1057,11 +1057,13 @@ A torch illuminates the immediate area. Rooms beyond the torchlight are consider
 
 ### Locks
 
-To pick a lock a goblin can make a MEAT save. If they aren't using some sort of approriate tool their MEAT target number is +2.
+To pick a lock a goblin can make a MEAT save. If they aren't using some sort of approriate tool their MEAT target number is  increased by 2.
 
 ### Traps
 
 Traps are handled as a relevant stat save depending on how the player approaches them. Noticing a tripwire is WITS. Carefully disarming it is MEAT. Smashing through it is MEAT. Taking a risk is ZEST.
+
+Never pull a *"gotcha"* on the players. Always give hints to traps in the area they're in.
 
 ### Reaction Rolls
 

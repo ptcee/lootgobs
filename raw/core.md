@@ -133,7 +133,13 @@ A **6 is always succesful** and cannot be discarded by STRESS.
 | 13-15 | 3+ |
 | 16+ | 2+ |
 
-
+> Always remember that on a failure, something still happens, just worse.
+>
+> Example:
+> - Failed lockpick, you pick the lock, but your lockpick breaks off in the door and it cannot be closed again. 
+> - Fail stealth, you’re seen but you still manage to get to the position you're trying to get.
+>
+> As a GM, keep in mind "yes, but" and "no, and" when players are rolling saves.
 
 ## STRESS, DAMAGE & COURAGE
 
@@ -161,13 +167,14 @@ When a goblin would take damage, they can attempt to grit their way through the 
 
 COURAGE is boldness, recklessness and goblin heart. It is a tracked resource with a **max cap of your ZEST stat.** Each point of COURAGE represents one six sided die. When you gain COURAGE, stack a d6 on your COURAGE slot.
 
-- Roll a **d4** at character creation for your **starting COURAGE pool**
+- Roll a **d4** at character creation for your **starting COURAGE pool**.
 - Gain COURAGE when 
-     - you **succeed on your Gob die**
-     - you **roll a 6 on one or more stress** dice
-- Spend COURAGE to add a d6 to your pool
-- Additional COURAGE sources come from backgrounds, items and special circumstances
-- A GM may award a player a COURAGE when they do something that would make their goblin feel confident
+     - you **succeed on your Gob die**.
+     - on a **critical hit**.
+     - when you **take a risk** the entire **table agrees is stupid**.
+- Spend COURAGE to add a d6 to your pool.
+- Additional COURAGE sources also come from backgrounds, items and the GM.
+- A GM may award a player COURAGE when they do something that would make their goblin feel confident or brave.
 
 
 
@@ -197,7 +204,6 @@ The **Gob Die** is a single **d6** and the base roll for everything. It should b
 ### Making a save
 1. Check if any **STRESS dice match COURAGE dice** (ignoring 6s)
      - Discard all COURAGE dice that match any STRESS dice.
-     - Gain a courage if any STRESS show 6.
      - Discard **all STRESS** dice.
 2. Any remaining **die meets or beats** your save: ***Success***
      - If the *Gob Die* succeeds, gain 1 COURAGE
@@ -213,7 +219,7 @@ A die may never be rerolled more than once.
 
 ### Hindered and Bolstered
 
-- **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This can exceed the STRESS level cap. This is also the only way STRESS dice can be added to attack pools. 
+- **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This can exceed the STRESS level cap. This is also the only way STRESS dice can be added to attack pools.
 - **Bolstered** - when something significantly aids you add one free COURAGE die to your dice pool.
 
 
@@ -222,7 +228,10 @@ A die may never be rerolled more than once.
 
 ### Quick Rest
 **Takes 1 Turn (~10 minutes)**
-Sit down, eat something, catch your breath. Roll **d6+1** and clear that much STRESS. If in a dungeon, increase the Itch die one step.
+Sit down, eat something, catch your breath. 
+- Roll **d4+1** and clear that much STRESS. 
+- If you **eat rations** roll **d6+1** instead.
+- If in a dungeon, increase the Itch die one step.
 
 ### Long Rest
 **Takes 1 Watch (~36 Turns)**
@@ -274,10 +283,10 @@ A grid like below for night, morning, afternoon and evening to represent 1 full 
 ## CONDITIONS
 
 Conditions are physical tokens like the items in Loot Goblins.
-- Every goblin has two **Guts slots** that exist solely to hold a condition
-- If both Guts slots are full they must go into your **equipment slots or pack**
-- If no spaces are available, drop an item to make room, or take **d12 chronic MEAT damage** as you physically try to ward off the condition
-- Conditions clear as noted on the condition table
+- Every goblin has two **Guts slots** that exist solely to hold a condition.
+- If both Guts slots are full they must go into your **equipment slots or pack**.
+- If no spaces are available, drop an item to make room, or take **d12 chronic MEAT damage** as you physically try to ward off the condition.
+- Conditions clear as noted on the condition table.
 - Conditions can stack unless noted, ie you can gain Concussed twice making your WITS save 2 target numbers harder.
 
 ## CONDITIONS REFERENCE
@@ -327,7 +336,7 @@ At campaign start, roll the following for the Gobfather's starting Hoard:
 To help take some cognitive load off the GM a character may choose to start with the Gobfather's Ledger.   
 This player will be known as the Accountant.
 - The accountant keeps track of the amount of gold currently in the Hoard during the campaign.
-- The accountant tallies the value of treasures added to the gold.
+- The accountant tallies the value of treasures added to the Hoard.
 - While in possession of the Gobfather's Ledger, their rolls are bolstered anytime they roll to interact with the Gobfather.
 > Gobfather's Ledger item, folds out into sheet with spots to keep track of everything.
 
@@ -452,7 +461,9 @@ The Watchdog's companion. A small, stupid, loyal and extremely bitey puppy.
 
 ## GOBLIN NAMES (d66)
 
-Roll twice and combine for your full name. Example: rolling 3 and 5 then 6 and 2 gives you Pox Scab.
+Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
+
+Example: rolling 3 and 5 then 6 and 2 gives you Ooze Dribble.
 
 | | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
@@ -465,8 +476,6 @@ Roll twice and combine for your full name. Example: rolling 3 and 5 then 6 and 2
 
 
 ## QUIRKS AND TRAITS (d66)
-
-To roll: Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 ### Physical Traits (d66)
 
@@ -619,27 +628,27 @@ Each character gets **one action and one move** per Round. A Round is a few seco
 
 When multiple attackers wish to attack the same target, roll all attacks as one dice pool then assign a Break die and Damage die from the entire pool. COURAGE can be added as normal from each attacker.
 
-Any STRESS from being hindered affect the entire pool.
-
 ### Attack Sequence
 
 1. **Declare target**
 2. **Target chooses defensive option** (if available)
 3. **Roll attack pool**
    - Weapon dice + any COURAGE dice (Gob die is not used, nor STRESS unless hindered)
+   - If Hindered pair the STRESS die with a matching die and discard them.
 4. **Assign dice** 
    - Pick one die as the **Break die** and one as the **Damage die.** COURAGE dice may be assigned to either
    - If Hindered any dice that match the STRESS die are discarded, unless Critical Hit
 5. **Break die beats DEF**
 6. **Assign damage**
-     - **Shield** uses absorbs damage
-     - **If no shield** - damage goes into character STRESS
+    - **Shield** uses absorbs damage
+    - **If no shield** - damage goes into character STRESS
 7. Character **STRESS full** - MEAT takes damage
      - **3 or more damage to MEAT** - roll Vital Blow
 8. MEAT hits 0 - death.
 
 > Reminder: Hindered and Bolstered in combat
-> - **Hindered** - when something significantly hinders your attack (restrained, target has cover, bad footing, darkness etc.) add 1 STRESS die to your attack pool.
+> - **Hindered** - when something significantly hinders your attack (restrained, target has cover, bad footing, darkness etc.) add 1 STRESS die to your attack pool. 
+>   - Any STRESS from being hindered affect the entire pool.
  > - **Bolstered** - when something significantly aids your attack (flanking, target is prone, surprise etc.) add one free COURAGE die to your attack pool.
 
  ### Dual Wielding
@@ -667,7 +676,7 @@ Let your players know an enemies DEF when they first attack it. They'll figure i
 - Gain 1 STRESS *or* discard 1 COURAGE to dodge an attack.
 - Cannot dodge if wearing heavy or full armour or wielding a shield.
 - The incoming attack is hindered. 
-  - **d4 dice** can't be dodged; they cannot be discarded from a STRESS die.
+- **d4 dice** can't be dodged; they cannot be discarded from a STRESS die.
 
 **Block**
 - Shields can absorb damage from attacks by marking 1 use per 1 incoming damage.
@@ -787,10 +796,14 @@ Items must always be placed in the bottom most row first, an item cannot "float"
 Items can be placed in the pack in any orientation that fits. Two-handed weapons occupy both Hand slots.
 
 #### Retrieving an item
-You can spend 1 Round retrieving an item from your pack. To do so, take any item that does not have items directly above it and place it in your equipment slots, swapping with items there if needed. To use an item from your pack you must first move it to a hand.
+You can spend 1 Round retrieving an item from your pack. 
+- You can only retrieve an item if there are no items above any part of the item you're retrieving. 
+- To use an item from your pack you must first move it to an appropriate equipment slot.
 
 #### Reorganizing your pack
-You can spend a Round to move an item up one space straight or diagonally by reorganising the items around it. You may move freely while reorganizing - it only costs your action. Choose one item you wish to reorganize and move it up to the space you wish by moving the items above it elsewhere in your pack. 
+You can spend a Round to freely reoganize the items in your pack. 
+- Conditions cannot move once they've been placed. 
+- You may move freely while reorganizing, it only costs your action.  
 
 **Standard pack size: 3 columns x 2 rows.** Maximum pack size is 3x4. Pack size is determined by Background.
 
@@ -856,9 +869,11 @@ Shields absorb incoming damage. When a shield's uses are fully marked it breaks.
 ---
 ## MAGIC SCROLLS
 
-Magic is exceedingly rare for goblins to find. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read. 
+Magic is exceedingly rare for goblins to find. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read.
 
-When they find a spell scroll they squint at it until something happens. Roll a **Flow** and a **Facet** to find out what the spell does, then commit dice for power. The player then explains what the spell does.
+Magic spells are cast with three incantations that shape the spell. They always follow Flow > Form > Facet.
+
+When goblins find a spell scroll and wish to cast it, they squint at it until something happens. Roll a **Flow**, a **Form** and a **Facet** to find out what the spell does, then commit dice for power. The player then explains what the spell does. An illiterate goblin commits to how powerful a spell is before knowing what it does.
 
 Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a usage per die. When all uses are marked the scroll turns to ash, unless Major Mishap 6 is rolled.
 
@@ -866,7 +881,7 @@ Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a u
 ### Casting
 
 1. Make a **WITS save**. On a failure you can't read the spell; swap step 2 and 3.
-2. Roll **1d12 Flow** and **1d12 Facet** to see what the spell does.
+2. Roll **1d12 Flow**, **1d12 Form** then **1d12 Facet** to see what the spell does.
 3. Declare how many dice you are committing: **1d6, 2d6, or 3d6**.
 4. Roll all power dice simultaneously.
 5. If any two dice **match** there is a Mishap. If all three match there is a Major Mishap.
@@ -904,6 +919,22 @@ When a spell calls for a save, the target rolls the relevant stat save.
 | 11 | **Shatter** | Break apart, fragment, destabilise, cause to fall to pieces |
 | 12 | **Speak** | Communicate, command, compel through words, give voice to |
 
+### Form table (d12)
+
+| d12 | Form | Shapes |
+|-----|------|--------|
+| 1 | **Sudden** | Instant, explosive, without warning, all at once |
+| 2 | **Slow** | Gradual, creeping, delayed, building over time |
+| 3 | **Wide** | Spreading, sweeping, affecting everything nearby |
+| 4 | **Deep** | Penetrating, thorough, reaching the core of a facet |
+| 5 | **Sharp** | Precise, cutting, targeted, affecting one thing exactly |
+| 6 | **Thin** | Stretched, diluted, barely-there, spread too far |
+| 7 | **Heavy** | Weighty, crushing, impossible to ignore |
+| 8 | **Hollow** | Empty at the centre, a shell, missing something vital |
+| 9 | **Bright** | Vivid, overwhelming, impossible to look away from |
+| 10 | **Tangled** | Knotted, complicated, affecting multiple things at once |
+| 11 | **Fractured** | Split, fragmented, affecting things in pieces |
+| 12 | **Distant** | Remote, removed, affecting things far away or long ago |
 
 ### Facet table (d12)
 
@@ -956,7 +987,7 @@ When all three dice match, roll on the Major Mishap table instead; the spell may
 
 ### Crafting Spell Scrolls
 
-**Crafting scrolls:** During downtime, a goblin may attempt to copy a spell as a single-use scroll with the Craft action. The Materials die is equal to the amount of charges left on the spell being copied. The tools die is based on the material being used for the scroll.
+**Crafting scrolls:** During downtime, a goblin may attempt to copy a spell as a single-use scroll with the Craft action. The Materials die is equal to the amount of charges left on the spell being copied. The tools die is based on the material being used for the scroll and the goblins skill with magic is based on their WITS.
 
 **Identifying magic items:** Make a WITS save to identify a magic item's properties without triggering it. On a failure, the item activates.
 
@@ -1001,6 +1032,7 @@ Torches have **(4*)** uses. Mark a use every **3 turns.**
 
 Goblins in darkness:
 - All saves are hindered.
+- Gain Rattled on a failed save.
 
 A torch illuminates the immediate area. Rooms beyond the torchlight are considered dark. Lanterns provide steady light and are not consumable, they just need to be refilled with oil to regain uses.
 
@@ -1670,13 +1702,17 @@ Declare what you want to make and how. The GM decides if it's plausible given wh
 |---|:---:|:---:|:---:|
 | **Materials die** | d4 | d6 | d8 |
 | **Tools die** | d4 | d6 | d8 |
+| **Magic Skill** | WITS 1-7: d4 | WITS 8-12: d6 | WITS 13+: d8 |
 
-Roll all three and assign one die each to **Quality and one to Time.**
+Roll all three and assign one die to **Quality and one to Time.** 
+
+If copying a **Spell Scroll** roll a Magic Skill die and assign Magic Skill from one die as well.
 
 | Goal | Low result | Average result | High Result |
 |---|---|---|---|
 |   | 1-3 | 4-6 | 7-8 |
 | **Quality** | Item has reduced uses | Item has normal uses | Item has bonus uses |
+| **Magic Skill** | Reroll Form & Facet | Reroll Facet | Reroll all three |
 | **Time** | Takes an additional day | Takes the day | Finished ahead of schedule, free day |
 
 Standard uses for most items starts at (3).
@@ -2663,8 +2699,8 @@ Sizes are noted as [XYZ...] where each digit represents a column and the value o
 
 > Gold values represent what a fence will pay you (roughly 20% cut from their buyer).
 > A private buyer, a collector, or someone who specifically needs the item will pay more. If you can find one.
-> For a rough full value of an item, multiply the value by 5.
-> The Gobfather's fence offers these prices as a baseline. 
+> For a rough full value of an item, multiply the value by 5 and round up.
+> When adding an item to the Hoard, use the full value for converting to XP.
 
 Roll **1d100** when generating loot.
 
@@ -2878,7 +2914,7 @@ Roll **d66** - first die is tens, second is units. Magic items cannot be crafted
 
 Roll **d100** when the party finds something worth taking or to fill a room. 
 
-> Gold values are approximate - the Gobfather's fence will have opinions.
+> Gold values are approximate full values.
 
 | d100 | Valuable | Size | Value |
 |:---:|---|:---:|:---:|
@@ -3072,7 +3108,7 @@ Each new goblin takes **1 item and 1 weapon** from the Hoard at character creati
 
 ### Goblin Names (d66)
 
-Roll twice and combine for your full name. Example: rolling 3 and 5 then 6 and 2 gives you Pox Scab.
+Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|

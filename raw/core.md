@@ -115,13 +115,15 @@ Every goblin has three stats. Roll **3d6 drop the lowest** for each, assigned in
 | **ZEST 0** | Cannot gain or spend COURAGE. Emotionally hollowed out. |
 | **WITS 0** | Feral. Must attack the nearest creature every round until restrained or knocked unconscious. |
 
-Stat damage lowers your effective stat value until you recover. Your **maximum stat value never changes.**
+Stat damage lowers your effective stat value until you recover, which also can change your save target number. Your **maximum stat value never changes.**
 
 
 ## TARGET NUMBERS & SAVES
 
 When a goblin attempts to do something that isn't guaranteed succes, they roll a "save" using one of their stats. ie: To attempt to scale a wall, roll a MEAT save.
 To do so, they roll equal to or above the target number on the **Gob Die** or any added COURAGE dice to succeed.
+
+A **6 is always succesful** and cannot be discarded by STRESS.
 
 | Stat Value | Target Number |
 |---|---|
@@ -137,10 +139,10 @@ To do so, they roll equal to or above the target number on the **Gob Die** or an
 
 ### Stress
 
-STRESS represents strain on your goblin trying to avoid mishap. It soaks damage before your stats take hits. If you have free stress available, when you would take damage you can mark STRESS for each point for damage before having to reduce MEAT.
+STRESS represents strain on your goblin trying to avoid mishap. It soaks damage before your stats take the hit. If you have free stress available, when you would take damage you can mark STRESS for each point of damage before having to reduce MEAT.
 
 - Roll **1d6** at character creation for your **STRESS Threshold** (max STRESS you can withstand). If your **ZEST is 9+**, roll **2d6 and drop the lowest** instead.
-- When your STRESS is full and you must take more or you take damage, take **stat damage** to the relevant stat instead.
+- When your STRESS is full and you must take on more, or when you take damage, take **stat damage** to the relevant stat instead.
 - Each point of STRESS is reprsented by a d6 in dice pools, up to your level. ie: level 1: 1 STRESS die, level 4: 4 STRESS dice.
 
 > Example: Crud Crud needs to make a MEAT save to leap across a cliff face. They just led the party through the forest to this cliff and are feeling quite brave, but it was a stressful endeavour. They have 3 COURAGE and have 4 STRESS marked.
@@ -162,7 +164,7 @@ COURAGE is boldness, recklessness and goblin heart. It is a tracked resource wit
 - Roll a **d4** at character creation for your **starting COURAGE pool**
 - Gain COURAGE when 
      - you **succeed on your Gob die**
-     - **2 or more** non STRESS **dice match**
+     - you **roll a 6 on one or more stress** dice
 - Spend COURAGE to add a d6 to your pool
 - Additional COURAGE sources come from backgrounds, items and special circumstances
 - A GM may award a player a COURAGE when they do something that would make their goblin feel confident
@@ -193,16 +195,16 @@ The **Gob Die** is a single **d6** and the base roll for everything. It should b
 > To help differentiate Gob dice, COURAGE and STRESS, it's useful to have different coloured d6.
 
 ### Making a save
-1. Check if any **STRESS dice match COURAGE dice** 
-     - Pair up any matching STRESS + COURAGE and discard them.
-     - Discard all **remaining STRESS** dice.
-2. Any **die meets or beats** your save: ***Success***
+1. Check if any **STRESS dice match COURAGE dice** (ignoring 6s)
+     - Discard all COURAGE dice that match any STRESS dice.
+     - Gain a courage if any STRESS show 6.
+     - Discard **all STRESS** dice.
+2. Any remaining **die meets or beats** your save: ***Success***
      - If the *Gob Die* succeeds, gain 1 COURAGE
           - If the *Gob Die succeeds on a 6, clear a STRESS*
-3. Check if **any remaining dice match**
-     - Gain 1 COURAGE for *each pair* you can make
 
-> A group save can be made by having all players taking part roll a save, if there are equal or more successes to failure it is a success.  
+> A group save can be made by having all players taking part roll a save, if there are equal or more successes to failure it is a success.
+> If players have STRESS they apply to all dice in the pool. 
 
 #### Desperation Reroll
 If you have 0 COURAGE and you roll your Gob Die, you may take 1 STRESS to reroll it, taking the new result.
@@ -211,7 +213,7 @@ A die may never be rerolled more than once.
 
 ### Hindered and Bolstered
 
-- **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This is the only way STRESS dice can be added to attack pools. 
+- **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This can exceed the STRESS level cap. This is also the only way STRESS dice can be added to attack pools. 
 - **Bolstered** - when something significantly aids you add one free COURAGE die to your dice pool.
 
 
@@ -223,7 +225,7 @@ A die may never be rerolled more than once.
 Sit down, eat something, catch your breath. Roll **d6+1** and clear that much STRESS. If in a dungeon, increase the Itch die one step.
 
 ### Long Rest
-**Takes 1 Watch (~6 Turns)**
+**Takes 1 Watch (~36 Turns)**
 A proper meal and sleep. Clears **all STRESS.** If STRESS was already fully clear, restore **d6** chronic damage from a stat.
 
 ### Full Rest
@@ -251,7 +253,8 @@ A goblin must take **at least 1 full Watch of sleep per day** or gain the **Exha
 | **Turn** | ~10 minutes | Exploration, The Itch |
 | **Watch** | ~6 hours | Long rest, travel |
 
-6 Turns = 1 Watch
+6 Turns = 1 hour
+36 Turns = 1 Watch
 4 Watches = 1 day
 
 A GM may track a day through the marking of 36 turns.
@@ -273,7 +276,7 @@ A grid like below for night, morning, afternoon and evening to represent 1 full 
 Conditions are physical tokens like the items in Loot Goblins.
 - Every goblin has two **Guts slots** that exist solely to hold a condition
 - If both Guts slots are full they must go into your **equipment slots or pack**
-- If no spaces are available, drop an item to make room, or take **d12 chronic MEAT damage**
+- If no spaces are available, drop an item to make room, or take **d12 chronic MEAT damage** as you physically try to ward off the condition
 - Conditions clear as noted on the condition table
 - Conditions can stack unless noted, ie you can gain Concussed twice making your WITS save 2 target numbers harder.
 

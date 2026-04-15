@@ -619,15 +619,17 @@ Each character gets **one action and one move** per Round. A Round is a few seco
 
 When multiple attackers wish to attack the same target, roll all attacks as one dice pool then assign a Break die and Damage die from the entire pool. COURAGE can be added as normal from each attacker.
 
+Any STRESS from being hindered affect the entire pool.
+
 ### Attack Sequence
 
 1. **Declare target**
 2. **Target chooses defensive option** (if available)
 3. **Roll attack pool**
    - Weapon dice + any COURAGE dice (Gob die is not used, nor STRESS unless hindered)
-   - If Hindered pair the STRESS die with a matching die and discard them.
 4. **Assign dice** 
-      - Pick one die as the **Break die** and one as the **Damage die.** COURAGE dice may be assigned to either
+   - Pick one die as the **Break die** and one as the **Damage die.** COURAGE dice may be assigned to either
+   - If Hindered any dice that match the STRESS die are discarded, unless Critical Hit
 5. **Break die beats DEF**
 6. **Assign damage**
      - **Shield** uses absorbs damage
@@ -642,7 +644,7 @@ When multiple attackers wish to attack the same target, roll all attacks as one 
 
  ### Dual Wielding
  
- When wielding two weapons, you may roll any d4 attack dice together with other dice as one attack; assign 1 Break and 1 damage as normal, otherwise choose only one weapon to attack with.
+When wielding two weapons, you may roll any d4 attack dice together with your other dice as one attack; assign 1 Break and 1 damage as normal, otherwise choose only one weapon to attack with.
 
 ### Critical Hits
 
@@ -663,13 +665,13 @@ Let your players know an enemies DEF when they first attack it. They'll figure i
 
 **Dodge**
 - Gain 1 STRESS *or* discard 1 COURAGE to dodge an attack.
-- Cannot dodge if wearing heavy or full armour.
+- Cannot dodge if wearing heavy or full armour or wielding a shield.
 - The incoming attack is hindered. 
-  - d4 attack dice can't be dodged; they cannot be paired with a STRESS die.
+  - **d4 dice** can't be dodged; they cannot be discarded from a STRESS die.
 
 **Block**
 - Shields can absorb damage from attacks by marking 1 use per 1 incoming damage.
-- d8 and d10 damage assigned dice are too powerful to be blocked.
+- d10 assigned damage dice are too powerful to be blocked.
 - When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses the player takes it as normal. 
 - Using most shields requires **MEAT 7 or higher.**
 
@@ -679,13 +681,13 @@ Let your players know an enemies DEF when they first attack it. They'll figure i
 1. Attacker declares attack
 2. Defender declares parry and rolls their own attack dice - assigns their Break and Damage dice.
 3. Attacker rolls - assigns their Break die and Damage dice.
-4. Higher Break die wins and deals chronic MEAT damage.
+4. Higher Break die wins and their damage deals chronic MEAT damage.
 5. Tie - weapons clang, both combatants gain 1 COURAGE, no damage dealt.
 6. COURAGE dice cannot be added to a Parry.
 
 ### Vital Blow
 
-When a creature takes **3 or more MEAT damage from an attack**, they must roll a Vital Blow. Make a MEAT save.
+When a player takes **3 or more MEAT damage from an attack**, they must roll a Vital Blow. Make a MEAT save.
 
 | Result | Effect |
 |---|---|
@@ -694,7 +696,7 @@ When a creature takes **3 or more MEAT damage from an attack**, they must roll a
 
 ### Morale Break
 
-when a monster takes 3 or more MEAT damage from an attack, it must make a ZEST save or flee/surrender. Monsters with the **Indomitable** automatically succeed on this save.
+When a monster takes 3 or more MEAT damage from an attack, it must make a ZEST save or flee/surrender. Enemies with **Indomitable** automatically succeed on this save.
 
 ### Injury Table
 

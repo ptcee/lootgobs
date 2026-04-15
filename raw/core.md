@@ -26,7 +26,7 @@
   - [GOBLIN NAMES (d66)](#goblin-names-d66)
   - [QUIRKS AND TRAITS (d66)](#quirks-and-traits-d66)
   - [ADVANCEMENT](#advancement)
-- [SECTION 3: COMBAT](#section-3-combat)
+- [SECTION 3: COMBAT](#section-3-combat-and-morale)
   - [COMBAT](#combat)
     - [Attack Sequence](#attack-sequence)
     - [Defensive Options](#defensive-options)
@@ -99,7 +99,7 @@
 
 ## STATS
 
-Every goblin has three stats. Roll **3d6 drop the lowest** for each, assigned in order: **MEAT > ZEST > WITS**
+Every goblin has **three stats**.
 
 | Stat | Covers |
 |---|---|
@@ -115,13 +115,16 @@ Every goblin has three stats. Roll **3d6 drop the lowest** for each, assigned in
 | **ZEST 0** | Cannot gain or spend COURAGE. Emotionally hollowed out. |
 | **WITS 0** | Feral. Must attack the nearest creature every round until restrained or knocked unconscious. |
 
-Stat damage lowers your effective stat value until you recover, which also can change your save target number. Your **maximum stat value never changes.**
+Stat damage lowers your effective stat value until you recover, which also can change your save target number. 
+
+Your **maximum stat value never changes.**
 
 
 ## TARGET NUMBERS & SAVES
 
-When a goblin attempts to do something that isn't guaranteed succes, they roll a "save" using one of their stats. ie: To attempt to scale a wall, roll a MEAT save.
-To do so, they roll equal to or above the target number on the **Gob Die** or any added COURAGE dice to succeed.
+When a goblin attempts to do something **that isn't guaranteed succes**, they **roll a "save"** using one of their stats. ie: To attempt to sneak past a guard roll a ZEST save.
+
+To do so you **roll a dice pool** and if the **Gob die or any single COURAGE die shows a number equal or above** the target number you succeed.
 
 A **6 is always succesful** and cannot be discarded by STRESS.
 
@@ -145,82 +148,91 @@ A **6 is always succesful** and cannot be discarded by STRESS.
 
 ### Stress
 
-STRESS represents strain on your goblin trying to avoid mishap. It soaks damage before your stats take the hit. If you have free stress available, when you would take damage you can mark STRESS for each point of damage before having to reduce MEAT.
+STRESS represents **strain on your goblin** trying to avoid mishap. It **soaks damage before your stats** take the hit. If you have free stress available, when you would take damage you can mark STRESS for each point of damage before having to reduce the MEAT.
 
-- Roll **1d6** at character creation for your **STRESS Threshold** (max STRESS you can withstand). If your **ZEST is 9+**, roll **2d6 and drop the lowest** instead.
-- When your STRESS is full and you must take on more, or when you take damage, take **stat damage** to the relevant stat instead.
-- Each point of STRESS is reprsented by a d6 in dice pools, up to your level. ie: level 1: 1 STRESS die, level 4: 4 STRESS dice.
+**Adding Panic to Dice Pools**
 
-> Example: Crud Crud needs to make a MEAT save to leap across a cliff face. They just led the party through the forest to this cliff and are feeling quite brave, but it was a stressful endeavour. They have 3 COURAGE and have 4 STRESS marked.
-> The gather their dice pool of Gob Die and because they're level 2, 2 STRESS dice. They spend 3 COURAGE to add 3 COURAGE dice. Their MEAT save target number is 3+.
-> Their full dice pool is 1g6, 3c6 and 2s6. They roll g2, c3, c4, c2, s1, s3.
-> The s3 matches the c3 so both dice are discarded. No die match the s1 so it is discarded. This leaves g2, c4, c2.
-> The COURAGE die showing a 4 beats the MEAT save of 3+ making this leap a success.
-> 
-> Marking your current stress level with a die may be easier than marking it on the character sheet.
+- Each point of **STRESS is reprsented by a d6** in dice pools, up to your level. 
+  - ie: level 1: 1 STRESS die, level 4: maximum 4 STRESS dice.
+- When rolling saves, any COURAGE **dice that match a stress die are discarded**.
+
+> STRESS dice **do not apply** to combat rolls unless hindered.
+
+> **In play:**    
+> 1. Crud Crud needs to **make a MEAT save** to leap across a cliff face. They have **3 COURAGE** and **4 STRESS marked**.
+> 2. The **gather their dice pool**; the Gob Die and because they're level 2, 2 STRESS dice. They spend 3 COURAGE to add 3 COURAGE dice. Their MEAT save target number is 3+.
+> 3. Their full dice pool is **1 Gob die, 3 COURAGE dice** and **2 STRESS dice. 6d6**.
+> 4. They roll [Gob=2, COURAGE=3-3-4, STRESS=1-3].
+> 5. The **STRESS 3 matches two COURAGE dice**. They are **both discared**. No dice match the STRESS 1.
+> 6. This leaves [Gob=2, COURAGE=4].
+> 7. The COURAGE die showing a 4 beats the MEAT save of 3+ making this save a success.
 
 ### Damage
 
-When a goblin would take damage, they can attempt to grit their way through the pain. To do so mark 1 STRESS for every incoming damage. If no STRESS is available to mark the damage goes into MEAT unless otherwise noted. When damage can't be mitigated by stress it is called chronic damage.
+When a goblin would take damage, they can attempt to grit their way through the pain. To do so **mark 1 STRESS for every 1 incoming damage**. 
+
+If **no STRESS is available** to mark the **damage goes into MEAT** unless otherwise noted. 
+
+When damage can't be mitigated by stress it is called **chronic damage**.
 
 ### Courage
 
-COURAGE is boldness, recklessness and goblin heart. It is a tracked resource with a **max cap of your ZEST stat.** Each point of COURAGE represents one six sided die. When you gain COURAGE, stack a d6 on your COURAGE slot.
+COURAGE is boldness, recklessness and goblin heart. It is a tracked resource with a **max cap of your ZEST stat.** 
 
-- Roll a **d4** at character creation for your **starting COURAGE pool**.
+Each point of COURAGE represents one six sided die. When you gain COURAGE, stack a d6 on your COURAGE slot.
+  
 - Gain COURAGE when 
      - you **succeed on your Gob die**.
      - on a **critical hit**.
-     - when you **take a risk** the entire **table agrees is stupid**.
-- Spend COURAGE to add a d6 to your pool.
+     - when you **take a risk** that the entire **table agrees is stupid**.
 - Additional COURAGE sources also come from backgrounds, items and the GM.
 - A GM may award a player COURAGE when they do something that would make their goblin feel confident or brave.
-
+  
+- Spend COURAGE to add a d6 to your pool. The maximum COURAGE you can add to your pool is your ZEST stat.
 
 
 ## THE GOB DIE
 
-The **Gob Die** is a single **d6** and the base roll for everything. It should be easily identifiable from other d6. 
+The **Gob die** represents **your goblins core**. Their natural instinct.
 
-- Anytime you succeed on the Gob Die, gain 1 COURAGE. 
-- If you succeed on the Gob Die with a 6, clear a STRESS as well.
+The Gob Die is a single **d6** and the base roll for everything. It should be easily identifiable from other d6. 
+
+- Anytime you **succeed on the Gob Die**, gain 1 COURAGE. 
+- If you succeed on the Gob Die **with a 6** clear a STRESS as well.
 
 ### Building Your Pool
 
 - **Base pool:** 1d6 (the Gob Die)
 - **COURAGE dice:** 
      - Spend COURAGE to add d6s to the pool.
-     - There is no maximum COURAGE you can add to a roll.
 - **STRESS dice:** 
      - For each point of marked STRESS, add 1 STRESS die to the pool. 
-     - The number of STRESS dice in your pool can never exceed your current level. 
-     - Additional marked STRESS beyond that still counts toward your STRESS Threshold and stat damage - it just does not add more dice to the pool. 
-     - STRESS dice are not counted as results, they only exist to cancel out other dice. 
-
-> Note: STRESS dice do not apply to combat rolls unless hindered.
+       - The number of STRESS dice in your pool can never exceed your current level. 
+     - **STRESS dice are not counted as results**, they only exist to discard other dice. 
 
 > To help differentiate Gob dice, COURAGE and STRESS, it's useful to have different coloured d6.
 
 ### Making a save
-1. Check if any **STRESS dice match COURAGE dice** (ignoring 6s)
-     - Discard all COURAGE dice that match any STRESS dice.
-     - Discard **all STRESS** dice.
-2. Any remaining **die meets or beats** your save: ***Success***
-     - If the *Gob Die* succeeds, gain 1 COURAGE
-          - If the *Gob Die succeeds on a 6, clear a STRESS*
+1. Discard any **COURAGE dice** that **match STRESS dice** (ignoring 6s).
+2. If a remaining COURAGE or Gob die **matches your save or higher**: ***Success***
+      - If the *Gob Die* succeeds, gain 1 COURAGE
+      - If the *Gob Die succeeds on a 6, clear a STRESS*
 
-> A group save can be made by having all players taking part roll a save, if there are equal or more successes to failure it is a success.
-> If players have STRESS they apply to all dice in the pool. 
+> A **group save** can be made by having all players taking part roll a save, if there are equal or more successes to failure all players succeed. COURAGE gain only comes from the individual save, not the group success.
+> If players have STRESS they apply to all dice in the group. 
 
 #### Desperation Reroll
-If you have 0 COURAGE and you roll your Gob Die, you may take 1 STRESS to reroll it, taking the new result.
+If you have **0 COURAGE** and you roll your Gob Die, you may **take 1 STRESS to reroll it**, taking the new result.
 
 A die may never be rerolled more than once.
 
 ### Hindered and Bolstered
 
-- **Hindered** - when something significantly hinders you, add 1 STRESS die to your dice pool. This can exceed the STRESS level cap. This is also the only way STRESS dice can be added to attack pools.
-- **Bolstered** - when something significantly aids you add one free COURAGE die to your dice pool.
+- **Hindered** - when something significantly hinders you, **add 1 STRESS die** to your dice pool. 
+  - This can exceed the STRESS level cap.
+  - This is also **the only way STRESS dice can be added to attack** pools.
+  
+- **Bolstered** - when something significantly aids you **add one free COURAGE die** to your dice pool.
 
 
 
@@ -235,11 +247,11 @@ Sit down, eat something, catch your breath.
 
 ### Long Rest
 **Takes 1 Watch (~36 Turns)**
-A proper meal and sleep. Clears **all STRESS.** If STRESS was already fully clear, restore **d6** chronic damage from a stat.
+A proper meal and sleep. Clears **all STRESS** and restores **d6+1** chronic damage from a stat.
 
 ### Full Rest
 **Takes 1 week in safety**
-Fully restores all stats. Removes most long-term effects.
+Fully restores STRESS and all stats. Removes most long-term effects.
 
 
 ### Eating
@@ -251,8 +263,6 @@ Rations have **(4\*)** uses. Each use represents one meal.
 ### Sleeping
 
 A goblin must take **at least 1 full Watch of sleep per day** or gain the **Exhausted** condition.
-
-
 
 ## TIME
 
@@ -279,15 +289,15 @@ A grid like below for night, morning, afternoon and evening to represent 1 full 
 | ◯ | ◯ | ◯ | ◯ | ◯ | ◯ |
 
 
-
 ## CONDITIONS
 
-Conditions are physical tokens like the items in Loot Goblins.
-- Every goblin has two **Guts slots** that exist solely to hold a condition.
+Conditions are physical tokens just like the items in Loot Goblins.
+- Every goblin has two **Guts slots** that exist solely to hold a conditions.
 - If both Guts slots are full they must go into your **equipment slots or pack**.
-- If no spaces are available, drop an item to make room, or take **d12 chronic MEAT damage** as you physically try to ward off the condition.
+- If no spaces are available, drop an item to make room or take **d12 chronic MEAT damage** as you physically try to ward off the condition.
 - Conditions clear as noted on the condition table.
 - Conditions can stack unless noted, ie you can gain Concussed twice making your WITS save 2 target numbers harder.
+- When a Condition is placed it cannot be moved until it's removed.
 
 ## CONDITIONS REFERENCE
 
@@ -295,32 +305,35 @@ All conditions are [1]
 
 | Condition | Effect | Clears |
 |---|---|---|
-| **Frightened** | Must make a ZEST save to attack | Succeed on the ZEST save or Quick rest |
+| ***Minor Conditions*** |---|---|
+| **Disoriented** | All rolls are Hindered | any Rest |
+| **Frightened** | Must make a ZEST save to attack | Succeed on the ZEST save or any rest |
+| **Chilled** | Take 1d4 ZEST damage reduced by DEF value every turn | Warmed by a fire during any Rest |
+| ***Moderate Conditions*** |---|---|
+| **Slimed** | Covers an equipment slot - that item cannot be used | When cleaned |
+| **Burning** | Take d6 MEAT damage at the start of your action | When doused or smothered |
+| **Bleed** | Take 1 MEAT damage at the start of your action | Treated with bandages/fabric |
+| **Blind** | Must make a WITS roll before attempting any action requiring sight | Wash out |
+| **Immobilized** | Cannot move | ZEST save as an action |
+| **Charmed** | Cannot attack the charmer | MEAT is reduced or ZEST save as an action |
+| **Knocked** | Knocked prone and attacks against are bolstered | Standing up |
+| ***Major Conditions*** |---|---|
 | **Winded** | MEAT target number +1 | Long Rest |
 | **Rattled** | ZEST target number +1 | Long Rest |
 | **Concussed** | WITS target number +1 | Long Rest |
-| **Disoriented** | All rolls are Hindered | Quick Rest |
 | **Poisoned** | On Vital Blow, take d4 ZEST damage (Cannot stack) | Antidote or MEAT save during long rest |
-| **Slimed** | Covers an equipment slot - that item cannot be used | When cleaned |
-| **Burning** | Take d6 MEAT damage at the start of your action | When doused or smothered |
-| **Diseased** | Cannot clear STRESS | MEAT save on rest |
-| **Bleed** | Take 1 MEAT damage at the start of your action | Treated with bandages/fabric |
-| **Blind** | Must make a WITS roll before attempting any action requiring sight | Wash out |
-| **Immobilized** | Cannot move | ZEST save |
-| **Charmed** | Cannot attack the charmer | Take MEAT damage |
-| **Chilled** | Take 1d4 ZEST damage reduced by DEF value every turn | Warmed by a fire |
-| **Knocked** | Knocked prone and attacks against are bolstered | Standing up|
-| **Unconcious** | Cannot take actions, move or speak | Splashed with water or hit by attack |
+| **Diseased** | Cannot clear STRESS | MEAT save during Long rest |
+| ***Weary Conditions*** |---|---|
 | **Hungry** | No additional effect | After eating |
 | **Fatigued** | No additional effect | Quick Rest |
 | **Exhausted** | If you would take a third Exhausted, gain Unconcious instead | Long Rest |
+| **Unconcious** | Cannot take actions, move or speak | Splashed with water, hit by attack, Long Rest |
 
-Permanent injuries occupy the relevant body slot and can only be healed by magic. As a GM, create any relevant condition you need, be creative about it!
+Permanent injuries *(found in Section 3 Combat: Vital Blow)* occupy the relevant body slot and can only be healed by magic. As a GM, create any relevant condition you need, be creative about it.
 
 
 ---
 # SECTION 2: CHARACTER CREATION
-
 
 ## THE GOBFATHERS HOARD
 
@@ -331,24 +344,26 @@ At campaign start, roll the following for the Gobfather's starting Hoard:
 - **(Player count) x2** rolls on the generic Loot Table (page X)
 - **3d10 x1000** for Hoard raw gold value
 
+Hoard items will be used for character creation and interact with many mechanics in Loot Goblins.
+
 ### The Gobfather's Ledger
 
-To help take some cognitive load off the GM a character may choose to start with the Gobfather's Ledger.   
+To help take some cognitive load off the GM a character may choose to start with the Gobfather's Ledger.
+
 This player will be known as the Accountant.
 - The accountant keeps track of the amount of gold currently in the Hoard during the campaign.
 - The accountant tallies the value of treasures added to the Hoard.
 - While in possession of the Gobfather's Ledger, their rolls are bolstered anytime they roll to interact with the Gobfather.
+  
 > Gobfather's Ledger item, folds out into sheet with spots to keep track of everything.
-
-These items will be used for character creation and interact with many mechanics in Loot Goblins.
 
 ## CHARACTER CREATION
 
-1. **Roll stats** - Roll 3d6 and drop lowest, down the line: MEAT > ZEST > WITS.
+1. **Roll stats** - Roll 3d6 and discard lowest, down the line: MEAT > ZEST > WITS.
      - Use a pen or marker to outline your max stat circles, this allows you to mark and erase lost stats with a pencil.
-2. **Roll STRESS Threshold** - Roll 1d6. If ZEST is 9+, roll 2d6 drop lowest.
-     - Use a pen or marker to outline your max stress circles, this allows you to mark and erase gained/lost stress with a pencil.
-     - It may be easier to track your current STRESS by placing a die on the STRESS spot.
+2. **Roll STRESS Threshold** - Roll 1d6. If ZEST is 9+, roll 2d6 discard lowest.
+     - Use a pen or marker to outline your max stress circles as well.
+     - It may be easier to track your current STRESS by placing a die on the STRESS spot representing the amount of STRESS you have at the moment.
 3. **Roll starting COURAGE** - Roll 1d4. Place that many d6 on your COURAGE slot.
 4. **Determine Background** - Cross-reference your highest stat with starting COURAGE. On a stat tie, choose one.
 5. **Take Background items** - Take your two class based items.
@@ -371,14 +386,14 @@ These items will be used for character creation and interact with many mechanics
 **Junkmonger** *(Strong but cowardly - the pack mule of the group)*
 - Pack: 3x4
 - Ration, torch, rope, weapon of choice
-- **Chain and pulley** - Add 1 free COURAGE die when hauling or moving heavy objects. Can move objects impossible for other goblins.
+- **Chain and pulley** - Hauling or moving heavy objects is bolstered. Can move objects impossible for other goblins.
 - Pocket scales
 
 **Sliprat** *(Slippery, avoids fighting, survives by not needing to survive)*
 - Pack: 3x2
 - Ration, torch, rope, weapon of choice
-- **Kickback Boots** - When you successfully dodge an attack, deal 1 damage to the attacker.
-- Smoke pellets (3*)
+- **Kickback Boots** - When you dodge and take no damage, deal 1 damage to the attacker.
+- Smoke pellets (3\*)
 
 **Pugpug** *(Up close and personal, punches through their problems)*
 - Pack: 2x4
@@ -390,7 +405,7 @@ These items will be used for character creation and interact with many mechanics
 - Pack: 3x1
 - Ration, torch, rope, may choose 2 weapons if both are light or med.
 - **Blood amulet** - while not wearing armour, gain DEF4.
-- Vial of rage-mushroom paste (3*)
+- Vial of rage-mushroom paste (3\*)
 
 ### ZEST Backgrounds
 
@@ -580,7 +595,9 @@ Example: rolling 3 and 5 then 6 and 2 gives you Ooze Dribble.
 
 ## ADVANCEMENT
 
-When the party returns to the Underhold, they may add any treasure they have acquired to the Hoard. Take those items and add them to the Hoard and tally up the sum value of all the items. Divide that sum evenly among all players as XP. Players may choose to not add items to the Hoard to keep for themselves or sell for gold, those items do not contribute to XP.
+When the party returns to the Underhold, they may add any treasure they have acquired to the Hoard. Take those items and add them to the Hoard and tally up the sum value of all those items. Divide that sum evenly among all players as XP. 
+
+Players may choose to not add items to the Hoard to keep for themselves or sell for gold, those items do not contribute to XP.
 
 > Players can also donate gold. 1g rewards 1 XP.
 
@@ -595,20 +612,23 @@ When the party returns to the Underhold, they may add any treasure they have acq
 
 > A stat can never naturally exceed 15, this is Loot **Goblins**, not Loot Ogres.
 
-- Roll (current level)d6 for a new STRESS Threshold. If highest die is higher than current STRESS maximum, take the new value. If not increase STRESS threshold by 1.
+- Roll (level)d6 for a new STRESS Threshold. If highest die is higher than current STRESS maximum, take the new value. If not increase STRESS threshold by 1.
 - Roll 1d6 for each stat. Whichever rolls highest increases by 1. If a tie the player chooses.
-  - At level 5 and higher, instead any stat that rolls 1 decreases by 1.
+- At level 5 and higher, instead any stat that rolls 1 decreases by 1.
 - Roll a d6. On a 1-2 roll another physical trait and quirk and add them to your goblin.
 
-A goblin peaks at level 4, this is their prime. At level 5 and above age begins to take it's toll and a goblin's stats may slowly decrease forcing death by old age or retirement.
+A goblin peaks at level 4, this is their prime.   
+At level 5 and above age begins to take it's toll and a goblin's stats may slowly decrease.   
+Players should lean into this narratively.
 
-- If a level up would cause MEAT to reduce to 0 that goblin dies of old age.
-- ZEST being reduced to 0 causes the goblin to lose their love for adventure.
-- WITS hitting 0 signifies a goblin's mind deteriorating to a point where adventuring is off the table.
+- If level up causes a stat to be reduced to 0:
+- **MEAT:** the goblin dies of old age.
+- **ZEST:** the goblin loses their love for adventure and retires.
+- **WITS:** the goblin's mind deteriorates to a point where adventuring is off the table.
 
 
 ---
-# SECTION 3: COMBAT
+# SECTION 3: COMBAT AND MORALE
 
 ## COMBAT
 
@@ -624,9 +644,13 @@ A goblin peaks at level 4, this is their prime. At level 5 and above age begins 
 
 Each character gets **one action and one move** per Round. A Round is a few seconds of combat time. Goblins can move roughly 15ft in one round.
 
+Both GMs and players should do their best to incorperate the environment into the action when possible. Playing on a grid with minis is also viable, counting each square as roughly 5 feet.
+
 ### Gang Up
 
-When multiple attackers wish to attack the same target, roll all attacks as one dice pool then assign a Break die and Damage die from the entire pool. COURAGE can be added as normal from each attacker.
+When multiple attackers wish to attack the same target, roll all attacks as one dice pool then assign a sing Break die and Damage die from the entire pool. 
+- COURAGE can be added as normal from each attacker.
+- STRESS dice affect the entire pool.
 
 ### Attack Sequence
 
@@ -634,7 +658,6 @@ When multiple attackers wish to attack the same target, roll all attacks as one 
 2. **Target chooses defensive option** (if available)
 3. **Roll attack pool**
    - Weapon dice + any COURAGE dice (Gob die is not used, nor STRESS unless hindered)
-   - If Hindered pair the STRESS die with a matching die and discard them.
 4. **Assign dice** 
    - Pick one die as the **Break die** and one as the **Damage die.** COURAGE dice may be assigned to either
    - If Hindered any dice that match the STRESS die are discarded, unless Critical Hit
@@ -648,27 +671,32 @@ When multiple attackers wish to attack the same target, roll all attacks as one 
 
 > Reminder: Hindered and Bolstered in combat
 > - **Hindered** - when something significantly hinders your attack (restrained, target has cover, bad footing, darkness etc.) add 1 STRESS die to your attack pool. 
->   - Any STRESS from being hindered affect the entire pool.
- > - **Bolstered** - when something significantly aids your attack (flanking, target is prone, surprise etc.) add one free COURAGE die to your attack pool.
+>   - Multiple things can hinder your attack but you can only be Hindered once.
+>   - Any STRESS from being hindered affects the entire pool.
+> - **Bolstered** - when something significantly aids your attack (flanking, target is prone, surprise etc.) add one free COURAGE die to your attack pool.
 
  ### Dual Wielding
  
-When wielding two weapons, you may roll any d4 attack dice together with your other dice as one attack; assign 1 Break and 1 damage as normal, otherwise choose only one weapon to attack with.
+When wielding two weapons, you must choose only one to attack with when you attack.
+- d4 dice are the exception to this and may be included in your attack pool on every attack.
+- With d4 dice added, still only assign a single Break and Damage die as normal.
 
 ### Critical Hits
 
-After rolling your attack if you break the targets defenses and both assigned dice show the same value this is a critical hit. Roll an additional Damage die of the same type assigned and deal the sum of all Damage dice. This additional die can also critically hit if it rolls the same value as the Break and Damage dice.
+After rolling your attack if you break the targets defenses and both assigned dice show the same value this is a **critical hit**. 
+- **Roll an additional Damage die of the same type assigned** then deal the sum of all Damage dice. 
+- This **additional die can also critically hit** if it rolls the same value as the Break and Damage dice.
 
-Critcal hits cannot be discarded from STRESS dice.
+Critcal hits **cannot be discarded** from STRESS dice.
 
 
 ### Defense
 
-The Break die must beat the target's **defense (DEF)** for the attack to land. If it does not, the attack misses.
+The Break die must beat the target's **defense (DEF)** for the attack to land. If it does not, the attack is thwarted.
 
-Let your players know an enemies DEF when they first attack it. They'll figure it out after the first attack anyway and this will just speed up resolving attacks.
+**Let your players know an enemies DEF** when they first attack it. They'll figure it out after the first attack anyway and this will speed up resolving attacks.
 
-> The enemy has DEF3. Snot Rot rolls a 4 and a 1 on their attack dice. They assign the 4 to Break and the 1 to damage. The 4 Break beats the DEF3 therefore the attack hits and deals 1 damage to the enemy.
+> The enemy has DEF3. Snot Rot rolls a 4 and a 1 on their attack dice. They assign the 4 to Break and the 1 to damage. The 4 Break beats DEF3 therefore the attack hits and deals 1 damage to the enemy.
 
 ### Defensive Options
 
@@ -676,17 +704,17 @@ Let your players know an enemies DEF when they first attack it. They'll figure i
 - Gain 1 STRESS *or* discard 1 COURAGE to dodge an attack.
 - Cannot dodge if wearing heavy or full armour or wielding a shield.
 - The incoming attack is hindered. 
-- **d4 dice** can't be dodged; they cannot be discarded from a STRESS die.
+- **d4 dice** can't be dodged; they can never be discarded.
 
 **Block**
 - Shields can absorb damage from attacks by marking 1 use per 1 incoming damage.
-- d10 assigned damage dice are too powerful to be blocked.
+- d10 assigned **Damage dice** are too powerful to be blocked.
 - When a shield's uses are fully marked it breaks. If damage exceeds remaining shield uses the player takes it as normal. 
 - Using most shields requires **MEAT 7 or higher.**
 
 **Parry**
 
-- If wielding multiple weapons, choose one to Parry with.
+- If wielding multiple weapons, choose one to Parry with. d4 are not added to these rolls.
 1. Attacker declares attack
 2. Defender declares parry and rolls their own attack dice - assigns their Break and Damage dice.
 3. Attacker rolls - assigns their Break die and Damage dice.
@@ -793,7 +821,7 @@ Items are stored on a grid. You may only retrieve **items that do not have items
 
 Items must always be placed in the bottom most row first, an item cannot "float" above empty spaces under it.
 
-Items can be placed in the pack in any orientation that fits. Two-handed weapons occupy both Hand slots.
+Items can be placed in the pack in any orientation that fits.
 
 #### Retrieving an item
 You can spend 1 Round retrieving an item from your pack. 
@@ -838,7 +866,8 @@ All weapons have (3) unless stated otherwise.
 | **Ranged Light** | rd4+rd6 | [1] | Is it's own ammunition. (5) standard, d4 dice cannot be discarded due to Dodge |
 | **Ranged Heavy** | rd6+rd8 | [11] | Requires ammunition equipped such as Quiver(5) |
 
-Ranged dice will be noted as **rd** ie: 1rd6 for a ranged d6.
+> Ranged dice will be noted as **rd** ie: 1rd6 for a ranged d6.
+> Two-handed weapons occupy both Hand slots.
 
 
 ## ARMOUR
@@ -876,6 +905,8 @@ Magic spells are cast with three incantations that shape the spell. They always 
 When goblins find a spell scroll and wish to cast it, they squint at it until something happens. Roll a **Flow**, a **Form** and a **Facet** to find out what the spell does, then commit dice for power. The player then explains what the spell does. An illiterate goblin commits to how powerful a spell is before knowing what it does.
 
 Spell Scrolls occupy [1] and have **3 uses**. Commiting dice for power marks a usage per die. When all uses are marked the scroll turns to ash, unless Major Mishap 6 is rolled.
+
+**Identifying magic items:** Make a WITS save to identify a magic item's properties without casting it. On a failure, the item activates.
 
 
 ### Casting
@@ -984,20 +1015,10 @@ When all three dice match, roll on the Major Mishap table instead; the spell may
 | 5 | **Swap:** Caster and target exchange positions and current STRESS. WITS save to resist. |
 | 6 | **Amplified:** Spell casts and regains all uses. |
 
-
-### Crafting Spell Scrolls
-
-**Crafting scrolls:** During downtime, a goblin may attempt to copy a spell as a single-use scroll with the Craft action. The Materials die is equal to the amount of charges left on the spell being copied. The tools die is based on the material being used for the scroll and the goblins skill with magic is based on their WITS.
-
-**Identifying magic items:** Make a WITS save to identify a magic item's properties without triggering it. On a failure, the item activates.
-
-#### Tips 
-The 144 Flow and Facet combinations are intentionally open. When a goblin rolls a result, get the player to give a brief description of the spell and roll with it. A few principles:
-
-- **Scale with tier:** 1d6 is a minor inconvenience affecting one thing for one moment. 3d6 fills a room and lasts the turn. The same Blast Flesh at tier 1 chips bone; at tier 3 it detonates creatures.
-- **Saves match the threat:** Physical effects hit MEAT. Fear and compulsion hit ZEST. Illusions and mental effects hit WITS.
-- **Weird combinations are the point:** Cloak Hunger, Rot Name, Speak Door - lean into them. The spell table is designed to create chaotic creative results.
-- **Reversed mishaps are a gift:** When result 6 comes up on the minor table, ask the player what the opposite of this spell would be and make it happen.
+> - **Scale with tier:** 1d6 is a minor inconvenience affecting one thing for one moment. 3d6 fills a room and lasts the turn. The same Blast Flesh at tier 1 chips bone; at tier 3 it detonates creatures.
+> - **Saves match the threat:** Physical effects hit MEAT. Fear and compulsion hit ZEST. Illusions and mental effects hit WITS.
+> - **Weird combinations are the point:** Cloak Hunger, Rot Name, Speak Door - lean into them. The spell table is designed to create chaotic creative results.
+> - **Reversed mishaps are a gift:** When result 6 comes up on the minor table, ask the player what the opposite of this spell would be and make it happen.
 
 ---
 # SECTION 5: EXPLORING DUNGEONS
@@ -1698,24 +1719,32 @@ Spend a day doing something scrappy in The City - odd jobs, running errands for 
 
 Declare what you want to make and how. The GM decides if it's plausible given what you have. Provide your materials and tools - the quality of each determines the size of the dice you roll.
 
+**Crafting scrolls:** A goblin may attempt to copy a spell as a single-use scroll with the Craft action from a spellbook or another scroll. The Materials die is equal to the amount of charges left on the spell being copied. The tools die is based on the object being used for the scroll itself and the goblins skill with magic is based on their WITS.
+
+**Junk-mixing** A goblin can attempt to combine consumables into more powerful consumables. Combine 2 consumables *OR* 1 consumable + 1 item as your Materials. 
+
+Materials total value determines the die used.   
+1-20 gold: Poor | 21-50 gold: Adequate | 51+ gold: Good
+
+Tools depend on what the player presents. Barehands is poor. A hammer is adequate. A toolbench is good.
+
 | | Poor | Adequate | Good |
 |---|:---:|:---:|:---:|
 | **Materials die** | d4 | d6 | d8 |
 | **Tools die** | d4 | d6 | d8 |
 | **Magic Skill** | WITS 1-7: d4 | WITS 8-12: d6 | WITS 13+: d8 |
 
-Roll all three and assign one die to **Quality and one to Time.** 
-
-If copying a **Spell Scroll** roll a Magic Skill die and assign Magic Skill from one die as well.
+Roll the crafting pool and assign one die to **Quality, Time and Magic Skill if needed.** 
 
 | Goal | Low result | Average result | High Result |
 |---|---|---|---|
 |   | 1-3 | 4-6 | 7-8 |
 | **Quality** | Item has reduced uses | Item has normal uses | Item has bonus uses |
-| **Magic Skill** | Reroll Form & Facet | Reroll Facet | Reroll all three |
 | **Time** | Takes an additional day | Takes the day | Finished ahead of schedule, free day |
+| **Magic Skill** | Reroll Flow & Form | Reroll Facet | Reroll none |
+| **Junk-mix** | Materials destroyed. Gain Rattled. | Combine both effects into one. | Combine both effects into one, remove a downside. |
 
-Standard uses for most items starts at (3).
+Standard uses for crafted items starts at (3).
 
 ---
 
@@ -2836,6 +2865,73 @@ Roll **1d100** when generating loot.
 
 ---
 
+## CONSUMABLES
+
+There are two kinds of courage in the Underhold. The kind you earn and the kind you ingest. The second kind is significantly more popular.
+
+Consumables marked ~ can be used as a free action.
+
+All consumables below are [1].
+
+### Basic Consumables
+| d66 | Item | Common Seller | Value | Effect |
+|:---:|---|---|:---:|---|
+| 11 | Bent Cigarettes~ (3\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Fatigued. |
+| 12 | Fungus Roll~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Gain Rattled. |
+| 13 | Cracked Adrenal Vial~ (2\*) | Black Market | 14g | Gain +2 COURAGE. Take 1 MEAT damage next Turn. |
+| 14 | Pocket Snuff~ (4\*) | Lowfling Bakers | 7g | Remove Disoriented. Gain Rattled. |
+| 15 | Rotgut Swig~ (3\*) | The Planks | 5g | Gain +1 COURAGE. All rolls are Hindered next turn. |
+| 16 | Charred Beetle~ (4\*) | Kobold Kitchens | 6g | Clear 1 STRESS. Gain Frightened. |
+| 21 | Rage Mushroom~ (3\*) | Underhold Growers | 10g | Gain +2 COURAGE. Must attack nearest creature next action. |
+| 22 | Glow Slime Capsule~ (3\*) | Kobold Alchemists | 9g | Remove Blind. Gain Slimed. |
+| 23 | Bone Dust Pinch~ (4\*) | Temple Row (Crypts) | 11g | Next attack is Bolstered. Gain Concussed. |
+| 24 | Sour Tonic~ (3\*) | Whyzicians | 9g | Clear d4 STRESS. Gain Winded. |
+| 25 | Stolen Perfume~ (2\*) | Pale Ward | 15g | Remove Frightened. Gain Charmed (closest enemy). |
+| 26 | Grease Lump~ (3\*) | The Anvil | 7g | Ignore Immobilized for one turn. Gain Slimed. |
+| 31 | Spark Powder~ (3\*) | The Anvil | 10g | Next attack deals +1 damage. Gain Burning (1 round). |
+| 32 | Gutter Croissant~ (4\*) | Lowfling Bakers | 8g | Counts as ration. Clear +1 STRESS on next rest. |
+| 33 | Nerve Tap Needle~ (2\*) | Black Market | 16g | Next MEAT damage becomes STRESS. Gain Diseased. |
+| 34 | Whisper Leaf~ (3\*) | Underhold Street Trade | 7g | Remove Frightened. Gain Disoriented. |
+| 35 | Bottle of Something~ (3\*) | The Planks | 6g | Gain +1 COURAGE. If alone, gain Rattled. |
+| 36 | Hot Coal Bite~ (2\*) | The Anvil | 5g | Remove Chilled. Take 1 MEAT damage. |
+| 41 | Flash Salt~ (3\*) | Kobold Alchemists | 12g | Blind all adjacent creatures (including you). |
+| 42 | Leech Jar~ (2\*) | Whyzicians | 9g | Remove Bleed. Take 1 ZEST damage. |
+| 43 | Twitch Serum~ (3\*) | Black Market | 13g | Gain +1 COURAGE. Gain Disoriented. |
+| 44 | Cracked Focus Lens~ (2\*) | Black Market | 12g | Ignore Hindered on next roll. Gain Concussed. |
+| 45 | Pickled Eye~ (3\*) | Temple Row | 11g | Roll twice on next WITS save, take the best. Gain Rattled. |
+| 46 | Ash Chew~ (4\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Chilled. |
+| 51 | Spine Juice~ (2\*) | Whyzicians | 10g | Immediately stand up, remove Knocked. Gain Winded. |
+| 52 | Screamer Powder~ (3\*) | The Planks | 8g | Gain +1 COURAGE. All enemies become aware of you. |
+| 53 | Sticky Gland~ (3\*) | Kobold Alchemists | 11g | Next hit automatically Breaks DEF. Gain Immobilized next turn. |
+| 54 | Rotfruit Mash~ (4\*) | Underhold Growers | 7g | Counts as ration. Gain Poisoned. |
+| 55 | Flicker Candle Stub~ (3\*) | Temple Row | 9g | Remove Blind for one Turn, then regain it. |
+| 56 | Black Milk (2\*)~ | Smugglers | 18g | Gain +2 COURAGE. Take 1 WITS damage. |
+| 61 | Deadman’s Teeth~ (2\*) | Temple Row (Crypts) | 14g | Ignore Vital Blow once. Gain Frightened. |
+| 62 | Salted Wire~ (3\*) | The Anvil | 7g | Clear 1 STRESS. Take 1 MEAT damage. |
+| 63 | Gutter Honey~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Attract nearby creatures. |
+| 64 | Glass Shard~ Chew~ (2\*) | The Planks | 10g | Next attack deals +2 damage. Take 1 MEAT damage. |
+| 65 | Old War Powder~ (1\*) | Black Market | 20g | Gain +3 COURAGE. Gain Concussed and Rattled. |
+| 66 | Unstable Notes (1\*) | Wizards | — | Gain +2 COURAGE. Then cast a spell. |
+
+### Rare Black Market Consumables
+
+Illegal, unstable and single use.
+
+| d10| Item | Value | Effect |
+|:---:|---|:---:|---|
+| 1 | Void Flask~ | 40g | Ignore all STRESS for one roll. After take STRESS equal to number of dice rolled. |
+| 2 | Redline Serum~ | 35g | Gain +3 COURAGE. Take 2 chronic MEAT damage next Turn. |
+| 3 | Ghost Salt~ | 30g | Become untargetable for one Round. Gain Frightened. |
+| 4 | Bonefire Dust~ | 32g | Next attack automatically hits and deals +2 damage. Gain Burning. |
+| 5 | Memory Worm~ | 28g | Reroll a roll. Take 1 chronic WITS damage. |
+| 6 | King’s Breath~ | 45g | Clear all STRESS. Gain Concussed and Rattled. |
+| 7 | Black Lantern Oil	| 33g | Reveal all hidden things nearby. Trigger an encounter and reset the Itch. |
+| 8 | Chainbreaker Gel~ | 30g | Ignore all conditions for one turn. Then gain a random condition. |
+| 9 | Grinning Tonic~ | 25g | Gain +2 COURAGE. Cannot retreat until next Turn. |
+| 10 | Saint’s Ash~ | 50g | Ignore death. If MEAT hits 0 this Round it goes to 1 then permanently lose 1 ZEST. |
+
+---
+
 ## MAGIC ITEMS
 
 Roll **d66** - first die is tens, second is units. Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.
@@ -3100,7 +3196,7 @@ Each new goblin takes **1 item and 1 weapon** from the Hoard at character creati
 | 15 | Grappling hook | - | [1] | 10g | With 30ft rope. |
 | 16 | Poison vial | (2\*) | [1] | 40g | Apply to weapon, Poisoned on hit. |
 | 17 | Tattered cloak | - | [1] | 5g | Bolstered when hiding. |
-| 18 | Cigarettes | (6\*) | [1] | 10g | On use clears 3 STRESS. Using more than 1 between rests causes Winded. |
+| 18 | Cigarettes | (6\*) | [1] | 10g | Clear 3 STRESS. Gain Fatigue. |
 | 19 | Small Whistle | - | [1] | 3g | Alert allies or distract enemies. |
 | 20 | Bag of marbles | - | [1] | 4g | Scatter, creatures must MEAT save or be Knocked. |
 

@@ -835,8 +835,6 @@ You can spend a Round to freely reoganize the items in your pack.
 
 **Standard pack size: 3 columns x 2 rows.** Maximum pack size is 3x4. Pack size is determined by Background.
 
-**Encumbrance:** If encumbered, you cannot run and you gain 1 STRESS when creating any dice pool, including combat.
-
 ### Item Usage
 
 Items have a number of uses shown as **(n).** After using an item mark a use. During combat, do not mark a use after each attack, instead after combat is over roll a d6 for all weapons and armour used. On a 1-2, mark one use. 

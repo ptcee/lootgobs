@@ -2242,6 +2242,8 @@ The Gobfather's reach extends into the near ring. Jobs, contacts and rivals oper
 
 ## BUILDING A DUNGEON
 
+> convert to wallet dungeon system?
+
 A dungeon should be a place with a history, a present and a problem. The history explains why it exists. The present explains who is in it now and why. The problem is what makes it interesting to venture into.
 
 Before you design a single room, answer three questions:

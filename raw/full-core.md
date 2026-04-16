@@ -5,6 +5,8 @@
 
 > 📖 Alright folks, settle in. Get a cup of tea or whatever filth you drink. Let me explain the journey you're about to take. So, there is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned home to find the things they left behind.
 
+---
+
 The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed and the streets above are full of people too tired to notice tiny shadows scurrying about.
 
 The Rusty Fang fills up around bell three and a bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
@@ -14,6 +16,8 @@ A folded note arrives by the hand of a nervous Lowfling who refuses to make eye 
 They eat. They argue about who carries the rope. They fill up their packs. The city above does not know they exist, which is, to be quite honest, exactly how everyone prefers it.
 
 They go up into the dark.
+
+---
 
 ## INDEX
 - [SECTION 1: CORE MECHANICS](#section-1-core-mechanics)

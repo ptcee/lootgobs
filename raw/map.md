@@ -29,9 +29,9 @@
 <text x="243.4" y="279.0" text-anchor="middle" font-size="11" font-weight="600" fill="#04342C">W</text>
 <text x="243.4" y="292.0" text-anchor="middle" font-size="8.5" fill="#04342C" opacity="0.85">Forest</text>
 <polygon points="332.6,183.5 332.6,236.5 286.7,263.0 240.8,236.5 240.8,183.5 286.7,157.0" fill="none" stroke="rgba(60,60,60,0.25)" stroke-width="1.5" stroke-dasharray="5 3"/>
-<polygon points="329.1,185.5 329.1,234.5 286.7,259.0 244.3,234.5 244.3,185.5 286.7,161.0" fill="#EF9F27" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
-<text x="286.7" y="204.0" text-anchor="middle" font-size="11" font-weight="600" fill="#412402">NW</text>
-<text x="286.7" y="217.0" text-anchor="middle" font-size="8.5" fill="#412402" opacity="0.85">Desert</text>
+<polygon points="329.1,185.5 329.1,234.5 286.7,259.0 244.3,234.5 244.3,185.5 286.7,161.0" fill="#D3D1C7" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
+<text x="286.7" y="204.0" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">NW</text>
+<text x="286.7" y="217.0" text-anchor="middle" font-size="8.5" fill="#2C2C2A" opacity="0.85">Tundra</text>
 <polygon points="285.8,110.5 285.8,159.5 243.4,184.0 201.0,159.5 201.0,110.5 243.4,86.0" fill="#97C459" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
 <text x="243.4" y="129.0" text-anchor="middle" font-size="11" font-weight="600" fill="#173404">N</text>
 <text x="243.4" y="142.0" text-anchor="middle" font-size="8.5" fill="#173404" opacity="0.85">Grassland</text>
@@ -65,19 +65,21 @@
 <polygon points="199.2,260.5 199.2,309.5 156.8,334.0 114.4,309.5 114.4,260.5 156.8,236.0" fill="#EF9F27" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
 <text x="156.8" y="279.0" text-anchor="middle" font-size="11" font-weight="600" fill="#412402">WNW</text>
 <text x="156.8" y="292.0" text-anchor="middle" font-size="8.5" fill="#412402" opacity="0.85">Desert</text>
-<polygon points="242.5,185.5 242.5,234.5 200.1,259.0 157.7,234.5 157.7,185.5 200.1,161.0" fill="#EF9F27" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
-<text x="200.1" y="204.0" text-anchor="middle" font-size="11" font-weight="600" fill="#412402">NNW</text>
-<text x="200.1" y="217.0" text-anchor="middle" font-size="8.5" fill="#412402" opacity="0.85">Desert</text>
+<polygon points="242.5,185.5 242.5,234.5 200.1,259.0 157.7,234.5 157.7,185.5 200.1,161.0" fill="#D3D1C7" stroke="rgba(0,0,0,0.12)" stroke-width="0.5"/>
+<text x="200.1" y="204.0" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">NNW</text>
+<text x="200.1" y="217.0" text-anchor="middle" font-size="8.5" fill="#2C2C2A" opacity="0.85">Tundra</text>
 <rect x="20" y="520" width="12" height="12" fill="#97C459" rx="2"/>
-<text x="36" y="529" font-size="10" fill="#444">Grassland</text>
-<rect x="140" y="520" width="12" height="12" fill="#5DCAA5" rx="2"/>
-<text x="156" y="529" font-size="10" fill="#444">Forest</text>
-<rect x="260" y="520" width="12" height="12" fill="#EF9F27" rx="2"/>
-<text x="276" y="529" font-size="10" fill="#444">Desert</text>
-<rect x="380" y="520" width="12" height="12" fill="#B4B2A9" rx="2"/>
-<text x="396" y="529" font-size="10" fill="#444">Mountain</text>
-<rect x="500" y="520" width="12" height="12" fill="#7F77DD" rx="2"/>
-<text x="516" y="529" font-size="10" fill="#444">City</text>
+<text x="36" y="529" font-size="10" fill="#555">Grassland</text>
+<rect x="123" y="520" width="12" height="12" fill="#5DCAA5" rx="2"/>
+<text x="139" y="529" font-size="10" fill="#555">Forest</text>
+<rect x="226" y="520" width="12" height="12" fill="#EF9F27" rx="2"/>
+<text x="242" y="529" font-size="10" fill="#555">Desert</text>
+<rect x="329" y="520" width="12" height="12" fill="#B4B2A9" rx="2"/>
+<text x="345" y="529" font-size="10" fill="#555">Mountain</text>
+<rect x="432" y="520" width="12" height="12" fill="#D3D1C7" rx="2"/>
+<text x="448" y="529" font-size="10" fill="#555">Tundra</text>
+<rect x="535" y="520" width="12" height="12" fill="#7F77DD" rx="2"/>
+<text x="551" y="529" font-size="10" fill="#555">City</text>
 </svg>
 
 **Terrain key:** Grassland (green) · Forest (teal) · Desert (amber) · Mountain (gray) · City (purple)
@@ -166,13 +168,13 @@ Each hex is approximately 20km across.
 
 ---
 
-## INNER NW — Desert
+## INNER NW — Tundra
 
-**Dungeon:** The Orrelian desert begins closer to Glimmerhold than most maps acknowledge, starting in the scrubland northwest of the city where the soil turned wrong two generations ago. What collapsed here was a fort — still mostly standing, one tower intact, the rubble fortified into rough walls by whoever moved in after. The basement the new occupants haven't fully explored is the reason the Gobfather wants someone sent in quietly.
+**Dungeon:** The land northwest of Glimmerhold turns hard and cold faster than any map prepares you for — a frost-scoured stretch of scrub where the ground stays frozen two hands deep even in the Bright. What's here is a fort from a campaign old enough that nobody agrees on the name of the war: still mostly standing, one tower intact, rubble fortified into rough walls by whoever moved in after the last garrison left. The basement the new occupants haven't fully explored is the reason the Gobfather wants someone sent in quietly.
 
-**Landmark:** *A crater, recent, with no obvious cause.* Third impact site near the city in as many years. The Watch has filed a report. The report has been filed somewhere.
+**Landmark:** *A crater, recent, with no obvious cause.* Third impact site near the city in as many years. The soil around the rim is blasted down to permafrost. The Watch has filed a report. The report has been filed somewhere.
 
-**Rumour:** *"It's not a fort. It looks like a fort on the outside and it is not a fort. Everyone who lives near there knows this and says nothing because the thing it actually is is worse than a fort."*
+**Rumour:** *"It's not a fort. It looks like a fort on the outside and it is not a fort. Everyone who lives near there knows this and says nothing because the thing it actually is, is worse than a fort."*
 
 **Wandering Faction:** A rival goblin crew on a job. Possibly the same job. Definitely operating on older information than the party has.
 
@@ -316,13 +318,13 @@ Each hex is approximately 20km across.
 
 ---
 
-## OUTER NNW — Desert
+## OUTER NNW — Tundra
 
-**Dungeon:** The desert begins in the scrubland northwest of Glimmerhold and what looks from the city road like an abandoned settlement is instead a settlement in the process of being reclaimed. Someone emptied it out, someone else moved back in, and whoever moved back in has been there long enough to understand what the original occupants found and left behind. The above-ground buildings are a front. The below-ground component was the reason the settlement existed and is the reason it was abandoned and is the reason someone came back.
+**Dungeon:** The tundra northwest of Glimmerhold swallows things and keeps them. What looks from the city road like an abandoned settlement is a settlement in the process of being reclaimed — someone emptied it out, someone else moved back in, and whoever moved back in has been there long enough to understand what the original occupants found preserved in the permafrost below. The above-ground buildings are a front. The below-ground component is why the settlement existed, why it was abandoned, and why someone came back.
 
-**Landmark:** *A unique enormous tree* standing in the middle of the desert that has no geological reason to be there, alive or otherwise. The locals know it as a waymarker. The locals are correct. What it marks from, and what it marks toward, are questions whose answers are in the building below the abandoned settlement.
+**Landmark:** *A unique enormous tree* standing alone in the frost-hardened scrub with no geological reason to be alive, let alone this size. The locals know it as a waymarker. The locals are correct. What it marks from, and what it marks toward, are questions whose answers are in the structure below the abandoned settlement.
 
-**Rumour:** *"There's a road through the desert northwest of the city that leads somewhere much more dangerous than the desert. Most travellers go around. The ones who go through don't come back looking like they went somewhere more dangerous. They come back looking like they made a decision and are living with it."*
+**Rumour:** *"There's a road northwest of the city that leads somewhere much more dangerous than the tundra. Most travellers go around. The ones who go through don't come back looking like they went somewhere dangerous. They come back looking like they made a decision and are living with it."*
 
 **Wandering Faction:** A Watch patrol outside its jurisdiction, professional, with a warrant and correct paperwork and a purpose they haven't shared with their superiors.
 

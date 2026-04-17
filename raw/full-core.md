@@ -126,7 +126,7 @@ A **6 is always succesful** and cannot be discarded by STRESS.
 > - Failed lockpick, you pick the lock, but your lockpick breaks off in the door and it cannot be closed again. 
 > - Fail stealth, you’re seen but you still manage to get to the position you're trying to get.
 >
-> As a GM, keep in mind "yes, but" and "no, and" when players are rolling saves.
+> As a GM, keep in mind "yes, but" and "no and" when players are rolling saves.
 
 ## STRESS, DAMAGE & COURAGE
 
@@ -3513,170 +3513,175 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | **5** | Joint-Cracker | Soot-Rubber | Name-Hider | Moon-Howler | Door-Sniffer | Trash-Trader |
 | **6** | Vomit-Pointer | Meat-Shunner | Bile-Reader | Sleep-Giggler | Tall-Tale Teller | Hoard-Sniffer |
 
-
 ---
 
 ## REGIONAL HEX TABLES
 
 ### Forest
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A ruined watchtower swallowed by the canopy. The upper floor is inaccessible from outside. |
-| 2 | A druidic enclave, active, unwelcoming to visitors. They have wards. |
-| 3 | An abandoned logging camp. The equipment is still here. So is something else. |
-| 4 | A cave system beneath the roots of an enormous dead tree. |
-| 5 | A hunter's camp grown into a fortified outpost. Several factions are paying for their loyalty. |
-| 6 | An old burial mound half covered by roots. Something is growing out of it. |
-| 7 | A poacher ring's hidden processing site. Very illegal, very profitable. |
-| 8 | Two logging factions are cutting toward the same grove. One of them knows what lives there. |
-| 9 | A trail through the forest that looks well-maintained. No one admits to maintaining it. |
-| 10 | The dungeon is hidden beneath the forest floor. WITS save or local knowledge to find. Roll again. |
+| 1 | A watchtower consumed by the canopy, the trunk has grown through every floor, the upper levels accessible only by climbing and something has been nesting at the top. |
+| 2 | A druidic enclave built into the living root network of an ancient grove, the trees grown into walls and ceilings across a dozen chambers; the druids have been here longer than the city. |
+| 3 | An abandoned logging camp frozen mid-operation, tools still in the wood, meals still on the table, barracks still bunked and something in the tree line that has been keeping it exactly this way. |
+| 4 | A cave system threading deep beneath the roots of a dead tree the size of a manor house. The roots have grown down into the tunnels over the centuries, searching for something and appear to have found it in the lower chambers. |
+| 5 | A hunter's outpost that quietly became a fortified compound over years of expansion. Multiple buildings, a makeshift wall and watch towers. They're protecting something. |
+| 6 | A barrow mound so old the forest has swallowed it entirely. Roots cracking the stone, strange vegetation growing up through the burial chambers, the whole structure is alive in ways burial structures should not be. |
+| 7 | A hidden yet sprawling operation from which a poaching ring processes, stores and ships contraband across the realm. Guards, locked storage, a nervous manager and product that raises serious questions about what exactly is being poached. |
+| 8 | A living grove made of ancient trees with hollowed interiors, tunnels between the roots. Something stirs in the centre. |
+| 9 | A stone structure deep in the forest, reached by a trail so well maintained it must have a keeper: multiple rooms, occupied or recently so, appearing on no map and acknowledged by no one in any nearby settlement. |
+| 10 | The dungeon is hidden beneath the forest undergrowth. WITS save or local knowledge required to find it. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A tree wider than a house, carved with faces. | A path appears only at dusk; leads off-map. | A poaching crew; not interested in company. |
-| **2** | A clearing where nothing grows; soil is black. | A logging crew vanished; boots were missing. | A patrol of druidic wardens; watching closely. |
-| **3** | A recent rope bridge over a gorge; no builder. | Something talks back, but the timing is off. | Goblins following a tip to the party’s goal. |
-| **4** | A standing pool reflecting sky, even at night. | Poachers pay better than honest work; secret prey. | A timber merchant's survey team; mapping. |
-| **5** | A battlefield of old monster bones and dead knights. | Rival crews fighting over a mystery clearing. | Something territorial following for half a day. |
-| **6** | A 10m wooden idol with fresh offerings. | The burial mound was opened from the inside. | Refugees from a burned settlement. |
-| **7** | A ruined mill; the wheel is still turning. | Travellers arrive with things they didn't pick up. | A lone trapper who knows every trail. |
-| **8** | House-sized, luminescent mushrooms. | Druids have something the Gobfather wants. | A Watch detachment pursuing a target. |
+| **1** | A tree wider than a house, every inch of bark carved with faces. | *"There's a path through those trees that only shows up at dusk. Edna followed it once. She came back but she won't say where it goes."* | A poaching crew on a circuit route. Not hostile, but not interested in witnesses. |
+| **2** | A clearing where the soil is black and nothing grows; the silence within it is different from the silence outside. | *"That logging crew, the Holt Brothers outfit? Went in three weeks ago. Found their tools. Found their camp. Didn't find their boots."* | Druid wardens on a slow patrol; not violent, but don't harm the trees. |
+| **3** | A small logging settlement of a few dozen workers, technically temporary, technically not a town. There's a cookhouse, a foreman's office, a locked company storehouse and people who've been "temporary" here for years. | *"You shout in that part of the forest and something shouts back. Sounds exactly like you, just much deeper."* | A goblin crew following a tip that leads them to exactly where the party is going. |
+| **4** | A pond that gives off no reflections. | *"The poachers in there are paying double what the tanners do. Nobody's asking what they're hunting and that's part of the deal."* | A lumber merchant's survey team, cheerful, mapping land they have no permission to map. |
+| **5** | An enormous battlefield of bones, horses and riders both, old enough that the armour has rusted into the soil. | *"There's a clearing in the deep wood where two groups have been fighting for three months. Not sure what they're fighting over."* | Something large and territorial that has been following the party since the hex border. |
+| **6** | A wooden idol on a hill, ten metres tall and recently repainted, with fresh offerings piled at its base every morning. | *"The old barrow in the Thornwood - someone opened it from the inside. I'm telling you what I saw."* | Refugees from a settlement that burned, moving through the trees to avoid the road. |
+| **7** | A ruined watermill on a fast stream, collapsed above the wheel, the wheel still turning with nowhere to send the power. | *"Three travellers came through last tenday, all of them carrying things they swore they didn't pack. Couldn't explain where the stuff came from."* | A trapper who knows every safe path through this hex and would rather die than share that knowledge. |
+| **8** | A cluster of mushrooms the size of houses, faintly luminescent, growing in a ring around something buried at the centre. | *"The druids out that way have something the Gobfather has been trying to buy for six months. He's been very, very polite about it. That's how you know he wants it badly."* | A Watch detachment pursuing someone who ran into the forest; they haven't found them and they're getting nervous. |
 
 ---
 
 ### Desert
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A buried ruin, partially excavated. Something stopped the dig and equipment was left. |
-| 2 | A monastery carved into a mesa, still occupied by a dwindling order. |
-| 3 | A ghost town, built fast, abandoned faster. Tracks lead in but not out. |
-| 4 | A sinkhole revealing catacombs below the dune line. The air coming up is wrong. |
-| 5 | A caravan camp that hasn't moved in months. The goods are still loaded. |
-| 6 | A mass grave marked by standing stones, each carved with a different name. |
-| 7 | An excavation, still active, funded by someone who hasn't visited in a while. |
-| 8 | Two water-rights claimants at open war over a well that appeared after a storm. |
-| 9 | A traveller's waystation that offers hospitality. The hospitality is a trap. |
-| 10 | Buried beneath the sand. Requires a sandstorm, dowser, or local knowledge. Roll again. |
+| 1 | A half-excavated ruin emerging from the dunes - teams dug for months, scaffolding still standing, tools still in place, the dig still open - and whatever stopped the work is still somewhere in the lower levels. |
+| 2 | A monastery carved directly into a mesa, accessible only by a single switchback stair; the order occupies every level including the ones they don't discuss and the lowest levels were carved by hands that predate the order by centuries. |
+| 3 | A town built in a season and abandoned in a night - market stalls still stocked, doors unlocked, fires laid but not lit - and tracks in the hardpacked sand leading in from every direction with none leading out. |
+| 4 | A sinkhole that opened in the dune field revealing a catacomb network below the rock: multiple levels, old and elaborate, with something living in the deepest chambers that has been there since before the desert was a desert. |
+| 5 | A large caravan encampment that stopped moving months ago - wagons loaded, animals penned, cookfires cold - the original travellers gone and something else occupying the central tent in their place. |
+| 6 | A field of standing stones each carved with a name and a date, the dates recent and the names belonging to missing persons; new stones appear without explanation and the most recent dates are only days old. |
+| 7 | An active archaeological excavation - well-funded, well-staffed, organised across many dig sites and a central camp - whose patron hasn't visited in months and whose workers are beginning to ask what exactly they're digging toward and why the lower chamber is always locked. |
+| 8 | A well that appeared after a sandstorm, now the centre of a violent territorial war: fortified positions on all sides, water rationed like coin and neither faction willing to discuss why the water sometimes tastes of something that isn't mineral. |
+| 9 | A waystation with clean rooms and good food and a locked door between the common area and the back of the building; the hospitality is genuine and impeccable right up to the point where it becomes the dungeon. |
+| 10 | Buried beneath the sand. Requires a dowser, a sandstorm, or local knowledge to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | Skeleton of something enormous; bones the size of carts. | A buried, intact city lays here; everyone has the same dream. | A well-armed, suspicious trading caravan. |
-| **2** | A glass crater of fused sand; getting warmer. | The glass crater is warming up; it's getting hot. | A peaceful cult pilgrimage toward a mystery. |
-| **3** | Canyon walls covered in thousands of murals. | A well that doesn't run dry; water tastes like metal. | Goblins with salvage they don't understand. |
-| **4** | An oasis with no bottom. | Monastery cliffs hide something they won't sell. | A water merchant; small and exploitative. |
-| **5** | Shifting standing stones in an odd pattern. | A sandstorm has been moving toward the city. | A blind predator that hunts by movement. |
-| **6** | A windowless tower carved from one stone. | The ghost town was evacuated, not abandoned. | Refugees from a collapsed settlement. |
-| **7** | A dead, enormous tree; nothing grows nearby. | Guides into the deep desert keep disappearing. | A half-crazed, lone excavator. |
-| **8** | A sandstorm that rotates in place; visible for 40km. | Standing stones rearrange; maps never match. | A Watch patrol searching for a specific item. |
+| **1** | The skeleton of something enormous, half-buried and sun-bleached, each bone the size of a cart. | *"There's a city under those dunes. Intact. I've talked to three people who dreamed about it before they ever came out here - same layout, same streets, same locked door at the centre."* | A desert trading caravan, well-armed, polite and deeply suspicious of everyone they meet. |
+| **2** | A circular crater of fused glass, perfectly smooth; locals say it has been slowly warming for two years. | *"That glass crater? Put your hand on it. Tell me that's normal. It was cold when my grandfather was young. Something down there is waking up."* | A cult pilgrimage walking in silence toward a destination they'll describe only as correct. |
+| **3** | A small desert settlement clustered around a reliable water source - a dozen buildings, a well-defended gate, a reputation for hard bargaining and no questions asked - that doesn't appear on official trade maps and prefers it that way. | *"The well out there never runs dry. Been tested. Water tastes like old iron, but it won't run dry. Someone knows why and isn't saying."* | A goblin salvage crew who found something significant and are now arguing about whether to sell it, use it, or put it back. |
+| **4** | An oasis of crystalline water, beautiful and completely bottomless - objects thrown in never return. | *"The monks in that mesa have been sitting on something for three generations. Right now there are four buyers in Glimmerhold all trying to be the polite one."* | A water merchant with a small cart and unconscionable prices; entirely aware of their leverage. |
+| **5** | A formation of standing stones in a configuration no surveyor has been able to notate twice the same way. | *"That sandstorm to the west has been moving toward Glimmerhold at about two kilometres a week for two months. Do the maths."* | A predator that hunts by vibration through the sand; it has been tracking the party since they entered the hex. |
+| **6** | A tower of solid stone with no door and no windows, carved from a single piece of rock the size of a house. | *"It wasn't abandoned, that ghost town. There are evacuation papers filed in the city clerk's office. Someone just forgot to tell anyone what they were evacuating from."* | Refugees following an old caravan map toward the city, three weeks behind schedule and nearly out of water. |
+| **7** | A dead tree of extraordinary size in otherwise barren terrain; nothing grows within a kilometre of its trunk. | *"There's a man paying good silver to hire guides into the deep desert. Three guides have taken the job. None of them have come back. He keeps hiring."* | A lone excavator, sun-weathered and half-wild, absolutely certain they are three feet from something extraordinary. They have been certain of this for months. |
+| **8** | A sandstorm that rotates in place, always the same size, never advancing, visible from forty kilometres. | *"I've mapped those stones four times. Talked to two other surveyors who mapped them. All four maps are different. Completely different."* | A Watch patrol contracted by someone in the city to find a specific thing - they have a description but not a name. |
 
 ---
 
 ### Mountain
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A collapsed fortress, one tower still standing and occupied. |
-| 2 | A dwarven hold, active, suspicious of surface folk and goblins. |
-| 3 | A mining town that played out and was left. Someone has moved back in. |
-| 4 | A cave system going down further than it should; pre-dates the mountains. |
-| 5 | A highwaymen's camp on the only pass. Every traveller pays. |
-| 6 | A clan burial ground in a high valley. The clan isn't dead. |
-| 7 | An active mine, company-run, producing something that isn't ore. |
-| 8 | Two factions fighting over the pass, whoever controls it controls trade. |
-| 9 | A hermit's cave that advertises itself as a dungeon to drive off visitors. |
-| 10 | Hidden above the snowline. Requires a guide or WITS (disadvantage). Roll again. |
+| 1 | A fortress collapsed on three sides, one tower standing, the rubble fortified into rough walls by whoever moved in after; multiple floors of tower, a rubble courtyard and a basement the new occupants have not yet fully explored. |
+| 2 | A dwarven hold carved into the mountain - fully operational, trade gates open, inner gates sealed - multiple levels of worked stone, with the sealed sections accessible through routes the dwarves don't know about or prefer not to mention. |
+| 3 | A mining town that played out and emptied fifteen years ago, recently reoccupied by parties unknown: intact buildings, cold forges, stocked tool sheds and residents who have been seen but not spoken to. |
+| 4 | A cave system descending far deeper than the mountain's geology should allow, the worked upper levels giving way to something older and stranger below - carved in a style that predates every known civilisation in the region. |
+| 5 | A highwaymen's compound built into the mountain pass itself - fortified gatehouse, barracks, storage, a manager's office with actual ledgers - operating with the calm efficiency of a toll booth and the manpower of a small army. |
+| 6 | A high valley containing an elaborately maintained clan burial ground, fresh grave goods on every stone, watched from the treeline by the clan that built it, which is very much alive and very unhappy about visitors. |
+| 7 | An active company mine producing sealed crates shipped to an undisclosed destination: surface buildings, deep shafts, a locked assay office and workers paid extremely well to not ask what's in the crates. |
+| 8 | A contested mountain pass turned full dungeon - fortified positions, chokepoints, supply caches, a command post for each faction - and somewhere in the middle, the thing both sides are actually fighting to reach. |
+| 9 | A cave system advertised aggressively as a hermit's dwelling - painted warnings, hanging bones, elaborate noise - all constructed by someone who desperately wants to be left alone because the back half of the cave is something they found and have been sitting on ever since. |
+| 10 | Hidden above the snowline. Requires a guide or a WITS save at disadvantage to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A 15ft high statue carved into a cliff. | Dwarven gates closed 6 months; smoke still rises. | Mercenary escort carrying something fragile. |
-| **2** | A frozen waterfall that hasn't thawed in memory. | Highwaymen control the pass; Watch does nothing. | Pilgrims heading for a non-existent shrine. |
-| **3** | An old rope-and-plank bridge over a gorge. | Miners bricked up a level and won't talk. | Lost goblins who won't admit they're lost. |
-| **4** | A collapsed tower with stones scattered for 1km. | The frozen waterfall contains/is a wizard. | Better-armed-than-they-look Dwarven traders. |
-| **5** | A dry pass strewn with bones and gear. | One merchant is funding both sides of the war. | A predator that eats horses first. |
-| **6** | A peak that glows from beneath the snow at night. | There is a cave with a real, hinged stone door. | Families of mountain refugees heading down. |
-| **7** | A massive, ancient pine on a vertical cliff. | Burial ground is sacred; looters had a bad winter. | A veteran guide who charges high fees. |
-| **8** | A perfectly rectangular lake at high altitude. | Something moved into the lowest caves last autumn. | A Watch platoon with a warrant. |
+| **1** | A figure in armour, twice human height, carved into the cliff face with no inscription and no explanation. | *"The dwarven hold hasn't opened its proper gates in six months. Smoke's still coming from the forge vents. They're still in there. They just won't say why they've stopped answering."* | A mercenary escort carrying something they describe only as fragile and time-sensitive. |
+| **2** | A waterfall frozen mid-cascade at a height that suggests summer; it hasn't thawed in living memory regardless of season. | *"The highwaymen on the pass? The Watch knows. Everyone knows. Someone in the city is paying for that road to stay controlled and it's not the highwaymen."* | A pilgrim group walking toward a shrine that was demolished forty years ago; something at those coordinates is answering their prayers. |
+| **3** | A fortified waystation village clinging to the only viable pass - a dozen buildings, a garrison of dubious allegiance, a tavern that charges what it likes because there is nowhere else - the kind of settlement that exists entirely because geography demands it. | *"There's a bricked-up level in the Ironvein mine. Been bricked up for twelve years. You ask the foreman about it, he looks at you like you said something dangerous."* | A goblin crew who took a shortcut and are now deeply, completely, unfixably lost - and will not, under any circumstances, admit this. |
+| **4** | A tower, collapsed, stones scattered across the mountainside for a full kilometre in a pattern suggesting explosion rather than age. | *"Old Maret said the frozen waterfall was a wizard once. Cursed mid-spell. Her grandmother said the same thing. I don't say she's wrong."* | A dwarven trading party - polite, close-mouthed and armed significantly better than a trading party needs to be. |
+| **5** | A high pass strewn with old military equipment and unnamed bones; whatever battle happened here was never recorded. | *"Funny thing about the war over the pass - both sides are being funded out of the same counting house in the Coin. Someone wants that pass fought over, not resolved."* | A predator denning in the pass approach; it targets horses first and has learned to wait for the second-largest animal in a group. |
+| **6** | A peak that glows from somewhere beneath the snowline on clear nights - not reflected light; the glow comes from inside the rock. | *"There's a cave up on the north face with a proper door in it. Stone, hinged, fitted. Not natural. No handle on the outside. Someone built that from inside."* | Families descending from a mountain settlement, quiet, moving fast, carrying almost nothing. |
+| **7** | A pine tree growing from a vertical cliff face, ancient and enormous, its roots wedged into a crack that should not support anything living. | *"The Caldenmoor burial ground - those that looted it had their worst winter in memory. Sickness, losses, bad luck from first frost to thaw. Decide what you want with that."* | A veteran mountain guide who knows every navigable path in this hex and charges whatever she judges the client can bear. |
+| **8** | A perfectly rectangular lake at altitude, edges too clean and corners too sharp; the geology doesn't explain it. | *"Something moved into the lowest level of the Greytooth caves last autumn. Hasn't come out. The shepherds have stopped using the high pasture."* | A Watch platoon on legitimate patrol, carrying a warrant and stopping everyone to check papers. |
 
 ---
 
 ### Grassland
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A manor house, abandoned and furnished. The will is disputed. |
-| 2 | A professional warlord's encampment, between employers. |
-| 3 | A farming village where nothing grows in ploughed fields. |
-| 4 | A barrow mound - looks natural until you're on top of it. |
-| 5 | A military encampment from an old war; heavily trapped. |
-| 6 | A mass burial site from a plague or battle. Something is restless. |
-| 7 | A road crew camp digging toward something specific. |
-| 8 | Two noble houses claiming the same farmland; tenants in the middle. |
-| 9 | A waystation that turns travellers away very politely. |
-| 10 | Hidden beneath the grass (cellar/bunker). Requires WITS or local info. Roll again. |
+| 1 | A fully furnished manor sitting empty for twenty years - every room intact, every cupboard stocked - with three living claimants, one dead one who left very specific instructions about trespassers and a staff of something still maintaining the place. |
+| 2 | A mercenary company's permanent encampment: barracks, armoury, officer quarters, mess hall and a locked command tent with maps pinned to every surface - currently between contracts and therefore open to negotiation or hostile to intrusion depending entirely on approach. |
+| 3 | A farming village where the fields are ploughed and the seeds sown but nothing has grown in two seasons; the villagers are still here, still farming each morning and will not leave, will not explain and will not let anyone near the old millhouse at the edge of the property. |
+| 4 | A barrow mound so integrated into the landscape it reads as a gentle hill until you step on the entrance stone; the interior is elaborate, old and organised across many chambers, the deepest of which have never been fully mapped. |
+| 5 | A military camp from a war nobody records, preserved under turf - tents, supplies, weapons, orders, letters home - and traps set by soldiers who fully intended to return and collect them. |
+| 6 | A mass grave from a plague or slaughter, marked or unmarked, across a wide area, in soil that has been disturbed recently from below across several points simultaneously. |
+| 7 | A road crew camp with survey equipment, supply wagons, cook tent and workers who have been digging in the same direction for six months without laying a single stone of road and who become evasive if asked what's at the end of the dig. |
+| 8 | An old estate at the centre of a noble land dispute - main house, tenant farmhouses, a locked estate office and an old steward who has been managing the property through every claimant and knows exactly where the body is buried, figuratively and otherwise. |
+| 9 | A waystation on a well-travelled road that turns visitors away with great courtesy and consistent excuses, behind walls and shutters that no waystation needs, staffed by people who are not at all what they appear and protecting something in the back rooms. |
+| 10 | Hidden beneath the turf - a cellar, bunker, or buried structure - requiring local knowledge or a WITS save to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A broken statue with fresh flowers at the base. | Lights are on in the manor after 20 years. | A well-mounted mercenary cavalry company. |
-| **2** | A gibbet at an important crossroads. | Something is in the soil; farming stopped. | A preacher with too many followers. |
-| **3** | A bridge with a "known" troll problem. | One noble is paying to stop the land war. | Goblins running with stolen goods. |
-| **4** | A solitary standing stone in a ploughed field. | Locals conspicuously avoid the barrow mound. | A merchant convoy with a weak escort. |
-| **5** | A hill of rusted weapons hammered into soil. | Mercenaries are hiring; vague job, good pay. | A creature mistaken for a resting hill. |
-| **6** | A watchtower manned by "someone else." | The tower signals the far ring at night. | A column of displaced, uncertain farmers. |
-| **7** | An oak tree the size of a small building. | Road crew hasn't built any road in 6 months. | A bounty hunter looking for the party. |
-| **8** | A 1km wide circular depression; thicker grass. | Locals pay the thing under the crossing in bread. | A Watch patrol on a safety check. |
+| **1** | A broken statue, enormous and partially buried, with fresh flowers laid at the base every morning by someone no one has seen. | *"The lights in Halvermoor Manor have been on for three weeks. Twenty years that place has been dark. Nobody's gone to knock yet."* | A mercenary cavalry company, well-mounted and recently between contracts, sizing up everyone they pass. |
+| **2** | A gibbet at an important crossroads, occupied, with fresh wanted papers nailed to the post beside it. | *"The soil in Carden's fields is wrong. She says it feels like it's pushing back. Ploughed it three times now and nothing takes. Whatever's down there doesn't want to be covered."* | A travelling preacher with an improbable number of followers, all walking with quiet purpose toward something. |
+| **3** | A market village at a crossroads, neither large enough to have walls nor small enough to be ignored - a dozen permanent buildings, a weekly market, an inn of variable quality and the kind of people who know everything moving through the region. | *"The Maret-Thunn land war is about to end. I heard one side has hired someone to make the other side stop. Politely at first, I imagine."* | A goblin crew sprinting toward the city with something they absolutely should not have, absolutely will not explain and absolutely cannot slow down for. |
+| **4** | A standing stone in the middle of a farmed field, the furrows ploughed carefully around it without acknowledgement. | *"People in the village don't go near the low hill past the east fence. Not since old Ferrund's boy went exploring there as a kid. He won't say what he saw, just that you shouldn't."* | A merchant convoy - large, valuable and with a hired escort that any competent person could see is not enough. |
+| **5** | A hill of weapons hammered point-first into the soil, rusted and grown-over into a single mass, from a battle that no local history records. | *"That mercenary camp past the Greenditch? They're hiring. Good pay, vague terms, very careful not to say where the job is."* | Something large enough to be mistaken for a resting hill. It is not resting. It has been watching the road. |
+| **6** | A watchtower on a low rise, clearly manned, by someone who is not the Watch and is not interested in explaining themselves. | *"The watchtower past Aldenmere - someone's been signalling out toward the far ring at night. Regular flashes, like code. Nobody in the city will admit to knowing the pattern."* | A column of tenant farmers who have left their land and are heading for the city with very little and no particular plan. |
+| **7** | An oak tree the size of a building at the junction of three old roads; the locals hold informal court beneath it every tenday. | *"The road crew out on the eastern flats has been digging in one direction for six months and has built exactly no road. The foreman is being paid very well to not discuss progress."* | A bounty hunter working a contract out of Glimmerhold; the description they're carrying might fit someone in the party, depending on the light. |
+| **8** | A circular depression a kilometre across, shallow and unremarkable except that the grass inside grows darker and thicker than anywhere nearby. | *"Everyone round here leaves a bit of bread at the crossing when they pass. Has done for generations. Nobody started it. Nobody stops. You don't ask what happens if you don't."* | A Watch patrol conducting a road safety inspection; entirely legitimate, thorough and slowing everyone down. |
 
 ---
 
 ### Swamp
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A sunken ruin, partially flooded. Requires wading. |
-| 2 | A hag's territory with a known price list for her rules. |
-| 3 | A former fishing village; boats are still moored. |
-| 4 | A sinkhole into flooded caverns. Requires swimming/boats. |
-| 5 | A well-hidden poacher camp on a floating raft platform. |
-| 6 | A burial barge full of grave goods and "other things." |
-| 7 | A peat-cutting operation harvesting something else. |
-| 8 | Two factions fighting over a rare dry patch of land. |
-| 9 | A welcoming waystation where the hospitality is genuine. |
-| 10 | Submerged. Requires luck, divination, or local knowledge. Roll again. |
+| 1 | A stone structure half-sunk into the swamp - upper floors accessible and partially intact, lower floors navigable only by wading, the lowest level fully submerged and reachable only by diving, with something on the bottom that has not moved in a very long time and has been waiting. |
+| 2 | A hag's territory, organised and extensive: an outer fence of woven bone, outbuildings for dependent creatures, a workshop, a cold store, a guest room and the hag herself with a laminated price list and a reputation for precise, technically accurate service. |
+| 3 | A fishing village frozen in the moment the fish changed - boats moored, nets hung, smokehouse still stocked - with some original inhabitants still present and changed enough themselves that they no longer notice the smell. |
+| 4 | A flooded sinkhole dropping into a submerged cave system, navigable by small boat below the first chamber, occupied at depth by something that has been furnishing its rooms for decades. |
+| 5 | A poacher camp built across several connected raft platforms, camouflaged, large enough to house a dozen people and whatever they've been pulling out of the deep swamp, with a locked platform they call the icehouse that isn't storing ice. |
+| 6 | A burial barge run aground a century ago, slowly sinking by degrees: multiple decks, extraordinary grave goods and the dead stacked below in a condition best described as unhappy and deteriorating. |
+| 7 | A licensed peat operation with surface buildings, a loading dock and several cutting sites - all legitimate on paper, the workers paid well to ignore what comes up out of the deep cuts, which is pressed into the peat in shapes that suggest intention. |
+| 8 | Two factions in open, miserable conflict over the only dry ground in the hex: fortified positions, contested causeways and the reason the ground is dry - a buried structure beneath it that neither faction has yet thought to look for. |
+| 9 | A waystation on a dry rise with clean beds, good food, a friendly host and a door at the end of the hall that guests are asked not to open; the hospitality is entirely genuine and the reason for the door is entirely the dungeon. |
+| 10 | Submerged entirely. Requires divination, local knowledge, or sheer luck to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A stone arch standing alone in the water. | Hag's prices are fair, but contracts are not. | Professional swamp guides selling maps. |
-| **2** | A willow tree that screams in the wind. | Three expeditions went down; one came back. | A funeral procession heading for the hag. |
-| **3** | A rope-ferry; the ferryman doesn't age. | Fish in the village started "coming back wrong." | Arguing goblins; one is standing on something. |
-| **4** | A standing stone, half-sunk, carving visible. | Ferryman asks a question for a free crossing. | A salvage boat with a mysterious load. |
-| **5** | A floating, moving mound of vegetation. | Large creature hasn't moved in 20 years. | Predator that drags things underwater. |
-| **6** | A tower of black stone struck by lightning. | Grave goods on the barge are worth a fortune. | Refugees from a settlement that literally sank. |
-| **7** | A dead cypress tree white as bone. | Peat cutters are finding things like bodies. | A lone herbalist who knows safe paths. |
-| **8** | A perfectly still pool with no reflections. | The floating mound is drifting toward the city. | A miserable Watch patrol out of their depth. |
+| **1** | A stone arch standing alone in open water, nothing surviving of whatever it was the entrance to. | *"The hag out there is fair. She'll give you exactly what you asked for, word for word and it'll be perfect. Just read the contract yourself before you put your mark on it."* | Professional swamp guides selling routes, maps and selective information to whoever can pay. |
+| **2** | A willow tree that produces a sound resembling screaming when the wind moves through it; locals do not find this remarkable. | *"Three expeditions went down into the sinkhole in the Greywater. First one didn't come back. Second one didn't come back. Third one sent one person back. She doesn't go outside much now."* | A procession carrying a body to the hag for keeping; grieving, armed and not interested in conversation. |
+| **3** | A fen settlement built on stilts above the water - a dozen families, a drying shed, a surprisingly well-stocked trading post - connected by rope bridges, accessible only by boat and home to people who know things about the deep swamp that they'll share at a price. | *"Fish in the Callow Fen started coming back wrong about ten years ago. Wrong colour first. Then wrong shape. The people who kept eating them started coming back wrong too."* | A goblin crew up to their waists in water, arguing loudly about the map; one of them has been standing on something that moves for several minutes without noticing. |
+| **4** | A standing stone, half-sunk, with carvings still visible above the waterline; the carvings are different every time someone copies them down. | *"The ferryman asks you a question at the midpoint crossing. Answer it correctly and he won't take coin. No one agrees on what the question is."* | A salvage boat, flat-bottomed, riding very low, crewed by people who will not discuss what they're salvaging. |
+| **5** | A mound of matted vegetation the size of a large house, drifting slowly and apparently purposefully through the swamp. | *"There's something very large in the deep part - not aggressive, just enormous. Hasn't moved from its spot in twenty years. The bog guides route around it without comment."* | A large ambush predator that hunts by dragging things below the waterline; it is currently between the party and the dungeon. |
+| **6** | A tower of black stone on the only significant dry rise, struck by lightning so many times the upper stones have fused. | *"The barge that ran aground in the Silmere is worth a fortune in grave goods alone. The problem - and there is a problem - is that the dead on that barge are extremely unquiet."* | Survivors from a settlement that sank into the swamp last week, carrying almost nothing, heading anywhere that isn't here. |
+| **7** | A dead cypress tree the colour of old bone, visible from two hexes, around which no birds land and no insects sound. | *"The peat workers in the Ashfen keep turning up things that look like bodies. Preserved ones. Hundreds of years old, dressed for somewhere warm, clutching things nobody can identify."* | A lone herbalist wading through the hex collecting things; she knows every safe path and every unsafe one and is not interested in guiding anyone anywhere. |
+| **8** | A pool of perfectly still dark water in which nothing is reflected - not sky, not faces, not light. | *"That floating island in the deep swamp has been moving toward the city. Slowly. But you can measure it week to week. Nobody official has acknowledged this."* | A Watch patrol, thoroughly miserable, out of their depth in every sense, doing their best. |
 
 ---
 
 ### Tundra
+
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A fort from an ancient campaign; bodies are preserved. |
-| 2 | A nomadic tribe's winter camp; wary and trade-minded. |
-| 3 | An outpost abandoned in winter. Something got in first. |
-| 4 | A cave system kept warm by geothermal heat. |
-| 5 | A hunting party that found "something else" to hunt. |
-| 6 | A burial ground under permafrost, opened by a thaw. |
-| 7 | An ice road crew that cut into something older. |
-| 8 | Two clans fighting over unsafe hunting grounds. |
-| 9 | A traveller's shelter where the door locks from outside. |
-| 10 | Buried under drift. Requires thaw, guide, or extreme luck. Roll again. |
+| 1 | A military fort from a campaign so old the records don't survive, perfectly preserved by the cold - every soldier, every meal, every document frozen in place across a dozen rooms, the garrison mid-action as if time stopped between one breath and the next, still under orders from a commander who has been dead for three centuries. |
+| 2 | A nomadic tribe's semi-permanent winter camp: longhouses, a communal hall, a trading tent, a locked storehouse and a sealed pit at the centre of camp that the elders say has always been there and which the tribe has built its entire wintering culture around not opening. |
+| 3 | An outpost abandoned mid-winter - supplies intact, fire laid but never lit, door locked from the outside - across multiple buildings, with signs in every room that the evacuation was orderly and the thing that prompted it was not. |
+| 4 | A cave system kept above freezing by geothermal vents, large enough to support permanent habitation, with extensive natural chambers and older worked tunnels below the living areas where something has been in residence since before the tribe camped above it. |
+| 5 | A hunting camp that found better prey than it came for: tents still standing, original quarry tracks still present and the camp expanded and modified around a discovery the hunters made in the ice shelf they were using for cold storage. |
+| 6 | A permafrost burial ground cracked open by a recent thaw across a wide area - dozens of burial sites, extraordinary preservation and occupants disturbed enough by the exposure that several are no longer where they were interred. |
+| 7 | An ice road crew's camp, work suspended, at the point where their cuts broke into something below - chambers, carvings, a cold that is noticeably different from outside - with equipment still in the breach and the crew's notes still on the foreman's desk. |
+| 8 | Two clans in open conflict across a wide hunting ground, each with a base camp, scouts and forward positions - and the thing in the middle that both clans are fighting toward and neither clan will name to an outsider. |
+| 9 | A traveller's shelter, well-stocked and maintained, where the door latches from the outside only and the walls are built too well for sound to carry to the road; multiple rooms, very comfortable, run by someone with very specific reasons for wanting guests to stay. |
+| 10 | Buried beneath permafrost and drift. Requires a thaw, a guide, or extraordinary fortune to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A massive stone statue knee-deep in snow. | Old fort is full of the garrison's belongings. | Nomadic trade party trading info for goods. |
-| **2** | An iron cage the size of a barn. | Nomads trade incredible things from unknown sources. | A cult operating in the extreme cold. |
-| **3** | An unnatural ice bridge over a frozen gorge. | Something huge leaves no tracks in the snow. | Unprepared, freezing goblins. |
-| **4** | A standing stone with deep, clear carvings. | Permafrost is thawing; smells like old magic. | An underfunded, late supply convoy. |
-| **5** | Flash-frozen battlefield visible through ice. | Frozen dead are worth a fortune in salvage. | An apex predator watching the party. |
-| **6** | A snow-free watchtower of black stone. | The watchtower has a light in it. | Refugees from a destroyed settlement. |
-| **7** | An ancient tree; bad luck to touch. | Something built that ice bridge to get across. | A veteran hunter tracking "not animals." |
-| **8** | A circular black crater; no snow ever fills it. | A runner returned with a message he won't repeat. | A Watch patrol looking for a specific target. |
+| **1** | A stone statue, enormous, standing knee-deep in drifted snow with an expression of absolute serenity that the weather has not troubled in centuries. | *"The old fort out there - the frozen one - is still stocked. Weapons, supplies, the garrison's personal effects. Just sitting there. Nobody goes because of the garrison's personal effects."* | A nomadic trade party more interested in information than goods; they know the tundra better than anyone and price their knowledge accordingly. |
+| **2** | A cage of black iron the size of a barn, half-collapsed, one wall missing, the bars bent outward. | *"The tribe out north trade things nobody can explain where they're getting. Old things. Things from down deep. Ask them where and they smile and change the subject."* | A cult that operates in extreme cold for reasons the cold apparently suits; quiet, organised, not recruiting. |
+| **3** | A waystation settlement at the only sheltered point in the hex - a main hall, a stable, a handful of permanent residents who winter here by choice - the kind of place that people are always very glad to find and occasionally very sorry they did. | *"Something crosses the tundra at night. Big enough to see against the snow from a distance. Doesn't leave tracks. I know what I saw."* | A goblin crew who are catastrophically underprepared for this temperature and are performing extreme confidence as a coping strategy. |
+| **4** | A standing stone with carvings cut so deep they have never filled with ice or snow despite centuries of exposure. | *"The permafrost is thawing in one specific spot near the Coldtooth ridge. Just that spot. Smells like old magic, Correna said. She knows old magic."* | A supply convoy for a far-out outpost - underfunded, behind schedule and trying to make it before the next storm. |
+| **5** | A battlefield visible through a shelf of clear ice - soldiers, horses, weapons, flash-frozen mid-charge as if the air itself hardened in an instant. | *"Those bodies under the ice at Harrenfell are in perfect condition. Every piece of kit they're carrying is worth something. The problem is getting to them. The other problem is being there when they notice you."* | An apex cold-weather predator that has been tracking the party since the hex border, patient, unhurried and waiting for the right moment. |
+| **6** | A watchtower of black stone completely free of snow and ice in all weather, warm to the touch even at midwinter. | *"There's a light in the watchtower out on the flats. Has been for two weeks. Nobody's been up there in thirty years. Nobody's going now either."* | Survivors from a settlement that something came out of the far ring and destroyed; they won't describe what. |
+| **7** | A lone tree, ancient and enormous, standing in otherwise barren terrain; locals consider it extremely bad luck to touch the bark and will not explain further. | *"That ice bridge didn't appear naturally. Look at the underside - there are handholds carved in it. Whatever built it needed to get across and wanted to be able to get back."* | A veteran hunter tracking something she describes only as not animals, moving on foot, very well supplied and not interested in company. |
+| **8** | A circular crater of black rock that no snow ever fills, where the ground is warm and the air above it shimmers slightly even in dead winter. | *"Aldric's crew left for the deep tundra two months ago. Sent one runner back last tenday. The runner made it. Won't repeat the message. Won't explain why. Just keeps asking if anyone's told his family."* | A Watch patrol, fully cold-weather equipped, carrying a good description of someone specific and checking every group they encounter. |
 
 ## ENCOUNTER TABLES
 

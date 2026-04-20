@@ -73,6 +73,7 @@ button:hover {
     width: 35px;
     background-color: rgb(154, 220, 154);
     color: #484c00;
+	font-family: "Courier New", monospace;
 }
 
 .topbtn a:hover {

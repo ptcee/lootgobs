@@ -31,13 +31,13 @@ h3 {
 
 #char img {
     display: block;
-    height: 75vh;
+    max-height: 75vh;
     margin: 0 auto;
 }
 
 #orr img {
     display: block;
-    height: 75vh;
+    max-height: 75vh;
     margin: 0 auto;
 }
 

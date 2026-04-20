@@ -3,7 +3,7 @@
 
 ##### *All lore in this tome about the current state of the realm of Orrelia was meticulously curated, written and published by one "Lucious Caesar" and definitely not one Anthony Goblioni.*
 
-> 📖 Alright folks, settle in. Get a cup of tea or whatever filth you drink. Let me explain the journey you're about to take. So, there is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned home to find the things they left behind.
+> Alright folks, settle in. Get a cup of tea or whatever filth you drink. Let me explain the journey you're about to take. So, there is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned home to find the things they left behind.
 
 ---
 
@@ -853,7 +853,7 @@ Shields absorb incoming damage. When a shield's uses are fully marked it breaks.
 ---
 ## MAGIC SCROLLS
 
-📖 Magic is exceedingly rare for goblins. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read.
+Magic is exceedingly rare for goblins. They aren't innately magical and most folk wouldn't trust them with spells as far as they could throw them. Not to mention goblins can't really read.
 
 Magic spells are cast with three incantations that shape the spell. They always follow Form > Flow > Facet.
 
@@ -1144,7 +1144,7 @@ You can find example encounter tables in the Tables section.
 
 ## THE SEASONS AND THEIR FESTIVALS
 
-📖 The world has no months, because months are an administrative convenience and the world predates administration. There are four seasons of approximately sixty days each, named by what they *do* rather than what they *are.*
+The world has no months, because months are an administrative convenience and the world predates administration. There are four seasons of approximately sixty days each, named by what they *do* rather than what they *are.*
 
 ### Seasons
 

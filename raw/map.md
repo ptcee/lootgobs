@@ -95,17 +95,6 @@ Each hex is approximately 20km across.
 
 ---
 
-## F11 - Tundra
-
-**Dungeon:** The land northwest of Glimmerhold turns hard and cold faster than any map prepares you for - a frost-scoured stretch of scrub where the ground stays frozen two hands deep even in the Bright. What's here is a fort from a campaign old enough that nobody agrees on the name of the war: still mostly standing, one tower intact, rubble fortified into rough walls by whoever moved in after the last garrison left. The basement the new occupants haven't fully explored is the reason the Gobfather wants someone sent in quietly.
-
-**Landmark:** *A crater, recent, with no obvious cause.* Third impact site near the city in as many years. The soil around the rim is blasted down to permafrost. The Watch has filed a report. The report has been filed somewhere.
-
-**Rumour:** *"It's not a fort. It looks like a fort on the outside and it is not a fort. Everyone who lives near there knows this and says nothing because the thing it actually is, is worse than a fort."*
-
-**Wandering Faction:** A rival goblin crew on a job. Possibly the same job. Definitely operating on older information than the party has.
-
----
 
 # FAR RING
 

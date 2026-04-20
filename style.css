@@ -86,7 +86,7 @@ button:hover {
 }
 
 :root {
-    --markdown-font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", system-ui, "Ubuntu", "Droid Sans", sans-serif;
+    --markdown-font-family: "Courier New", monospace;
     --markdown-font-size: 14px;
     --markdown-line-height: 1.6;
     --vscode-font-family: "Segoe WPC", "Segoe UI", sans-serif;

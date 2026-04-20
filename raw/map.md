@@ -7,7 +7,7 @@ Each hex entry contains:
 - **Terrain** and **ring** (near(N) or far(F))
 - **Dungeon** - the primary adventure site
 - **Landmark** - something visible on arrival
-- **Rumour** - what the party might hear before going; roll 1d8 three times across *any* region's rumour table and combine results for texture
+- **Rumour** - what the party might hear before going
 - **Wandering Faction** - a group moving through or operating in this hex
 
 Hexes marked **[HIDDEN]** require a WITS save or local knowledge to locate the dungeon.
@@ -18,7 +18,7 @@ Each hex is approximately 20km across.
 
 # NEAR RING
 
-*Stock these six hexes before the first session. Rumours about all six should be circulating in Glimmerhold's taverns before the party leaves.*
+*Rumours about all six should be circulating in Glimmerhold's taverns before the party leaves.*
 
 ---
 

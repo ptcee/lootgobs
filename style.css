@@ -35,6 +35,12 @@ h3 {
     margin: 0 auto;
 }
 
+#orr img {
+    display: block;
+    height: 75vh;
+    margin: 0 auto;
+}
+
 button {
     border-radius: 5px;
     text-decoration: none;

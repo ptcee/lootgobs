@@ -3,11 +3,29 @@ LOOT GOBLINS, CONDENSED RULES REFERENCE
 
 ---
 
+> *There is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned and found the things they left behind.*
+
+\***
+
+>The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed and the streets above are full of people too tired to notice tiny shadows scurrying about.
+>
+>The Rusty Fang fills up around bell three and a bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
+>
+>A folded note arrives by the hand of a nervous Lowfling who refuses to make eye contact. It has the Gobfather's seal, not his real seal of course, just one he uses when he wants to be believed without being implicated. There is a job. There's always a job. The party has until nightfall to be two streets north of the Merchant's Gate, at which point a locked door will be unlocked for exactly one minute.
+>
+>They eat. They argue about who carries the rope. They fill up their packs. The city above does not know they exist, which is, to be quite honest, exactly how everyone prefers it.
+>
+>They go up into the dark.
+
+---
+
 # TOME 1: CORE MECHANICS
 
 ## SECTION 1: CHARACTERS AND DICE
 
 ### STATS
+
+Every goblin has **three stats**.
 
 | Stat | Covers | At Zero |
 |---|---|---|
@@ -930,24 +948,8 @@ Clever goblins should be able to play factions against each other.
 
 > Meticulously curated notes about the current state of the realm of Orrelia. Written and curated by one "Lucious Caesar" and definitely not one Anthony Goblioni.
 
-
-> *There is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned and found the things they left behind.*
-
-
 ---
 ## SECTION 1: THE CITY
-
-### Setting the Scene
-
-The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed and the streets above are full of people too tired to notice tiny shadows scurrying about.
-
-The Rusty Fang fills up around bell three and a bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
-
-A folded note arrives by the hand of a nervous Lowfling who refuses to make eye contact. It has the Gobfather's seal, not his real seal of course, just one he uses when he wants to be believed without being implicated. There is a job. There's always a job. The party has until nightfall to be two streets north of the Merchant's Gate, at which point a locked door will be unlocked for exactly one minute.
-
-They eat. They argue about who carries the rope. They fill up their packs. The city above does not know they exist, which is, to be quite honest, exactly how everyone prefers it.
-
-They go up into the dark.
 
 
 ### The City of Glimmerhold
@@ -1210,7 +1212,7 @@ What this means practically is that there are soldiers in the northern territori
 **The Silent Lanterns**, A network rather than a group, the Silent Lanterns are researchers, scholars and very carefully positioned thieves who've been moving restricted knowledge out of the Archivist's Tower's restricted section for approximately thirty years. They publish it under false names in pamphlets that leave the academic community outraged and the public delighted. Maren has her suspicions but hasn't acted on them, largely because one of the pamphlets contained a correct and useful solution to a problem she was working on, which created an ethical complication she hasn't fully resolved.
 
 ---
-## SECCTION 4: THE LANGUAGE OF ORRELIA
+## SECTION 4: THE LANGUAGE OF ORRELIA
 
 Most folks of the realm speak Glimmertongue; a dialect of the common language specific to Orrelia. There is also Undertongue for when you want to speak more candidly without the surface dwellers knowing what's going on. 
 
@@ -1411,7 +1413,7 @@ The Colds are honest about themself.
 
 ---
 
-# TOME 3: BESTIARY AND LOOT
+# TOME 3: BESTIARY AND TABLES
 
 ## SECTION 1: BESTIARY
 
@@ -2475,7 +2477,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 |:---:|---|---|---|
 | **1** | A massive, oak tree with a spiral staircase carved into its centre. | *"The local herbalist pays gold for black-heart mushrooms that only grow in beast dung."* | A group of desperate outcasts who survive on pinecones and bird eggs. |
 | **2** | A large stone bridge covered in thick, slippery moss that crosses a deep ravine. | *"A pack of grovehounds in the eastern thicket is led by a beast that walks on its hind legs."* | A band of illegal loggers who kill anyone who enters their current "claim." |
-| **3** | An abandoned lumber mill where the waterwheel is perpetually jammed by bones. | *"YThe rustling in the canopy out there isn't wind, but a band of thieves moving between the branches."* | Stealthy hunters who wrap their boots in leaves to move silently through the brush. |
+| **3** | An abandoned lumber mill where the waterwheel is perpetually jammed by bones. | *"The rustling in the canopy out there isn't wind, but a band of thieves moving between the branches."* | Stealthy hunters who wrap their boots in leaves to move silently through the brush. |
 | **4** | A clearing where all the trees have been bent and tied together. | *"Old Jenkins went into the woods for firewood and returned three days later with something much more strange."* | Grimy, soot covered foresters who move their portable kilns every few days. |
 | **5** | A forgotten shrine to a goddess of the hunt, surrounded by a carpet of white wildflowers. | *"There is a hidden cellar beneath the ruined ranger’s station filled with something valuable."* | A militant group of druids who punish anyone they catch cutting down young saplings. |
 | **6** | A jagged rock formation shaped like a howling wolf. | *"The screaming heard at night is just gas escaping from the rotting peat clumps deeper in."* | A small group of trappers carrying bundles of rare plumage and pelts. |
@@ -2504,7 +2506,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | **1** | A lonely stone archway sandblasted into a smooth, needle thin curve. | *"The sandstorm last week uncovered the tip of a bronze dome near the high ridge."* | A group sifting through the dunes for fragments of ancient, melted pottery. |
 | **2** | A dried up well at a crossroads, marked by a pile of bleached skulls. | *"If you find the Leaking Rock, you can fill your waterskin for the price of a gold coin."* | A guild of dowsers who sell their services to thirsty caravans for high fees. |
 | **3** | A cluster of jagged pillars that provide the only shade for several miles. | *"A group of bandits is using giant trained birds to scout for lone travelers."* | Bandits who wear sand colored armour to stage desert ambushes. |
-| **4** | The half-buried ribcage of a massive ancient beast acting as a natural windbreak. | *"The blue scaled lizards coming from those caves have gold in their belllies."* | Scruffy traders leading long lines of carts hauling heavy salt blocks. |
+| **4** | The half-buried ribcage of a massive ancient beast acting as a natural windbreak. | *"The blue scaled lizards coming from those caves have gold in their bellies."* | Scruffy traders leading long lines of carts hauling heavy salt blocks. |
 | **5** | A canyon wall covered in runes from an old dwarven society. | *"There is a dune that hums when the wind blows across, probably a large treasure is buried beneath."* | Nomadic hunters that believe eating venomous insects grants them immunity to poison. |
 | **6** | A field of glass shards where lightning once struck a high sand dune. | *"Somebody in town is selling a map to an oasis that dried up ten years ago."* | Scholars wandering the desert measuring the shadows of ancient monoliths. |
 | **7** | An abandoned brick watchtower with a collapsed roof and a single iron bell. | *"The nomads carry fire-stones that they pulled from that abandoned structure"* | Alchemists who collect sun bleached bones to grind into various concoctions. |
@@ -2535,7 +2537,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | **4** | A small, red coloured lake at the bottom of a crater. | *"The old silver mine isn't empty; the company just fled when they woke what was sleeping."* | A group of trappers capturing young eagles to sell to northerners. |
 | **5** | A tunnel through the mountain that acts as a natural wind tunnel. | *"There is a cave behind the Great Falls where an old hermit hoards gold coins."* | A faction of elves who get paid to maintain the bridges and safety lines of the high roads. |
 | **6** | A series of iron rings and flags hammered into the rock to assist climbers. | *"I heard a whistle from those caves, something is in there."* | A mobile group of kobolds that set up small clay furnaces near newly discovered ore veins for smelting. |
-| **7** | A waterfall that freezes into a solid pillar of ice every Colds. | *"A hidden valley tucked between those peaks stays green all year round."* | SHepards following wild goats to collect tufts of snagged wool. |
+| **7** | A waterfall that freezes into a solid pillar of ice every Colds. | *"A hidden valley tucked between those peaks stays green all year round."* | Shepards following wild goats to collect tufts of snagged wool. |
 | **8** | A crumbling stone hut used by shepherds during the Bright grazing season. | *"The iron ore from the Iron-Shoulder peak makes blades that never need sharpening."* | Hired scouts climbing on high peaks to signal the approach of travellers to nearby rest stops. |
 
 ---
@@ -2552,7 +2554,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | 6 | A valley where the ground is invisible beneath thousands of migrating insects, contains "rooms" created by the swirling, colorful clouds of butterflies. |
 | 7 | A circle of stones vibrates with the phantom sound of stampeding beasts, hiding a series of burial chambers accessible through the central altar. |
 | 8 | A settlement of houses built on swaying stilts, inhabited by folks who have lost their balance on solid ground and will violently defend their swaying domain. |
-| 9 | A small vilalge populated by gaunt figures in white who raid passing caravans, appearing like white ghosts in the tall grass. |
+| 9 | A small village populated by gaunt figures in white who raid passing caravans, appearing like white ghosts in the tall grass. |
 | 10 | Hidden in a hillside; a cellar, bunker, or buried structure. Requires local knowledge or a WITS save to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
@@ -2581,7 +2583,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | 7 | A network of copper tubes emerging from the muck leading to a subterranean steam works powered by swamp gas. |
 | 8 | A village on stilts has become a dumping ground for the undesirables of the area, who have developed gills and a hatred for those from the dry lands. |
 | 9 | A group of connected structures tethered to the bog floor, the inhabitants have grown pale and predatory. |
-| 10 | Submerged entirely. Requires divination, local knowledge, or sheer luck to locate. Roll again. |
+| 10 | Submerged entirely. Requires divination, local knowledge or sheer luck to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
@@ -2617,10 +2619,10 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | **2** | A circular depression in the earth where the permafrost has melted, forming a small turquoise pond. | *"If you find a rusted helmet, don't pick it up; it's bad luck from the Northern War."* | A group of dwarven fishermen who travel between frozen lakes, blasting holes to catch winter trout. |
 | **3** | A large rusted iron sign post from the war that still creaks in the freezing wind. | *"A white hoarfox with three tails was seen near the old trenches, follow it if you dare."* | A group of ogres carrying heavy barrels of oil from the northern coasts towards Glimmerhold. |
 | **4** | A field of "frostpeaks" where the frozen earth has buckled into miniature mountains. | *"The northern lights are actually the spirits of fallen soldiers, they'll lead you to fortune."* | A travelling craftsman who offers to fix broken carts and sleds for gold. |
-| **5** | A solitary colourful stone cairn built from the rubble of a destroyed village. | *"There is a cache hidden in a stone box near the Glacier's Finger."* | Hunteres determined to find and kill the White Death. |
+| **5** | A solitary colourful stone cairn built from the rubble of a destroyed village. | *"There is a cache hidden in a stone box near the Glacier's Finger."* | Hunters determined to find and kill the White Death. |
 | **6** | A deep, narrow fissure in the ice that reveals layers of ancient, blue tinted ice. | *"The howling in the wind is actually a giant frost wyvern that patrols the skies during blizzards."* | A group of clerics that travel the tundra, properly burying the remains of soldiers. |
 | **7** | A frozen waterfall that looks like a cascade of jewels in the morning sun. | *"A group of bandits are living in a hidden bunker to the north, protecting something."* | Druids collecting edible mosses and lichens from the rocks. |
-| **8** | A small, snow covered hill topped with a single, stunted pine tree. | *"Aldric's crew left for the deep tundra two months ago, a runner came back last week."* | Two skilled guidess who get paid to take travelers through the trackless expanse of the area. |
+| **8** | A small, snow covered hill topped with a single, stunted pine tree. | *"Aldric's crew left for the deep tundra two months ago, a runner came back last week."* | Two skilled guides who get paid to take travelers through the trackless expanse of the area. |
 
 ### ENCOUNTER TABLES
 

@@ -3,6 +3,26 @@ LOOT GOBLINS, CONDENSED RULES REFERENCE
 
 ---
 
+- [TOME 1: CORE MECHANICS](#tome-1-core-mechanics)
+  - [SECTION 1: CHARACTERS AND DICE](#section-1-characters-and-dice)
+  - [SECTION 2: CHARACTER CREATION](#section-2-character-creation)
+  - [SECTION 3: COMBAT](#section-3-combat)
+  - [SECTION 4: EQUIPMENT](#section-4-equipment)
+  - [SECTION 5: EXPLORING DUNGEONS](#section-5-exploring-dungeons)
+  - [SECTION 6: TRAVEL, DOWNTIME \& THE CITY](#section-6-travel-downtime--the-city)
+  - [SECTION 7: RUNNING THE GAME FOR GM'S](#section-7-running-the-game-for-gms)
+- [TOME 2: THE WORLD AT LARGE](#tome-2-the-world-at-large)
+  - [SECTION 1: THE CITY](#section-1-the-city)
+  - [SECTION 2: FACTIONS](#section-2-factions)
+  - [SECTION 4: THE LANGUAGE OF ORRELIA](#section-4-the-language-of-orrelia)
+  - [SECTION 5: THE LANDSCAPE](#section-5-the-landscape)
+  - [SECTION 6: THE SEASONS AND THEIR FESTIVALS](#section-6-the-seasons-and-their-festivals)
+- [TOME 3: BESTIARY AND TABLES](#tome-3-bestiary-and-tables)
+  - [SECTION 1: BESTIARY](#section-1-bestiary)
+  - [SECTION 2: TABLES](#section-2-tables)
+
+---
+
 > *There is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned and found the things they left behind.*
 
 \***

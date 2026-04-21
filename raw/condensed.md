@@ -1,9 +1,11 @@
-# LOOT GOBLINS, CONDENSED RULES REFERENCE
+LOOT GOBLINS, CONDENSED RULES REFERENCE
 *v1.0 condensed*
 
 ---
 
-## SECTION 1: CORE MECHANICS
+# TOME 1: CORE MECHANICS
+
+## SECTION 1: CHARACTERS AND DICE
 
 ### STATS
 
@@ -385,7 +387,7 @@ Consumables are **(n\*)**, destroyed when last use is marked.
 
 ---
 
-### WEAPONS
+### Weapons
 
 All weapons have (3) unless noted.
 
@@ -404,7 +406,7 @@ Two-handed weapons occupy both Hand slots. d2 = roll d6, odd = 1, even = 2.
 
 ---
 
-### ARMOUR
+### Armour
 
 All armour has (3) unless noted. Unarmoured = DEF1.
 
@@ -417,7 +419,7 @@ All armour has (3) unless noted. Unarmoured = DEF1.
 
 ---
 
-### SHIELDS
+### Shields
 
 Require MEAT 7+. Break when all uses marked. Excess damage carries over to bearer.
 
@@ -430,7 +432,7 @@ Require MEAT 7+. Break when all uses marked. Excess damage carries over to beare
 
 ---
 
-### MAGIC SCROLLS
+### Magic Scrolls
 
 Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns to ash.
 
@@ -497,7 +499,7 @@ Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns
 
 ## SECTION 5: EXPLORING DUNGEONS
 
-### THE ITCH
+### The Itch
 
 Starts at **20.** Represents the dungeon waking up.
 
@@ -511,7 +513,7 @@ Itch advances on Turns only. Combat Rounds do not advance it. Cannot step above 
 
 ---
 
-### DUNGEON PROCEDURES
+### Dungeon Procedures
 
 **Turns:** Mark a Turn for any action taking meaningful time (searching, lock-picking, treating wounds, arguing). Roll Itch die.
 
@@ -539,7 +541,7 @@ Results shift based on party behavior.
 
 ## SECTION 6: TRAVEL, DOWNTIME & THE CITY
 
-### OVERLAND TRAVEL
+### Overland Travel
 
 5×5 hex flower. City at centre. Inner ring = 6 hexes (easy reach). Outer ring = 12 hexes (expedition territory).
 
@@ -559,19 +561,52 @@ Results shift based on party behavior.
 
 **Weather (roll d6 per Watch by season):**
 
-*Spring:* 1-Downpour (forest/hill +1 Watch; torches out) | 2-Fog (nav Hindered; 1 hex vision) | 3-Mud (arrive Exhausted off-road) | 4-6-No effect.
+**Spring**
+| d6 | Weather | Effect |
+|---|---|---|
+| 1 | Downpour | Forest/hill +1 Watch; torches go out. |
+| 2 | Thick fog | Nav Hindered; 1 hex vision. |
+| 3 | Mud and drizzle | Arrive Exhausted if off-road. |
+| 4 | Grey and damp | No effect. Miserable. |
+| 5 | Clear morning | No effect. |
+| 6 | Warm and bright | No effect. |
 
-*Summer:* 1-Heat (mark ration/Watch or Exhausted) | 2-Storm (nav Hindered; no Long Rest without shelter) | 3-Humidity (gain STRESS after Watch travel) | 4-5-No effect | 6-Perfect (extra hex on road/open).
+**Summer**
+| d6 | Weather | Effect |
+|---|---|---|
+| 1 | Blistering heat | Mark ration after Watch or Exhausted. |
+| 2 | Thunderstorm | Nav Hindered; No shelter means no Rest. |
+| 3 | Oppressive humidity | Gain STRESS after Watch of travel. |
+| 4 | Hot and still | No effect. |
+| 5 | Warm breeze | No effect. |
+| 6 | Perfect weather | Extra hex if on road/open. |
 
-*Autumn:* 1-Frost (arrive Chilled; fire req. for Long Rest) | 2-Rain (nav Hindered; torches out) | 3-Mist (1 hex vision; encounters 1-2) | 4-6-No effect.
+**Autumn**
+| d6 | Weather | Effect |
+|---|---|---|
+| 1 | Early frost | Arrive Chilled; fire req. for Long Rest. |
+| 2 | Heavy rain and wind | Nav Hindered; torches go out. |
+| 3 | Dense mist | 1 hex vision; encounters on 1-2. |
+| 4 | Grey and cold | No effect. |
+| 5 | Crisp and clear | No effect. |
+| 6 | Golden afternoon | No effect. |
 
-*Winter:* 1-Blizzard (can't move; caught outside = ration + 1 STRESS + Chilled) | 2-Snow (off-road +1 Watch; nav Hindered) | 3-Fog (1 hex vision; encounters 1-2) | 4-Hard frost (Exhausted off-road) | 5-6-No effect.
+**Winter (d6)**
+
+| Roll | Weather | Effect |
+|---|---|---|
+| 1 | Blizzard | can't move; caught outside: use ration, mark 1 STRESS, gain Chilled. |
+| 2 | Heavy snow | Nav Hindered; if off-road +1 Watch. |
+| 3 | Freezing fog | 1 hex vision; encounters on 1-2. |
+| 4 | Hard frost | Arrive Exhausted if off-road. |
+| 5 | Cold and clear | No effect. |
+| 6 | Unexpectedly mild | No effect. |
 
 **Camping:** 1 Watch, counts as Long Rest. Roll encounter die at end. Fire is warm but visible.
 
 ---
 
-### THE GOBFATHER & STANDING
+### The Gobfather & Standing
 
 The Gobfather controls the Hoard, assigns work, and tracks what the party does.
 
@@ -595,7 +630,7 @@ The Gobfather controls the Hoard, assigns work, and tracks what the party does.
 
 ---
 
-### JOBS (d20)
+### Jobs
 
 Roll d20 for work when the Gobfather isn't offering. Pay = 1d6×10 gold.
 
@@ -624,7 +659,7 @@ Roll d20 for work when the Gobfather isn't offering. Pay = 1d6×10 gold.
 
 ---
 
-### RUMOURS
+### Rumours
 
 Before a job: spend a downtime Scheme action or visit a contact. Roll d10 generic + d6 regional modifier.
 
@@ -647,7 +682,7 @@ Before a job: spend a downtime Scheme action or visit a contact. Roll d10 generi
 
 ---
 
-### CONTACTS
+### Contacts
 
 **Gaining contacts:** From play (surviving NPCs, memorable moments), or after a successful Carouse.
 
@@ -682,7 +717,7 @@ Loyalty −1: stiff them, bring heat, ask for something costly.
 
 ---
 
-### DOWNTIME
+### Downtime
 
 The party may spend a day on one activity when in the City.
 
@@ -752,7 +787,7 @@ Pursue anything that doesn't fit other activities. Tell the GM what you want. GM
 
 ---
 
-### THE SAFE HOUSE
+### The Safe House
 
 | Safe House | Cost | What it is |
 |---|---|---|
@@ -777,7 +812,7 @@ If compromised: 1 Round warning (if warning system), else none. Hidden stash sta
 
 ---
 
-### CAPTURE
+### Capture
 
 Goblin is Captured when defeated but not killed. Strip equipped items; GM decides if pack contents are found.
 
@@ -815,7 +850,7 @@ Roll d8 for days until execution or transfer to worse captors.
 
 ---
 
-## SECTION 7: RUNNING THE GAME (GM REFERENCE)
+## SECTION 7: RUNNING THE GAME FOR GM'S
 
 ### The Itch in Context
 
@@ -891,7 +926,1027 @@ Clever goblins should be able to play factions against each other.
 
 ---
 
-<!-- ## SECTION 8: TABLES
+# TOME 2: THE WORLD AT LARGE
+
+> Meticulously curated notes about the current state of the realm of Orrelia. Written and curated by one "Lucious Caesar" and definitely not one Anthony Goblioni.
+
+
+> *There is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned and found the things they left behind.*
+
+
+---
+## SECTION 1: THE CITY
+
+### Setting the Scene
+
+The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed and the streets above are full of people too tired to notice tiny shadows scurrying about.
+
+The Rusty Fang fills up around bell three and a bit. Look, goblins don't use precise timekeeping. They use the smell of the street, the angle of light coming through the grates above and a collective agreement that close enough is good enough. A kobold in the corner is nursing a wounded leg and smoking a fat cigarette. Three trolls known as the Dalwick brothers, regulars at the Rusty Fang, are playing cards and probably cheating someone out of their coin. Somewhere behind the bar, Spit the goblin is wiping down a mug that has never, in living memory, been clean.
+
+A folded note arrives by the hand of a nervous Lowfling who refuses to make eye contact. It has the Gobfather's seal, not his real seal of course, just one he uses when he wants to be believed without being implicated. There is a job. There's always a job. The party has until nightfall to be two streets north of the Merchant's Gate, at which point a locked door will be unlocked for exactly one minute.
+
+They eat. They argue about who carries the rope. They fill up their packs. The city above does not know they exist, which is, to be quite honest, exactly how everyone prefers it.
+
+They go up into the dark.
+
+
+### The City of Glimmerhold
+
+Alright friends listen up. The City is called Glimmerhold by the folk who put it on maps and *the City* by everyone else. There's only one city that matters within traveling distance and that whole map-naming exercise starts to feel a bit presumptuous if we're being honest. Don't tell that handsome devil Tony Goblioni that, though. He may get offended, heh.
+
+Now Glimmerhold... Glimmerhold is old, not *impressively old* where everything is grand and crumbling in a dignified manner, but old in the way that a leather boot is old. Worked over, repaired, repaired again and maintained past the point where any reasonable folks would have just bought a new boot. Several of it's districts are built directly on top of older districts and nobody is entirely sure what's underneath. The Underhold is one of the answers to that question and it's by no means the most interesting one.
+
+The City of roughly 100,000 residents (locals and tourists, mind you) is governed by the **Council of Wards**. Now these uptight scumbags are a committee of twelve ward-representatives who meet quarterly to argue mostly about city drainage and have collectively failed to pass a budget in eleven years. The *actual* running of things is handled by a permanent civil service that has learned to work around said Council and occasionally without its knowledge. The Council itself is not corrupt exactly and let's just say they're merely *decorative* when it comes to actually governing the city.
+
+**The Watch**, formally the Glimmerhold Municipal Guard, are *most definitely* not soldiers. These are cowards with clubs and a badge. They work in pairs, carry lanterns after dark and are primarily motivated by not having to write up reports. A goblin who causes no visible disorder is a goblin the Watch has no administrative reason to engage with. There is however a Watch Captain who takes this personally. **Hessa Vorn**. Captain Vorn is a woman of terrifying competence but one great personal failing; she believes against all available evidence that the city can actually be made orderly. And boy is she wrong, impressively so, despite her best efforts.
+
+#### Districts worth knowing
+
+- **The Coin Quarter** is full of merchants, money, noise, crowds and excellent cover. This is the kind of place where a small figure moving quickly is assumed to merely be making a delivery. The markets run three watches a day; but if you want the good stuff, the black market runs all four.
+
+- **The Docks**, colloquially known as **The Planks** to us locals. No questions asked is the motto round there, a promise and occasionally an epitaph. Everything that enters Glimmerhold unofficially has'ta come through the Planks first. It also smells worse than the Underhold, unless you're a big fan of sashimi.
+
+- **The Anvil** is a clanging industrial headache where smiths turn steel into swords and the Watch arrive like clockwork to soothe the sensitive ears of those Pale Ward saps next door. To craft so much as a rivet in this city, one has to first craft a business plan and present to **Jarvis Pennington** and his construct K-47, who make sure that every craftsman is honest about their trade.
+
+- **The Pale Ward** is where the wealthy live. High walls, private guards, the kind of quiet that is purchased and maintained. Us goblins have no business there. Although let's be honest, this has never, in all of recorded history, stopped us.
+
+- **The Warrens**, a surface-adjacent district of cramped housing and even more cramped ambitions. Some goblins and a few kobolds of particular confidence have managed to integrate here. These gobs are *eccentric* even by our standards but honestly us Underhold dwellers are bit envious. Sometimes you get tired of the dark and the damp.
+
+- **Temple Row**, you'll find eight temples to eight gods. Standing in a row like an argument that has been going on too long to remember why it started.  The temple's clergy are mostly harmless. The crypts beneath them are most definitely not, but that's a job for more experienced goblins.
+
+The eight gods are: 
+- **Gorrath**, god of fire and industry.
+- **the Drowned King** (yes that one, or something wearing his face), god of rivers and endings.
+- **the Pale Lady**, goddess of the Colds and long memory.
+- **Vresh**, god of roads and travellers. That Brightwatch scumbag Corvin worships this nerd.
+- **the Howler**, god of luck and poor decisions. A goblin favourite.
+- **the Builder**, god of walls, foundations and things meant to last.
+- **the Unnamed**, whose temple is the smallest and whose congregation is the most serious.
+- **Ol' Grum**, god of honest work, who has the largest congregation and the least impressive architecture, which his followers consider appropriate.
+
+
+#### A brief history of Magic
+
+Okay, the only history goblins have with magic is exploding. Otherwise, magic in Orrelia is a highly regulated profession, formally administered by the **Academy of Sanctioned Arts**. They issue licences, set examinations and maintain a registry of every trained practitioner in the realm. Becoming a wizard takes centuries of study and mentorship and wielding magic without a licence is a criminal offence carrying penalties the Academy describes as "significant".
+
+Now if you're looking to actually cast spells you want scrolls. Scroll magic exists in a legal grey area that the Academy insists is not grey at all and actually quite clearly black. Folks have been imbuing spells into scrolls and selling them through channels the Academy cannot trace and the Watch cannot find. Us goblins find scrolls the way goblins find most things; in places they weren't supposed to be, left by people who had bigger problems.
+
+Occasionally I've heard of wizards going rogue, operating outside the law and traveling around the realm practicing unlicensed magic. Usually the Watch manages to bring them in but some of such criminals, or heroes depending on who you talk to, are still at large.
+
+  > A note on magic and medicine: proper physicians in Glimmerhold are rare and expensive, but there exists a recognised profession somewhere between healer and hedge wizard known as a **Whyzician**. Practitioners who have studied enough magic to apply it medically and just enough medicine to know when to stop the magic. They are not entirely respected by either the Academy or the Temple physicians. 
+  > 
+  > A goblin with sufficient WITS and a willing mentor could maybe qualify as a Whyzician. The Academy would find this outrageous. Grimbus Goldfinch would find it humorous.
+
+
+### The Underhold
+
+Moving below Glimmerhold, below the sewers, below the foundations of buildings that were already old when the current city was young, lies the most grand community of miscreants to ever grace Orrelia: the Underhold.
+
+This place is the remains of a city that fell. Not in fire or flood, the way cities usually fall, but merely *downward*, slowly. Through a combination of deterioration, neglect and the particular Glimmerhold civic tradition of building on top of their problems rather than solving them. A few centuries of accumulated expansion above has left streets that have not seen the sky since most goblins great grandparent's great grandparents were young. The lanterns here burn an older different oil, a less reliable oil, casting the kind of light that makes everything look like a fuzzy memory.
+
+Goblins didn't build the Underhold, they inherited it. We made it home and then, in the way of all communities that find themselves sharing a space, were joined by everyone else who needed one.
+
+**The Underhold is not a goblin city.** This is a city where goblins were first, a distinction they are proud of and a distinction they would argue matters. They would argue this quite a lot in fact. The Gobfather doesn't rule the goblins. He *provides* for everything in the Underhold. All of it. The trolls, the kobolds, that one very old gnome who has been here so long nobody can remember them arriving. The Gobfather sees the Underhold as his, in the way a shepherd sees a flock; with genuine affection, clear authority and absolutely no illusions about the relationship. You'd best mind that.
+
+If you are unwanted up above, the Underhold will take you in. That's not sentiment, it's policy.
+
+#### The folks of Underhold:
+
+**Goblins** are the most numerous and the most visible. Remarkable given that visibility is supposedly our least preferred quality. The goblin community is fractious, loud and staggeringly resilient. They work for the Gobfather, they complain about the Gobfather and they would die and occasionally do die, for the Gobfather. This is our idea of community.
+
+**Kobolds** are small, crimson-scaled folk, vaguely draconic in such a way that a chihuahua is vaguely worg. They came down to the Underhold at least three generations ago when the surface temples started classifying them as vermin. They haven't forgiven this and they keep meticulous records of exactly how unforgiving they are. These fiesty little buggers are exceptional craftspeople, compulsive archivists and catastrophically litigious within the Underhold's informal legal system. There's roughly seventeen ongoing inter-kobold disputes that predate anyone currently alive still happening.
+
+**Cave Trolls**, specifically the Dalwick family and their associates, arrived when the northern forests became less hospitable than advertised. Trolls are large, slow to anger and widely assumed to be stupid. An assumption the Dalwicks have spent several generations converting into a commercial advantage. They are, as a matter of fact, excellent businessfolk with a head for logistics, a talent for negotiation and an extremely accurate memory for who owes what to whom. Ontop of their natural bulk. This combination has made them indispensable to the Underhold's informal economy and has led to the Gobfather consulting Brug on financial matters more often than he publicly acknowledges. **Brug**, the Dalwick matriarch, runs the only bathhouse in the Underhold and enforces cleanliness standards that are, frankly, more rigorous than anything I've seen the surface districts manage.
+
+**Crowfolk** are the Underhold's intelligence network, postal service and most reliable rumour exchange, often simultaneously. They'd like it noted that these are three separate services with three separate rates. They're lean, sharp-eyed birdfolk with dark feathers, quick wits and a memory for debts that borders on the supernatural. Their postal operation is officially led by a crooked elf named **Kaelvar Lourrth**, who has been running the Crowfolk's courier routes for three hundred sixty-one years. He pockets a modest handling fee on every delivery and is almost certainly reporting interesting package contents to at least two separate parties, though everyone uses him anyway because he's the fastest, most reliable delivery in the Underhold. If something happens in Glimmerhold, a Crowfolk heard about it. If something needs to go somewhere quietly, a Crowfolk will get it there.
+
+**Lowflings**, yes, not halflings. Lowflings. Not all halflings live in the pleasant surface burrows of song and legend. The ones who didn't fit, who are too loud, too ambitious, too disreputable, found their way down here. They run three of the Underhold's six taverns and all of its bakeries. Some instincts survive any amount of upheaval, try a gutter croissant.
+
+**Wights** are not technically undead and also technically not alive. They find the question of definition to be in poor taste. They arrived in the Underhold during the Winter of Palest Fog, when the swamp to the east became briefly but intensely frozen and hostile. They've kept to the deeper passages ever since, not bothering anyone, with the understanding that no one asks them questions in return. Precisely the arrangement all parties want honestly.
+
+The Underhold is also home to many others, such as surly dwarves who've had enough of clan politics above, elves who've been exiled or simply walked away, orcs who've discovered the folks below actually pay better, bugbears who are considerably less intimidating than advertised once you get to know them and the occasional ogre who minds the ceilings without being asked twice. None of these folk are here because they're evil; a word the surface world applies with a generosity the Underhold has noticed and filed away. They're here because they needed somewhere to be and the Underhold, under the Gobfather's particular philosophy of family, opened the door.
+
+#### Points of Interest
+
+**The Rusty Fang** sits at the junction of three streets that have had eleven different names as of so far. The junction has been informally referred to as "the corner" for at least a century. The Rusty Fang is a tavern in the way that gravity is a force; reliably present, hard to argue with and responsible for a great number of falls. Don't forget to tip.
+
+Speaking of tipping, the proprietor is **Spit**. Spit is a goblin of indeterminate age, tremendous experience and the particular quality of stillness that belongs to people who have heard every story and have opinions about all of them. Spit has one ear (a business disagreement, years ago, which was resolved I suppose), one eye that is slightly more gold coloured than the other and a crossbow beneath the bar that has been discharged twice in recorded Underhold history. The records are accurate and the crossbow is loaded, I was there for one.
+
+Spit does not take sides and does not extend credit. She makes a stew that contains something different every day and it's quite remarkable every time. If you ask what's in it you will be asked to leave.
+
+**The Board**, you'll become quite familiar with this weathered piece of wood. A large cork job board outside the Rusty Fang covered in waterproofed parchment squares. This is where jobs get posted when the Gobfather doesn't have work. Nobody reputable posts on this board. This is not a deterrent, it is, for most of the Underhold, an endorsement.
+
+**The Gobfather's operation** runs from somewhere deep in the Underhold that only a handful of people have ever been invited to see. It's quite a comfortable space. Messages come up by Crowfolk runner or Lowfling intermediary and gold comes down in quantities the surface world would find alarming if it knew. The arrangement sustains approximately four-thousand residents of the Underhold and indirectly much of the surface black market.
+
+Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous person in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name "Lucious Caesar" and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that *actually* matters and reports it all to the big man below because that's the job and the job is what he loves. He's also incredibly handsome.
+
+
+---
+## SECTION 2: FACTIONS
+
+
+>Every faction in the Loot Goblins world should be understood through three elements: **goals, resources and fears.** A faction without fear is a faction unable to be leveraged and leverage is where the interesting stories live.
+>
+>Factions interact with the goblins primarily as employers, obstacles, or complications. They interact with *each other* regardless of the goblins entirely and the best sessions are the ones where the goblins slot into someone else's conflict like a very small, very motivated wrench into an already straining mechanism.
+
+
+### The Gobfather's Operation
+
+**Goals:** The Hoard to grow, the operation to run quietly and no problems that require fixing at scale.
+
+**Resources:** The Underhold, every piece of information that flows through it and a network of contacts that extends further into the surface city than anyone up there would be comfortable knowing.
+
+**Fears:** The Watch deciding the Underhold is worth the paperwork, a rival operation with better organisation and someone in the Brightwatch writing a report.
+
+**Relationship with players:** They *are* the players' relationship. This is the faction the party navigates everything else through.
+
+### The Glimmerhold Ward Council
+
+**Goals:** The city to run without complaint, ideally without anyone noticing who's running it.
+
+**Resources:** Legal authority, municipal resources and the Watch, none of which they deploy with any particular efficiency.
+
+**Fears:** A scandal. Specifically, the kind of scandal that ends careers. The Gobfather has files. The Council has always known this and has chosen, with remarkable unanimity, not to pursue the matter.
+
+**Relationship with players:** A distant bureaucratic obstacle most of the time. Occasionally, a Ward Councillor needs something done quietly, which is where goblins who are not supposed to exist become extremely useful.
+
+
+### The Pale Ward Syndicate
+
+Three noble families, the Venhalls, the Cresswick-Norths and the Mourne family, who have been competing for commercial dominance of Glimmerhold's import trade for sixty years. They don't use violence directly, preferring lawyers, tariffs, rumour, marriage and the occasional hired inconvenience. They're aware the Gobfather exists, have at various points attempted to use him and he has at various points allowed this while charging considerably more than they expected.
+
+**Goals:** Each families wants pure control over Glimmerhold's economy.
+
+**Resources:** Copius amounts of wealth and connections.
+
+**Fears:** Each family fears the other family will rise up and surpass them, all three houses fear the Gobfather expands to the surface in a more public fashion.
+
+**Relationship with players:** Jobs from the Syndicate families come through intermediaries and pay extremely well. They also tend to involve stepping directly into someone else's ongoing conflict, which the goblins are not briefed on in advance. The Syndicate does not consider goblins a part of society, which means they also don't consider goblins a threat until they very suddenly do.
+
+**Current status:** The Venhalls and Mourne family are in active dispute over a shipping contract worth more than the party will see in three campaigns. The Cresswick-Norths are trying to benefit from both sides being distracted.
+
+*The families in brief:*
+
+**House Venhall**, Old money. Imports textiles, spices and several things that are not textiles or spices. The family matriarch, **Lady Veth Venhall**, is seventy-two, sharp as a dagger and has been underestimated for sixty of those years. Her youngest son Pell is charming and useless and owes the Gobfather more than he should.
+
+**House Cresswick-North**, New money, which the old money finds distasteful and the newer money finds aspirational. They have the best lawyers in Glimmerhold, which is a great form of power. Lord **Daven Cresswick-North** is exactly as clever as he thinks he is, which turns out to be the most dangerous kind.
+
+**House Mourne**, The Mournes have produced three Watch Captains, two Councillors and one incident that nobody names but everyone knows. They consider themselves the moral authority of the Pale Ward, which is the Pale Ward's loss. **Selna Mourne** runs the family now. She is fair, careful and the only one of the three who has ever actually spoken to a goblin, which she considers research and the goblin in question considers extremely unsettling.
+
+
+### The Brightwatch Company
+
+The Brightwatch are Glimmerhold's most celebrated adventuring company. This is somewhat like being the tallest person in a city of very short people. True but not entirely the point.
+
+They are competent and this must be acknowledged first, because everything else is easier to understand once you've acknowledged that the competent version of a hero is still, from the goblin perspective, a five-foot tall absolute force of nature with a weapon and no peripheral awareness for smaller creatures.
+
+They've cleared at least four-hundred fourteen dungeons, been celebrated in multiple ballads, have an account at a decent inn and maintain a standing relationship with the Watch that makes Captain Vorn simultaneously grateful and suspicious. They have never once noticed the goblins.
+
+This is partly skill on the goblins' behalf and partly the comfortable blindness of people who are used to being the most important thing in any room.
+
+**Goals:** The Brightwatch Co. is merely in it for the thrill of adventure. They want to be rich and famous and they're succeeding.
+
+**Resources:** Connections to the Watch, respected by the Syndicate, a large bank vault and an even larger wealth of experience in dungeons.
+
+**Fears:** Definitely not death. The Brightwatch are mostly afraid of being shunned by the public at large.
+
+> Brightwatch Co. statblocks are found in the Bestiary.
+
+---
+
+**ALDRIC VANE**, *Fighter*
+
+**Who he is:** A second son who joined the Brightwatch because the family estate wasn't his, neither was the patience for law school. He is handsome in the way of men who have never been told they are not and principled in the way of men who have never had their principles tested by genuine adversity. He does not hate goblins so much as he has a settled, uncomplicated belief that goblins are a problem. He has never spoken to one at any length. This is, for both sides, probably fine.
+
+**GM note:** Aldric is the party's first obstacle and eventual complication. He is not cruel. Given sufficient reason, a goblin who saves someone he loves or a betrayal by someone he trusts, he can be moved. This should take at least two sessions to set up and feel earned. Until then; he is an obstacle.
+
+---
+
+**MAREN ASHVEIL**, *Wizard*
+
+**Who she is:** Maren came from the Academy and left it with excellent marks, a research posting and a slowly building suspicion that the Academy was mostly interested in keeping its knowledge to itself. The Brightwatch was meant to be temporary fieldwork. That was four years ago. She is the most dangerous member of the group because she is the only one who *really* pays attention. She has not noticed the goblins, but she has noticed *evidence of* goblins. Small scrapes on dungeon floors, sections of loot that were clearly examined and replaced, passages that smell of fungus and farts.
+
+She has a hypothesis and it is, unfortunately, correct.
+
+**GM note:** Maren knowing about the party is a slow-burn arc. Start with Pebble staring in the wrong direction. Escalate to notes found. Consider having her leave a note in a dungeon room that says, very simply, *I know you're here. I don't think you're the problem.* The party gets to decide what to do with that.
+
+---
+
+**SARBORAS FESS**, *Rogue*
+
+**Who she is:** Sarboras Fess is the most professionally competent thief in Glimmerhold who is also definitely working as an adventurer and these are absolutely two separate careers and please do not look too closely at the coincidence of dungeon security incidents following Brightwatch visits. She is cheerful, charming, privately ruthless and the only member of the Brightwatch who has any idea goblins exist as a cultural phenomenon, which amuses her.
+
+**GM note:** Sarboras is a wild card. She might steal from the goblins. She might also sell them information, for the right price, framed as a coincidence. She finds the goblins funny in the way a professional finds a particularly audacious amateur funny although she will never admit this. She is not safe to approach but she is not, precisely, dangerous to approach either. It depends enormously on the day.
+
+---
+
+**CORVIN SALTMARSH**, *Cleric*
+
+**Who he is:** Corvin serves a god of roads and travellers, the divine patron of people going somewhere difficult. He is devout without being earnest about it, which is a harder thing to maintain than it looks. He has been trying to get his companions to reconsider their assumptions about goblins since he joined the Brightwatch, with very limited success. He has helped a goblin once, anonymously and spent three days waiting to find out if it would come back to haunt him. It didn't. He is, very slowly, drawing a conclusion from this.
+
+**GM note:** Corvin is a door. Not a friend, not yet anyway, but the character most likely to become one if the goblins give him something to work with. A genuine conversation, a moment of being treated as a ally rather than a resource. He will not betray the Brightwatch. He will, if the situation is desperate enough and his conscience is engaged, look the other way. Starting a relationship with Corvin is a campaign-length project and should feel worth doing.
+
+
+### The Open Coats
+
+The most famous unlicensed magic practitioners currently at large are known throughout Orrelia as **the Open Coats**. A name that began as a description of their leader Rumblestride's coat and went on to become, to the Academy's considerable irritation, something people say with admiration. **Rumblestride** is a former shipmage who spent thirty years persuading the wind to cooperate on merchant vessels before deciding that working for other people was awfully tiresome. He moved to Glimmerhold, ran an alchemy shop in the Anvil for a decade-ish and then handed his licence back to the Academy. The clerk didn't know what to do with it; as far as anyone knows it's still on her desk. 
+
+Rumblestride's outerwear has become something of legend. A long charcoal coloured coat, fastened with sapphire buttons that catch light in rooms that don't have enough to justify the effect. It's lined in azure silk and possesses a quality witnesses consistently struggle to articulate beyond *"there's something about it"*. The coat does not billow dramatically when the wind blows, it billows dramatically regardless.
+
+With him travel two other wizards. The first is **Dardanel Moonswaddle**, a baroque elf of considerable magical talent who finds the Academy's dress code personally offensive and has a penchant for illustrious fine gemstones. The second is **Rolart the Mad**, who is extremely old, deeply eccentric and accompanied everywhere by a canary familiar named Stefin. Stefin has opinions on magical theory and Rolart treats them as peer review. The three are wanted in four jurisdictions, celebrated in two others and the subject of at least one ballad the Academy has attempted to have suppressed.
+
+**Goals:** The Open Coats want to liberate magic from the Academy and give it back to the folks of the realm.
+
+**Resources:** They don't have much to their names but they're quite possibly the three strongest living mages in the realm.
+
+**Fears:** The worst possible outcome for the Open Coats would be to be brought back under the thumb of the Academy.
+
+> The Open Coats statblocks are found in the Bestiary.
+
+
+### The Temple Compact
+
+The eight temples of Temple Row maintain a formal alliance of neutrality, mutual aid and collective silence on theological disagreements that would, if aired publicly, make the Ward Council's budget arguments look cordial. They have a shared treasury, a shared archive and a shared blind eye toward the Underhold. Mostly because several of their lower clergy have been getting their medicines from a kobold apothecary and a certain Whyzician for years and nobody wants to make that official.
+
+**Lady Yonathan**, steward of the eight, was a retired Watch officer who, if rumours are to believed, once helped Boubastous Shakur avert the Apocalypse. Having, apparently, successfully saved the world, she promptly retired to her hobbies, though she held onto her nervous disposition. It wasn't that she feared the end of days returning; she just worried that someone, somewhere, wasn't being properly looked after.
+
+**Relationship with players:** Individual clergy can be Contacts. The Compact as an institution is useful for healing, information and sanctuary, at a price framed as a donation.
+
+
+### The Screaming Cult
+
+The Lich, formally **the Archivist of Pale Hours**, informally the Screaming Lich because of an incident forty years ago that has been somewhat unfairly memorialized, rules a dungeon roughly 50 kilometres east of Glimmerhold that is simultaneously a legitimate arcane library and an active threat to the continued existence of several things the world considers valuable. The cultists are researchers, mostly, which is to say they are extremely dangerous and also genuinely enthusiastic about footnotes.
+
+**Relationship with players:** The cultists appear on the dungeon encounter tables. They can be negotiated with. They are interested in knowledge, particularly knowledge about things they didn't know they didn't know. The Lich itself can be spoken to, given appropriate preparation and a tolerance for the cold.
+
+> The Screaming Lich's statblock is found in the Bestiary.
+
+
+### Remnants of the Northern War
+
+The war to the north has ended, technically and there is a peace treaty that is, according to three separate parties I've talked to, either in effect, suspended, or under renegotiation, depending on the day you ask.
+
+What this means practically is that there are soldiers in the northern territories who answer to lords whose authority is unclear, alongside veterans who answer to no one at all, alongside refugees who have stopped moving and started farming out of sheer exhaustion, alongside opportunists who arrived three months after the fighting slowed and are doing very well indeed.
+
+>**The actual history, for GMs**
+>
+>The Northern War is not a single conflict. It is three separate disputes that merged into one sustained catastrophe through a combination of bad faith, worse timing and the particular talent the northern lords have always had for turning a negotiation into a battleground.
+>
+>It started ninety-four years ago as a border dispute between House Aldenmarch and House Veyren, two noble families controlling adjacent territories north of Glimmerhold. Aldenmarch wanted the Coldwater River rerouted; it flooded their grain fields every Turning. Veyren controlled the upstream land and refused. Someone destroyed a dam. Nobody admitted to it, both sides mustered armies.
+>
+>The Ward Council of Glimmerhold attempted to mediate twice. The first time, both parties attended and agreed to terms. The second time, one party sent a representative and the other sent soldiers to the representative's camp. The Ward Council issued a formal statement of neutrality and has maintained that position for seventy-eight years, which in practice means the war has been happening within half a day's ride of the city's northern gate for almost a century.
+>
+>The conflict absorbed two smaller disputes - a land claim by the Ferrymen's Guild over river tolls and a religious disagreement between two Temple Row factions about which god technically owns water rights. This became something more structural than any of its original parts. There are veterans on both sides who have been fighting for years and don't remember what the original quarrel was. There are soldiers who have switched sides twice and consider this pragmatic rather than disloyal. There are settlements that have been occupied, liberated, re-occupied and liberated again so many times that the residents have learned to bury their valuables before any army arrives regardless of which flag it's flying.
+>
+>The current status is technically peace. A new treaty was signed fourteen months ago at a neutral inn in the grassland south of both territories. The treaty is contested by three parties, two of whom signed it. The fighting has reduced to intermittent raiding rather than sustained campaigns, which everyone involved describes as "the situation improving."
+
+**Relationship with players:** The northern reaches are the richest hunting ground for jobs, loot and complications. Everyone up there wants something moved, found, destroyed, or quietly made to not exist anymore. Northerners are actually rather tolerant of goblins, so long as you're not stealing from under their noses.
+
+
+### Mercenaries and other Loose Groups
+
+**The Twelve Bell**, A mercenary company that has operated out of the open grassland for two generations, distinguished by their actual bells (one per member, rung at the start of any operation), their considerable competence and their complete indifference to who they're working for. They have, at separate points, worked for both sides of the Northern War, the Pale Ward Syndicate, the Watch and the Temple Compact. They charge the same rate for everyone. They have a policy against taking jobs from the Gobfather, which the Gobfather considers a professional circumstance.
+
+**The Silent Lanterns**, A network rather than a group, the Silent Lanterns are researchers, scholars and very carefully positioned thieves who've been moving restricted knowledge out of the Archivist's Tower's restricted section for approximately thirty years. They publish it under false names in pamphlets that leave the academic community outraged and the public delighted. Maren has her suspicions but hasn't acted on them, largely because one of the pamphlets contained a correct and useful solution to a problem she was working on, which created an ethical complication she hasn't fully resolved.
+
+---
+## SECCTION 4: THE LANGUAGE OF ORRELIA
+
+Most folks of the realm speak Glimmertongue; a dialect of the common language specific to Orrelia. There is also Undertongue for when you want to speak more candidly without the surface dwellers knowing what's going on. 
+
+### Local Sayings
+
+#### Glimmertongue Sayings
+
+*"Mind the fourth."* General warning of hidden dangers. The fourth step of the Coin's famous public staircase has been broken for years. Everyone who doesn't know this finds out eventually.
+
+*"Venhall weather."* A sudden change in someone's disposition that costs you money. "He was friendly until the contract was signed, then it turned Venhall weather."
+
+*"Lich'll have it."* Anything that's been lost and isn't coming back. "Where are my good shoes?" "Lich'll have it."
+
+*"Count your Hoard."* Assuming you've won something before it's settled. Mild insult.
+
+*"Gone Warrens."* Made a decision that's not as bold as it looks but isn't as foolish either. Neutral, slightly admiring.
+
+*"The Watch'll have it."* A problem that can't be solved, only reported.
+
+*"Pale Ward prices."* Anything that costs more than it should. "Four gold for a pint!? That's Pale Ward prices."
+
+#### Underhold Sayings
+
+*"Ask Spit."* The answer to any question about information, history, or where someone currently is.
+
+*"Gonna need a scratch."* A general sense that things are about to get worse. Used for dungeons, the Watch presence and difficult conversations alike. Reference to the Itch.
+
+*"Gob's eyes."* Said when something goes right that shouldn't have. Also said when someone suspects they're being watched.
+
+*"Two-entrance job."* Any situation you planned to enter from one direction and had to exit from another. A compliment on adaptability, mostly.
+
+*"Stacked like the Dalwicks."* Said of anything deceptively large. The Dalwick trolls are broader than they look in a corridor.
+
+*"Pebble's staring."* Said when someone has noticed something others missed. Borrowed from the Brightwatch's cat. The irony is intentional.
+
+*"Below rust."* Anything done off the record, below even Underhold standards. "That was below the Rust, even for you." Reference to the Rusty Fang.
+
+*"The Board'll have it."* Said of problems nobody else wants to deal with. Less resigned than the surface equivalent; the Board actually gets results, just chaotic ones.
+
+*"Brug-clean."* Absolutely spotless. Used sarcastically for anything that is emphatically not clean at all.
+
+*"He counts teeth."* Said of someone who misses nothing. From the Tooth-Counter quirk, via common observation of an extremely thorough goblin bookkeeper who has been dead for twenty years but whose legend persists.
+
+
+#### Outer Ring, Rural and Wilderness Sayings
+
+*"Watch the trees."* Prepare for something you haven't identified yet. Universal in the forest reaches.
+
+*"Drowned King weather."* When it rains for more than an afternoon.
+
+*"It counts by heartbeat."* Said of anything in the wilderness that hunts by sensing you specifically. Walk slower.
+
+*"Northmen, that."* Anything that goes north lately stays north. Applied to objects, people and good decisions equally.
+
+*"Fire and sense."* Everything a sensible person needs when the weather turns. General pragmatism.
+
+*"Left something for the Horned Thing."* An offering made to bad luck in advance. Leave a small gift in the forest before asking it for anything.
+
+*"Quiet past the stones."* Warning to stop talking and start watching. Usually near ruins.
+
+*"Road gold."* Money made quickly, gone quickly, not worth mourning. Grassland caravan trader saying.
+
+---
+## SECTION 5: THE LANDSCAPE
+
+
+### Monuments and Landmarks
+
+**The Bridge of Eleven Names**, a stone bridge over the river east of Glimmerhold that has had its dedication plaque replaced eleven times by eleven different political administrations. The current plaque reads "The Bridge of Municipal Achievement." The previous ten plaques are stacked underneath the south pylon, which everyone knows but nobody cares to move or clean up.
+
+**The Three Captains**, a war memorial in the Coin commemorating three Watch Captains who died during the Warrens Uprising of a hundred and forty years ago. The uprising is not commemorated, shocking nobody. The three captains were doing their jobs, which the city considers easier to honour than the reasons for the uprising, which it would rather not revisit. The base of the memorial has Undertonuge script scratched into the stone.
+
+**The Pale Gate**, an archway at the entrance to the Pale Ward that is most absolutely not a defensive structure and has definitely never been used to stop anyone from entering or leaving and the guards stationed beside it are there for purely decorative purposes only. Everyone agrees with this publicly.
+
+**The Sunken Plaza**, a market square in the Coin that is four feet below street level because the street was raised around it three times and nobody could agree on what to do with the existing cobblestones. Steps lead down in three places. Let me tell ya, the Sunken Plaza has the best cheap food in Glimmerhold, below average atmosphere and a buy-in card game in the northwest corner alley that has been running continuously for somewhere between forty and eighty years.
+
+**The Archivist's Tower**, the academy's main library which is also, nominally, a defence tower. It is also, informally, where Maren does her research between jobs. It contains a restricted section that's been restricted for sixty years due to an incident that killed two researchers and an impressive quantity of furniture. Nobody's removed the restriction because the books are still in there and nobody particularly wants to go and check on them.
+
+**The Field of Pressed Swords**, a clearing in the forest northwest of Glimmerhold where, by tradition, the swords of soldiers who died in the Northern War were driven hilt-down into the ground. There are approximately nine hundred of them last time I counted. The clearing is kept clear of undergrowth by the locals. Nobody dares to take any of the swords, which is not superstition so much as something more specific than superstition, like fear of being struck down by an arrow.
+
+**The Egg**, a single stone obelisk near the western river, marking the farthest point of the eastern advance during a conflict so old it predates the city. The name carved on it refers to a people who no longer exist. It is well maintained though nobody knows who maintains it. I have camped out to try and see who does it for six days once. No idea.
+
+**The Quiet Wall**, a low stone wall in the grassland south of Glimmerhold, running east to west for about fifteen kilometers with no obvious origin. There are small niches cut into it at regular intervals, each containing a stone no larger than a fist with a name scratched into it. All different names and new ones appear after the Grey Procession.
+
+**The Merchant's Column**, in the Planks district there is a column raised to commemorate the civilian deaths during the river blockade of eighty years past. It is much taller than it needs to be and has a quote carved at the top that nobody at street level can read without gaining a vantage point. A kobold named Grissle once climbed it and told me the quote reads *"Next time, maybe just negotiate."* I never verified this, but I believe them.
+
+**The Ivory Meadow**, a stretch of meadow northeast of Glimmerhold where the grass grows white and has grown white since a battle three generations past. The soil tests as normal, plants grow normally but in the wrong colours and sheep brought to graze here are unharmed except their wool grows straight. Legend has it that a powerful wizard cast a powerful spell to end that battle and left the meadow warped since.
+
+**The Drowned Plateau**, the northern river flooded one-hundred years ago, stayed flooded for two years, then receded, leaving behind land that grows abundantly but smells faintly of old wet troll even in dry summer. The farmers work it and the yield is excellent. They won't talk about what comes up sometimes at the end of the plough.
+
+**The Shimmer Flats**, in the desert there is a stretch of land where the sand was melted into glass, apparently by dragon-fire, leaving pale red, slightly translucent panels that are warm to the touch in all weather including the Colds. There is something moving underneath, very slowly and it doesn't seem to be aware of the surface.
+
+**The Cut**, a slash across the north eastern mountain peaks that appears on no geological survey because it isn't geological. Something made it deliberately, at speed and did not linger. The dwarves who live in those mountains won't go near it. They will say only that it was already there when they arrived and they arrived a long, long time ago.
+
+### Regional Superstitions
+
+#### Inner Ring (Near the City)
+
+*Leave something sweet at the Sunken Plaza on the first morning of the Turning.* The something is meant for whatever lives below the plaza, though nobody knows what lives below the plaza. The offering has been left continuously for at least a century and the something that takes it has been there at least as long. The sweet things disappear by noon.
+
+*Don't give your full name to a stranger at the Planks after dark.* Half-names are fine. Nicknames are fine. Your full name is a loan you might not get back.
+
+*Count to three before crossing Temple Row.* It takes three steps to enter sacred ground and three to leave it. This is possibly theology and possibly just how the paving stones are arranged.
+
+*A finch on the Pale Gate means money changing hands.* There is always at least one finch on the Pale Gate. This has not reduced the power of the superstition.
+
+*Don't let a Crowfolk follow you home if you haven't paid your debts.* Not because Crowfolk are dangerous, but because if a Crowfolk is following you home, you already know why and the superstition is just a polite way of reminding you.
+
+---
+
+#### Outer Ring (Dense Wilderness)
+
+*In the forest: mark three trees before you sleep and check them in the morning.* If the marks are different, don't stay for a second night.
+
+*In the swamp: never let both feet leave solid ground at the same time.* One foot planted. Always. Even when you are sure of the surface. Especially when you are sure of the surface.
+
+*In the tundra: answer a sound you don't recognise once, then stop.* Two answers means you're having a conversation. Three means you're lost.
+
+*In the desert: pour a little water on the ground before you drink.* The ground is thirstier than you are and it is not polite to drink in front of it.
+
+*On the mountain: don't point at the summit.* The things that live there can see your fingers. You can look all you want, but you shouldn't indicate.
+
+*On the grassland: if you see a fire 25km out and nobody's moving toward it, it is not a fire worth investigating.* Real fires need help and the other kind wants company.
+
+*Near water: never count the fish.* Counting names a thing and a school of fish probably studied math.
+
+
+### Locals
+
+#### Inner Ring
+
+**Pell Venhall**, not a hero by any definition that involves virtue, but certainly a local one by the definition that involves name recognition. The youngest Venhall son is beloved by the Warrens for reasons that include his gambling, his accessibility, his tendency to forget that goblins aren't supposed to be served in the taverns he patronises and a spectacular incident two years ago involving a stolen wedding cake that the Warrens still talks about.
+
+**Boubastous Shakur**, a retired Watch officer who now runs a soup kitchen near the Warrens. He knows where every body is buried because he put several of them there during his career and he's been making amends ever since, in a very practical manner. He has contacts in every district and an inexplicable soft spot for kobolds.
+
+**The Archivist of Temple Row**, not a person but a rotating position. Currently held by an elderly gnome named **Tuck** who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.
+
+**Grimbus Goldfinch**, the most famous Whyzician in Glimmerhold. Grimbus operates out of a cluttered set of rooms near the Warrens. He charges what he thinks you can afford (which is sometimes more than you expect and occasionally nothing at all), he does not discriminate by species and he keeps meticulous records that have been stolen from him twice and returned both times.
+
+
+#### Outer Ring
+
+**Margot the Miller**, a woman in the northern reaches who, during the final Colds of the Northern War, kept her mill running for eight months past when everyone else stopped, supplying three settlements and at least one army company that wasn't supposed to be in the area. She's old now and tells the story differently every time, but the parts that stay the same are the important parts.
+
+**The Ferrymaster**, no one knows the Ferrymaster's name and the Ferrymaster has worked the river crossing between the eastern river crossings for longer than anyone can track. The Ferrymaster doesn't charge goblins and doesn't explain why. Nobody's pushed the matter because some arrangements are more comfortable when left unexplored.
+
+**Sigvald of the Cut**, a dwarf stonemason who lives alone in the mountainvpeaks near the geological anomaly known as the Cut. He has studied it for eighty-odd years and published twelve monographs that other dwarves find academically interesting but uncomfortable. He will speak to anyone who comes without a weapon and with a sincere question. He has theories about the Cut. They are almost certainly right and involve giant gods and even larger swords.
+
+---
+## SECTION 6: THE SEASONS AND THEIR FESTIVALS
+
+The world has no months, because months are an administrative convenience and the world predates administration. There are four seasons of approximately sixty days each, named by what they *do* rather than what they *are.*
+
+### The Turning (Spring)
+
+The Turning is named for the world turning back toward the sun, which is either a metaphor or a literal astronomical event depending on who you ask.
+
+**The Mud Festival:** Held in Glimmerhold at the start of the Turning, when the ground thaws and becomes slightyly problematic. Officially a civic celebration of spring, unofficially a chance to cover everything in mud, which the Warrens and the Underhold participate in enthusiastically and the Pale Ward refuses to attend. The Underhold's version has been running for centuries and involves a mud-throwing competition with brackets, judges and a trophy that is itself made of dried mud and has to be rebuilt each year.
+
+**The First Green Market:** When the first produce of the Turning arrives in the Coin, the market runs for three days without closing. Every criminal enterprise in Glimmerhold uses the First Green Market as cover and the Watch knows this. Fortunately, they also need to eat and the First Green Market has excellent prices.
+
+**The Underhold Remembers:** A quiet Underhold ceremony with no surface equivalent. Every resident lights a candle for something they left to come to the Underhold. A place, a family, a situation. The candles are placed on paper boats in the sewer rivers. They float east into the main channels of the Orrelian rivers. Nobody follows them out of the Underhold. That's the point.
+
+### The Bright (Summer)
+
+The Bright is what everyone calls the long days. It is the best season for travel, the worst season for the Underhold (which gets warm and stays warm) and the season in which most of the heroic adventuring happens, because nobody writes ballads about saving the world in the rain.
+
+**The Warden's Run:** A footrace from the city gate to the east river crossing, a distance of roughly 43 kilometres. Anyone can enter and the Watch runs it as an official event. The unofficial version involves the same route and different participants, usually with several items that need to be moved between start and finish without official notice. The winner of the unofficial version has never been announced, but the results are known.
+
+**The Burning Night:** Midsummer. Every district of Glimmerhold burns something. The Pale Ward burns a ceremonial wicker figure. the Coin burns debts (symbolically). the Planks burn a large sea creature which produces a specific colour of smoke visible for roughly 50 kilometres. The Underhold burns the Board, everything currently posted on the job board outside the Rusty Fang is taken down, burned and a new board goes up the next morning. Everything on the new board is treated as a fresh contract.
+
+**The Silk Fair:** The major commercial event of the Bright, drawing merchants from the outer reaches and beyond. Three days of legitimate commerce and approximately twice that in illegitimate commerce running alongside it. The Gobfather's operation makes more during the Silk Fair than in any other equivalent period. He has a private celebration and if you play your cards right one day you will join.
+
+### The Falling (Autumn)
+
+The Falling is named for leaves and also, less charitably, for what happens to plans made during the Bright when they encounter the realities of the coming Cold.
+
+**The Harvest Debt:** A formal accounting period recognised throughout the region where debts are tallied and contracts reviewed. The Gobfather's internal accounting coincides with the Harvest Debt; the Hoard is assessed, standings are reviewed, any goblin who's contributed significantly gets a better cut of the next job and any goblin who's been a problem gets a conversation. The Harvest Debt meeting is the only time the Gobfather sends a general invitation to the Underhold rather than individual summons, attendance is optional and non-attendance is noted.
+
+**The Grey Procession:** Held at the end of the Falling, the Grey Procession is a surface ceremony that the Underhold watches from shadows. Families who lost someone in the Northern War walk through the city, in silence, carrying a stone, to a caravan that leaves for the Quiet Wall. Nobody organises it and nobody needs to. It happens because it needs to happen.
+
+**The Underhold Fair:** Three days where the Underhold trades with itself, with every resident setting up a stall, pit, blanket, or cleared section of floor. The range of goods available is impossible to describe without a list that would be twenty pages long and include several items whose origins shouldn't be asked about. The Gobfather opens the Fair, Tony circulates and takes notes.
+
+### The Colds (Winter)
+
+The Colds are honest about themself.
+
+**The Dark Week:** Seven days at the height of the Colds where the Underhold goes mostly dark by agreement, with lanterns reduced to one per passageway. It is ostensibly resource conservation, it is actually a period where the Underhold's various communities observe their own traditions privately, which is easier in the dark. What the kobolds do, nobody asks. What the Wights do, nobody wants to know. What the goblins do is mostly eat and complain about the cold, which is tradition enough.
+
+**The Feast of Found Things:** An Underhold tradition where every resident brings something they found during the year, a piece of loot, a scavenged item, something retrieved from a dungeon or a street or a discarded pile and puts it in the centre of the Rusty Fang. Spit cooks a meal, everyone eats from the same pot and the found things are distributed by Spit's judgment, which is arbitrary, impeccable and never questioned. The item Spit keeps is always the least obviously valuable thing in the pile and is never quite what it appears to be.
+
+**Night of Ice:** The coldest night of the Colds. By common agreement the night on which anyone who has a grudge may speak it plainly and anyone who hears it may respond plainly. All of it is considered said and done by morning. This is, theoretically, a method of clearing the air. Practically it's the most interesting night of the year in the Underhold and nobody sleeps.
+
+**The Brightwatch Dinner:** This doesn't actual involve the Brightwatch. Named after the Brightwatch tradition of holding a formal dinner to review the year's dungeon work, which became public knowledge after Sarboras described it to several people during the Silk Fair. The Underhold version is a mock-formal dinner where goblins report on the year's jobs in the style of the Brightwatch reviewing their work. Those who partake find it extremely funny and the Brightwatch has no idea it exists.
+
+
+> *The City doesn't acknowledge they exist. The city has never known they exist. The city will, in all probability, never know they exist. This is, the goblins would tell you, exactly the point. You cannot be underestimated if you have never been estimated in the first place.*
+
+---
+
+# TOME 3: BESTIARY AND LOOT
+
+## SECTION 1: BESTIARY
+
+### BASIC BESTIARY
+
+Monster stat blocks use the same MEAT / ZEST / WITS stats as players. Monsters do not have COURAGE. Their attacks list specific dice and any Vital Blow effect that replaces the Injury Table on a failed save.
+
+**Vital Blow entries** describe the effect applied to the player on a failed Vital Blow roll against that monster's attack. This replaces the standard injury table roll.
+
+**Morale Break** is a universal rule for all monsters. When a monster takes 3 or more MEAT damage from a single hit, it must roll against its own MEAT target number or flee/surrender. Monsters with the **Indomitable** keyword automatically succeed.
+
+Threat tiers: **Scum / Danger / Run / Doom**
+
+Use the following stat blocks as a framework for your own monsters and NPCs.
+
+> **GIANT RAT** - *Scum*
+> - MEAT 4(6+) / ZEST 6(5+) / WITS 3(6+) / STRESS 3 / DEF1
+> - **Bite:** d4+d4
+> - **Vital Blow:** Diseased. 
+> - **Special:** Pack Hunters: If three or more rats are present they are all Bolstered.
+
+> **BAT SWARM** - *Scum*
+> - MEAT 7(5+) / ZEST 5(6+) / WITS 4(6+) / STRESS 0 / DEF1
+> - **Smother:** d4+d6
+> - **Vital Blow:** Disoriented.
+> - **Special:** Each point of MEAT represents one bat. Fire attacks are Bolstered against them.
+
+> **GOBLIN** - *Scum*
+> - MEAT 5(6+) / ZEST 4(6+) / WITS 7(5+) / STRESS 4 / DEF2
+> - **Dagger:** d4+d6
+> - **Slingshot:** rd4+rd6
+> - **Vital Blow:** Standard.
+> - **Special:** None.
+
+> **UNDEAD** - *Danger*
+> - MEAT 12(4+) / ZEST 0(-) / WITS 3(6+) / STRESS 8 / DEF2
+> - **Rotting Claw:** d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. ZEST 0 means permanently feral, attacking the nearest non-undead mindlessly. Immune to Frightened and Rattled.
+
+> **HELLHOUND** - *Danger*
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 6(5+) / STRESS 4 / DEF2
+> - **Flame Bite:** d6+d6
+> - **Vital Blow:** Apply Burning.
+> - **Special:** Pack Hunters. If three or more Hellhounds are present they are all Bolstered.
+
+> **GIANT SPIDER** - *Danger*
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 9(5+) / STRESS 4 / DEF2
+> - **Venomous Bite:** d4+d8 on hit the target gains Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Ambush: first attack from hiding is Bolstered. Web: once per encounter Hinder all attacks against it for one round.
+
+---
+
+> **ORC WARRIOR** - *Danger*
+> - MEAT 12(4+) / ZEST 10(4+) / WITS 5(6+) / STRESS 6 / DEF3
+> - **Greatclub:** d8+d8
+> - **Vital Blow:** Concussed.
+> - **Special:** Thick Skull: Vital Blow threshold is 5 instead of 3.
+
+---
+
+> **OGRE** - *Run*
+> - MEAT 18(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 10 / DEF3
+> - **Massive Fist:** d8+d10
+> - **Vital Blow:** Knocked.
+> - **Special:** Thick Hide: DEF counts as 4 against d4 and d6 Break dice.
+
+---
+
+> **GIANT SLIME** - *Run*
+> - MEAT 20(2+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
+> - **Engulf:** d6+d6 ignores shields.
+> - **Vital Blow:** Slimed.
+> - **Special:** Indomitable. Split: when the slime takes 5 or more MEAT damage from a single hit it splits into two smaller slimes (MEAT 5 each) instead of taking that damage. Immune to poison and acid.
+
+---
+
+> **KNIGHT ERRANT** - *Doom*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 10 / DEF5. 
+> - **Mounted Lance:** d8+d10
+> - **On foot, Sword:** d8+d8
+> - **Vital Blow:** Rattled. 
+> - **Special:** Indomitable. Mounted Charge: first round on horseback is Bolstered and if it lands the target must pass a MEAT save or be Knocked. See Horse stat block below.
+
+
+> **HORSE** *Scum*
+> - MEAT 12(4+) / ZEST 8(5+) / WITS 4(6+) / STRESS 6 / DEF1
+> - **Kick:** d6+d6 only attacks when cornered or panicked.
+> - **Special:** Panic: when the horse takes damage or is exposed to fire, it must pass a ZEST save or bolt in a random direction. A rider must pass a MEAT save or be thrown, taking d4 MEAT damage. Mount: a mounted rider moves 30ft per round instead of 15ft.
+
+---
+
+> **DRAGON** - *Doom*
+> - MEAT 30(2+) / ZEST 16(2+) / WITS 14(3+) / STRESS 15 / DEF5
+> - **Claw:** d8+d10
+> - **Fire Breath (3\*):** rd10+4rd10, assign one Break die and the remaining dce as damage to different targets.
+> - **Vital Blow:** Burning.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hoard Sense: always knows if something has been taken from its hoard. Parley: a good offer (and WITS save) may pause combat to chat.
+
+---
+
+> **HERO - WIZARD** - *Doom*
+> - MEAT 6(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 4 / DEF1
+> - **Staff:** d4+d6
+> - **Fireball (3\*):** rd6+4rd6, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable.
+
+---
+
+> **HERO - FIGHTER** - *Doom*
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 12 / DEF5
+> - **Hero Sword:** d8+d8
+> - **Vital Blow:** Rattled and Disoriented.
+> - **Special:** Indomitable. Riposte: when parrying, use d12+d8.
+
+---
+
+> **HERO - ROGUE** - *Doom*
+> - MEAT 8(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
+> - **Twin Daggers:** d6+d6+d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Vanish: if the Rogue dealt no MEAT damage with their attack they vanish. They cannot be targeted until they attack again.
+
+---
+
+> **HERO - CLERIC** - *Doom*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
+> - **Blessed Mace:** d6+d8
+> - **Vital Blow:** Frightened.
+> - **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric.
+
+---
+
+### REGIONAL BESTIARY
+
+The following stat blocks are organised by region and threat tier. Each entry represents a creature native to or commonly found in that environment. Use them to stock encounter tables, populate hexes, or drop into dungeons as needed.
+
+Threat tiers: **Scum / Danger / Run / Doom**
+
+
+#### AQUATIC
+
+> **SNAPPING TURTLE** - *Scum*
+> - MEAT 7(5+) / ZEST 6(5+) / WITS 3(6+) / STRESS 4 / DEF3
+> - **Bite:** d6+d6
+> - **Vital Blow:** Knocked.
+> - **Special:** Shell: when the turtle takes a Vital Blow it retreats into its shell, gaining DEF5 until its next action. Cannot attack while shelled.
+
+---
+
+> **RIVER TROLL** - *Danger*
+> - MEAT 14(3+) / ZEST 8(5+) / WITS 4(6+) / STRESS 8 / DEF3
+> - **Greatclub:** d8+d8
+> - **Vital Blow:** Slimed.
+> - **Special:** Regenerate: restore 2 damage at the start of each action. Burning stops regeneration.
+
+---
+
+> **WATER ELEMENTAL** - *Run*
+> - MEAT 18(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
+> - **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Drowning: gain Immobilized, while persists take d4 damage at the start of their action.
+> - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons. 
+
+---
+
+> **THE DROWNED KING** - *Doom*
+> - MEAT 28(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 16 / DEF4
+> - **Crushing Current:** d10+d10 ignores shields.
+> - **Tidal Command (2\*):** pulls all creatures in the area toward it. MEAT save or be dragged adjacent and take d6 ZEST damage.
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Command the Drowned: once per encounter, raises 1d4 drowned Undead that attack the nearest living creature.
+
+
+#### SWAMP
+
+> **GIANT TICK** - *Scum*
+> - MEAT 4(6+) / ZEST 7(5+) / WITS 2(6+) / STRESS 3 / DEF1
+> - **Latch:** d4+d4 on hit the tick attaches. Attached ticks deal 1 damage at the start of their action until removed with a MEAT save or they gain Burning.
+> - **Vital Blow:** The target gains Bleed.
+> - **Special:** Swarm: when three or more ticks are attached to the same target, that target is Hindered on all rolls.
+
+---
+
+> **BOG WRAITH** - *Danger*
+> - MEAT 9(5+) / ZEST 0(-) / WITS 8(5+) / STRESS 5 / DEF2
+> - **Draining Touch:** d6+d6 ZEST damage
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up).
+
+---
+
+> **HYDRA** - *Run*
+> - MEAT 20(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 12 / DEF2
+> - **Multi-Bite:** d6+3d6, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Standard.
+> - **Special:** Indomitable. Regrow: when the Hydra takes 5 or more MEAT damage from a single hit it regrows; restore 4 STRESS. Burning prevents regrowth.
+
+---
+
+> **THE MOTHER OF FLIES** - *Doom*
+> - MEAT 24(2+) / ZEST 10(4+) / WITS 18(2+) / STRESS 14 / DEF2
+> - **Swarm:** d8+5d4 assign one Break die and the remaining dice as damage to different targets.
+> - **Putrefy:** d6+d0 on hit target gains Diseased and Exhausted.
+> - **Vital Blow:** Mind Burrow: if the target has Diseased they take d6 WITS damage.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Hive Mind: while the Mother lives, all insects in the area are Bolstered. 
+
+
+#### DESERT
+
+> **SAND VIPER** - *Scum*
+> - MEAT 4(6+) / ZEST 5(6+) / WITS 7(5+) / STRESS 2 / DEF1
+> - **Venomous Bite:** d4+d4 on hit the target gains Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Ambush: Attacks from beneath sand is Bolstered. Burrowing: can burrow under sand to move, not targetable while burrowed.
+
+---
+
+> **DUST DEVIL** - *Danger*
+> - MEAT 10(4+) / ZEST 0(-) / WITS 0(-) / STRESS 0 / DEF1
+> - **Scour:** d6+3d6 assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Blinded.
+> - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons.
+
+---
+
+> **DEATH WORM** - *Run*
+> - MEAT 22(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 12 / DEF3
+> - **Crush:** d8+d10, target is Immobilized on hit.
+> - **Acid Spit (2\*):** rd6+rd8, damage is doubled vs shields.
+> - **Vital Blow:** Equipped armour DEF reduced by 1 permanently.
+> - **Special:** Indomitable. Tremorsense: detects all movement within area through vibration, cannot be surprised. Burrowing: can burrow under sand to move, not targetable while burrowed.
+
+---
+
+> **THE GLASS SPHINX** - *Doom*
+> - MEAT 26(2+) / ZEST 18(2+) / WITS 20(2+) / STRESS 16 / DEF5
+> - **Claw:** d8+d10
+> - **Eye Beams:** Target must make a WITS save or take d6 WITS damage and come Immobilized.
+> - **Vital Blow:** If target is Immobilized, they take d6 MEAT damage as they begin to petrify.
+> - **Special:** Indomitable. Ancient Knowledge: the Sphinx knows one true thing about every hex surrounding the hex it's in. It will share this information for the correct price. Parley: a clever riddle or a sufficiently interesting question pauses combat.
+
+#### FOREST
+
+> **GROVEHOUND** - *Scum*
+> - MEAT 7(5+) / ZEST 8(5+) / WITS 6(5+) / STRESS 4 / DEF1
+> - **Bite:** d4+d8
+> - **Vital Blow:** Knocked.
+> - **Special:** Pack Hunters: if three or more grovehounds are present they are all Bolstered.
+
+---
+
+> **TREANT** - *Danger*
+> - MEAT 16(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 10 / DEF3
+> - **Branch Slam:** d8+d8
+> - **Vital Blow:** Immobilized and Knocked.
+> - **Special:** Indomitable. Fire Vulnerability: Burning deals double damage and must make a ZEST save or flee. Root Network: when one Treant is attacked, all Treants within the forest are aware.
+
+---
+
+> **GREEN DRAGON** - *Run*
+> - MEAT 24(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 14 / DEF4
+> - **Claw:** d8+d10
+> - **Poison Breath (2\*):** rd6+5rd4, assign one Break die and the remaining dice as damage to different targets. Any target hit is Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Camouflage: in forest terrain, first attack from concealment is always Bolstered. Parley: dragons negotiate. A sufficiently interesting offer may pause combat.
+
+---
+
+> **THE HORNED BEAST** - *Doom*
+> - MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 12 / DEF3
+> - **Gore:** d8+d10
+> - **Vital Blow:** Target flies 10ft and is Knocked, Winded and Bleeds upon landing.
+> - **Special:** Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Thing always result in Hostile, it does not negotiate.
+
+
+#### GRASSLAND
+
+> **GIANT VULTURE** - *Scum*
+> - MEAT 8(5+) / ZEST 9(5+) / WITS 10(4+) / STRESS 4 / DEF2
+> - **Talon:** d6+d6
+> - **Vital Blow:** Target is grabbed and lifted; Immobilized. MEAT save each round to break free or when the Vulture drops them. 1d6 falling damage per 10 feet.
+> - **Special:** Airborne: cannot be targeted by non-ranged attacks while flying. Keen Sight: cannot be surprised, detects hidden creatures automatically.
+
+---
+
+> **MANTICORE** - *Danger*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 8 / DEF3
+> - **Claw** - d8+d8
+> - **Tail Spike (3\*):** rd6+rd6
+> - **Vital Blow:** Winded and Bleed.
+> - **Special:** Airborne: cannot be targeted by non-ranged attacks while flying. Tail Volley: may fire up to three tail spikes at different targets in one action, rolling separately for each.
+
+---
+
+> **WARLORD** - *Run*
+> - MEAT 18(2+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF4
+> - **Greataxe:** d8+d10
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Rally: once per encounter as a free action, all allied creatures in sight restore d6 STRESS. Command: while the Warlord lives, all allied creatures are Bolstered on Vital Blow morale rolls.
+
+---
+
+> **THE SIEGE GOLEM** - *Doom*
+> - MEAT 30(2+) / ZEST 0(-) / WITS 0(-) / STRESS 20 / DEF5
+> - **Crushing Fist:** d10+d10
+> - **Sweep:** d8+3d8, assign one Break die and the remaining dice as damage to different targets.
+> - **Vital Blow:** Target immediately rolls on the Permanent Injury table.
+> - **Special:** Indomitable. Construct: immune to conditions. Siege Engine: attacks against structures and doors automatically succeed. Slow: moves only 10ft per round, cannot move and attack in the same round.
+
+#### TUNDRA
+
+> **HOARFOX** - *Scum*
+> - MEAT 9(5+) / ZEST 8(5+) / WITS 7(5+) / STRESS 5 / DEF2
+> - **Bite:** d6+d6
+> - **Vital Blow:** Chilled.
+> - **Special:** Pack Hunters: if three or more are present they are all Bolstered. Tireless: cannot be outrun in tundra terrain.
+
+---
+
+> **FROST WRAITH** - *Danger*
+> - MEAT 10(4+) / ZEST 0(-) / WITS 10(4+) / STRESS 6 / DEF2
+> - **Freeze:** d6+d6 ignores shields.
+> - **Vital Blow:** Immobilized and Chilled.
+> - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up). Cold Aura: all creatures adjacent to the wraith are Hindered on ZEST saves.
+
+---
+
+> **FROST GIANT** - *Run*
+> - MEAT 22(2+) / ZEST 14(3+) / WITS 6(5+) / STRESS 12 / DEF4
+> - **Boulder:** rd8+rd10
+> - **Vital Blow:** Knocked.
+> - **Special:** Indomitable. Throw: instead of attacking, the giant hurls a party member d3 x10ft. They take d6 damage on landing.
+
+---
+
+> **THE WHITE DEATH** - *Doom*
+> - MEAT 28(2+) / ZEST 16(2+) / WITS 10(4+) / STRESS 16 / DEF3
+> - **Claw:** d10+d10
+> - **Vital Blow:** Immobilized and Chilled.
+> - **Special:** Indomitable. Blizzard: once per encounter, summons a blizzard. All attacks Hindered for d4 rounds. Cannot be outrun in tundra. Apex Predator: when The White Death reduces a creature to 0 MEAT it immediately attacks again as a free action.
+
+#### MOUNTAIN
+
+> **GIANT MOUNTAIN GOAT** - *Scum*
+> - MEAT 8(5+) / ZEST 9(5+) / WITS 5(6+) / STRESS 4 / DEF1
+> - **Headbutt:** d6+d6
+> - **Vital Blow:** Knocked.
+> - **Special:** Sure-Footed: immune to terrain movement penalties. Charge: if the goat moves before attacking, the attack is Bolstered.
+
+---
+
+> **STONE TROLL** - *Danger*
+> - MEAT 18(2+) / ZEST 10(4+) / WITS 4(6+) / STRESS 10 / DEF4
+> - **Boulder Fist:** d8+d10
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable. Thick Hide: DEF counts as 5 against d4 and d6 attacks. Petrify: in direct sunlight, the troll turns to stone.
+
+---
+
+> **WYVERN** - *Run*
+> - MEAT 24(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 14 / DEF4
+> - **Claw:** d8+d10
+> - **Tail Sting:** d6+d8 on hit apply Poisoned.
+> - **Vital Blow:** Trigger Poisoned.
+> - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Dives to attack, retreats to the air after each round.
+
+---
+
+> **THE LIVING MOUNTAIN** - *Doom*
+> - MEAT 35(2+) / ZEST 18(2+) / WITS 6(5+) / STRESS 20 / DEF5
+> - **Slam:** d10+d10
+> - **Rockfall:** Once per encounter, collapses a section of terrain. All creatures in the area must make a MEAT save or take d8 damage and be Immobilized under rubble.
+> - **Vital Blow:** Crush - target takes an additional d8 damage and is Immobilized.
+> - **Special:** Indomitable. Ancient Stone: immune to elements. Tremor: if The Living Mountain takes 6 or more damage in a single hit, all creatures in the area must pass a MEAT save or gain Knocked.
+
+
+#### CITY
+
+
+> **CITY GUARD** - *Scum*
+> - MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 4 / DEF2
+> - **Club:** d6+d6
+> - **Vital Blow:** Standard.
+> - **Special:** Numbers: for every guard beyond the first attacking the same target, that target is Hindered on their next roll. Scatter: when half the guards in the encounter are killed or flee, the rest flee.
+
+---
+
+> **CITY WATCH CAPTAIN** - *Danger*
+> - MEAT 12(4+) / ZEST 10(4+) / WITS 12(4+) / STRESS 8 / DEF3
+> - **Shortsword:** d6+d8
+> - **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
+> - **Special:** Backup: at the end of each round, d4 additional guards arrive until the captain whistles them off. Authoritative: During the first round all enemies must pass a ZEST save or be Hindered on their first action.
+
+---
+
+> **GUILD ENFORCER** - *Run*
+> - MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
+> - **paired blades:** d6+d6+d6+d6
+> - **Vital Blow:** Rattled.
+> - **Special:** Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.
+
+---
+
+> **THE GREY MAGISTER** - *Doom*
+> - MEAT 8(5+) / ZEST 14(3+) / WITS 20(2+) / STRESS 10 / DEF2
+> - **Quarterstaff:** d4+d6
+> - **Soul Bolt (4\*):** rd8+rd8 ZEST damage
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 10 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
+
+---
+
+### MAJOR NPC BESTIARY
+
+#### GLIMMERHOLD
+
+> **CAPTAIN HESSA VORN** - *Danger*
+> - MEAT 12(4+) / ZEST 14(3+) / WITS 12(4+) / STRESS 10 / DEF3
+> - **Shortsword:** d6+d8
+> - **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
+> - **Special:** *Backup:* Can summon d6 City Guards as an action. They arrive next round. *Authoritative:* During the first round all enemies must pass a ZEST save or be Hindered on their first action.
+
+---
+
+> **GRIMBUS GOLDFINCH** - *Danger*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF2
+> - **Illusionary Scalpel:** d4+d6
+> - **Target Vitals (4\*)**, d6+d0, causes an automatic Vital Blow.
+> - **Vital Blow:** Standard.
+> - **Special:** *Scroll of Restoration (3\*):* may use their action to restore d10 STRESS to any creature visible.
+
+---
+
+
+#### UNDERHOLD
+
+> **THE GOBFATHER:** *Doom*
+> - MEAT 30(2+) / ZEST 18(2+) / WITS 13(3+) / STRESS 20 / DEF4
+> - **Giant Gob Fists:** d8+d6+d8+d6
+> - **Vital Blow:** Concussed, Knocked.
+> - **Special:** Indomitable. *Gob's Eyes:* Cannot be surprised. *The Family:* After each round 1d6 goblins come to his aid.
+
+---
+
+> **TONY GOBLIONI** - *Scum*
+> - MEAT 7(6+) / ZEST 10(5+) / WITS 15(2+) / STRESS 6 / DEF2
+> - **Heavy Tome:** d6+d6
+> - **Vital Blow:** Concussed.
+> - **Special:** Indomitable, if Gobfather is present. *Sense of Direction:* Immune to Disoriented, Concussed and Immobilized. *Master Cartographer:* Can never be lost. *Master Spy:* Has DEF5 vs Hindered attacks.
+
+
+
+#### BRIGHTWATCH COMPANY
+
+> **ALDRIC VANE**, *Fighter, Doom tier*
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5
+> - **Hero Sword**, d8+d8
+> - **Shield Bash**, d4+d6, on hit target gains Knocked. Requires shield equipped.
+> - **Vital Blow:** Rattled and Disoriented.
+> - **Special**, Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
+
+---
+
+> **MAREN ASHVEIL**, *Wizard, Doom tier*
+> - MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1
+> - **Staff**, d4+d6
+> - **Arcane Bolt (4\*)**, rd6+rd8, WITS damage. Ignores non-magical DEF.
+> - **Seeker (3\*)**, summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.
+> - **Vital Blow:** Concussed.
+> - **Special**, Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
+
+---
+
+> **SARBORAS FESS**, *Rogue, Doom tier*
+> - MEAT 18(2+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
+> - **Twin Daggers**, d6+d6+d6+d6
+> - **Garrotte (2\*)**, MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.
+> - **Vital Blow:** Rattled.
+> - **Special**, Indomitable. *Vanish:* if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. *Lift:* Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. *Professional Habit:* Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.
+
+---
+
+> **CORVIN SALTMARSH**, *Cleric, Doom tier*
+> - MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3
+> - **Blessed Mace**, d6+d8
+> - **Vital Blow:** Frightened.
+> - **Special**, Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
+
+#### THE OPEN COATS
+
+> **RUMBLESTRIDE** - *Doom*
+> - MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 12 / DEF3
+> - **Conjured Ice Blade:** d8+d8, on hit target gains Chilled.
+> - **Vital Blow:** Immobilized (the cold gets into the joints).
+> - **Special:** *Indomitable.* *Stilled Moment:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 1d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* something about it. Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
+
+---
+
+> **DARDANEL MOONSWADDLE** - *Doom*
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 10 / DEF2
+> - **Void Lance (4\*):** rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact.
+> - **Vital Blow:** Rattled and Disoriented (the colours are overwhelming).
+> - **Special:** *Indomitable.* *Grease Field (2\*):* covers a 15ft area. All creatures entering or starting their turn in the area must pass a MEAT save or gain Knocked. *Dramatic Positioning:* Dardanel is always in the most visually interesting part of the room. He cannot be flanked because he has already considered all possible angles. Add 1 free COURAGE die to any Void Lance roll made from an elevated position.
+
+---
+
+> **ROLART THE MAD** - *Doom*
+> - MEAT 8(5+) / ZEST 20(2+) / WITS 5(6+) / STRESS 20 / DEF1
+> - **Stefin's Suggestion:** d4+d4, the canary indicates a target and something unpleasant happens to them.
+> - **Conflagration (3\*):** rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table.
+> - **Vital Blow:** Burning.
+> - **Special:** *Indomitable.* *Stefin Knows:* the canary cannot be fooled, charmed, or surprised and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Cascading Incident:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *What Does He Want:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral and observing, 5-6 he has decided something needs to be on fire.
+
+#### OTHERS
+
+> **THE SCREAMING LICH**, *Lich, Doom tier*
+> - MEAT 0(6+) / ZEST 0(6+) / WITS 30(2+) / STRESS 40 / DEF4
+> - **Finger of Death:** d8+d8, if this kills a creature they are raised the next round as an Undead.
+> - **Necrotic Scream (2\*)**, ZEST save or take 8d8 chronic MEAT damage.
+> - **Vital Blow:** Chilled, Rattled, Exhausted.
+> - **Special**, Indomitable. *Death Ward:* The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. *Phylactery:* If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.
+
+---
+
+> **SIGVALD OF THE CUT** - *Run*
+> - MEAT 12(3+) / ZEST 20(2+) / WITS 8(4+) / STRESS 15 / DEF5
+> - **Grum's Greataxe:** d8+d10
+> - **Vital Blow:** Standard and Bleed.
+> - **Special:** Indomitable. *Stoneflesh:* Sigvald is weathered from the peaks and ignores any critical hit damage dice. *Favoured of Grum:* Sigvald cannot be Concussed, Disoriented or Knocked.
+
+
+## SECTION 2: TABLES
 
 ### BASIC LOOT TABLE
 
@@ -1405,27 +2460,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A watchtower consumed by the canopy, the trunk has grown through every floor, the upper levels accessible only by climbing and something has been nesting at the top. |
-| 2 | A druidic enclave built into the living root network of an ancient grove, the trees grown into walls and ceilings across a dozen chambers; the druids have been here longer than the city. |
-| 3 | An abandoned logging camp frozen mid-operation, tools still in the wood, meals still on the table, barracks still bunked and something in the tree line that has been keeping it this way. |
-| 4 | A cave system threading deep beneath the roots of a dead tree the size of a manor house. The roots have grown down into the tunnels over centuries, searching for something in the lower chambers. |
-| 5 | A hunter's outpost that became a fortified compound over years of expansion. Multiple buildings, a makeshift wall and watch towers. They're protecting something. |
-| 6 | A barrow mound so old the forest has swallowed it entirely. Roots cracking the stone, strange vegetation growing up through the burial chambers, the whole structure is alive. |
-| 7 | A hidden, sprawling operation from which a poaching ring processes, stores and ships contraband across the realm. Guards, locked storage, a nervous manager and product that raises questions about what is being poached. |
-| 8 | A living grove made of ancient trees with hollowed interiors, tunnels between the roots. Something stirs in the centre. |
-| 9 | A stone structure deep in the forest, reached by a trail so well maintained it must have a keeper. Inside a crumble ruin dedicated to an old god. |
-| 10 | The dungeon is hidden beneath the forest undergrowth. WITS save or local knowledge required to find it. Roll again. |
+| 1 | A massive glass conservatory once used for exotic botany is now a vertical labyrinth of carnivorous flora and territorial creatures. |
+| 2 | A network of tunnels carved into the roots of a massive dying tree that serve as a multi-level hive for giant insects with a rigid caste system. |
+| 3 | An ancient storehouse for crystalized amber ore has begun to break down and leak, creating a maze of sticky corridors filled with manifesting ghostly echoes. |
+| 4 | A cluster of hollowed out redwood trunks house a reclusive cult that grafts living bark onto their skin and sacrifices outsiders to the roots. |
+| 5 | A region where the trees are made of solid marble and contain a series of shimmering glades where the surfaces are made of solidified spider silk. |
+| 6 | A cave opened up at the base of a giant tree that emits discordant melodic tones when the wind blows. |
+| 7 | A grove where every leaf and fruit is razor-sharp crystal. Overseen by a group of druids inhabiting a central pagoda of stained glass. |
+| 8 | A village of suspended wicker huts, inhabited by cannibalistic elves who pull their prey upward into the canopy using silent traps. |
+| 9 | A patch of shifting brambles where colours swap every ten minutes causing explorers to lose their sense of direction. Occupied by a large beast. |
+| 10 | Buried beneath the forest overgrowth. Requires a WITS save or local knowledge to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A tree wider than a house, every inch of bark carved with faces. | *"There's a path through those trees that only shows up at dusk. Carl followed it once. He came back but he won't say where it goes."* | A poaching crew on a hunting route. Not hostile, but not interested in witnesses. |
-| **2** | A clearing where the soil is black and nothing grows, sound does not travel here. | *"That logging crew, the Holt Brothers outfit? Went in three weeks ago. Found their tools, found their camp, didn't find them."* | Druid wardens on a pilgrimage; not violent, but don't harm the trees. |
-| **3** | A small logging settlement of a few dozen workers, temporary, technically not a town. There's a cookhouse, a foreman's office, a storehouse and people who've been "temporarily" here for years. | *"You shout in that part of the forest and something shouts back. Sounds exactly like you, just much deeper."* | A goblin crew following a tip that leads them to exactly where the party is going. |
-| **4** | A pond that gives off no reflections. | *"The poachers in there are paying double what the leatherworkers do. Nobody's asking what they're hunting and that's part of the deal."* | A lumber merchant's survey team, mapping land they have no permission to map. |
-| **5** | An enormous battlefield of bones, horses and riders both, old enough that the armour has rusted into the soil. | *"There's a clearing in the deep wood where two groups have been fighting for three months. Not sure what they're fighting over."* | Something large and territorial has been following the party since the border. |
-| **6** | A wooden carving on a hill, ten metres tall and recently repainted. Fresh offerings are piled at its base every morning. | *"The old barrow in the Thornwood, someone opened it from the inside."* | Refugees from a settlement that burned, moving through the trees to avoid the road. |
-| **7** | A ruined watermill along a stream. | *"Three travellers came through last week, all of them carrying things they swore they didn't pack. Couldn't explain where the stuff came from."* | A trapper who knows every safe path through this area. |
-| **8** | A cluster ofluminescent mushrooms the size of houses, growing in a ring. | *"The druids out that way have something the Gobfather has been trying to buy. He's been very polite about it, that's how you know he wants it."* | A Watch detachment pursuing someone who ran into the forest; they haven't found them and they're getting nervous. |
+| **1** | A massive, oak tree with a spiral staircase carved into its centre. | *"The local herbalist pays gold for black-heart mushrooms that only grow in beast dung."* | A group of desperate outcasts who survive on pinecones and bird eggs. |
+| **2** | A large stone bridge covered in thick, slippery moss that crosses a deep ravine. | *"A pack of grovehounds in the eastern thicket is led by a beast that walks on its hind legs."* | A band of illegal loggers who kill anyone who enters their current "claim." |
+| **3** | An abandoned lumber mill where the waterwheel is perpetually jammed by bones. | *"YThe rustling in the canopy out there isn't wind, but a band of thieves moving between the branches."* | Stealthy hunters who wrap their boots in leaves to move silently through the brush. |
+| **4** | A clearing where all the trees have been bent and tied together. | *"Old Jenkins went into the woods for firewood and returned three days later with something much more strange."* | Grimy, soot covered foresters who move their portable kilns every few days. |
+| **5** | A forgotten shrine to a goddess of the hunt, surrounded by a carpet of white wildflowers. | *"There is a hidden cellar beneath the ruined ranger’s station filled with something valuable."* | A militant group of druids who punish anyone they catch cutting down young saplings. |
+| **6** | A jagged rock formation shaped like a howling wolf. | *"The screaming heard at night is just gas escaping from the rotting peat clumps deeper in."* | A small group of trappers carrying bundles of rare plumage and pelts. |
+| **7** | A stagnant pond filled with dark, oil stained water and the rotting hulls of small boats. | *"A massive beast with spears lodged in its hide is guarding a stash of stolen loot."* | Beekeepers who travel with portable hives to follow the seasonal wildflower blooms. |
+| **8** | A ring of ancient stones marked with fading, claw like scratches. | *"If you follow the blue butterflies, they will lead you to a magical spring."* | A group of old herbalists seeking rare medicinal plants to sell to city apothecaries. |
 
 ---
 
@@ -1433,27 +2488,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A half excavated ruin emerging from the dunes. Teams dug for months, scaffolding still standing, tools still in place. Whatever stopped their work is still somewhere on the lower levels. |
-| 2 | A monastery carved directly into a mesa, accessible only by a single staircase. An ancient order occupies the place. The lowest levels were carved by hands that predate Glimmerhold. |
-| 3 | A town built in a season and abandoned in a night. Market stalls still stocked, doors unlocked, fires laid but not lit and tracks in the hardpacked sand leading in from every direction but not out. |
-| 4 | A sinkhole that opened in the dune field revealing a catacomb network below. Multiple levels, old and elaborate, with something living in the deepest chambers older than the desert itself. |
-| 5 | A large caravan encampment that stopped moving months ago. Wagons loaded, animals penned, fires gone cold. The original travellers are missing and something else occupying the central tent. |
-| 6 | A field of standing stones each carved with a sigil. New stones appear without explanation. |
-| 7 | An active archaeological excavation. Well-funded and organised across many dig sites. A central camp was built but the founder hasn't visited in months. The workers are beginning to ask what exactly they're digging towards. |
-| 8 | A well that appeared after a sandstorm, there is no water at the bottom but something glimmers up in the sun. A hidden cavern system branches off the bottom of the well. |
-| 9 | A waystation with clean rooms and good food and a locked door between the common area and the back of the building; the hospitality is genuine and impeccable right up to the point where you inquire about the door. |
+| 1 | A ziggurat partially melted into obsidian during a solar event, it contains scorched archives and chambers inhabited by fire elementals. |
+| 2 | A series of subterranean library vaults, accessible only during sandstorms. Requires explorers to navigate rooms filled with shifting dunes and preserved scrolls. |
+| 3 | A canyon of fossilized titan bones, there is a large marrow mine here where scavengers extract gems and over things from the skeletal walls. |
+| 4 | A fortified oasis settlement, ruled by a bandit lord who imprisons trespassers in evaporation-vats to condense their sweat into drinkable liquid. |
+| 5 | A mechanical mirage that provides real water within its clockwork rooms but demands a toll of metallic scrap to prevent the oasis from collapsing on itself. |
+| 6 | An inverted castle where gravity pulls upward and features rooms where the "sand" is actually hundreds of sand-gnats. |
+| 7 | A tower where time flows at different speeds in every room and contains centuries of dust and chambers that may age intruders faster than expected. |
+| 8 | A group of feral sailors live in the sun-bleached ribs of a grounded stone frigate. The inhabitants have gone blind and communicate by clicking stones against the hull. |
+| 9 | A valley where thunderclouds seem to never clear and contains a series of caves where voices from decades ago remain trapped in the sand. |
 | 10 | Buried beneath the sand. Requires a sandstorm or local knowledge to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | The skeleton of something enormous, half-buried and sun-bleached, each bone the size of a cart. | *"There's a city under those dunes. I've talked to three people who dreamt about it."* | A desert trading caravan, well-armed, polite and deeply suspicious of everyone they meet. |
-| **2** | A circular crater of fused glass, perfectly smooth. Locals say it has been slowly warming for two years. | *"That glass crater? Put your hand on it. Tell me that's normal. Something down there is waking up."* | A cult pilgrimage walking in silence towards their destination. |
-| **3** | A small desert settlement clustered around an oasis. A dozen buildings, a well-defended gate and a reputation for hard bargaining. | *"The well out there is always dry. Something is living down there, I know it."* | A goblin salvage crew who found something significant and are now arguing about whether to sell it or put it back. |
-| **4** | An oasis of crystalline water, beautiful and completely bottomless. | *"The monks in that mesa have been sitting on something for three generations. Right now there are four buyers in Glimmerhold all trying to get their hands on it."* | A water and sausage merchant with a small cart, best in the realm. |
-| **5** | A formation of large standing stones all pointing north. | *"That sandstorm to the west happens every sixteen days, I've kept track. Somethings causing it."* | A predator that hunts by vibration through the sand. It has been tracking the party since they entered the hex. |
-| **6** | A tower of solid stone with no door and no windows, carved from a single piece of rock. | *"It wasn't abandoned, that ghost town. There are evacuation papers filed in the city clerk's office. Someone just forgot to tell anyone what they were evacuating from."* | Refugees following an old caravan map toward the City, three weeks behind schedule and nearly out of water. |
-| **7** | A massive dead tree of extraordinary size in otherwise empty terrain. Nothing grows within a kilometre of it. | *"There's a man paying good gold to hire guides into the deep desert. None of them have come back. He keeps hiring."* | A lone excavator, sun-weathered and half mad, absolutely certain they are on the verge of a discovery. |
-| **8** | A sandstorm that rotates in place, always the same size, never advancing, visible from forty kilometres. | *"I've mapped those stones four times. Talked to two other surveyors who mapped them. All four maps are different, aside from pointing north."* | A private investigator tracking down someone from the city. They have a description but not a name. |
+| **1** | A lonely stone archway sandblasted into a smooth, needle thin curve. | *"The sandstorm last week uncovered the tip of a bronze dome near the high ridge."* | A group sifting through the dunes for fragments of ancient, melted pottery. |
+| **2** | A dried up well at a crossroads, marked by a pile of bleached skulls. | *"If you find the Leaking Rock, you can fill your waterskin for the price of a gold coin."* | A guild of dowsers who sell their services to thirsty caravans for high fees. |
+| **3** | A cluster of jagged pillars that provide the only shade for several miles. | *"A group of bandits is using giant trained birds to scout for lone travelers."* | Bandits who wear sand colored armour to stage desert ambushes. |
+| **4** | The half-buried ribcage of a massive ancient beast acting as a natural windbreak. | *"The blue scaled lizards coming from those caves have gold in their belllies."* | Scruffy traders leading long lines of carts hauling heavy salt blocks. |
+| **5** | A canyon wall covered in runes from an old dwarven society. | *"There is a dune that hums when the wind blows across, probably a large treasure is buried beneath."* | Nomadic hunters that believe eating venomous insects grants them immunity to poison. |
+| **6** | A field of glass shards where lightning once struck a high sand dune. | *"Somebody in town is selling a map to an oasis that dried up ten years ago."* | Scholars wandering the desert measuring the shadows of ancient monoliths. |
+| **7** | An abandoned brick watchtower with a collapsed roof and a single iron bell. | *"The nomads carry fire-stones that they pulled from that abandoned structure"* | Alchemists who collect sun bleached bones to grind into various concoctions. |
+| **8** | A natural salt flat that reflects the sun with a blinding intensity. | *"A spirit with golden robes wanders those dunes looking for it's lost home."* | A crowfolk messenger travelling light and fast across the sands on wide rimmed wooden planks. |
 
 ---
 
@@ -1461,27 +2516,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A fortress collapsed on three sides, one tower standing. The rubble fortified into rough walls by whoever moved in after. The new occupants aren't immediately hostile and have yet to explore the lower levels of the place. |
-| 2 | A dwarven hold carved into the mountain. Fully operational, trade gates open, inner gates sealed. Multiple levels of worked stone, with the sealed sections accessible through routes the dwarves refuse to mention. |
-| 3 | A mining town that emptied out fifteen years ago, recently reoccupied by a group looking to see if theres anything left in the mines. |
-| 4 | A cave system descending deep, deep into the earth. The worked upper levels giving way to something older and stranger below. The dwarves of the region say the tunneling style is not of this realm. |
-| 5 | A highwaymen's compound built into a mountain pass. A fortified gatehouse, barracks, storage, the works. They're operating with the calm efficiency of a toll booth and the manpower of a small army. |
-| 6 | A high valley containing an elaborately maintained burial ground. Fresh offerings on every stone, watched from the treeline by dwarven berzerkers that built it. They don't get visitors often and don't appreciate them. |
-| 7 | An active company mine producing sealed crates shipped to an undisclosed destination 4 hexes away. Surface buildings, deep shafts, a locked office and workers paid extremely well to not ask or tell. |
-| 8 | A contested mountain pass turned full battleground. Fortified positions, chokepoints, supply caches, a command post for both factions. |
-| 9 | A cave system advertised aggressively as a hermit's dwelling - painted warnings, hanging bones, elaborate noise makers, all constructed by someone who desperately wants to be left alone. Inside they are guarding dragon eggs. |
+| 1 | A dormant volcanic chamber filled with abandoned ironworks and fire drakes guarding ancient dwarven blueprints. |
+| 2 | A high altitude monastery once used to train giant hawks is now a tiered dungeon occupied by territorial harpies and elementals. |
+| 3 | A silver mine that hit a pocket of eternal cold that contains miners frozen in mid-swing and tunnels lined with jagged, magical frost. |
+| 4 | A ridge-side prison where prisoners are forced to mine obsidian blocks from the peaks while chained to the sheer cliffs. |
+| 5 | A dungeon located inside a mountain that hangs above a dark lightless pit and features a series of precarious chambers connected by swinging chains. |
+| 6 | A cavern filled with hanging stalactites that produce perfect melodic chords when struck, these chords also summon things from the inner sanctum. |
+| 7 | A series of vertical chambers carved out by something ancient where the floor rotates based on the weight of the occupants, creating a shifting gravitational maze. |
+| 8 | A cluster of structures chained to the mountainside to prevent them from falling away, but the chains are rusted and the high winds are forcing the hungry inhabitants outside. |
+| 9 | An abandoned settlement built into the shell of a gargantuan, decaying stone turtle, inside undead feed on the rotting carcass. |
 | 10 | Hidden in the stones. Requires a guide or a ZEST save to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A figure in armour, roughly 30 feet high, carved into the cliff face. | *"The dwarven hold hasn't opened its proper gates in six months. Smoke's still coming from the forge vents. They're still in there."* | A mercenary escort carrying something they describe only as fragile and time sensitive. |
-| **2** | A crystal waterfall frozen mid-cascade. | *"The highwaymen on the pass? The Watch knows. Everyone knows. Someone in the city is paying for that road to stay controlled."* | A pilgrim group walking toward a shrine that was demolished forty years ago. Something at that location has been speaking to them. |
-| **3** | A waystation village built around the only viable pass. A dozen buildings, a garrison of questionable allegiance, a tavern that charges what it likes because there is nowhere else. The kind of place that exists entirely because the landscape demands it. | *"There's a sealed up level in the Ironvein mine. Been sealed up for twelve years. You ask the foreman about it, he looks at you like you said something dangerous."* | A goblin crew who took a shortcut and are now deeply, completely, totally lost. They won't admit this. |
-| **4** | A tower, collapsed, stones scattered across the mountainside for a full kilometre in a pattern suggesting explosion. | *"Old Gruldo said the frozen waterfall was a wizard once, cursed mid spell. Her great gran said the same thing. I believe it."* | A dwarven trading party. Polite, quiet and armed much better than a trading party needs to be. |
-| **5** | A high pass strewn with old military equipment. Whatever battle happened here was never recorded. | *"Funny thing about the war over the pass, both sides are being funded out of the same counting house in the Coin. Someone wants that pass fought over."* | A predator living in the pass. It targets mounts first and has learned to wait for the second largest animal in a group. |
-| **6** | A peak that glows from somewhere beneath the snowline on clear nights. | *"There's a cave up on the north face with a proper door in it. Not natural."* | Families descending from a mountain settlement, heading to the city. |
-| **7** | A pine tree growing from a vertical cliff face, ancient and enormous. It's roots wedged into a crack that should not support it. | *"The Caldenmoor burial ground, some say it's protected by the spirits of an ancient dwarven clan."* | A veteran mountain guide who knows every navigable path in this area and charges whatever she judges the client can afford. |
-| **8** | A a large lake, water tinted red from the rock around it. | *"Something moved into the lowest level of the Greytooth caves last Falling. Hasn't come out. The shepherds have stopped using the high pasture."* | A Watch platoon on legitimate patrol, carrying a warrant and stopping everyone to check papers. |
+| **1** | A narrow, winding goat path that hugs a sheer cliff face for several kilometres. | *"The Stone King is just a giant that lives deep in those caverns."* | Pilgrims waiting at mountain passes to ask for food from travelers. |
+| **2** | A natural amphitheater in the stone where sounds repeat three times. | *"High-altitude berries can cure disease, but they only grow on the north facing ledges."* | Miners with hammers and sledges, extracting granite blocks for construction. |
+| **3** | A pile of stones marking the grave of a famous climber who died in a rockslide. | *"A beast with a taste for flesh has been stalking the lower settlements."* | A group of orcs harvesting glacier ice from the peaks to sell to the breweries in the cities. |
+| **4** | A small, red coloured lake at the bottom of a crater. | *"The old silver mine isn't empty; the company just fled when they woke what was sleeping."* | A group of trappers capturing young eagles to sell to northerners. |
+| **5** | A tunnel through the mountain that acts as a natural wind tunnel. | *"There is a cave behind the Great Falls where an old hermit hoards gold coins."* | A faction of elves who get paid to maintain the bridges and safety lines of the high roads. |
+| **6** | A series of iron rings and flags hammered into the rock to assist climbers. | *"I heard a whistle from those caves, something is in there."* | A mobile group of kobolds that set up small clay furnaces near newly discovered ore veins for smelting. |
+| **7** | A waterfall that freezes into a solid pillar of ice every Colds. | *"A hidden valley tucked between those peaks stays green all year round."* | SHepards following wild goats to collect tufts of snagged wool. |
+| **8** | A crumbling stone hut used by shepherds during the Bright grazing season. | *"The iron ore from the Iron-Shoulder peak makes blades that never need sharpening."* | Hired scouts climbing on high peaks to signal the approach of travellers to nearby rest stops. |
 
 ---
 
@@ -1489,27 +2544,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A fully furnished manor sitting empty for twenty years. Every room intact, every cupboard stocked, with three living residents and one vampire. |
-| 2 | A mercenary company's permanent encampment: barracks, armoury, officer quarters, mess hall and a command tent with maps pinned to every surface. Currently between contracts and therefore open to negotiation or hostile to intrusion depending entirely on approach. |
-| 3 | A farming hamlet where the fields are farmed but nothing has grown in two seasons. The villagers are still here, still farming each morning and will not leave. They also won't let anyone near the old windmill at the edge of the hamlet. |
-| 4 | A barrow mound so integrated into the landscape it reads as a gentle hill until you step on the entrance stone. The interior is elaborate, old and organised across many chambers, the deepest of which have never been fully mapped. |
-| 5 | A military camp from a war long over. Tents, supplies, weapons, orders, letters home and traps set by soldiers who fully intended to return. |
-| 6 | A mass grave from a plague centuries ago. The soil has been tunneled through recently by something large. |
-| 7 | A road crew camp with survey equipment, supply wagons, cook tent and workers. They've been digging down for six months without laying a single stone of road. They dodge the question of why. |
-| 8 | An old estate at the centre of a noble land dispute. A main house, farmhouses, a locked estate office and an old steward who has been managing the property. |
-| 9 | A waystation on a well travelled road that turns visitors away with great courtesy and consistent excuses. They've put up curtains and shutters that no waystation needs and are staffed by folks who are not at all what they appear to be. |
-| 10 | Hidden beneath the grass; a cellar, bunker, or buried structure. Requires local knowledge or a WITS save to locate. Roll again. |
+| 1 | A fortress that has slowly sunk into the soft soil leaves only its battlements visible, hiding a vast, muddy subterranean complex. |
+| 2 | Massive grain silos from a forgotten era now contain aggressive, iron-eating fungi and a series of interconnected, rusted storage levels. |
+| 3 | A ancient temple dedicated to the winds consists of thousands of wind-vanes that act as a complex mechanical lock for the vaults below. |
+| 4 | A village surrounded by glowing wheat that feeds on blood, the residents kidnap travelers to "water" the fields at night. |
+| 5 | A field of twenty-foot-tall sunflowers, creating a living maze of stalks, the perfect home for predators. |
+| 6 | A valley where the ground is invisible beneath thousands of migrating insects, contains "rooms" created by the swirling, colorful clouds of butterflies. |
+| 7 | A circle of stones vibrates with the phantom sound of stampeding beasts, hiding a series of burial chambers accessible through the central altar. |
+| 8 | A settlement of houses built on swaying stilts, inhabited by folks who have lost their balance on solid ground and will violently defend their swaying domain. |
+| 9 | A small vilalge populated by gaunt figures in white who raid passing caravans, appearing like white ghosts in the tall grass. |
+| 10 | Hidden in a hillside; a cellar, bunker, or buried structure. Requires local knowledge or a WITS save to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A broken statue, enormous and partially buried, with fresh flowers laid at the base. | *"The lights in Halvermoor Manor have been on for three weeks. Twenty years that place has been dark."* | A mercenary company, sizing up everyone they pass. |
-| **2** | A hanging cage at a crossroads with fresh wanted papers nailed to the post beside it. | *"The soil in Carden's fields is wrong, feels like it's pushing back. Whatever's down there doesn't want to be covered."* | A travelling cleric with a number of followers, all walking quietly. |
-| **3** | A market village at a crossroads, not large enough to have walls. A dozen permanent buildings, a weekly market, an inn of mediocre quality and the kind of people who know everything moving through the region. | *"The Marethrunn land dispute is about to end. I heard one side has hired someone to make the other side stop."* | A goblin crew sprinting toward the city with something they absolutely should not have. |
-| **4** | A standing stone in the middle of a farmed field, the ground ploughed carefully around it. | *"People in the village don't go near the low hill past the east fence. Not since old Ferrund's boy went exploring there and never returned"* | A merchant convoy; large, valuable and with a hired escort that any competent person could see is not enough. |
-| **5** | A hill of weapons hammered point-first into the soil, rusted and grown-over into a single mass. | *"That mercenary camp past the Greenditch? They're hiring. Good pay, vague terms."* | Something large enough to be mistaken for a hill. It is not resting, it's watching the road. |
-| **6** | A watchtower on a low rise, manned by someone who is not interested in explaining themselves. | *"The watchtower past Aldenmere, someone's been signalling out toward the far forests at night. Regular flashes, like code."* | A group of farmers who have left their land and are heading for the city with very little. |
-| **7** | An oak tree the size of a building at the junction of three old roads; the locals hold informal court beneath it every month. | *"The road crew out on the eastern flats has been digging in one direction for six months and has built no road. The foreman is being paid very well."* | A bounty hunter working a contract out of Glimmerhold; the description they're carrying might fit someone in the party. |
-| **8** | A circular depression a kilometre across, shallow and unremarkable except that the grass inside grows in shades of purple. | *"Everyone round here leaves a bit of bread at the crossing when they pass. Has done for generations."* | A Watch patrol conducting a road safety inspection. Entirely legitimate, thorough and slowing everyone down. |
+| **1** | A lone, twisted willow tree standing in the middle of a vast treeless expanse. | *"The Tallgrass Thieves have made their hideout from that old barn"* | A mercenary company, travelling from farm to farm exploiting farmers for coin. |
+| **2** | A giant rusted iron weathervane sticking out of a mound of earth that was once a farmhouse. | *"A golden grain sack was lost in the last harvest and is still hidden in those fields."* | Ranchers moving large herds of wild hoofbeasts to market. |
+| **3** | A deep, dry lakebed that fills with water only during the brief rainy season. | *"If the grass is coated in frost at sunset, a vampire is in the area."* | A group of wagons driven by traveling merchants selling fine goods. |
+| **4** | A series of flat, circular stones that the locals use as a meeting place. | *"A wandering merchant is selling "lucky" horseshoes, I hear they're not actually a merchant."* | The Horizon-Runners, scouts who get paid by locals to watch for encroaching dangers. |
+| **5** | A fence made of monster bones that stretches for a few kilometres. | *"The large birds circling the southern plains are actually trained to spot travelers for bandits."* | A group that owns and operates the only mechanical thresher in the region. |
+| **6** | A small, overgrown cemetery where all the headstones face the east. | *"There is a buried cellar in the middle of the plains filled with pre-war treasures."* | Displaced farmers looking for unclaimed land to build. |
+| **7** | A small hill marked with a bonfire that provides a clear view in all directions. | *"The whistling wind is actually a network of thieves signalling eachother across great distances."* | A guild of beekeepers who track wild bees across the plains, following them from each nectar harvest site. |
+| **8** | A massive, water filled crater that serves as a communal watering hole for animals of the area. | *"I followed the tracks of a massive beast, they led to a small cave."* | A group of bards travelling between farmsteads looking for food and shelter. |
 
 ---
 
@@ -1517,27 +2572,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A stone structure half sunk into the swamp. Upper floors accessible and partially intact, lower floors navigable only by wading, the lowest level fully submerged and reachable only by diving. Something id on the bottom that has been waiting a very long time. |
-| 2 | A hag's territory. Organised and extensive, an outer fence of woven bone, buildings erected for her creatures, a workshop, a cold store, a guest room and the hag herself with a laminated shopping list. |
-| 3 | A fishing village frozen in time. Boats in the water, nets frozen mid cast, smoke hanging aboce the smokehouse. Some of the original inhabitants are present and also frozen in time. |
-| 4 | A flooded sinkhole dropping down into a submerged cave system Navigable by small boat below the first chamber, the deeps are occupied by something that howls at night. |
-| 5 | A poacher camp built across several connected raft platforms. It's camouflaged and large enough to house a dozen folk plus whatever they've been pulling out of the swamp that they store in something called "the ice house." |
-| 6 | A casino barge run aground a century ago, slowly sinking into the muck. Multiple decks, extraordinary lavish goods and the last passengers below in a condition best described as unhappy and deteriorating. |
-| 7 | A licensed soil selling operation with multiple buildings, a loading dock and several dredging sites. All legitimate on paper, the workers are paid well to ignore what comes up out of the deepest dredges. |
-| 8 | Two factions in open, miserable conflict over the only dry ground in the area. They've set up fortified positions, contested causeways and the reason the ground is dry; a buried structure beneath. |
-| 9 | A waystation on a dry rise of land with comfy beds, good food, a friendly host and a door at the end of the hall that guests are asked not to open. |
+| 1 | A warship that drifted miles inland during a flood and now serves as a multi-deck fort for an angry kobold cult and their swamp-dredged pets. |
+| 2 | A toxic pit where discarded waste has mixed to create a dungeon of sentient, multicolored sludge and bubbling alchemical chambers. |
+| 3 | A lighthouse built on a bog attracts spirits instead of ships, housing a series of haunted rooms illuminated by green glow. |
+| 4 | A raft-settlement that acts as a lawless sanctuary for plague-carriers who demand a "flesh-toll" from anyone wishing to use their ferry. |
+| 5 | A grand mansion submerged in waist-deep water where spirits dance across several algae covered levels. |
+| 6 | A fungal structure where the benches are puffballs and the stained glass is glowing lichen, contains a series of damp, spore filled catacombs. |
+| 7 | A network of copper tubes emerging from the muck leading to a subterranean steam works powered by swamp gas. |
+| 8 | A village on stilts has become a dumping ground for the undesirables of the area, who have developed gills and a hatred for those from the dry lands. |
+| 9 | A group of connected structures tethered to the bog floor, the inhabitants have grown pale and predatory. |
 | 10 | Submerged entirely. Requires divination, local knowledge, or sheer luck to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | A stone arch standing alone in open water, nothing surviving of whatever it was the entrance to. | *"The hag out there is fair. She'll give you exactly what you asked for, word for word and it'll be perfect. Just read the contract yourself before you put your mark on it."* | Professional swamp guides selling routes, maps and selective information to whoever can pay. |
-| **2** | A willow tree that produces a sound resembling screaming when the wind moves through it; locals want to chop it down. | *"Three expeditions went down into the sinkhole in the Greywater. First one didn't come back. Second one didn't come back. Third one... well you get it."* | A procession carrying a body to the hag for keeping. |
-| **3** | A bog settlement built on stilts above the water, a dozen families, a drying shed, a surprisingly well stocked trading post. | *"Fish in the Callow Fen started mutating about ten years ago. Wrong colour first, then wrong shape. The people who kept eating them started turning wrong too."* | A goblin crew up to their waists in mud, arguing loudly about the map. |
-| **4** | A standing stone, half-sunk, with carvings still visible above the waterline. | *"The ferryman asks you a question at the midpoint crossing. Answer it correctly and he won't take coin."* | A salvage boat, flat-bottomed, riding very low, crewed by multiple folk. |
-| **5** | A mound of matted vegetation the size of a large house, drifting slowly through the swamp. | *"There's something very large in the deep part, not aggressive, just enormous. Hasn't moved from its spot in twenty years."* | A large ambush predator that hunts by dragging things below the waterline. |
-| **6** | A tower of black stone on the only significant dry rise, struck by lightning so many times the upper stones have fused. | *"The barge that beached itself in the Silmeres is worth a fortune in goods alone. The problem is that the dead on that barge are extremely undead."* | Survivors from a settlement that sank into the swamp last week, carrying almost nothing. |
-| **7** | A dead cypress tree the colour of old bone. | *"The peat workers in the Ashfen keep turning up things that look like bodies. Hundreds of years old, dressed for somewhere warm, clutching trinkets."* | A lone herbalist wading through the hex collecting plants. She knows every safe path and every unsafe one. |
-| **8** | A pool of perfectly still dark water. | *"That floating island in the deep swamp has been slowly moving west."* | A Watch patrol, thoroughly miserable, out of their depth in every sense, trying to get back to the city. |
+| **1** | A half submerged stone statue of a king who's head has been replaced by a bird's nest. | *"The swamp gas out there is actually the breath of a giant, sleeping dragon buried in the muck."* | A mercenary company who spend their days digging up blocks of fuel from the bog. |
+| **2** | A rotting wooden boardwalk that ends abruptly in the middle of a deep marsh. | *"If you find a black lily, you can sell it to an alchemist for a month's wages."* | Merchants who use flat bottomed carts to slide across the mud. |
+| **3** | A giant, gnarled mangrove with hundreds of rusted keys hanging from its branches. | *"A bandit king is hiding his loot in a submerged chest tied to that old log."* | Fishermen who use their own legs as bait to catch leeches to sell to apothacaries. |
+| **4** | A bubbling mudpool that smells strongly of rotten eggs. | *"The giant frogs out there are attracted to whatever is in that sunken structure."* | A salvage crew harvesting marsh grasses from the deep. |
+| **5** | A series of large, flat stones sticking up six feet from the bog. | *"There is a hidden path through the marsh marked by carvings on the cypress trees, leads to a treasure."* | A group of hunters moving a large wagon of hides. |
+| **6** | A grounded riverboat that has been converted into a crude tavern. | *"The clacking sound at night comes from the old hags den, she's up to something."* | Cult members who worship a swamp hag, traveling to her den. |
+| **7** | A cluster of glowing mushrooms that light up a small patch of the mire. | *"One of the generals of the Northern War buried a chest near the old mangrove."* | A goblin salvage crew, who search the bottom of shallow pools for lost jewelry and coins. |
+| **8** | A massive, log that serves as a natural tunnel along the main swamp road. | *"Follow the lights and you'll come upon something worth your while."* | A group of kids who catch giant bullfrogs to sell to the local taverns. |
 
 ---
 
@@ -1545,27 +2600,27 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A military fort leftover from the war years ago, perfectly preserved by the cold. Every torch, every ration, every document frozen in place across a dozen rooms. Tracks of something large cover the interior. |
-| 2 | A nomadic tribe's Colds camp. Longhouses, a communal hall, a trading tent, a locked storehouse and a sealed pit at the centre of camp that the elders say has always been. The tribe builds around it every Colds and prays to whatever lies within. |
-| 3 | An abandoned outpost yet still full of supplies, fire laid but never lit and the door locked from the outside. A journal in the snow at the entrance details that the evacuation was orderly and the thing that prompted it was less so. |
-| 4 | A large cave system kept above freezing by geothermal vents. Extensive natural chambers and older worked tunnels, multiple somethings are living here. |
-| 5 | A hunting outpost where the hunters did more than just hunting. Inside their "trophies" have stitched been stitched into the foundation of the place creating a gore ridden labyrinth. |
-| 6 | A permafrost burial ground cracked open by a recent thaw. Dozens of burial sites have been disturbed enough by the exposure that several are no longer where they were laid to rest. |
-| 7 | An frost miner's camp, work suspended, at the point where their cuts broke into something below. Chambers, carvings, a cold that is different from outside with equipment still in the breach and the crew's notes still on the foreman's desk. |
-| 8 | Two mercenary companies in open conflict across a wide hunting ground. Each with a base camp, scouts and forward positions. |
-| 9 | A traveller's shelter, well stocked and maintained, where the door latches from the outside only and the walls are built too well for sound to carry to the road. Maintained by someone who would love for guests to stay. |
+| 1 | A scarred landscape of frozen mud and rusted armor from the Northern War contains a network of trenches and underground bunkers. |
+| 2 | A massive ice cave once used as a frost-giant’s home contains preserved war era specimens that are beginning to thaw and wake. |
+| 3 | A monument to the fallen Northern armies has been occupied by a vengeful ice wraith, turning the commemorative halls into a frozen death trap. |
+| 4 | A settlement built from the bones of warbeasts and scrap metal, where the residents hunt intruders for their warm furs and meat. |
+| 5 | A palace made of ice traps the screams of all who enter, releasing them as sonic blasts when adventurers enter it's crystalline rooms. |
+| 6 | A temple encased in a permanent, localized blizzard yet remains warm inside, featuring a series of lush, thermal heated meditation gardens. |
+| 7 | A dugout settlement, populated by descendants of the war who treat every stranger as an enemy combatant in a war that never ended. |
+| 8 | A lonely watchtower manned by a crew of undead who continue their patrol routes, waiting for a commanding officer who died decades ago. |
+| 9 | A field where an entire battalion was flash-frozen into translucent statues, serving as a silent, crystalline labyrinth of preserved soldiers. |
 | 10 | Buried beneath snow drifts. Requires a thaw, a guide, or extraordinary fortune to locate. Roll again. |
 
 | d8 | Landmark | Rumour | Wandering Faction |
 |:---:|---|---|---|
-| **1** | An enormous stone statue, waist deep in drifted snow with an expression of absolute serenity. | *"The old fort out there, the frozen one, is still stocked. Weapons, supplies, the garrison's personal effects. Just sitting there."* | A nomadic trading party more interested in information than goods; they know the tundra better than anyone. |
-| **2** | A cage of black iron the size of a barn, half-collapsed, one wall missing, the bars bent outward. | *"The clan out north trade things nobody can explain. Old things. Things from down deep."* | A cult that operates in the extreme cold. |
-| **3** | A waystation settlement at the only sheltered point in the area. A main hall, a stable, a handful of permanent residents who stay here by choice - the kind of place that people are always very glad. | *"Something crosses the tundra at night. Big enough to see against the snow from a distance."* | A goblin crew who are catastrophically underprepared for this temperature and are attempting to light a fire. |
-| **4** | A standing stone with carvings cut so deep they have never filled with ice or snow despite centuries of exposure. | *"The permafrost is thawing in one specific spot near the Coldtooth ridge. Just that spot. Smells like old magic."* | A supply convoy for a far off outpost. Behind schedule and trying to make it before the next storm. |
-| **5** | A battlefield visible through a shelf of clear ice, soldiers and monsters, flash-frozen as if the air itself hardened in an instant. | *"Those bodies under the ice at Hoarfell are in perfect condition. Every piece of kit they're carrying is worth something. The problem is getting to them."* | An apex cold weather predator that has been tracking the party, patient and waiting for the right moment. |
-| **6** | A watchtower of black stone completely free of snow and ice in all weather, warm to the touch even during the Colds. | *"There's a light in the watchtower out on the flats. Has been for two weeks. Nobody's been up there in thirty years."* | Survivors from a settlement that was destroyed by an avalanche. |
-| **7** | A lone tree, ancient and enormous, standing in otherwise barren terrain; locals consider it extremely bad luck to touch the bark. | *"That ice bridge didn't appear naturally. Look at the underside, there are handholds carved in it."* | A veteran hunter tracking something she describes as not an animal, moving on foot and very well supplied. |
-| **8** | A circular crater of black rock, the air above it shimmers slightly. | *"Aldric's crew left for the deep tundra two months ago. Sent one runner back last week."* | A Watch patrol, fully cold-weather equipped, carrying a description of someone specific and checking every group they encounter. |
+| **1** | A massive, lone boulder scarred with deep grooves from the retreating glaciers. | *"The blue ice at the center of the lake is weak enough to break through, theres treasures below."* | Scavengers who search the old battlefields for usable scrap metal and cloth. |
+| **2** | A circular depression in the earth where the permafrost has melted, forming a small turquoise pond. | *"If you find a rusted helmet, don't pick it up; it's bad luck from the Northern War."* | A group of dwarven fishermen who travel between frozen lakes, blasting holes to catch winter trout. |
+| **3** | A large rusted iron sign post from the war that still creaks in the freezing wind. | *"A white hoarfox with three tails was seen near the old trenches, follow it if you dare."* | A group of ogres carrying heavy barrels of oil from the northern coasts towards Glimmerhold. |
+| **4** | A field of "frostpeaks" where the frozen earth has buckled into miniature mountains. | *"The northern lights are actually the spirits of fallen soldiers, they'll lead you to fortune."* | A travelling craftsman who offers to fix broken carts and sleds for gold. |
+| **5** | A solitary colourful stone cairn built from the rubble of a destroyed village. | *"There is a cache hidden in a stone box near the Glacier's Finger."* | Hunteres determined to find and kill the White Death. |
+| **6** | A deep, narrow fissure in the ice that reveals layers of ancient, blue tinted ice. | *"The howling in the wind is actually a giant frost wyvern that patrols the skies during blizzards."* | A group of clerics that travel the tundra, properly burying the remains of soldiers. |
+| **7** | A frozen waterfall that looks like a cascade of jewels in the morning sun. | *"A group of bandits are living in a hidden bunker to the north, protecting something."* | Druids collecting edible mosses and lichens from the rocks. |
+| **8** | A small, snow covered hill topped with a single, stunted pine tree. | *"Aldric's crew left for the deep tundra two months ago, a runner came back last week."* | Two skilled guidess who get paid to take travelers through the trackless expanse of the area. |
 
 ### ENCOUNTER TABLES
 
@@ -1708,33 +2763,79 @@ Back streets, market crowds, the docks, the Gobfather's territory. The City is n
 | 3 | A crowd has gathered around something. It is either a fight, an arrest, or a show. Roll d6: 1-2 fight, 3-4 arrest, 5-6 show. All three are useful cover for something. |
 | 4 | Someone slips a note into a party member's pocket. It knows something it should not. No sender. |
 | 5 | A **City Watch Captain** has a personal vendetta against the Gobfather and is determined to take him down, starting with the party. |
-| 6 | Tony Goblioni is sitting across the street, eating something, watching. He has a very small notebook. He waves. | -->
+| 6 | Tony Goblioni is sitting across the street, eating something, watching. He has a very small notebook. He waves. |
 
-## QUICK REFERENCE
+### GOODS & SERVICES
 
-### Stat Save Summary
+Prices are in gold. Use these as a baseline for pricing other items the party is looking to buy or sell.
 
-| Need to... | Use |
+> Prices assume a city with working markets. In small settlements, rare goods cost double or aren't available.
+
+**Weapons**
+
+| Item | Cost |
 |---|---|
-| Dodge, resist force, endure pain | MEAT |
-| Shake off fear, resist compulsion, hold nerve | ZEST |
-| See through illusions, resist domination, notice danger | WITS |
+| Improvised weapon | 2 |
+| Quick weapon | 15 |
+| Light weapon | 25 |
+| Medium weapon | 50 |
+| Heavy weapon | 100 |
+| Reach weapon | 80 |
+| Ranged light | 20 |
+| Ranged heavy | 60 |
 
-### Key Numbers
+**Armour and Shields**
 
-- Vital Blow threshold: 3+ MEAT from one hit
-- Morale Break threshold: 3+ MEAT from one hit (enemies)
-- Itch starts at: 20
-- Lock TN without tools: +2
-- Durability trigger: 1–2 on d6 post-combat
-- Shield requirement: MEAT 7+
-- Heavy armour requirement: MEAT 7+
-- Full armour requirement: MEAT 10+
+| Item | Cost |
+|---|---|
+| Light armour | 40 |
+| Medium armour | 80 |
+| Heavy armour | 150 |
+| Full armour | 250 |
+| Wooden shield | 20 |
+| Thief's buckler | 35 |
+| Steel shield | 60 |
+| Tower shield | 100 |
 
-### Standing Tracker
+**Gear and Supplies**
 
-```
-[Square][In Debt][Bad Standing]
-[◯◯x◯][◯◯◯◯][◯◯◯◯]
-```
-Move marker left to worsen; right to improve. Each tier has 4 marks before changing.
+| Item | Cost |
+|---|---|
+| Rations | 5 |
+| Torches | 2 |
+| Lantern | 15 |
+| Oil flask (4\*) | 8 |
+| Rope, 20ft | 5 |
+| Bandages (4\*) | 8 |
+| Cigarettes (6\*) | 10 |
+| Firestarter kit | 10 |
+| Lockpick set (4\*) | 30 |
+| Chalk | 1 |
+| Grappling hook | 12 |
+| Crowbar | 8 |
+| Hand mirror | 5 |
+| Smoke pellets (3\*) | 20 |
+| Poison vial (2\*) | 40 |
+| Healing salve (2\*) | 50 |
+| Antidote | 30 |
+
+**Services**
+
+| Service | Cost |
+|---|---|
+| Meal, basic | 1 |
+| Meal, decent | 3 |
+| Lodging, floor space | 1 |
+| Lodging, room | 5 |
+| Lodging, private room | 10 |
+| Physician, minor treatment | 20 |
+| Physician, serious treatment | 50 |
+| Fence (offers 20% of sale value) | - |
+| Bribe, minor official | 10 |
+| Bribe, guard | 20 |
+| Bribe, someone important | 50+ |
+| Information, common rumour | 5 |
+| Information, specific and useful | 20+ |
+| Gear repair or restock | 10% of item value, rounded up |
+
+---

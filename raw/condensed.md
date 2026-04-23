@@ -1,5 +1,5 @@
-LOOT GOBLINS, CONDENSED RULES REFERENCE
-*v1.0 condensed*
+LOOT GOBLINS RULES REFERENCE
+*v1.0* - todo: statblocks, playtest
 
 ---
 
@@ -14,18 +14,23 @@ LOOT GOBLINS, CONDENSED RULES REFERENCE
 - [TOME 2: THE WORLD AT LARGE](#tome-2-the-world-at-large)
   - [SECTION 1: THE CITY](#section-1-the-city)
   - [SECTION 2: FACTIONS](#section-2-factions)
-  - [SECTION 4: THE LANGUAGE OF ORRELIA](#section-4-the-language-of-orrelia)
-  - [SECTION 5: THE LANDSCAPE](#section-5-the-landscape)
-  - [SECTION 6: THE SEASONS AND THEIR FESTIVALS](#section-6-the-seasons-and-their-festivals)
+  - [SECTION 3: THE LANGUAGE OF ORRELIA](#section-4-the-language-of-orrelia)
+  - [SECTION 4: THE LANDSCAPE](#section-5-the-landscape)
+  - [SECTION 5: THE SEASONS AND THEIR FESTIVALS](#section-6-the-seasons-and-their-festivals)
 - [TOME 3: BESTIARY AND TABLES](#tome-3-bestiary-and-tables)
   - [SECTION 1: BESTIARY](#section-1-bestiary)
   - [SECTION 2: TABLES](#section-2-tables)
+- [TOME 4: ORRELIA, HERSELF](#tome-4-orrelia-herself)
+  - [NEAR RING](#near-ring)
+  - [FAR RING](#far-ring)
+
+
 
 ---
 
 > *There is a version of this story in which the heroes win, the world impending doom is defeated and everyone goes home to a warm meal and a grateful city. This is not that version. This is the version about the little green folk who went into the dungeon after the heroes returned and found the things they left behind.*
 
-\***
+---
 
 >The market bells clang twice before the Underhold properly wakes up. This is not laziness, this is intelligence. By the time the bells ring, the Watch has changed shifts, the early merchants have gone home disappointed and the streets above are full of people too tired to notice tiny shadows scurrying about.
 >
@@ -69,7 +74,7 @@ Roll a save when success isn't guaranteed. Roll your dice pool, if the **Gob Die
 | 13–15 | 3+ |
 | 16+ | 2+ |
 
-> On a failure, something still happens, just worse. "Yes, but" and "no, and."
+> Goblins are naturally bad at everything so players should expect to fail often. On a failure, something still happens, just worse. "Yes, but" and "no, and." Never stop the players dead in their tracks. Fail forwards.
 
 **Group saves:** All participating players roll. Equal or more successes than failures = everyone succeeds. COURAGE gain comes from individual results only.
 
@@ -78,9 +83,8 @@ Roll a save when success isn't guaranteed. Roll your dice pool, if the **Gob Die
 ### THE GOB DIE
 
 A single d6, your goblin's core instinct. Should be visually distinct from other d6.
-
-- **Succeed on the Gob Die** > gain 1 COURAGE
-- **Succeed on a 6** > gain 1 COURAGE *and* clear 1 STRESS
+- **Success on the Gob Die:** Gain 1 COURAGE
+- **6 on the Gob Die:** Clear 1 STRESS
 
 ---
 
@@ -90,11 +94,11 @@ A single d6, your goblin's core instinct. Should be visually distinct from other
 |---|---|
 | 1d6 | Gob Die (always) |
 | +1d6 per COURAGE spent | Courage dice |
-| +1d6 per marked STRESS | Stress dice (discard matching COURAGE dice; max = current level) |
+| +1d6 per marked STRESS | Stress dice (no more dice than current level; discard matching COURAGE dice) |
 
 **Making a save:**
 1. Discard any COURAGE dice that match a STRESS die (ignoring 6s).
-2. If any remaining COURAGE or Gob Die meets/beats target > **success.**
+2. If any remaining COURAGE or Gob Die is equal/beats target; **success.**
 
 **Desperation reroll:** At 0 COURAGE, gain 1 STRESS to reroll the Gob Die. Take the new result. A die may never be rerolled more than once.
 
@@ -174,10 +178,10 @@ Conditions can stack unless noted. A condition placed cannot be moved until remo
 | **Concussed** | WITS target +1 | Long rest |
 | **Poisoned** | On Vital Blow: d4 ZEST damage (no stack) | Antidote or MEAT save during long rest |
 | **Diseased** | Cannot clear STRESS | MEAT save during long rest |
-| **Hungry** | No additional effect | After eating |
 | **Fatigued** | No additional effect | Quick rest |
-| **Exhausted** | Third application = Unconscious | Long rest |
-| **Unconscious** | Cannot act, move, or speak | Splashed with water, hit, or long rest |
+| **Hungry** | Third application > Exhausted | After eating |
+| **Exhausted** | Third application > Unconscious | Long rest |
+| **Unconscious** | Cannot take actions | Splashed + ZEST save, damage, or long rest |
 
 All conditions are [1] size. Permanent injuries occupy body slot, healed only by magic.
 
@@ -191,7 +195,7 @@ All conditions are [1] size. Permanent injuries occupy body slot, healed only by
 - **(Players) + 2** rolls on Hoard Armour table
 - **(Players) × 2** rolls on Hoard Odds & Ends
 - **(Players) × 2** rolls on generic Loot table
-- **3d10 × 1000** gold for raw Hoard value
+- **3d10 × 1000** for starting Hoard gold stores
 
 ---
 
@@ -245,34 +249,44 @@ All conditions are [1] size. Permanent injuries occupy body slot, healed only by
 
 **Snitch**, Pack 3×2. Forged documents (2\*), "I know a guy." Collapsible disguise kit.
 
-**Boombro**, Pack 2×3. Volatile experimental bombs (6): d8+d0; declare mode, Smoke (blinds), Shrapnel (2 dmg all), or Concussive (forces Vital Blow). Oops: roll of 1 = blows up in hand. Mysterious vial labeled "DO NOT" (1\*).
+**Boombro**, Pack 2×3. Volatile bombs (6\*): d6+d0; 3 modes: Smoke (Blinds area for a Turn), Shrapnel (1 dmg to area on Break), or Concussive (area Knocked). Roll of 1 = blows up in hand. Mysterious vial labeled "DO NOT" (1\*).
 
 #### Worglings (Watchdog companion)
 
 - **Creation:** Roll 1d6 for each of MEAT / ZEST / WITS / STRESS separately.
-- **Combat:** Bite d4+d4. Owner can command move + attack.
-- **Inventory:** [1] Body slot + [1] Mouth slot.
-- **Danger:** Rolls WITS. Failure = ignores commands until safe.
-- **At 0 MEAT:** Unconscious (does not die). Recovers with rest. Takes [22] in pack.
+
+> **WORGLING** - *Scum*
+> - MEAT 1d6 / ZEST 1d6 / WITS 1d6 / STRESS 1d6 / DEF1
+> - **Bite:** d4+d4
+> - **Vital Blow:** Standard. 
+> - **Special:** At 0 MEAT; Unconscious. Recovers with rest. Takes [22] in pack.
+> - **Inventory:** [1] Body slot + [1] Mouth slot.
+> - **Danger:** Rolls WITS. Failure = ignores commands until safe.
+
+The Watchdog can command a Worgling to move and take an action on their turn.
 
 ---
 
 ### ADVANCEMENT
 
-Return to Underhold > add treasure to Hoard > tally total value > divide evenly as XP.  
-Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g > 1 XP.
+The basic gameplay loop in Loot Goblins is as follows:
+- Venture out, delve a dungeon.
+- Return with loot to Underhold and deposit to the Hoard.
+- Tally the total value of loot and divide by player count; this is the XP gain.
+ 
+Items kept personally or sold for gold don't contribute to XP. Donated gold is 1 XP per 1 gold.
 
 | Level | XP Required |
 |---|---|
-| 2 | 1,000 |
-| 3 | 3,000 |
-| 4 | 6,000 |
+| 2 | 800 |
+| 3 | 2,000 |
+| 4 | 3,600 |
 | 5+ | +5,000 per level |
 
 **On each level up:**
 - Roll (level)d6 for new STRESS Threshold. If highest die beats current max, take it; otherwise +1.
 - Roll 1d6 for each stat. Highest increases by 1. Tie = player chooses.
-- At level 5+: stats that roll a 1 decrease by 1 instead.
+- At level 5+: instead, stats that roll a 1 decrease by 1.
 - Roll d6. On 1–2, roll one new physical trait and one new quirk.
 
 **Stat cap: 15.** At level 5+ age takes its toll. If stat drops to 0: MEAT = death; ZEST = retires; WITS = deteriorates.
@@ -308,27 +322,21 @@ Each character: **1 action + 1 move** per Round. Move ≈ 20ft. Standing up cost
 
 ---
 
-### Gang Up
+#### Gang Up
 
 Multiple attackers on one target: roll all attacks as one pool, assign one Break die and one Damage die from the whole pool. COURAGE added per attacker normally. STRESS dice affect entire pool.
 
----
-
-### Dual Wielding
+#### Dual Wielding
 
 Choose one weapon to attack with per attack. Exception: d4 dice may always be included in every attack pool. Still assign only one Break and one Damage die.
 
----
-
-### Critical Hits
+#### Critical Hits
 
 After assigning dice, if Break die and Damage die show the **same value**: critical hit.
 - Roll an additional Damage die of the same type. Deal sum of all Damage dice.
 - Additional die can also crit if it matches. Critical hits cannot be discarded by STRESS dice.
 
----
-
-### Defense
+#### Defense
 
 **Dodge**, Gain 1 STRESS *or* discard 1 COURAGE. Incoming attack is Hindered. Cannot dodge in heavy/full armour or with a shield. d4 dice cannot be dodged.
 
@@ -339,7 +347,7 @@ After assigning dice, if Break die and Damage die show the **same value**: criti
 2. Both roll attack dice and assign Break + Damage dice.
 3. Higher Break die wins; winner deals chronic MEAT damage.
 4. Tie = weapons clang, both gain 1 COURAGE, no damage.
-5. COURAGE cannot be added to parry rolls.
+5. COURAGE cannot be added to parry rolls outside Bolstered.
 
 ---
 
@@ -371,11 +379,11 @@ When a player takes **3+ MEAT damage from one attack**, make a MEAT save.
 
 Slot item is dropped. Empty slot = nothing lost. Healed by magic only.
 
----
-
 ### Morale Break
 
 When a monster takes **3+ MEAT damage from one hit**, it makes a ZEST save or flees/surrenders. **Indomitable** monsters auto-succeed.
+
+> Combat example sidebar here.
 
 ---
 
@@ -402,7 +410,7 @@ When a monster takes **3+ MEAT damage from one hit**, it makes a ZEST save or fl
 
 ### Item Sizes
 
-Notation: [XYZ], each digit = column width in cells.
+Notation: [XYZ], each digit is a column, each value is how many rows in that column.
 
 - `[1]`, small/light items, quick weapons, accessories
 - `[11]`, heavy weapons, heavy ranged, full armour
@@ -417,11 +425,11 @@ Notation: [XYZ], each digit = column width in cells.
 
 ### Item Usage
 
-All items have **(n)** uses. After combat: roll d6 for each weapon/armour used. On **1–2**, mark one use. All uses marked = unusable until repaired.
+All items have **(n)** uses. After combat: roll d6 for each weapon/armour used. On **1–2**, mark one use. All uses marked means it is unusable until repaired or restocked.
 
-Consumables are **(n\*)**, destroyed when last use is marked.
+Consumables are **(n\*)** and are destroyed when the last use is marked. A consumable marked with **~** can be used without taking up your action.
 
-**Repair/Restock:** 10% of item's gold value at a relevant merchant. Consumables cannot be repaired.
+**Repair/Restock:** 10% of item's gold value (rounded up) at a relevant merchant. Consumables cannot be repaired.
 
 ---
 
@@ -433,7 +441,7 @@ All weapons have (3) unless noted.
 |---|---|---|---|
 | Improvised/Barehand | d2+d2 | [1] | Improvised = (2\*) |
 | Quick | d4+d4 | [1] | d4 cannot be dodged |
-| Light | d6+d6 | [1] |, |
+| Light | d6+d6 | [1] | - |
 | Medium | d6+d8 | [1] | Main hand only |
 | Heavy | d8+d8 | [11] | Two-handed |
 | Reach | d4+d10 | [11] | Two-handed; d4 cannot be dodged |
@@ -450,8 +458,8 @@ All armour has (3) unless noted. Unarmoured = DEF1.
 
 | Armour | DEF | Size | Requirement | Notes |
 |---|---|---|---|---|
-| Light | 2 | [1] | None |, |
-| Medium | 3 | [1] | None |, |
+| Light | 2 | [1] | None | - |
+| Medium | 3 | [1] | None | - |
 | Heavy | 4 | [1] | MEAT 7+ | Cannot dodge |
 | Full | 5 | [11] | MEAT 10+ | Cannot dodge |
 
@@ -476,7 +484,7 @@ Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns
 
 **Casting a scroll:**
 1. **WITS save.** Fail = cannot read; swap steps 2 and 3.
-2. Roll **1d12 Form**, **1d12 Flow**, **1d12 Facet.**
+2. Roll **1d12 Flow**, **1d12 Form**, **1d12 Facet.**
 3. Declare power: **1d6, 2d6, or 3d6.**
 4. Roll all power dice simultaneously.
 5. **Two matching dice** = Minor Mishap. **All three matching** = Major Mishap.
@@ -496,20 +504,20 @@ Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns
 
 #### Spell Creation (3d12)
 
-| d12| Form| Flow| Facet |
+| d12| Flow | Form | Facet |
 | --- | --- | --- | --- |
-| 1 | Sudden | Blast | Flesh |
-| 2 | Slow | Bind | Light |
-| 3 | Wide | Shrink | Mind |
-| 4 | Deep | Summon | Luck |
-| 5 | Sharp | Rot | Sound |
-| 6 | Thin | Swap | Object |
-| 7 | Heavy | Grow | Blood |
-| 8 | Hollow | Steal | Beast |
-| 9 | Bright | Reveal | Filth |
-| 10 | Tangled | Cloak | Door |
-| 11 | Fractured | Shatter | Name |
-| 12 | Distant | Speak | Hunger |
+| 1 | Blast | Rapid | Flesh |
+| 2 | Twist | Slow | Light |
+| 3 | Shrink | Wide | Mind |
+| 4 | Summon | Deep | Luck |
+| 5 | Decay | Sharp | Sound |
+| 6 | Swap | Blunt | Object |
+| 7 | Grow | Heavy | Blood |
+| 8 | Steal | Hollow | Beast |
+| 9 | Reveal | Bright | Element |
+| 10 | Cloak | Tangled | Door |
+| 11 | Shatter | Fractured | Name |
+| 12 | Speak | Distant | Hunger |
 
 #### Minor Mishap (d6)
 
@@ -520,7 +528,7 @@ Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns
 | 3 | **Blowback:** Gain Winded + Concussed. |
 | 4 | **Loud:** d4 chronic WITS damage. |
 | 5 | **Unstable Arcana:** Scroll loses extra charge. |
-| 6 | **Reversed:** Flow + Facet swap, or spell inverts. |
+| 6 | **Reversed:** Spell inverts from what was described. |
 
 #### Major Mishap (d6)
 
@@ -528,7 +536,7 @@ Scrolls are [1] with 3 uses. Committing dice marks uses. All uses = scroll turns
 |---|---|
 | 1 | **Possession:** WITS > 0 until Long Rest. |
 | 2 | **Destroyed:** Spell fails, scroll destroyed. |
-| 3 | **Wild surge:** Roll both mishap tables simultaneously. |
+| 3 | **Wild Surge:** Roll both mishap tables simultaneously. |
 | 4 | **Tear:** Rift to another hex opens. Nearby creatures pulled through on failed MEAT save. |
 | 5 | **Swap:** Caster and target swap position + STRESS. WITS save to resist. |
 | 6 | **Amplified:** Spell casts and regains all uses. |
@@ -544,7 +552,7 @@ Starts at **20.** Represents the dungeon waking up.
 - Each Turn the party acts or makes noise: roll Itch die, subtract result.
 - **Itch hits 3:** Foreshadow danger.
 - **Itch hits exactly 0:** Set to 3, foreshadow danger.
-- **Itch drops below 0:** Roll encounter, reset to 20. Roll of 6 = roll again, keep new result.
+- **Itch drops below 0:** Roll encounter, reset to 20. Roll of 6 = roll one more time, keep new result.
 - **Quick Rest:** Itch die steps up (d6→d8→d10→d12→d20). Resets on leaving dungeon for a Watch+.
 
 Itch advances on Turns only. Combat Rounds do not advance it. Cannot step above d20.
@@ -652,19 +660,19 @@ The Gobfather controls the Hoard, assigns work, and tracks what the party does.
 
 | Square | In Debt | Bad Standing |
 |---|---|---|
-|ooxo|oooo|oooo|
-| Even | XP halved | XP halved; contact costs up; Loyalty can't improve |
+|[-][-][x][-] | [-][-][-][-] | [1][2][3][4] |
+| Even | XP halved | XP halved; Contact costs increase; Loyalty can't improve |
 
 **Standing drops** when: unsanctioned Hoard pulls, burning a contact, failing a job, embarrassing the operation.
 
-**Standing improves** when: exceptional hauls, clean job completion, making the family look good.
+**Standing improves** when: hauls over 400g, job complete without implication, making the operation look good.
 
 **Escalation (while in Bad Standing):**
 1. A polite message.
 2. A meeting. Consequences described once.
-3. Tony Goblioni appears.
-4. Next job is designed to fix the problem.
-5. Protection removed. The Underhold may shun the party.
+3. Next job is designed to fix the problem.
+4. Protection removed. The Underhold may shun the party.
+- No jobs. Gobfather starts sending assassins.
 
 ---
 
@@ -681,7 +689,7 @@ Roll d20 for work when the Gobfather isn't offering. Pay = 1d6×10 gold.
 | 5 | Collect a debt | Debtor has hired protection |
 | 6 | Scout a location | Something already lives there |
 | 7 | Steal a document | Three other crews want the same thing |
-| 8 | Escort someone | The person being escorted is the danger |
+| 8 | Escort someone | The folk being escorted is the danger |
 | 9 | Destroy something | Destroying it wakes something up |
 | 10 | Retrieve a body | Still warm |
 | 11 | Plant false evidence | The Gobfather is behind this |
@@ -710,7 +718,7 @@ Before a job: spend a downtime Scheme action or visit a contact. Roll d10 generi
 | 3 | Something alive that shouldn't be. No one agrees what it looks like. |
 | 4 | Two groups already fighting over it. |
 | 5 | Someone powerful wants it left alone. |
-| 6 | Secret way in. Person telling you knows about it. |
+| 6 | Secret way in. Folk telling you knows about it. |
 | 7 | Last two crews didn't come back. |
 | 8 | Not what it looks like from outside. Locals know, nobody talks. |
 | 9 | Something valuable recently taken. Original owner is looking. |
@@ -753,6 +761,29 @@ Loyalty −1: stiff them, bring heat, ask for something costly.
 | 7 | Cultist | Strange items and stranger favours |
 | 8 | Rival goblin crew | Uneasy truce; trades information |
 
+#### Mucksow Handlers
+
+Mucksow handlers and ranchers are a **special type of contact**. They interact the same way as normal contacts but are always available within the Underhold. A mucksow is a **large pig-like beast** fitted with a saddlecrate (3x3 pack).
+
+Goblins can **rent a mucksow** from the underhold or other remote mucksow ranches. A mucksow **costs 20g/day**. If it dies, they owe 300g.
+
+Roll a quirk on rental:
+
+| d4 | Quirk | Effect |
+|---|---|---|
+| 1 | **Loud** | Sudden movement, damage, or combat > roll Itch die. |
+| 2 | **Hungry** | Needs +1 ration/day or becomes Exhausted. |
+| 3 | **Cowardly** | If danger, ZEST save or it flees and ignores commands until calmed. |
+| 4 | **Curious** | If unattended, WITS save or it drops a random carried item nearby. |
+
+> **MUCKSOW** - *Scum*  
+> MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1  
+> **Bite:** d2+d2  
+> **Vital Blow:** Standard  
+> **Special:** Needs 1 organic food/day or gains Exhaustion  
+> **Inventory:** 3x3. Can retrieve from any slot.
+> **Danger:** Rolls ZEST. Failure = ignores commands until safe.
+
 ---
 
 ### Downtime
@@ -762,6 +793,8 @@ The party may spend a day on one activity when in the City.
 #### Carouse
 
 Pull gold from the Hoard. Sanctioned (ask first) or unsanctioned (just take it, WITS save or Gobfather knows, drop to Bad Standing).
+
+Cannot take Sanctioned gold if not Square.
 
 Roll up to 3d10. Withdraw (n)d10×10 gold. Repay within (n)×2 days.
 
@@ -794,17 +827,18 @@ Odd jobs in the City. Describe it. Make a WITS save.
 
 #### Craft
 
-Declare what you're making and how. GM decides plausibility. Provide materials + tools.
+Declare what you're making and how. Provide materials and tools.
 
-**Crafting scrolls:** Copy a spell to single-use scroll. Materials die = charges left on source. Tools die = quality of scroll material. Magic skill based on WITS.
+**Crafting scrolls:** Copy a spell to single-use scroll. 
+- Materials die: charges left on source.
+- Tools die: quality of scroll material. 
+- Magic skill based on WITS.
 
-**Junk-mixing:** Combine 2 consumables OR 1 consumable + 1 item.
-
-| Quality | Poor (1–20g) | Adequate (21–50g) | Good (51g+) |
+| Quality | Poor (d4) | Adequate (d6) | Good (d8) |
 |---|---|---|---|
-| Materials die | d4 | d6 | d8 |
-| Tools die | d4 (barehands) | d6 (hammer) | d8 (workbench) |
-| Magic skill | WITS 1–7: d4 | WITS 8–12: d6 | WITS 13+: d8 |
+| Materials | 1–20g | 21–50g | 51g+ |
+| Tools | Barehands | Tool or two | Workbench |
+| Magic skill | WITS 1–7 | WITS 8–12 | WITS 13+ |
 
 Assign dice to **Quality**, **Time**, and **Magic Skill (if needed):**
 
@@ -813,13 +847,12 @@ Assign dice to **Quality**, **Time**, and **Magic Skill (if needed):**
 | Quality | Reduced uses | Normal uses | Bonus uses |
 | Time | +1 day | Takes the day | Free day |
 | Magic Skill | Reroll Flow + Form | Reroll Facet | No reroll |
-| Junk-mix Materials | Items destroyed; gain Rattled | Combine both effects | Combine + remove 1 downside |
 
 Standard crafted items start at (3) uses.
 
 #### Scheme
 
-Pursue anything that doesn't fit other activities. Tell the GM what you want. GM decides relevant stat save.
+Pursue anything that doesn't fit other activities. Describe what you want to do and how you do it. GM decides relevant stat save.
 - Success = meaningful progress or achievement.
 - Failure = partial progress, complication, or attention.
 
@@ -829,11 +862,13 @@ Pursue anything that doesn't fit other activities. Tell the GM what you want. GM
 
 | Safe House | Cost | What it is |
 |---|---|---|
-| Hole in the wall | 1,000g | One room, one entrance, barely fits the party |
-| Proper base | 3,000g | Two-three rooms, back exit, actual beds |
-| Established hideout | 6,000g | Multiple rooms, defensible, room for guests |
+| Hole in the wall | 500g | One room, one entrance, barely fits the party |
+| Proper base | 1,500g | Two-three rooms, back exit, actual beds |
+| Established hideout | 3,000g | Multiple rooms, defensible, room for guests |
 
 Provides: Full Rest safely, personal storage, contact channel outside Gobfather, secure base.
+
+Funds for a safehouse can come from any source; goblins personal savings, a loan, stolen. The payment is given to whoever owns the property.
 
 **Upgrades (one each):**
 
@@ -1060,7 +1095,7 @@ Spit does not take sides and does not extend credit. She makes a stew that conta
 
 **The Gobfather's operation** runs from somewhere deep in the Underhold that only a handful of people have ever been invited to see. It's quite a comfortable space. Messages come up by Crowfolk runner or Lowfling intermediary and gold comes down in quantities the surface world would find alarming if it knew. The arrangement sustains approximately four-thousand residents of the Underhold and indirectly much of the surface black market.
 
-Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous person in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name "Lucious Caesar" and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that *actually* matters and reports it all to the big man below because that's the job and the job is what he loves. He's also incredibly handsome.
+Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous guys in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name "Lucious Caesar" and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that *actually* matters and reports it all to the big man below because that's the job and the job is what he loves. He's also incredibly handsome.
 
 
 ---
@@ -1099,7 +1134,7 @@ Three noble families, the Venhalls, the Cresswick-Norths and the Mourne family, 
 
 **Goals:** Each families wants pure control over Glimmerhold's economy.
 
-**Resources:** Copius amounts of wealth and connections.
+**Resources:** Copious amounts of wealth and connections.
 
 **Fears:** Each family fears the other family will rise up and surpass them, all three houses fear the Gobfather expands to the surface in a more public fashion.
 
@@ -1232,7 +1267,7 @@ What this means practically is that there are soldiers in the northern territori
 **The Silent Lanterns**, A network rather than a group, the Silent Lanterns are researchers, scholars and very carefully positioned thieves who've been moving restricted knowledge out of the Archivist's Tower's restricted section for approximately thirty years. They publish it under false names in pamphlets that leave the academic community outraged and the public delighted. Maren has her suspicions but hasn't acted on them, largely because one of the pamphlets contained a correct and useful solution to a problem she was working on, which created an ethical complication she hasn't fully resolved.
 
 ---
-## SECTION 4: THE LANGUAGE OF ORRELIA
+## SECTION 3: THE LANGUAGE OF ORRELIA
 
 Most folks of the realm speak Glimmertongue; a dialect of the common language specific to Orrelia. There is also Undertongue for when you want to speak more candidly without the surface dwellers knowing what's going on. 
 
@@ -1287,16 +1322,16 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 *"Northmen, that."* Anything that goes north lately stays north. Applied to objects, people and good decisions equally.
 
-*"Fire and sense."* Everything a sensible person needs when the weather turns. General pragmatism.
+*"Fire and sense."* Everything sensible folk needs when the weather turns. General pragmatism.
 
-*"Left something for the Horned Thing."* An offering made to bad luck in advance. Leave a small gift in the forest before asking it for anything.
+*"Left something for the Horned Beast."* An offering made to bad luck in advance. Leave a small gift in the forest before asking it for anything.
 
 *"Quiet past the stones."* Warning to stop talking and start watching. Usually near ruins.
 
 *"Road gold."* Money made quickly, gone quickly, not worth mourning. Grassland caravan trader saying.
 
 ---
-## SECTION 5: THE LANDSCAPE
+## SECTION 4: THE LANDSCAPE
 
 
 ### Monuments and Landmarks
@@ -1368,7 +1403,7 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 **Boubastous Shakur**, a retired Watch officer who now runs a soup kitchen near the Warrens. He knows where every body is buried because he put several of them there during his career and he's been making amends ever since, in a very practical manner. He has contacts in every district and an inexplicable soft spot for kobolds.
 
-**The Archivist of Temple Row**, not a person but a rotating position. Currently held by an elderly gnome named **Tuck** who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.
+**The Archivist of Temple Row**, not someone but a rotating position. Currently held by an elderly gnome named **Tuck** who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.
 
 **Grimbus Goldfinch**, the most famous Whyzician in Glimmerhold. Grimbus operates out of a cluttered set of rooms near the Warrens. He charges what he thinks you can afford (which is sometimes more than you expect and occasionally nothing at all), he does not discriminate by species and he keeps meticulous records that have been stolen from him twice and returned both times.
 
@@ -1379,10 +1414,10 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 **The Ferrymaster**, no one knows the Ferrymaster's name and the Ferrymaster has worked the river crossing between the eastern river crossings for longer than anyone can track. The Ferrymaster doesn't charge goblins and doesn't explain why. Nobody's pushed the matter because some arrangements are more comfortable when left unexplored.
 
-**Sigvald of the Cut**, a dwarf stonemason who lives alone in the mountainvpeaks near the geological anomaly known as the Cut. He has studied it for eighty-odd years and published twelve monographs that other dwarves find academically interesting but uncomfortable. He will speak to anyone who comes without a weapon and with a sincere question. He has theories about the Cut. They are almost certainly right and involve giant gods and even larger swords.
+**Sigvald of the Cut**, a dwarf stonemason who lives alone in the mountain peaks near the geological anomaly known as the Cut. He has studied it for eighty-odd years and published twelve monographs that other dwarves find academically interesting but uncomfortable. He will speak to anyone who comes without a weapon and with a sincere question. He has theories about the Cut. They are almost certainly right and involve giant gods and even larger swords.
 
 ---
-## SECTION 6: THE SEASONS AND THEIR FESTIVALS
+## SECTION 5: THE SEASONS AND THEIR FESTIVALS
 
 The world has no months, because months are an administrative convenience and the world predates administration. There are four seasons of approximately sixty days each, named by what they *do* rather than what they *are.*
 
@@ -1539,7 +1574,7 @@ Use the following stat blocks as a framework for your own monsters and NPCs.
 > **HERO - WIZARD** - *Doom*
 > - MEAT 6(5+) / ZEST 10(4+) / WITS 16(2+) / STRESS 4 / DEF1
 > - **Staff:** d4+d6
-> - **Fireball (3\*):** rd6+4rd6, assign one Break die and the remaining dice as damage to different targets.
+> - **Fireball (3\*):** rd6+4rd6, assign one Break die and the remaining dice as damage to different targets. *(Summon Bright Element)*
 > - **Vital Blow:** Concussed.
 > - **Special:** Indomitable.
 
@@ -1565,7 +1600,7 @@ Use the following stat blocks as a framework for your own monsters and NPCs.
 > - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
 > - **Blessed Mace:** d6+d8
 > - **Vital Blow:** Frightened.
-> - **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric.
+> - **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric. *(Grow Fractured Flesh)*
 
 ---
 
@@ -1596,7 +1631,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 > **WATER ELEMENTAL** - *Run*
 > - MEAT 18(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
-> - **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets.
+> - **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets. 
 > - **Vital Blow:** Drowning: gain Immobilized, while persists take d4 damage at the start of their action.
 > - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons. 
 
@@ -1709,7 +1744,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > - MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 12 / DEF3
 > - **Gore:** d8+d10
 > - **Vital Blow:** Target flies 10ft and is Knocked, Winded and Bleeds upon landing.
-> - **Special:** Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Thing always result in Hostile, it does not negotiate.
+> - **Special:** Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Beast always result in Hostile, it does not negotiate.
 
 
 #### GRASSLAND
@@ -1776,7 +1811,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > - MEAT 28(2+) / ZEST 16(2+) / WITS 10(4+) / STRESS 16 / DEF3
 > - **Claw:** d10+d10
 > - **Vital Blow:** Immobilized and Chilled.
-> - **Special:** Indomitable. Blizzard: once per encounter, summons a blizzard. All attacks Hindered for d4 rounds. Cannot be outrun in tundra. Apex Predator: when The White Death reduces a creature to 0 MEAT it immediately attacks again as a free action.
+> - **Special:** Indomitable. *Blizzard:* once per encounter, summons a blizzard. All attacks Hindered for d4 rounds. Cannot be outrun in tundra. Apex Predator: when The White Death reduces a creature to 0 MEAT it immediately attacks again as a free action.
 
 #### MOUNTAIN
 
@@ -1799,7 +1834,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > **WYVERN** - *Run*
 > - MEAT 24(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 14 / DEF4
 > - **Claw:** d8+d10
-> - **Tail Sting:** d6+d8 on hit apply Poisoned.
+> - **Tail Sting:** d6+d8 on hit the target gains Poisoned.
 > - **Vital Blow:** Trigger Poisoned.
 > - **Special:** Indomitable. Airborne: cannot be targeted by non-ranged attacks while flying. Dives to attack, retreats to the air after each round.
 
@@ -1816,7 +1851,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### CITY
 
 
-> **CITY GUARD** - *Scum*
+> **CITY GUARD (or BANDIT)** - *Scum*
 > - MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 4 / DEF2
 > - **Club:** d6+d6
 > - **Vital Blow:** Standard.
@@ -1834,7 +1869,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 > **GUILD ENFORCER** - *Run*
 > - MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
-> - **paired blades:** d6+d6+d6+d6
+> - **Paired Blades:** d6+d6+d6+d6
 > - **Vital Blow:** Rattled.
 > - **Special:** Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.
 
@@ -1843,7 +1878,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > **THE GREY MAGISTER** - *Doom*
 > - MEAT 8(5+) / ZEST 14(3+) / WITS 20(2+) / STRESS 10 / DEF2
 > - **Quarterstaff:** d4+d6
-> - **Soul Bolt (4\*):** rd8+rd8 ZEST damage
+> - **Soul Bolt (4\*):** rd8+rd8 ZEST damage *(Blast Fractured Mind)*
 > - **Vital Blow:** Concussed.
 > - **Special:** Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 10 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
 
@@ -1863,7 +1898,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 > **GRIMBUS GOLDFINCH** - *Danger*
 > - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF2
-> - **Illusionary Scalpel:** d4+d6
+> - **Illusionary Scalpel:** d4+d6 *(Decay Sharp Flesh)*
 > - **Target Vitals (4\*)**, d6+d0, causes an automatic Vital Blow.
 > - **Vital Blow:** Standard.
 > - **Special:** *Scroll of Restoration (3\*):* may use their action to restore d10 STRESS to any creature visible.
@@ -1873,7 +1908,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 #### UNDERHOLD
 
-> **THE GOBFATHER:** *Doom*
+> **THE GOBFATHER** - *Doom*
 > - MEAT 30(2+) / ZEST 18(2+) / WITS 13(3+) / STRESS 20 / DEF4
 > - **Giant Gob Fists:** d8+d6+d8+d6
 > - **Vital Blow:** Concussed, Knocked.
@@ -1891,45 +1926,45 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 #### BRIGHTWATCH COMPANY
 
-> **ALDRIC VANE**, *Fighter, Doom tier*
+> **ALDRIC VANE** - *Fighter, Doom tier*
 > - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5
-> - **Hero Sword**, d8+d8
-> - **Shield Bash**, d4+d6, on hit target gains Knocked. Requires shield equipped.
+> - **Hero Sword:** d8+d8
+> - **Shield Bash:** d4+d6, on hit target gains Knocked. Requires shield equipped.
 > - **Vital Blow:** Rattled and Disoriented.
-> - **Special**, Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
+> - **Special:** Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
 
 ---
 
-> **MAREN ASHVEIL**, *Wizard, Doom tier*
+> **MAREN ASHVEIL** - *Wizard, Doom tier*
 > - MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1
-> - **Staff**, d4+d6
-> - **Arcane Bolt (4\*)**, rd6+rd8, WITS damage. Ignores non-magical DEF.
-> - **Seeker (3\*)**, summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.
+> - **Staff:** d4+d6
+> - **Arcane Bolt (4\*):** rd6+rd8, WITS damage. Ignores non-magical DEF. *(Blast Blunt Object)*
+> - **Seeker (3\*):** summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water. *(Summon Bright Hunger)*
 > - **Vital Blow:** Concussed.
-> - **Special**, Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
+> - **Special:** Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
 
 ---
 
-> **SARBORAS FESS**, *Rogue, Doom tier*
+> **SARBORAS FESS** - *Rogue, Doom tier*
 > - MEAT 18(2+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2
-> - **Twin Daggers**, d6+d6+d6+d6
-> - **Garrotte (2\*)**, MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.
+> - **Twin Daggers:** d6+d6+d6+d6
+> - **Garrotte (2\*):** MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.
 > - **Vital Blow:** Rattled.
-> - **Special**, Indomitable. *Vanish:* if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. *Lift:* Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. *Professional Habit:* Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.
+> - **Special:** Indomitable. *Vanish:* if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. *Lift:* Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. *Professional Habit:* Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.
 
 ---
 
-> **CORVIN SALTMARSH**, *Cleric, Doom tier*
+> **CORVIN SALTMARSH** - *Cleric, Doom tier*
 > - MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3
-> - **Blessed Mace**, d6+d8
+> - **Blessed Mace:** d6+d8
 > - **Vital Blow:** Frightened.
-> - **Special**, Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
+> - **Special:** Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
 
 #### THE OPEN COATS
 
 > **RUMBLESTRIDE** - *Doom*
 > - MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 12 / DEF3
-> - **Conjured Ice Blade:** d8+d8, on hit target gains Chilled.
+> - **Conjured Ice Blade:** d8+d8, on hit target gains Chilled. *(Twist Sharp Element)*
 > - **Vital Blow:** Immobilized (the cold gets into the joints).
 > - **Special:** *Indomitable.* *Stilled Moment:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 1d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* something about it. Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
 
@@ -1937,7 +1972,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 > **DARDANEL MOONSWADDLE** - *Doom*
 > - MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 10 / DEF2
-> - **Void Lance (4\*):** rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact.
+> - **Void Lance (4\*):** rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact. *(Blast Distant Blood)*
 > - **Vital Blow:** Rattled and Disoriented (the colours are overwhelming).
 > - **Special:** *Indomitable.* *Grease Field (2\*):* covers a 15ft area. All creatures entering or starting their turn in the area must pass a MEAT save or gain Knocked. *Dramatic Positioning:* Dardanel is always in the most visually interesting part of the room. He cannot be flanked because he has already considered all possible angles. Add 1 free COURAGE die to any Void Lance roll made from an elevated position.
 
@@ -1946,18 +1981,18 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > **ROLART THE MAD** - *Doom*
 > - MEAT 8(5+) / ZEST 20(2+) / WITS 5(6+) / STRESS 20 / DEF1
 > - **Stefin's Suggestion:** d4+d4, the canary indicates a target and something unpleasant happens to them.
-> - **Conflagration (3\*):** rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table.
+> - **Conflagration (3\*):** rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table. *(Shatter Bright Element)*
 > - **Vital Blow:** Burning.
 > - **Special:** *Indomitable.* *Stefin Knows:* the canary cannot be fooled, charmed, or surprised and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Cascading Incident:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *What Does He Want:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral and observing, 5-6 he has decided something needs to be on fire.
 
 #### OTHERS
 
-> **THE SCREAMING LICH**, *Lich, Doom tier*
+> **THE SCREAMING LICH** - *Lich, Doom tier*
 > - MEAT 0(6+) / ZEST 0(6+) / WITS 30(2+) / STRESS 40 / DEF4
-> - **Finger of Death:** d8+d8, if this kills a creature they are raised the next round as an Undead.
-> - **Necrotic Scream (2\*)**, ZEST save or take 8d8 chronic MEAT damage.
+> - **Finger of Death:** d8+d8, if this kills a creature they are raised the next round as an Undead. *(Decay Rapid Flesh)*
+> - **Necrotic Scream (2\*):** ZEST save or take 8d8 chronic MEAT damage. *(Speak Heavy Hunger)*
 > - **Vital Blow:** Chilled, Rattled, Exhausted.
-> - **Special**, Indomitable. *Death Ward:* The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. *Phylactery:* If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.
+> - **Special:** Indomitable. *Death Ward:* The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. *Phylactery:* If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.
 
 ---
 
@@ -1967,400 +2002,30 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > - **Vital Blow:** Standard and Bleed.
 > - **Special:** Indomitable. *Stoneflesh:* Sigvald is weathered from the peaks and ignores any critical hit damage dice. *Favoured of Grum:* Sigvald cannot be Concussed, Disoriented or Knocked.
 
+---
+
+> **WORGLING** - *Scum*
+> - MEAT 1d6 / ZEST 1d6 / WITS 1d6 / STRESS 1d6 / DEF1
+> - **Bite:** d4+d4
+> - **Vital Blow:** Standard. 
+> - **Special:** At 0 MEAT; Unconscious. Recovers with rest. Takes [22] in pack.
+> - **Inventory:** [1] Body slot + [1] Mouth slot.
+> - **Danger:** Rolls ZEST. Failure = ignores commands until safe.
+
+---
+
+> **MUCKSOW** - *Scum*  
+> - MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1  
+> - **Bite:** d2+d2  
+> - **Vital Blow:** Standard  
+> - **Special:** Needs 1 organic food/day or gains Exhaustion  
+> - **Inventory:** 3x3. Can retrieve from any slot.
+> - **Danger:** Rolls ZEST. Failure = ignores commands until safe.
+
+---
+
 
 ## SECTION 2: TABLES
-
-### BASIC LOOT TABLE
-
-> Gold values represent what a fence will pay you (roughly 20% cut from their buyer).
-> A private buyer, a collector, or someone who specifically needs the item will pay more. If you can find one.
-> For a rough full value of an item, multiply the value by 5 and round up.
-
-Roll **1d100** when generating loot.
-
-#### 1–40: Scrap and Common
-> Roll a d4+d10 to use just this table.
-
-| d100 | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 1 | Rusted Helm | (3) | [1] | 8g | Immune to Concussed. Mark a use each time it blocks a Concussed condition. |
-| 2 | Bent Shield | (1) | [1] | 3g | |
-| 3 | Half-Burnt Torch | (2\*) | [1] | 1g | |
-| 4 | Mystery Meat | (3\*) | [1] | 2g | Eat to clear 3 STRESS. Roll ZEST or gain both Diseased and Hungry. |
-| 5 | Loose Teeth Pouch | - | [1] | 5g | Makes a rattling noise. |
-| 6 | Cracked Goggles | - | [1] | 10g | Negates darkness Hindered penalty in combat only. |
-| 7 | Broken Sword | (2\*) | [1] | 6g | d6+d6 |
-| 8 | Splintered Spear | (2\*) | [11] | 8g | d4+d10 |
-| 9 | Empty Potion Bottles | (3\*) | [1] | 4g | On hit applies Bleed. |
-| 10 | Moldy Cloak | (3) | [1] | 12g | ZEST target number -1 when resisting disease, toxins, bad food and similar effects. |
-| 11 | Sack of Nails | (3) | [1] | 2g | A sack of nails. |
-| 12 | Grease Flask | (2\*) | [1] | 3g | A flask of grease. |
-| 13 | Rope Bundle | - | [2] | 5g | 50ft, always useful. |
-| 14 | Hook on Chain | - | [2] | 4g | |
-| 15 | Bone Dice Set | - | [1] | 15g | Once per session reroll one Gob Die result and take either. |
-| 16 | Tarnished Ring | - | [1] | 30g | Worth 30 gold. |
-| 17 | Flickering Lantern | (6\*) | [11] | 12g | Mark use every 4 turns instead of 3. |
-| 18 | Old Boots | - | [1] | 18g | Ignore movement penalties from difficult terrain. |
-| 19 | Scrap Armour | - | [1] | 10g | DEF2. Destroyed when the wearer takes a Vital Blow. |
-| 20 | Rat Cage | - | [22] | 8g | Holds 1 Giant Rat, worth gold to the right buyer. |
-| 21 | Smelly Cheese | (4\*) | [1] | 2g | Very smelly cheese. |
-| 22 | Flask of Weak Ale | (3\*) | [1] | 3g | Drink: roll a d4. On a 2-4 clear 1 STRESS. On a 1 gain Disoriented. |
-| 23 | Rusty Bear Trap | (1\*) | [11] | 14g | Place on ground. First creature to step on it takes d6 damage and gains Immobilized. |
-| 24 | Tattered Map Fragment | - | [1] | 10g | Shows partial layout of one dungeon area, GM decides which. |
-| 25 | Shiny Rock | - | [1] | 1g | Gain 1 COURAGE when you first find it. |
-| 26 | Bent Crown | - | [1] | 50g | Worth 50 gold. |
-| 27 | Bone Charm | - | [1] | 20g | Discard to ignore one Frightened condition. |
-| 28 | Crude Shield | (2) | [1] | 5g | |
-| 29 | Firestarter Kit | (4\*) | [1] | 8g | Guaranteed fire in any conditions. |
-| 30 | Empty Sack | - | [1] | 2g | Can hold two [1] items. |
-| 31 | Small Whistle | - | [1] | 3g | |
-| 32 | Broken Crossbow | (2\*) | [2] | 12g | rd6+rd8 |
-| 33 | Dull Knife | (2) | [1] | 4g | d4+d4. Good for buttering. |
-| 34 | Salt Packet | (2\*) | [1] | 6g | Deals 1d12 damage to slimes and oozes. |
-| 35 | Rotten Rations | (2\*) | [1] | 1g | Clears 1 STRESS. Roll ZEST or gain Hungry. |
-| 36 | Glass Shards | (2\*) | [1] | 1g | A handful of broken glass. |
-| 37 | Stick Bomb | (1\*) | [11] | 25g | rd4+4rd4. Assign 1 Break die and the rest as damage vs any number of targets. |
-| 38 | Tarnished Amulet | - | [1] | 20g | Worth 20 gold. |
-| 39 | Chalk | (8\*) | [1] | 1g | Mark paths, leave messages, draw crude pictures. |
-| 40 | Bucket Helmet | (3) | [1] | 15g | Negates one Permanent Injury to the head slot then becomes stuck and cannot be removed without help. |
-
----
-
-#### 41–70: Monster Parts and Better Gear
-> Roll a d3+d10 to use just this table.
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 41 | Silk Bundle | (3\*) | [1] | 40g | Throw to web a target, MEAT save or apply Immobilized. |
-| 42 | Venom Sack | (3\*) | [1] | 50g | Apply to weapon, next hit applies Poisoned. |
-| 43 | Acid Glob | (2\*) | [1] | 60g | Throw at a target, MEAT save or reduces their armour DEF by 1 permanently. |
-| 44 | Volatile Core | (1\*) | [1] | 70g | rd10+rd10. If both dice match it explodes in your hand instead. |
-| 45 | Sticky Tongue | (3\*) | [11] | 55g | rd4+rd6. WITS save on hit to pull a [1] item from target to you. |
-| 46 | False Treasure Trap | - | [22] | 35g | Looks like a gilded chest, is actually a trap. |
-| 47 | Ogre Femur | (5\*) | [11] | 30g | d8+d8. Smells terrible. |
-| 48 | Sack of Rocks | (3) | [1] | 5g | rd4+rd4. Never runs out of rocks. |
-| 49 | Ritual Dagger | (2) | [1] | 80g | d4+d4. Gain 1 COURAGE each time you deal MEAT damage with it. |
-| 50 | Chanter Beads | (1) | [1] | 45g | Negate a Frightened condition then mark use. |
-| 51 | Spider Eye Cluster | (8\*) | [1] | 65g | Mark a use to negate Hindered from darkness. |
-| 52 | Bat Wing Cloak | (3) | [1] | 90g | Float instead of fall. Take half falling damage. |
-| 53 | Rat King Tail | (5\*) | [11] | 75g | Can understand and speak to rats. |
-| 54 | Zombie Hand | (1\*) | [1] | 40g | rd4+rd4. On hit target is Hindered for one round. |
-| 55 | Bone Shield | (3) | [1] | 60g | Bearer is immune to Rattled. |
-| 56 | Slime-Coated Armour | (3) | [1] | 70g | DEF3. Immune to acid damage, ZEST target number +1 while worn. |
-| 57 | Mimic Tooth Necklace | (3) | [1] | 55g | While wearing, can sense mimics and dopplegangers. |
-| 58 | Cult Robes | (3) | [1] | 80g | DEF1. Cultists and undead react as Curious instead of Hostile. |
-| 59 | Giant Tooth | - | [1] | 25g | d6+d6. Counts as both a weapon and a very large tooth. |
-| 60 | Spider Silk Armour | (3) | [1] | 110g | DEF3. Bolstered on saves to climb. |
-| 61 | Venom Blade | (3) | [1] | 120g | d6+d8. On hit apply Poisoned. |
-| 62 | Acid Flask | (2\*) | [1] | 50g | rd4+rd4. Ignores shields. |
-| 63 | Bone Flute | (4) | [1] | 85g | Small beasts within earshot must make ZEST save or be charmed. |
-| 64 | Necro Dust | (1\*) | [1] | 100g | Sprinkle on a recently dead creature, it rises as Undead with MEAT 1 that attacks the nearest living thing. |
-| 65 | Black Candle | (2\*) | [1] | 90g | Light to create magical darkness. Non-magical light sources cannot penetrate it. |
-| 66 | Blood Vial | (1\*) | [1] | 60g | Drink to gain 2 COURAGE and take 1 chronic ZEST damage. |
-| 67 | Tangle Net | (1\*) | [11] | 70g | When thrown on a target they are Immobilized and Disoriented until removed. |
-| 68 | War Paint | (1\*) | [1] | 35g | Apply before combat, Bolstered on first attack. |
-| 69 | Trophy Skull | (3) | [1] | 45g | When shown to enemies they make a ZEST save or their next Morale Break save is at +1. |
-| 70 | Strange Egg | (1\*) | [11] | 150g | Hatches into something after d6 sessions. |
-
----
-
-#### 71–90: Hero Loot
-> Roll a d20 to use just this table.
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 71 | Polished Breastplate | (3) | [1] | 180g | DEF4. Take 2 STRESS when first equipped - it was not made for goblins. |
-| 72 | Tower Crest Shield | (7) | [2] | 140g | Emblazoned with the crest of a noble house. |
-| 73 | Trueshot Longbow | (3) | [2] | 200g | rd8+rd8. Hitting a target marks them, attacks against them are Bolstered this round. |
-| 74 | Cloak of Leaves | (3) | [1] | 160g | Bolstered on all saves to hide or move silently. |
-| 75 | Spell Scroll | (3\*) | [1] | 250g | See Magic section. |
-| 76 | Cursed Tome | (3) | [22] | 120g | Cannot be discarded or reorganized once picked up. ZEST save during rest to discard. |
-| 77 | Holy Symbol | (3\*) | [1] | 180g | Clear d6 STRESS from any target. Goblins take 1 chronic ZEST damage every turn while holding it. |
-| 78 | Blessed Mace | (3) | [1] | 220g | d6+d8. On hit clear 1 STRESS from the wielder. |
-| 79 | Knight's Helmet | (3) | [1] | 190g | Mark a use to reroll all dice in a MEAT save. Immune to Concussed condition. |
-| 80 | Ranger Boots | (3) | [1] | 200g | Mark a use to Dodge without paying STRESS or COURAGE. |
-| 81 | Wizard Hat | (3) | [1] | 240g | WITS target number -1. Destroyed if the wearer takes a Permanent Injury. |
-| 82 | Cleric Robes | (3) | [1] | 180g | DEF1. Mark a use to clear d4 STRESS from an ally. |
-| 83 | Hero Sword | (3) | [11] | 300g | d8+d10 |
-| 84 | Enchanted Arrow Quiver | (3) | [1] | 160g | Mark a use to reroll one attack die from a heavy ranged weapon. |
-| 85 | Concussive Grenade | (1\*) | [1] | 200g | rd6+rd6. Any target dealt damage is Concussed, Disoriented and Knocked. |
-| 86 | Healing Potion | (1\*) | [1] | 300g | Roll 2d4 and clear that much STRESS and/or stat damage. |
-| 87 | Hero's Belt | (3) | [1] | 220g | Gain 1 COURAGE each time you succeed on a roll while at no STRESS. |
-| 88 | Blessed Shield | (5) | [1] | 250g | Can reroll all dice in a Vital Blow save while wielding. |
-| 89 | Glinting Cloak | (1) | [1] | 280g | Mark a use to negate one attack completely. Recharges after Long Rest. |
-| 90 | Hero Pack | - | [111] | 350g | Can be placed outside the pack. Has 3 grid inventory spots. |
-
----
-
-#### 91–100: Rare and Dangerous
-> Roll a d10 to use just this table.
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 91 | Bag of Holding | (4\*) | [1] | 600g | Can place up to 6 [1] items on this item. Retrieving an item not on top requires a ZEST save - failure marks a use. When consumed all items inside are destroyed. |
-| 92 | Gob Crown | (3) | [1] | 400g | Gain 1 COURAGE at the start of each turn. All non-goblins react as Hostile to the wearer. |
-| 93 | The Hero's Map | (3) | [11] | 500g | Reveals the full dungeon layout it's found in. The Itch die increases one step permanently when found. |
-| 94 | Soul Coin | (1\*) | [1] | 800g | When the bearer dies, roll a d6. On a 1-3 they die as normal. On a 4-6 they come back to life at 1 MEAT and permanently lose 3 ZEST. |
-| 95 | Cursed Idol | (3) | [11] | 350g | Occupies a slot permanently and cannot be removed. Bearer gains DEF +2 and loses 1 COURAGE at the start of each turn. |
-| 96 | Living Weapon | (3) | [1] | 700g | d4+d4, scaling to d12. Each time you deal MEAT damage increase the attack dice 1 step. Resets each day. The weapon demands a kill each session or deals d8 WITS damage to the wielder. |
-| 97 | Time Twisted Hourglass | (2\*) | [11] | 900g | Mark a use to reroll your Gob Die and choose either result. If you choose the original result mark another use. |
-| 98 | Demon Coin | (1\*) | [1] | 500g | Roll a die. On a 1-3 the Itch die permanently increases 1 step. On a 4-6 the entire party gains 4 COURAGE. |
-| 99 | Golden Egg | (1\*) | [22] | 1000g | Worth 1000 gold intact. If cracked open roll on this table twice for what manifests inside. |
-| 100 | Dead Man's Purse | (3) | [11] | 1500g | Coins the wielder loots vanish and reappear in the Hoard. Once per job reach in and pull out the item you need. Can only be destroyed by paying a debt you don't owe. |
-
----
-
-### CONSUMABLES
-
-There are two kinds of courage in the Underhold. The kind you earn and the kind you ingest. The second kind is significantly more popular.
-
-Consumables marked ~ can be used as a free action.
-
-All consumables below are [1].
-
-#### Basic Consumables
-| d66 | Item | Common Seller | Value | Effect |
-|:---:|---|---|:---:|---|
-| 11 | Bent Cigarettes~ (3\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Fatigued. |
-| 12 | Fungus Roll~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Gain Rattled. |
-| 13 | Cracked Adrenal Vial~ (2\*) | Black Market | 14g | Gain +2 COURAGE. Take 1 MEAT damage next Turn. |
-| 14 | Pocket Snuff~ (4\*) | Lowfling Bakers | 7g | Remove Disoriented. Gain Rattled. |
-| 15 | Rotgut Swig~ (3\*) | The Planks | 5g | Gain +1 COURAGE. All rolls are Hindered next turn. |
-| 16 | Charred Beetle~ (4\*) | Kobold Kitchens | 6g | Clear 1 STRESS. Gain Frightened. |
-| 21 | Rage Mushroom~ (3\*) | Underhold Growers | 10g | Gain +2 COURAGE. Must attack nearest creature next action. |
-| 22 | Glow Slime Capsule~ (3\*) | Kobold Alchemists | 9g | Remove Blind. Gain Slimed. |
-| 23 | Bone Dust Pinch~ (4\*) | Temple Row (Crypts) | 11g | Next attack is Bolstered. Gain Concussed. |
-| 24 | Sour Tonic~ (3\*) | Whyzicians | 9g | Clear d4 STRESS. Gain Winded. |
-| 25 | Stolen Perfume~ (2\*) | Pale Ward | 15g | Remove Frightened. Gain Charmed (closest enemy). |
-| 26 | Grease Lump~ (3\*) | The Anvil | 7g | Ignore Immobilized for one turn. Gain Slimed. |
-| 31 | Spark Powder~ (3\*) | The Anvil | 10g | Next attack deals +1 damage. Gain Burning (1 round). |
-| 32 | Gutter Croissant~ (4\*) | Lowfling Bakers | 8g | Counts as ration. Clear +1 STRESS on next rest. |
-| 33 | Nerve Tap Needle~ (2\*) | Black Market | 16g | Next MEAT damage becomes STRESS. Gain Diseased. |
-| 34 | Whisper Leaf~ (3\*) | Underhold Street Trade | 7g | Remove Frightened. Gain Disoriented. |
-| 35 | Bottle of Something~ (3\*) | The Planks | 6g | Gain +1 COURAGE. If alone, gain Rattled. |
-| 36 | Hot Coal Bite~ (2\*) | The Anvil | 5g | Remove Chilled. Take 1 MEAT damage. |
-| 41 | Flash Salt~ (3\*) | Kobold Alchemists | 12g | Blind all adjacent creatures (including you). |
-| 42 | Leech Jar~ (2\*) | Whyzicians | 9g | Remove Bleed. Take 1 ZEST damage. |
-| 43 | Twitch Serum~ (3\*) | Black Market | 13g | Gain +1 COURAGE. Gain Disoriented. |
-| 44 | Cracked Focus Lens~ (2\*) | Black Market | 12g | Ignore Hindered on next roll. Gain Concussed. |
-| 45 | Pickled Eye~ (3\*) | Temple Row | 11g | Roll twice on next WITS save, take the best. Gain Rattled. |
-| 46 | Ash Chew~ (4\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Chilled. |
-| 51 | Spine Juice~ (2\*) | Whyzicians | 10g | Immediately stand up, remove Knocked. Gain Winded. |
-| 52 | Screamer Powder~ (3\*) | The Planks | 8g | Gain +1 COURAGE. All enemies become aware of you. |
-| 53 | Sticky Gland~ (3\*) | Kobold Alchemists | 11g | Next hit automatically Breaks DEF. Gain Immobilized next turn. |
-| 54 | Rotfruit Mash~ (4\*) | Underhold Growers | 7g | Counts as ration. Gain Poisoned. |
-| 55 | Flicker Candle Stub~ (3\*) | Temple Row | 9g | Remove Blind for one Turn, then regain it. |
-| 56 | Black Milk (2\*)~ | Smugglers | 18g | Gain +2 COURAGE. Take 1 WITS damage. |
-| 61 | Deadman’s Teeth~ (2\*) | Temple Row (Crypts) | 14g | Ignore Vital Blow once. Gain Frightened. |
-| 62 | Salted Wire~ (3\*) | The Anvil | 7g | Clear 1 STRESS. Take 1 MEAT damage. |
-| 63 | Gutter Honey~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Attract nearby creatures. |
-| 64 | Glass Shard~ Chew~ (2\*) | The Planks | 10g | Next attack deals +2 damage. Take 1 MEAT damage. |
-| 65 | Old War Powder~ (1\*) | Black Market | 20g | Gain +3 COURAGE. Gain Concussed and Rattled. |
-| 66 | Unstable Notes (1\*) | Wizards | - | Gain +2 COURAGE. Then cast a spell. |
-
-#### Rare Black Market Consumables
-
-Illegal, unstable and single use.
-
-| d10| Item | Value | Effect |
-|:---:|---|:---:|---|
-| 1 | Void Flask~ | 40g | Ignore all STRESS for one roll. After take STRESS equal to number of dice rolled. |
-| 2 | Redline Serum~ | 35g | Gain +3 COURAGE. Take 2 chronic MEAT damage next Turn. |
-| 3 | Ghost Salt~ | 30g | Become untargetable for one Round. Gain Frightened. |
-| 4 | Bonefire Dust~ | 32g | Next attack automatically hits and deals +2 damage. Gain Burning. |
-| 5 | Memory Worm~ | 28g | Reroll a roll. Take 1 chronic WITS damage. |
-| 6 | King’s Breath~ | 45g | Clear all STRESS. Gain Concussed and Rattled. |
-| 7 | Black Lantern Oil	| 33g | Reveal all hidden things nearby. Trigger an encounter and reset the Itch. |
-| 8 | Chainbreaker Gel~ | 30g | Ignore all conditions for one turn. Then gain a random condition. |
-| 9 | Grinning Tonic~ | 25g | Gain +2 COURAGE. Cannot retreat until next Turn. |
-| 10 | Saint’s Ash~ | 50g | Ignore death. If MEAT hits 0 this Round it goes to 1 then permanently lose 1 ZEST. |
-
----
-
-### MAGIC ITEMS
-
-Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.
-
-> All magic item values below are fence prices. A wizard, collector, or desperate soul will pay considerably more.
-
-#### Weapons (d66: 11–16)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 11 | Blooddrinker | (3) | [1] | 400g | d6+d6. Any MEAT damage dealt is restored to the wielder. |
-| 12 | The Spine | (4) | [11] | 500g | d4+d10. On a critical hit the target is Immobilized and Winded. The weapon occasionally whispers names of dead goblins. |
-| 13 | Gobfather's Tooth | (3) | [1] | 350g | d4+d6. Deals double damage to targets who are unaware of the wielder. The Gobfather knows who has this and where it is at all times. |
-| 14 | The Last Word | (3) | [1] | 450g | d6+d8. The first attack of any combat is always Bolstered. If that attack misses, gain 1 COURAGE. |
-| 15 | Spite | (3) | [11] | 500g | d8+d8. For each point of STRESS the wielder currently has, add 1 to the Damage die result. |
-| 16 | The Goblin King's Blade | (3) | [11] | 800g | d8+d10. Immune to non-permanent conditions. All goblins who can see the blade must make a ZEST save at the start of combat or spend their first action staring at it. |
-
-#### Armour (d66: 21–26)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 21 | Wraithplate | (3) | [1] | 600g | DEF4. The wearer cannot be seen in complete darkness; they simply aren't there. They do not cast a shadow. |
-| 22 | Skinsuit | (3) | [1] | 500g | DEF2. Once per day, take the appearance of the last humanoid creature killed while wearing this. Lasts until the wearer speaks. Can only be repaired with more skin. |
-| 23 | Plate of the Fallen Hero | - | [11] | 900g | DEF5. While worn, immune to Winded, Frightened, Rattled, Concussed and Disoriented. Heroes react as Hostile on sight. The armour fits perfectly despite being made for someone much larger. |
-| 24 | Robes of the Rat Saint | (3) | [1] | 450g | DEF2. Rats treat the wearer as Friendly. Mark a use to transform into a Giant Rat. On hitting 0 MEAT revert back to goblin. Repaired with rat hides. |
-| 25 | Carapace | (3) | [1] | 700g | DEF3. When the wearer takes a Vital Blow, the armour absorbs it entirely. Needs a full day to regenerate before it can do so again. |
-| 26 | Armour of Borrowed Time | (3) | [1] | 1000g | DEF3. Once per session, when the wearer would die, they survive on 1 MEAT. The armour goes inert 2 days after this. |
-
-#### Boots and Gloves (d66: 31–36)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 31 | Boots of the Cornered Rat | (3) | [1] | 400g | When the wearer has no COURAGE and full STRESS, all attacks and saves are Bolstered. |
-| 32 | Gloves of the Pickpocket | (3) | [1] | 350g | Mark a use to steal a [1] item from a creature without them noticing. |
-| 33 | Boots of the Long Road | (3) | [1] | 300g | The wearer never gains Exhausted from travel. They also never feel like they've arrived anywhere. Vague existential unease washes over them. |
-| 34 | Gloves of Iron | (3) | [2] | 600g | d6+d6+d8+d8. Attacks count as unarmed. Immune to any Hand injuries. |
-| 35 | Boots of Standing | (3) | [1] | 350g | While not moving, the wearer cannot be targeted by ranged attacks. Requires not moving. Like at all. |
-| 36 | Boots of Backtracking | (3) | [1] | 500g | Once per session, teleport back to the last doorway the wearer passed through, arriving at full sprint. |
-
-#### Rings and Amulets (d66: 41–46)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 41 | Ring of the Open Gateway | (3) | [1] | 550g | Locks of any kind open for the wearer. So do things that were not meant to be opened. The wearer cannot close any door they have opened. |
-| 42 | Amulet of Second Thought | (3) | [1] | 400g | Once per session reroll any single die and take either result. Each use after the first causes 1 chronic WITS damage - the amulet is tired of being second-guessed. |
-| 43 | Ring of Whispers | (3) | [1] | 450g | The wearer can hear any conversation happening within 30ft regardless of walls or distance. |
-| 44 | Amulet of the Hungry Dark | (3) | [1] | 500g | See perfectly in complete darkness. In bright light, vision is Hindered. Always slightly warm and occasionally pulls toward something underground. |
-| 45 | Ring of the Rat King | (3) | [1] | 400g | If wielding any other Rat King items, mark a use to summon 1d10 Giant Rats. You can understand and speak with rats. |
-| 46 | Ring of Kept Secrets | (3) | [1] | 350g | Cannot be compelled to speak. Mark a use: when leveraging a secret over an NPC, their save is -1. Curse: must pass ZEST save to willingly share information during stealth, deception, or negotiation. |
-
-#### Cloaks and Wearables (d66: 51–56)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 51 | Cloak of Many Pockets | (3) | [1] | 400g | Can stack up to three [1] items on this item. They are always accessible. |
-| 52 | Cloak of Forgetting | (3) | [1] | 600g | After any interaction, NPCs forget it happened. The wearer also slowly forgets things; roll WITS save at the start of each day, on a failure lose 1 WITS permanently. |
-| 53 | Scarf of the Con Artist | (3) | [1] | 700g | The wearer's lies are always believed. |
-| 54 | Cloak of the Coward | (3) | [1] | 350g | The wearer cannot be targeted by ranged attacks while attempting to flee combat. |
-| 55 | Hood of the Lurker | (3) | [1] | 600g | The wearer can teleport short distances as long as they start and end in a shadow. |
-| 56 | Cloak of Missize | (3) | [1] | 500g | Obviously made for something much larger. Mark a use; the wearer may become 3x larger or smaller for d4 turns. |
-
-#### Rare and Cursed (d66: 61–66)
-
-| Roll | Item | Uses | Size | Value | Notes |
-|:---:|---|:---:|:---:|:---:|---|
-| 61 | Crown of the Scab King | (3) | [1] | 800g | Gain 1 COURAGE at the start of each turn. All creatures of Scum tier react as Neutral. The wearer gradually starts to believe they are the Scab King. |
-| 62 | Belt of Just Surviving | (3) | [1] | 1200g | The wearer cannot die from MEAT damage while wearing it. They can still reach 0 MEAT, they just don't die. Cannot regain stat points while wearing this. |
-| 63 | Chain of Obligation | (3) | [1] | 700g | Bind it to another creature with a verbal deal. Both parties know immediately if the deal is broken. The chain cannot be removed until the deal is fulfilled or one party is dead. |
-| 64 | Signet of False Authority | (3) | [1] | 600g | The wearer reads as whoever they need to be. Works on anyone who doesn't look too closely. |
-| 65 | Shackles of Loyalty | (3) | [11] | 1000g | When placed on a creature they become deathly loyal to the one who shackled them. |
-| 66 | Mantle of the Gobfather | (3) | [1] | 1500g | DEF3. While worn, the wearer speaks with the Gobfather's authority. Contacts treat Standing as one step better than it is. The actual Gobfather knows when someone is wearing this. |
-
----
-
-### DUNGEON VALUABLES
-
-Roll **d100** when the party finds something worth taking or to fill a room. 
-
-> Gold values are approximate full values.
-
-| d100 | Valuable | Size | Value |
-|:---:|---|:---:|:---:|
-| 1 | Tarnished silver ring | [1] | 15g |
-| 2 | Cracked ivory comb | [1] | 10g |
-| 3 | Ornate copper belt buckle | [1] | 20g |
-| 4 | Hand-blown glass eye | [1] | 25g |
-| 5 | Pouch of mixed foreign coins | [1] | 30g |
-| 6 | Chipped jade figurine | [1] | 40g |
-| 7 | Wax-sealed letter | [1] | 15g |
-| 8 | Weighted dice set | [1] | 20g |
-| 9 | Engraved pewter flask | [1] | 25g |
-| 10 | Hair in a locket | [1] | 10g |
-| 11 | Broken brass compass | [1] | 30g |
-| 12 | Small carved wooden figure | [1] | 10g |
-| 13 | Folded silk handkerchief | [1] | 15g |
-| 14 | Vial of dried saffron | [1] | 35g |
-| 15 | Child's silver pacifier | [1] | 20g |
-| 16 | Pair of pearl earrings | [1] | 60g |
-| 17 | Signet ring | [1] | 45g |
-| 18 | Small obsidian arrowhead | [1] | 25g |
-| 19 | Tin of unusual spice | [1] | 30g |
-| 20 | Gemstone pendant | [1] | 50g |
-| 21 | Bronze statuette of a god | [2] | 40g |
-| 22 | Rolled star chart | [1] | 35g |
-| 23 | Folded map of unknown region | [2] | 50g |
-| 24 | Pair of fine leather gloves | [1] | 30g |
-| 25 | Wrapped bundle of rare incense | [11] | 45g |
-| 26 | Carved bone flute | [2] | 40g |
-| 27 | Ship in glass bottle | [11] | 25g |
-| 28 | Ceremonial dwarf-made belt knife | [1] | 60g |
-| 29 | Fine folded tapestry fragment | [21] | 55g |
-| 30 | Taxidermied exotic bird | [11] | 35g |
-| 31 | Gilded scroll case | [2] | 40g |
-| 32 | Pair of silver candlesticks | [2] | 70g |
-| 33 | Set of calligraphy brushes | [2] | 30g |
-| 34 | Rolled architectural plans | [11] | 45g |
-| 35 | Preserved exotic flower in resin | [2] | 50g |
-| 36 | Bottle of aged wine | [2] | 40g |
-| 37 | Velvet pouch of gemstone chips | [1] | 65g |
-| 38 | Ornate copper astrolabe | [11] | 80g |
-| 39 | Small silver hourglass | [2] | 55g |
-| 40 | Bundle of rare dried herbs | [11] | 45g |
-| 41 | Folded ceremonial robe | [22] | 70g |
-| 42 | Small framed oil painting | [22] | 60g |
-| 43 | Set of six silver goblets | [22] | 90g |
-| 44 | Damaged clockwork music box | [22] | 80g |
-| 45 | Faded silk banner | [21] | 55g |
-| 46 | Leather-bound journal | [21] | 40g |
-| 47 | Taxidermied exotic mammal (sm) | [21] | 65g |
-| 48 | Collapsible brass telescope | [21] | 100g |
-| 49 | Half set of ivory chess pieces | [22] | 75g |
-| 50 | Folded ceremonial flag | [21] | 60g |
-| 51 | Stone relief carving | [22] | 70g |
-| 52 | Stack of illuminated manuscript pages | [22] | 85g |
-| 53 | Nested set of silver measuring weights | [22] | 90g |
-| 54 | Clockwork toy soldier | [21] | 60g |
-| 55 | Rolled tapestry of a hunting scene | [111] | 110g |
-| 56 | Navigator's tools in fitted case | [22] | 95g |
-| 57 | Set of gold alchemist's tools | [22] | 120g |
-| 58 | Folded ceremonial tent cloth | [22] | 80g |
-| 59 | Collection of pressed exotic butterflies | [22] | 70g |
-| 60 | Merchant's silver scales | [22] | 85g |
-| 61 | Marble bust of unknown noble | [222] | 100g |
-| 62 | Ornate wooden strongbox | [22] | 60g |
-| 63 | Rolled ceremonial carpet | [111] | 90g |
-| 64 | Mounted trophy head of an exotic beast | [222] | 80g |
-| 65 | Stone tablet with carved inscription | [222] | 110g |
-| 66 | Gilded birdcage | [222] | 75g |
-| 67 | Set of decorative ceremonial armour | [333] | 150g |
-| 68 | Carved wooden throne | [333] | 120g |
-| 69 | Bolt of imported silk | [111] | 100g |
-| 70 | Rolled world map, hand-drawn | [111] | 140g |
-| 71 | Taxidermied exotic beast (lg) | [333] | 130g |
-| 72 | Silver framed ornate mirror | [322] | 110g |
-| 73 | Gilded harpsichord component | [333] | 150g |
-| 74 | Noble's traveling wardrobe | [333] | 120g |
-| 75 | Crate of rare pottery, intact | [333] | 140g |
-| 76 | Folded ceremonial canopy | [222] | 160g |
-| 77 | Brass astronomical instrument | [321] | 180g |
-| 78 | Rolled tapestry of battle | [111] | 200g |
-| 79 | Carved stone sarcophagus lid | [333] | 170g |
-| 80 | Crated stained glass panel | [333] | 150g |
-| 81 | Gold-inlaid writing desk | [333] | 200g |
-| 82 | Gilded suit of parade armour | [333] | 250g |
-| 83 | Crate of fine porcelain | [33] | 180g |
-| 84 | Rolled grand tapestry of a legend | [111] | 220g |
-| 85 | Noble's portrait | [33] | 190g |
-| 86 | Merchant's ledger chest | [333] | 160g |
-| 87 | Broken marble statue | [332] | 300g |
-| 88 | Ornate ceremonial throne | [331] | 280g |
-| 89 | Gilded reliquary | [232] | 240g |
-| 90 | Crated clockwork automaton | [333] | 350g |
-| 91 | Small gold ingot | [1] | 200g |
-| 92 | Matched set of sapphire jewelry | [1] | 300g |
-| 93 | Fist-sized uncut ruby | [1] | 400g |
-| 94 | Pouch of cut diamonds | [1] | 500g |
-| 95 | Ancient gold coin collection | [1] | 350g |
-| 96 | Emerald encrusted goblet | [11] | 450g |
-| 97 | Golden statuette | [11] | 600g |
-| 98 | Jeweled crown | [21] | 800g |
-| 99 | Chest of mixed gemstones | [22] | 1000g |
-| 100 | Obsidian dragon scale ring | [1] | 2500g |
-
----
 
 ### UNDERHOLD HOARD TABLES
 
@@ -2377,17 +2042,17 @@ Roll **d100** when the party finds something worth taking or to fill a room.
 | 7 | Battered club | (3) | [1] | 10g | d6+d8 |
 | 8 | Crude handaxe | (3) | [1] | 12g | d6+d8 |
 | 9 | Notched sword | (3) | [1] | 14g | d6+d8 |
-| 10 | Salvaged spear | (3) | [1] | 12g | d6+d8 |
+| 10 | Broken spear | (3) | [1] | 12g | d6+d8 |
 | 11 | Heavy mace | (3) | [1] | 15g | d6+d8 |
 | 12 | Soldier's sword | (3) | [1] | 18g | d6+d8 |
 | 13 | Greatsword (chipped) | (3) | [11] | 25g | d8+d8 |
 | 14 | Crude maul | (3) | [11] | 20g | d8+d8 |
 | 15 | Salvaged halberd | (3) | [11] | 30g | d4+d10 |
 | 16 | Bent pitchfork | (3) | [11] | 8g | d4+d10 |
-| 17 | Sling and stones | (3) | [1] | 6g | rd4+rd6 |
-| 18 | Throwing knives (6) | (3) | [1] | 12g | rd4+rd6 |
-| 19 | Shortbow and Quiver (6) | (3) | [11] | 25g | rd8+rd6. Quiver [1] |
-| 20 | Crossbow and Bolts (6) | (3) | [11] | 30g | rd8+rd6. Bolts [1] |
+| 17 | Sling and stones | (6) | [1] | 6g | rd4+rd6 |
+| 18 | Throwing knives | (6) | [1] | 12g | rd4+rd6 |
+| 19 | Shortbow | (3) | [11] | 25g | rd8+rd6. Quiver(6) [1] |
+| 20 | Crossbow| (3) | [11] | 30g | rd8+rd6. Bolts(6) [1] |
 
 ---
 
@@ -2402,8 +2067,8 @@ Roll **d100** when the party finds something worth taking or to fill a room.
 | 5 | Riveted leather coat | [1] | 3 | 25g | None |
 | 6 | Salvaged chain shirt | [1] | 3 | 30g | None |
 | 7 | Battered brigandine | [1] | 3 | 28g | None |
-| 8 | Dented plate vest | [1] | 4 | 45g | MEAT 8+ |
-| 9 | Mismatched plate armour | [1] | 4 | 50g | MEAT 8+ |
+| 8 | Dented plate vest | [1] | 4 | 45g | MEAT 7+ |
+| 9 | Mismatched plate armour | [1] | 4 | 50g | MEAT 7+ |
 | 10 | Full plate (ill fitting) | [11] | 5 | 80g | MEAT 10+ |
 
 ---
@@ -2613,7 +2278,7 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 | **4** | A bubbling mudpool that smells strongly of rotten eggs. | *"The giant frogs out there are attracted to whatever is in that sunken structure."* | A salvage crew harvesting marsh grasses from the deep. |
 | **5** | A series of large, flat stones sticking up six feet from the bog. | *"There is a hidden path through the marsh marked by carvings on the cypress trees, leads to a treasure."* | A group of hunters moving a large wagon of hides. |
 | **6** | A grounded riverboat that has been converted into a crude tavern. | *"The clacking sound at night comes from the old hags den, she's up to something."* | Cult members who worship a swamp hag, traveling to her den. |
-| **7** | A cluster of glowing mushrooms that light up a small patch of the mire. | *"One of the generals of the Northern War buried a chest near the old mangrove."* | A goblin salvage crew, who search the bottom of shallow pools for lost jewelry and coins. |
+| **7** | A cluster of glowing mushrooms that light up a small patch of the mire. | *"One of the generals of the Northern War buried a chest near the old mangrove."* | Descendants of Northern War soldiers, dredging the bog for old armour and weapons to sell. |
 | **8** | A massive, log that serves as a natural tunnel along the main swamp road. | *"Follow the lights and you'll come upon something worth your while."* | A group of kids who catch giant bullfrogs to sell to the local taverns. |
 
 ---
@@ -2646,13 +2311,15 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 ### ENCOUNTER TABLES
 
-Encounter tables are **d6** and specific to the area of the dungeon the party is in. The GM should create a table for each distinct area or dungeon level. Results should reflect what actually lives or patrols that area.
+Encounter tables are **d6** and specific to the area the party is in. Create a table for each distinct area or dungeon level. Results should reflect what actually lives or patrols that area.
 
-When the Itch drops below 0, roll on the relevant encounter table and then reset the Itch to 20. Results are not always combat, some encounters are noise, evidence of danger, or something passing nearby. Generally a 6 on the table should be something dire.
+When the Itch drops below 0 or during travel/camp, roll on the relevant encounter table and then if in a dungeon reset the Itch to 20. Results are not always combat, some encounters are noise, evidence of danger, or something passing nearby.
 
-When you do roll a 6, roll again and take the new result. This is to ensure 6's are not common.
+When you roll a 6, roll one more and take the new result. This is to ensure 6's are not common.
 
-#### Example: Entrance to the Screaming Lich's Dungeon
+For each encounter, roll Reaction if the creature's disposition is not obvious.
+
+##### Example: Entrance to the Screaming Lich's Dungeon
 
 | Roll | Encounter |
 |---|---|
@@ -2661,135 +2328,521 @@ When you do roll a 6, roll again and take the new result. This is to ensure 6's 
 | 3 | A lone **Goblin** scavenger, same as the party. Nervous. Possibly friendly. Roll Reaction. |
 | 4 | d4 **Giant Rats** burst from a crack in the wall, drawn by the smell of food. |
 | 5 | A pile of fresh charred bones. Something large ate recently. Evidence only, no encounter. |
-| 6 | Two **Hellhounds** - Undead, hungry, looking for chew toys. Run. |
+| 6 | d6 **Hellhounds** - Undead, hungry, looking for something to eat. |
 
-#### OVERLAND ENCOUNTER TABLES
+---
 
-Each region has its own d6 encounter table. Roll when the encounter die triggers during travel. Results are not always combat - some are evidence, atmosphere, or something passing nearby. Again, a 6 is always bad.
+#### FOREST
 
-For each encounter, roll Reaction if the creature's disposition is not obvious.
+Old growth, dark canopy, things that remember when goblins were prey. They still think so.
 
-##### AQUATIC
+| Roll | Encounter |
+|---|---|
+| 1 | All noise goes dead silent. A heavy scent fills the area. Something is here. |
+| 2 | d6 **Giant Spiders** lowering slowly from above on silver threads. |
+| 3 | d6 **Grovehounds** have been tracking the party for a while, they finally have gotten close enough for the party to notice. |
+| 4 | A wandering scout. They are wary and checking traps and snares. Roll Reaction. |
+| 5 | The party stumbles upon a **Treant**. Roll reaction.  |
+| 6 | **The Horned Beast** has been tracking the party with grovehounds. Wants to know why they have come to this place. |
+
+---
+
+#### GRASSLAND
+
+Open plains, trade roads, farmland, rolling hills. Nowhere to hide. Everyone can see you. You can see everyone.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A distant cloud of movement. A stampede or a large patrol is heading towards the party. |
+| 2 | d4 **Bandits** perched on a vantage point, eyeing the party’s loot. |
+| 3 | A travelling merchant. They know the local wildlife. Roll Reaction. |
+| 4 | High pitched whistling or chirping from the ground. A localized alarm system of small burrowing insects. |
+| 5 | d4 **Giant Vultures** circle above the party, scavenging for food. |
+| 6 | A **Knight Errant** crosses the party's path heading back to The City. They hate goblins. |
+
+---
+
+#### SWAMP
+
+Bogland, marshes, drowned forests. The ground cannot be trusted. Neither can anything else.
+
+| Roll | Encounter |
+|---|---|
+| 1 | Thick bubbles rise from the muck with a loud sulfurous pop. Roll the Itch twice. |
+| 2 | d6 **Giant Ticks** clinging to a narrow path the party must cross. |
+| 3 | A heavy splash right behind the party. A submerged predator just missed its window of opportunity. |
+| 4 | A goblin, alone, very muddy and deeply lost. Claims to know the way out. (They don't.)  Roll Reaction. |
+| 5 | d6 **Giant Ticks** skimming across the murky water. |
+| 6 | A **Hydra** slowly approaches the party. A chill falls over the area and the low muddy water rises a few inches around them. |
+
+---
+
+#### MOUNTAIN
+
+High passes, cliff paths, ancient ruins, thin air. The terrain kills as readily as anything living on it.
+
+| Roll | Encounter |
+|---|---|
+| 1 | Loose stones and dust tumble from above. A warning of a clumsy predator. MEAT save or take d6 MEAT damage and gain Fatigue. |
+| 2 | A pass that should be open is blocked. Something piled the rocks there deliberately. Recently. |
+| 3 | d4 **Mountain Goats** charge towards the party, attempting to ram them. |
+| 4 | A surly dwarf, alone, heavily armed, going the other way fast. Roll Reaction. |
+| 5 | A **Stone Troll**, moving accross the party's path begins hurling boulders. |
+| 6 | A **Wyvern** dive bombs the party. Their large nest is nearby |
+
+---
+
+#### DESERT
+
+Badlands, dunes, salt flats, baked ruins. The heat is the first enemy. Everything else is second.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A shimmering haze makes the path ahead appear to melt or shift. Roll the Itch twice. |
+| 2 | d6 **Sand Vipers** burst from beneath the loose floor/sand. |
+| 3 | A dry, clicking sound follows the party from behind the nearest cover. It stops when they stop. |
+| 4 | A cartographer leading a weary beast of burden. Desperate for water or supplies. Roll Reaction. |
+| 5 | A **Dust Devil** whips up behind the party. |
+| 6 | **The Buried Thing** rises up from the sand in front of the party. |
+
+---
+
+#### TUNDRA
+
+Frozen wastes, ice plains, dead forests, permanent grey sky. Everything here is either surviving or dying. Sometimes both.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A low, rhythmic thumping felt through the floor. Something massive is walking nearby. |
+| 2 | An old wandering hermit. They are delirious from the cold. Roll Reaction. |
+| 3 | d4 **Hoarfoxes** haven't eaten in days and smell the party. The party hears a howl nearby. |
+| 4 | Blue sparks of electricity jump between the party's metal gear. A magical surge is near. |
+| 5 | A **Frost Giant's** massive footprints are still steaming in the frozen ground. |
+| 6 | **The White Death**, a giant white wyrm rises up from beneath the party. MEAT save or gain Knocked. |
+
+---
+
+#### AQUATIC
 
 Coastlines, rivers, lakes, flooded ruins. Things live in the water. They are aware of you before you are aware of them.
 
 | Roll | Encounter |
 |---|---|
 | 1 | The water is moving against the current. Has been for a while. |
-| 2 | A fishing boat, abandoned, drifting toward shore. Something ate the catch and kept going. |
-| 3 | d4 **River Trolls** splashing in the water, unaware of the party. |
-| 4 | A merchant raft, pole-pushed by two nervous humans. They have seen something upstream and want company for the next hex. Roll Reaction. |
+| 2 | d6 **Urchine** drifting in the water, spines pointed the party's direction. |
+| 3 | d4 **River Trolls** splashing in a pool, unaware of the party. |
+| 4 | A raft paddled by two nervous merchants. They have seen something upstream and want company. Roll Reaction. |
 | 5 | d6 **Snapping Turtles** notice the party approach. |
-| 6 | Something vast moves beneath the surface, keeping pace with the party. It has not surfaced. It knows where you are going. |
+| 6 | Something vast moves beneath the surface, keeping pace with the party. It knows they are there. |
 
 ---
 
-##### SWAMP
-
-Bogland, marshes, drowned forests. The ground cannot be trusted. Neither can anything else.
-
-| Roll | Encounter |
-|---|---|
-| 1 | The path ahead has sunk. Moving through costs an additional Watch and everyone arrives Exhausted. |
-| 2 | A shrine half-submerged in black water. Fresh offerings on it. Someone was here recently. |
-| 3 | d4 **Bog Wraiths** floating just above the murky swamp water, eyes glowing, they turn to the party. |
-| 4 | A goblin, alone, very muddy, deeply lost. Claims to know the way out. Roll Reaction. They do not know the way out. |
-| 5 | d6 **Giant Ticks** skimming across the murky water. |
-| 6 | **The Drowning Man** slowly approaches the party. A chill falls over the area and the low muddy water rises a few inches around them. |
-
----
-
-##### DESERT
-
-Badlands, dunes, salt flats, baked ruins. The heat is the first enemy. Everything else is second.
-
-| Roll | Encounter |
-|---|---|
-| 1 | A sandstorm is building on the horizon. The party has one Watch to find shelter or travel is impossible next Watch and everyone arrives Exhausted. |
-| 2 | Bones picked clean, arranged in a rough circle. Recent. Something has been through here. |
-| 3 | d4 **Sand Vipers** attempt to ambush the party from under the sand. |
-| 4 | A caravan, heavily armed, short on water. They want to trade. Roll Reaction. Their water is not what they say it is. |
-| 5 | A **Dust Devil** whips up behind the party. |
-| 6 | **The Buried Thing** rises up from the sand in front of the party. |
-
----
-
-##### FOREST
-
-Old growth, dark canopy, things that remember when goblins were prey. They still think so.
-
-| Roll | Encounter |
-|---|---|
-| 1 | The trees have been marked - deep gouges at head height for something very tall. Fresh. |
-| 2 | A hunting camp, empty but recently used. Good gear left behind. Nobody leaves good gear behind. |
-| 3 | d6 **Grovehounds** have been tracking the party for a while, they finally have gotten close enough for the party to notice. |
-| 4 | A woodcutter, lost, injured, very relieved to see anyone. Roll Reaction. They have seen something in the trees for the last two days. |
-| 5 | The party stumbles upon a **Treant**. Roll reaction.  |
-| 6 | **The Horned Thing** has been tracking the party with wolves. Wants to know why they have entered the forest. |
-
----
-
-##### GRASSLAND
-
-Open plains, trade roads, farmland, rolling hills. Nowhere to hide. Everyone can see you. You can see everyone.
-
-| Roll | Encounter |
-|---|---|
-| 1 | A column of black smoke two hexes out. Hard to tell if it is a signal or a warning. |
-| 2 | d4 **Bandits** attempt to rob the party and leave them tied up to a tree. |
-| 3 | A merchant and their cart, one wheel broken, one horse nervous. They have gold and no muscle. Roll Reaction. |
-| 4 | A **Stampede** of 2d10 cattle (Giant Goat stats) is moving fast across the party's path. MEAT save or be Knocked and take d6 damage. |
-| 5 | d4 **Giant Vultures** circle above the party, scavenging for food. |
-| 6 | A **Knight Errant** crosses the party's path heading back to The City. They hate goblins. |
-
----
-
-##### TUNDRA
-
-Frozen wastes, ice plains, dead forests, permanent grey sky. Everything here is either surviving or dying. Sometimes both.
-
-| Roll | Encounter |
-|---|---|
-| 1 | A figure standing perfectly still in the middle distance. It has not moved in the time it has taken the party to notice it. |
-| 2 | The remains of a previous expedition. Their notes are frozen but readable. The last entry stops mid-sentence. |
-| 3 | d4 **Hoarfoxes** haven't eaten in days and smell the party. The party hears a howl nearby. |
-| 4 | A hermit, extremely weathered, living in a hole in the ice. Suspicious of visitors. Knows this region better than anyone alive. Roll Reaction. |
-| 5 | A **Frost Giant** emerges from a cave nearby. |
-| 6 | **The White Death**, a giant white wyrm rises up from beneath the snow under the party. MEAT save or gain Knocked. |
-
----
-
-##### MOUNTAIN
-
-High passes, cliff paths, ancient ruins, thin air. The terrain kills as readily as anything living on it.
-
-| Roll | Encounter |
-|---|---|
-| 1 | Rockfall. MEAT save or take d6 MEAT damage and gain Exhausted. The noise echoes for a long time. |
-| 2 | A pass that should be open is blocked. Something piled the rocks there deliberately. Recently. |
-| 3 | d4 **Mountain Goats** run down the cliff face towards the party, attempting to ram them off the cliff. |
-| 4 | A dwarf, alone, heavily armed, going the other way fast. Will not stop. Will shout one useful piece of information as they pass. Roll Reaction for what kind. |
-| 5 | A **Stone Troll**, moving under the shadow of the cliff face begins hurling boulders at the party. |
-| 6 | A **Wyvern** dive bombs the party from above. When looking up you can see a large nest built into the cliff face. |
-
----
-
-##### CITY
+#### CITY
 
 Back streets, market crowds, the docks, the Gobfather's territory. The City is never safe but at least you know what is dangerous.
 
 | Roll | Encounter |
 |---|---|
-| 1 | 1d6 **City Guards**, currently looking for someone matching one of the party's descriptions. Roll Reaction. |
-| 2 | A rival goblin crew, five deep, coming the other way down a narrow street. Both groups see each other at the same time. Roll Reaction. |
-| 3 | A crowd has gathered around something. It is either a fight, an arrest, or a show. Roll d6: 1-2 fight, 3-4 arrest, 5-6 show. All three are useful cover for something. |
-| 4 | Someone slips a note into a party member's pocket. It knows something it should not. No sender. |
-| 5 | A **City Watch Captain** has a personal vendetta against the Gobfather and is determined to take him down, starting with the party. |
-| 6 | Tony Goblioni is sitting across the street, eating something, watching. He has a very small notebook. He waves. |
+| 1 | A bucket of filth or debris is emptied from above. MEAT save or d4 damage and Slimed. |
+| 2 | d6 **Bandits** leaning against a wall, demanding a passage tax. |
+| 3 | A Frantic Rat-Catcher chasing d4 **Giant Rats**. Roll Reaction. |
+| 4 | Local bells begin to ring out. A fire or riot is starting nearby. |
+| 5 | A group of street urchins begin following the party, mocking their gear. |
+| 6 | A **City Watch Captain** with d8 guards. They think you look like the suspects they're following. |
 
-### GOODS & SERVICES
+---
 
-Prices are in gold. Use these as a baseline for pricing other items the party is looking to buy or sell.
+### BASIC LOOT TABLE
+
+> Finding a buyer for stolen loot can be difficult. A common fence will pay 50% value for items.
+
+Roll **1d100** when generating loot.
+
+#### 1–40: Scrap and Common
+> Roll a d4+d10 to use just this table.
+
+| d100 | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 1 | Rusted Helm | (3) | [1] | 8g | Immune to Concussed. Mark a use each time it blocks a Concussed condition. |
+| 2 | Bent Shield | (1) | [1] | 3g | |
+| 3 | Half-Burnt Torch | (2\*) | [1] | 1g | |
+| 4 | Mystery Meat | (3\*) | [1] | 2g | Eat to clear 3 STRESS. Roll ZEST or gain both Diseased and Hungry. |
+| 5 | Loose Teeth Pouch | - | [1] | 5g | Makes a rattling noise. |
+| 6 | Cracked Goggles | - | [1] | 10g | Negates darkness Hindered penalty in combat only. |
+| 7 | Broken Sword | (2\*) | [1] | 6g | d6+d6 |
+| 8 | Splintered Spear | (2\*) | [11] | 8g | d4+d10 |
+| 9 | Empty Potion Bottles | (3\*) | [1] | 4g | On hit applies Bleed. |
+| 10 | Moldy Cloak | (3) | [1] | 12g | ZEST target number -1 when resisting disease, toxins, bad food and similar effects. |
+| 11 | Sack of Nails | (3) | [1] | 2g | A sack of nails. |
+| 12 | Grease Flask | (2\*) | [1] | 3g | A flask of grease. |
+| 13 | Rope Bundle | - | [2] | 5g | 50ft, always useful. |
+| 14 | Hook on Chain | - | [2] | 4g | |
+| 15 | Bone Dice Set | - | [1] | 15g | Once per session reroll one Gob Die result and take either. |
+| 16 | Tarnished Ring | - | [1] | 30g | Worth 30 gold. |
+| 17 | Flickering Lantern | (6\*) | [11] | 12g | Mark use every 4 turns instead of 3. |
+| 18 | Old Boots | - | [1] | 18g | Ignore movement penalties from difficult terrain. |
+| 19 | Scrap Armour | - | [1] | 10g | DEF2. Destroyed when the wearer takes a Vital Blow. |
+| 20 | Rat Cage | - | [22] | 8g | Holds 1 Giant Rat, worth gold to the right buyer. |
+| 21 | Smelly Cheese | (4\*) | [1] | 2g | Very smelly cheese. |
+| 22 | Flask of Weak Ale | (3\*) | [1] | 3g | Drink: roll a d4. On a 2-4 clear 1 STRESS. On a 1 gain Disoriented. |
+| 23 | Rusty Bear Trap | (1\*) | [11] | 14g | Place on ground. First creature to step on it takes d6 damage and gains Immobilized. |
+| 24 | Tattered Map Fragment | - | [1] | 10g | Shows partial layout of one dungeon area, GM decides which. |
+| 25 | Shiny Rock | - | [1] | 1g | Gain 1 COURAGE when you first find it. |
+| 26 | Bent Crown | - | [1] | 50g | Worth 50 gold. |
+| 27 | Bone Charm | - | [1] | 20g | Discard to ignore one Frightened condition. |
+| 28 | Crude Shield | (2) | [1] | 5g | |
+| 29 | Firestarter Kit | (4\*) | [1] | 8g | Guaranteed fire in any conditions. |
+| 30 | Empty Sack | - | [1] | 2g | Can hold two [1] items. |
+| 31 | Small Whistle | - | [1] | 3g | |
+| 32 | Broken Crossbow | (2\*) | [2] | 12g | rd6+rd8 |
+| 33 | Dull Knife | (2) | [1] | 4g | d4+d4. Good for buttering. |
+| 34 | Salt Packet | (2\*) | [1] | 6g | Deals 1d12 damage to slimes and oozes. |
+| 35 | Rotten Rations | (2\*) | [1] | 1g | Clears 1 STRESS. Roll ZEST or gain Hungry. |
+| 36 | Glass Shards | (2\*) | [1] | 1g | A handful of broken glass. |
+| 37 | Stick Bomb | (1\*) | [11] | 25g | rd4+4rd4. Assign 1 Break die and the rest as damage vs any number of targets. |
+| 38 | Tarnished Amulet | - | [1] | 20g | Worth 20 gold. |
+| 39 | Chalk | (8\*) | [1] | 1g | Mark paths, leave messages, draw crude pictures. |
+| 40 | Bucket Helmet | (3) | [1] | 15g | Negates one Permanent Injury to the head slot then becomes stuck and cannot be removed without help. |
+
+---
+
+#### 41–70: Monster Parts and Better Gear
+> Roll a d3+d10 to use just this table.
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 41 | Silk Bundle | (3\*) | [1] | 40g | Throw to web a target, MEAT save or apply Immobilized. |
+| 42 | Venom Sack | (3\*) | [1] | 50g | Apply to weapon, next hit applies Poisoned. |
+| 43 | Acid Glob | (2\*) | [1] | 60g | Throw at a target, MEAT save or reduces their armour DEF by 1 permanently. |
+| 44 | Volatile Core | (1\*) | [1] | 70g | rd10+rd10. If both dice match it explodes in your hand instead. |
+| 45 | Sticky Tongue | (3\*) | [11] | 55g | rd4+rd6. WITS save on hit to pull a [1] item from target to you. |
+| 46 | False Treasure Trap | - | [22] | 35g | Looks like a gilded chest, is actually a trap. |
+| 47 | Ogre Femur | (5\*) | [11] | 30g | d8+d8. Smells terrible. |
+| 48 | Sack of Rocks | (3) | [1] | 5g | rd4+rd4. Never runs out of rocks. |
+| 49 | Ritual Dagger | (2) | [1] | 80g | d4+d4. Gain 1 COURAGE each time you deal MEAT damage with it. |
+| 50 | Chanter Beads | (1) | [1] | 45g | Negate a Frightened condition then mark use. |
+| 51 | Spider Eye Cluster | (8\*) | [1] | 65g | Mark a use to negate Hindered from darkness. |
+| 52 | Bat Wing Cloak | (3) | [1] | 90g | Float instead of fall. Take half falling damage. |
+| 53 | Rat King Tail | (5\*) | [11] | 75g | Can understand and speak to rats. |
+| 54 | Zombie Hand | (1\*) | [1] | 40g | rd4+rd4. On hit target is Hindered for one round. |
+| 55 | Bone Shield | (3) | [1] | 60g | Bearer is immune to Rattled. |
+| 56 | Slime-Coated Armour | (3) | [1] | 70g | DEF3. Immune to acid damage, ZEST target number +1 while worn. |
+| 57 | Mimic Tooth Necklace | (3) | [1] | 55g | While wearing, can sense mimics and dopplegangers. |
+| 58 | Cult Robes | (3) | [1] | 80g | DEF1. Cultists and undead react as Curious instead of Hostile. |
+| 59 | Giant Tooth | - | [1] | 25g | d6+d6. Counts as both a weapon and a very large tooth. |
+| 60 | Spider Silk Armour | (3) | [1] | 110g | DEF3. Bolstered on saves to climb. |
+| 61 | Venom Blade | (3) | [1] | 120g | d6+d8. On hit apply Poisoned. |
+| 62 | Acid Flask | (2\*) | [1] | 50g | rd4+rd4. Ignores shields. |
+| 63 | Bone Flute | (4) | [1] | 85g | Small beasts within earshot must make ZEST save or be charmed. |
+| 64 | Necro Dust | (1\*) | [1] | 100g | Sprinkle on a recently dead creature, it rises as Undead with MEAT 1 that attacks the nearest living thing. |
+| 65 | Black Candle | (2\*) | [1] | 90g | Light to create magical darkness. Non-magical light sources cannot penetrate it. |
+| 66 | Blood Vial | (1\*) | [1] | 60g | Drink to gain 2 COURAGE and take 1 chronic ZEST damage. |
+| 67 | Tangle Net | (1\*) | [11] | 70g | When thrown on a target they are Immobilized and Disoriented until removed. |
+| 68 | War Paint | (1\*) | [1] | 35g | Apply before combat, Bolstered on first attack. |
+| 69 | Trophy Skull | (3) | [1] | 45g | When shown to enemies they make a ZEST save or their next Morale Break save is at +1. |
+| 70 | Strange Egg | (1\*) | [11] | 150g | Hatches into something after d6 sessions. |
+
+---
+
+#### 71–90: Hero Loot
+> Roll a d20 to use just this table.
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 71 | Polished Breastplate | (3) | [1] | 180g | DEF4. Take 2 STRESS when first equipped - it was not made for goblins. |
+| 72 | Tower Crest Shield | (7) | [2] | 140g | Emblazoned with the crest of a noble house. |
+| 73 | Trueshot Longbow | (3) | [2] | 200g | rd8+rd8. Hitting a target marks them, attacks against them are Bolstered this round. |
+| 74 | Cloak of Leaves | (3) | [1] | 160g | Bolstered on all saves to hide or move silently. |
+| 75 | Spell Scroll | (3\*) | [1] | 250g | See Magic section. |
+| 76 | Cursed Tome | (3) | [22] | 120g | Cannot be discarded or reorganized once picked up. ZEST save during rest to discard. |
+| 77 | Holy Symbol | (3\*) | [1] | 180g | Clear d6 STRESS from any target. Goblins take 1 chronic ZEST damage every turn while holding it. |
+| 78 | Blessed Mace | (3) | [1] | 220g | d6+d8. On hit clear 1 STRESS from the wielder. |
+| 79 | Knight's Helmet | (3) | [1] | 190g | Mark a use to reroll all dice in a MEAT save. Immune to Concussed condition. |
+| 80 | Ranger Boots | (3) | [1] | 200g | Mark a use to Dodge without paying STRESS or COURAGE. |
+| 81 | Wizard Hat | (3) | [1] | 240g | WITS target number -1. Destroyed if the wearer takes a Permanent Injury. |
+| 82 | Cleric Robes | (3) | [1] | 180g | DEF1. Mark a use to clear d4 STRESS from an ally. |
+| 83 | Hero Sword | (3) | [11] | 300g | d8+d10 |
+| 84 | Enchanted Arrow Quiver | (3) | [1] | 160g | Mark a use to reroll one attack die from a heavy ranged weapon. |
+| 85 | Concussive Grenade | (1\*) | [1] | 200g | rd6+rd6. Any target dealt damage is Concussed, Disoriented and Knocked. |
+| 86 | Healing Potion | (1\*) | [1] | 300g | Roll 2d4 and clear that much STRESS and/or stat damage. |
+| 87 | Hero's Belt | (3) | [1] | 220g | Gain 1 COURAGE each time you succeed on a roll while at no STRESS. |
+| 88 | Blessed Shield | (5) | [1] | 250g | Can reroll all dice in a Vital Blow save while wielding. |
+| 89 | Glinting Cloak | (1) | [1] | 280g | Mark a use to negate one attack completely. Recharges after Long Rest. |
+| 90 | Hero Pack | - | [111] | 350g | Can be placed outside the pack. Has 3 grid inventory spots. |
+
+---
+
+#### 91–100: Rare and Dangerous
+> Roll a d10 to use just this table.
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 91 | Bag of Holding | (4\*) | [1] | 600g | Can place up to 6 [1] items on this item. Retrieving an item not on top requires a ZEST save - failure marks a use. When consumed all items inside are destroyed. |
+| 92 | Gob Crown | (3) | [1] | 400g | Gain 1 COURAGE at the start of each turn. All non-goblins react as Hostile to the wearer. |
+| 93 | The Hero's Map | (3) | [11] | 500g | Reveals the full dungeon layout it's found in. The Itch die increases one step permanently when found. |
+| 94 | Soul Coin | (1\*) | [1] | 800g | When the bearer dies, roll a d6. On a 1-3 they die as normal. On a 4-6 they come back to life at 1 MEAT and permanently lose 3 ZEST. |
+| 95 | Cursed Idol | (3) | [11] | 350g | Occupies a slot permanently and cannot be removed. Bearer gains DEF +2 and loses 1 COURAGE at the start of each turn. |
+| 96 | Living Weapon | (3) | [1] | 700g | d4+d4, scaling to d12. Each time you deal MEAT damage increase the attack dice 1 step. Resets each day. The weapon demands a kill each session or deals d8 WITS damage to the wielder. |
+| 97 | Time Twisted Hourglass | (2\*) | [11] | 900g | Mark a use to reroll your Gob Die and choose either result. If you choose the original result mark another use. |
+| 98 | Demon Coin | (1\*) | [1] | 500g | Roll a die. On a 1-3 the Itch die permanently increases 1 step. On a 4-6 the entire party gains 4 COURAGE. |
+| 99 | Golden Egg | (1\*) | [22] | 1000g | Worth 1000 gold intact. If cracked open roll on this table twice for what manifests inside. |
+| 100 | Dead Man's Purse | (3) | [11] | 1500g | Coins the wielder loots vanish and reappear in the Hoard. Once per job reach in and pull out the item you need. Can only be destroyed by paying a debt you don't owe. |
+
+---
+
+### CONSUMABLES
+
+There are two kinds of courage in the Underhold. The kind you earn and the kind you ingest. The second kind is significantly more popular.
+
+Consumables marked ~ can be used as a free action.
+
+All consumables below are [1].
+
+#### Basic Consumables
+| d66 | Item | Common Seller | Value | Effect |
+|:---:|---|---|:---:|---|
+| 11 | Bent Cigarettes~ (3\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Fatigued. |
+| 12 | Fungus Roll~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Gain Rattled. |
+| 13 | Cracked Adrenal Vial~ (2\*) | Black Market | 14g | Gain +2 COURAGE. Take 1 MEAT damage next Turn. |
+| 14 | Pocket Snuff~ (4\*) | Lowfling Bakers | 7g | Remove Disoriented. Gain Rattled. |
+| 15 | Rotgut Swig~ (3\*) | The Planks | 5g | Gain +1 COURAGE. All rolls are Hindered next turn. |
+| 16 | Charred Beetle~ (4\*) | Kobold Kitchens | 6g | Clear 1 STRESS. Gain Frightened. |
+| 21 | Rage Mushroom~ (3\*) | Underhold Growers | 10g | Gain +2 COURAGE. Must attack nearest creature next action. |
+| 22 | Glow Slime Capsule~ (3\*) | Kobold Alchemists | 9g | Remove Blind. Gain Slimed. |
+| 23 | Bone Dust Pinch~ (4\*) | Temple Row (Crypts) | 11g | Next attack is Bolstered. Gain Concussed. |
+| 24 | Sour Tonic~ (3\*) | Whyzicians | 9g | Clear d4 STRESS. Gain Winded. |
+| 25 | Stolen Perfume~ (2\*) | Pale Ward | 15g | Remove Frightened. Gain Charmed (closest enemy). |
+| 26 | Grease Lump~ (3\*) | The Anvil | 7g | Ignore Immobilized for one turn. Gain Slimed. |
+| 31 | Spark Powder~ (3\*) | The Anvil | 10g | Next attack deals +1 damage. Gain Burning (1 round). |
+| 32 | Gutter Croissant~ (4\*) | Lowfling Bakers | 8g | Counts as ration. Clear +1 STRESS on next rest. |
+| 33 | Nerve Tap Needle~ (2\*) | Black Market | 16g | Next MEAT damage becomes STRESS. Gain Diseased. |
+| 34 | Whisper Leaf~ (3\*) | Underhold Street Trade | 7g | Remove Frightened. Gain Disoriented. |
+| 35 | Bottle of Something~ (3\*) | The Planks | 6g | Gain +1 COURAGE. If alone, gain Rattled. |
+| 36 | Hot Coal Bite~ (2\*) | The Anvil | 5g | Remove Chilled. Take 1 MEAT damage. |
+| 41 | Flash Salt~ (3\*) | Kobold Alchemists | 12g | Blind all adjacent creatures (including you). |
+| 42 | Leech Jar~ (2\*) | Whyzicians | 9g | Remove Bleed. Take 1 ZEST damage. |
+| 43 | Twitch Serum~ (3\*) | Black Market | 13g | Gain +1 COURAGE. Gain Disoriented. |
+| 44 | Cracked Focus Lens~ (2\*) | Black Market | 12g | Ignore Hindered on next roll. Gain Concussed. |
+| 45 | Pickled Eye~ (3\*) | Temple Row | 11g | Roll twice on next WITS save, take the best. Gain Rattled. |
+| 46 | Ash Chew~ (4\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Chilled. |
+| 51 | Spine Juice~ (2\*) | Whyzicians | 10g | Immediately stand up, remove Knocked. Gain Winded. |
+| 52 | Screamer Powder~ (3\*) | The Planks | 8g | Gain +1 COURAGE. All enemies become aware of you. |
+| 53 | Sticky Gland~ (3\*) | Kobold Alchemists | 11g | Next hit automatically Breaks DEF. Gain Immobilized next turn. |
+| 54 | Rotfruit Mash~ (4\*) | Underhold Growers | 7g | Counts as ration. Gain Poisoned. |
+| 55 | Flicker Candle Stub~ (3\*) | Temple Row | 9g | Remove Blind for one Turn, then regain it. |
+| 56 | Black Milk (2\*)~ | Smugglers | 18g | Gain +2 COURAGE. Take 1 WITS damage. |
+| 61 | Deadman’s Teeth~ (2\*) | Temple Row (Crypts) | 14g | Ignore Vital Blow once. Gain Frightened. |
+| 62 | Salted Wire~ (3\*) | The Anvil | 7g | Clear 1 STRESS. Take 1 MEAT damage. |
+| 63 | Gutter Honey~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Attract nearby creatures. |
+| 64 | Glass Shard~ Chew~ (2\*) | The Planks | 10g | Next attack deals +2 damage. Take 1 MEAT damage. |
+| 65 | Old War Powder~ (1\*) | Black Market | 20g | Gain +3 COURAGE. Gain Concussed and Rattled. |
+| 66 | Unstable Notes (1\*) | Wizards | - | Gain +2 COURAGE. Then cast a spell. |
+
+#### Rare Black Market Consumables
+
+Illegal, unstable and single use.
+
+| d10| Item | Value | Effect |
+|:---:|---|:---:|---|
+| 1 | Void Flask~ | 40g | Ignore all STRESS for one roll. After take STRESS equal to number of dice rolled. |
+| 2 | Redline Serum~ | 35g | Gain +3 COURAGE. Take 2 chronic MEAT damage next Turn. |
+| 3 | Ghost Salt~ | 30g | Become untargetable for one Round. Gain Frightened. |
+| 4 | Bonefire Dust~ | 32g | Next attack automatically hits and deals +2 damage. Gain Burning. |
+| 5 | Memory Worm~ | 28g | Reroll a roll. Take 1 chronic WITS damage. |
+| 6 | King’s Breath~ | 45g | Clear all STRESS. Gain Concussed and Rattled. |
+| 7 | Black Lantern Oil	| 33g | Reveal all hidden things nearby. Trigger an encounter and reset the Itch. |
+| 8 | Chainbreaker Gel~ | 30g | Ignore all conditions for one turn. Then gain a random condition. |
+| 9 | Grinning Tonic~ | 25g | Gain +2 COURAGE. Cannot retreat until next Turn. |
+| 10 | Saint’s Ash~ | 50g | Ignore death. If MEAT hits 0 this Round it goes to 1 then permanently lose 1 ZEST. |
+
+---
+
+### MAGIC ITEMS
+
+Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.
+
+> All magic item values below are what a wizard, collector, or desperate soul will pay, a common fence will pay 50%.
+
+#### Weapons (d66: 11–16)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 11 | Blooddrinker | (3) | [1] | 400g | d6+d6. Any MEAT damage dealt is restored to the wielder. |
+| 12 | The Spine | (4) | [11] | 500g | d4+d10. On a critical hit the target is Immobilized and Winded. The weapon occasionally whispers names of dead goblins. |
+| 13 | Gobfather's Tooth | (3) | [1] | 350g | d4+d6. Deals double damage to targets who are unaware of the wielder. The Gobfather knows who has this and where it is at all times. |
+| 14 | The Last Word | (3) | [1] | 450g | d6+d8. The first attack of any combat is always Bolstered. If that attack misses, gain 1 COURAGE. |
+| 15 | Spite | (3) | [11] | 500g | d8+d8. For each point of STRESS the wielder currently has, add 1 to the Damage die result. |
+| 16 | The Goblin King's Blade | (3) | [11] | 800g | d8+d10. Immune to non-permanent conditions. All goblins who can see the blade must make a ZEST save at the start of combat or spend their first action staring at it. |
+
+#### Armour (d66: 21–26)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 21 | Wraithplate | (3) | [1] | 600g | DEF4. The wearer cannot be seen in complete darkness; they simply aren't there. They do not cast a shadow. |
+| 22 | Skinsuit | (3) | [1] | 500g | DEF2. Once per day, take the appearance of the last humanoid creature killed while wearing this. Lasts until the wearer speaks. Can only be repaired with more skin. |
+| 23 | Plate of the Fallen Hero | - | [11] | 900g | DEF5. While worn, immune to Winded, Frightened, Rattled, Concussed and Disoriented. Heroes react as Hostile on sight. The armour fits perfectly despite being made for someone much larger. |
+| 24 | Robes of the Rat Saint | (3) | [1] | 450g | DEF2. Rats treat the wearer as Friendly. Mark a use to transform into a Giant Rat. On hitting 0 MEAT revert back to goblin. Repaired with rat hides. |
+| 25 | Carapace | (3) | [1] | 700g | DEF3. When the wearer takes a Vital Blow, the armour absorbs it entirely. Needs a full day to regenerate before it can do so again. |
+| 26 | Armour of Borrowed Time | (3) | [1] | 1000g | DEF3. Once per session, when the wearer would die, they survive on 1 MEAT. The armour goes inert 2 days after this. |
+
+#### Boots and Gloves (d66: 31–36)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 31 | Boots of the Cornered Rat | (3) | [1] | 400g | When the wearer has no COURAGE and full STRESS, all attacks and saves are Bolstered. |
+| 32 | Gloves of the Pickpocket | (3) | [1] | 350g | Mark a use to steal a [1] item from a creature without them noticing. |
+| 33 | Boots of the Long Road | (3) | [1] | 300g | The wearer never gains Exhausted from travel. They also never feel like they've arrived anywhere. Vague existential unease washes over them. |
+| 34 | Gloves of Iron | (3) | [2] | 600g | d6+d6+d8+d8. Attacks count as unarmed. Immune to any Hand injuries. |
+| 35 | Boots of Standing | (3) | [1] | 350g | While not moving, the wearer cannot be targeted by ranged attacks. Requires not moving. Like at all. |
+| 36 | Boots of Backtracking | (3) | [1] | 500g | Once per session, teleport back to the last doorway the wearer passed through, arriving at full sprint. |
+
+#### Rings and Amulets (d66: 41–46)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 41 | Ring of the Open Gateway | (3) | [1] | 550g | Locks of any kind open for the wearer. So do things that were not meant to be opened. The wearer cannot close any door they have opened. |
+| 42 | Amulet of Second Thought | (3) | [1] | 400g | Once per session reroll any single die and take either result. Each use after the first causes 1 chronic WITS damage - the amulet is tired of being second-guessed. |
+| 43 | Ring of Whispers | (3) | [1] | 450g | The wearer can hear any conversation happening within 30ft regardless of walls or distance. |
+| 44 | Amulet of the Hungry Dark | (3) | [1] | 500g | See perfectly in complete darkness. In bright light, vision is Hindered. Always slightly warm and occasionally pulls toward something underground. |
+| 45 | Ring of the Rat King | (3) | [1] | 400g | If wielding any other Rat King items, mark a use to summon 1d10 Giant Rats. You can understand and speak with rats. |
+| 46 | Ring of Kept Secrets | (3) | [1] | 350g | Cannot be compelled to speak. Mark a use: when leveraging a secret over an NPC, their save is -1. Curse: must pass ZEST save to willingly share information during stealth, deception, or negotiation. |
+
+#### Cloaks and Wearables (d66: 51–56)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 51 | Cloak of Many Pockets | (3) | [1] | 400g | Can stack up to three [1] items on this item. They are always accessible. |
+| 52 | Cloak of Forgetting | (3) | [1] | 600g | After any interaction, NPCs forget it happened. The wearer also slowly forgets things; roll WITS save at the start of each day, on a failure lose 1 WITS permanently. |
+| 53 | Scarf of the Con Artist | (3) | [1] | 700g | The wearer's lies are always believed. |
+| 54 | Cloak of the Coward | (3) | [1] | 350g | The wearer cannot be targeted by ranged attacks while attempting to flee combat. |
+| 55 | Hood of the Lurker | (3) | [1] | 600g | The wearer can teleport short distances as long as they start and end in a shadow. |
+| 56 | Cloak of Missize | (3) | [1] | 500g | Obviously made for something much larger. Mark a use; the wearer may become 3x larger or smaller for d4 turns. |
+
+#### Rare and Cursed (d66: 61–66)
+
+| Roll | Item | Uses | Size | Value | Notes |
+|:---:|---|:---:|:---:|:---:|---|
+| 61 | Crown of the Scab King | (3) | [1] | 800g | Gain 1 COURAGE at the start of each turn. All creatures of Scum tier react as Neutral. The wearer gradually starts to believe they are the Scab King. |
+| 62 | Belt of Just Surviving | (3) | [1] | 1200g | The wearer cannot die from MEAT damage while wearing it. They can still reach 0 MEAT, they just don't die. Cannot regain stat points while wearing this. |
+| 63 | Chain of Obligation | (3) | [1] | 700g | Bind it to another creature with a verbal deal. Both parties know immediately if the deal is broken. The chain cannot be removed until the deal is fulfilled or one party is dead. |
+| 64 | Signet of False Authority | (3) | [1] | 600g | The wearer reads as whoever they need to be. Works on anyone who doesn't look too closely. |
+| 65 | Shackles of Loyalty | (3) | [11] | 1000g | When placed on a creature they become deathly loyal to the one who shackled them. |
+| 66 | Mantle of the Gobfather | (3) | [1] | 1500g | DEF3. While worn, the wearer speaks with the Gobfather's authority. Contacts treat Standing as one step better than it is. The actual Gobfather knows when someone is wearing this. |
+
+---
+
+### VALUABLES WORTH TAKING
+
+Roll **d100** when the party finds something worth taking or to fill a room. 
+
+| d100 | Valuable | Size | Value |
+|:---:|---|:---:|:---:|
+| 1 | Tarnished silver ring | [1] | 15g |
+| 2 | Cracked ivory comb | [1] | 10g |
+| 3 | Ornate copper belt buckle | [1] | 20g |
+| 4 | Hand-blown glass eye | [1] | 25g |
+| 5 | Pouch of mixed foreign coins | [1] | 30g |
+| 6 | Chipped jade figurine | [1] | 40g |
+| 7 | Wax-sealed letter | [1] | 15g |
+| 8 | Weighted dice set | [1] | 20g |
+| 9 | Engraved pewter flask | [1] | 25g |
+| 10 | Hair in a locket | [1] | 10g |
+| 11 | Broken brass compass | [1] | 30g |
+| 12 | Small carved wooden figure | [1] | 10g |
+| 13 | Folded silk handkerchief | [1] | 15g |
+| 14 | Vial of dried saffron | [1] | 35g |
+| 15 | Child's silver pacifier | [1] | 20g |
+| 16 | Pair of pearl earrings | [1] | 60g |
+| 17 | Signet ring | [1] | 45g |
+| 18 | Small obsidian arrowhead | [1] | 25g |
+| 19 | Tin of unusual spice | [1] | 30g |
+| 20 | Gemstone pendant | [1] | 50g |
+| 21 | Bronze statuette of a god | [2] | 40g |
+| 22 | Rolled star chart | [1] | 35g |
+| 23 | Folded map of unknown region | [2] | 50g |
+| 24 | Pair of fine leather gloves | [1] | 30g |
+| 25 | Wrapped bundle of rare incense | [11] | 45g |
+| 26 | Carved bone flute | [2] | 40g |
+| 27 | Ship in glass bottle | [11] | 25g |
+| 28 | Ceremonial dwarf-made belt knife | [1] | 60g |
+| 29 | Fine folded tapestry fragment | [21] | 55g |
+| 30 | Taxidermied exotic bird | [11] | 35g |
+| 31 | Gilded scroll case | [2] | 40g |
+| 32 | Pair of silver candlesticks | [2] | 70g |
+| 33 | Set of calligraphy brushes | [2] | 30g |
+| 34 | Rolled architectural plans | [11] | 45g |
+| 35 | Preserved exotic flower in resin | [2] | 50g |
+| 36 | Bottle of aged wine | [2] | 40g |
+| 37 | Velvet pouch of gemstone chips | [1] | 65g |
+| 38 | Ornate copper astrolabe | [11] | 80g |
+| 39 | Small silver hourglass | [2] | 55g |
+| 40 | Bundle of rare dried herbs | [11] | 45g |
+| 41 | Folded ceremonial robe | [22] | 70g |
+| 42 | Small framed oil painting | [22] | 60g |
+| 43 | Set of six silver goblets | [22] | 90g |
+| 44 | Damaged clockwork music box | [22] | 80g |
+| 45 | Faded silk banner | [21] | 55g |
+| 46 | Leather-bound journal | [21] | 40g |
+| 47 | Taxidermied exotic mammal (sm) | [21] | 65g |
+| 48 | Collapsible brass telescope | [21] | 100g |
+| 49 | Half set of ivory chess pieces | [22] | 75g |
+| 50 | Folded ceremonial flag | [21] | 60g |
+| 51 | Stone relief carving | [22] | 70g |
+| 52 | Stack of illuminated manuscript pages | [22] | 85g |
+| 53 | Nested set of silver measuring weights | [22] | 90g |
+| 54 | Clockwork toy soldier | [21] | 60g |
+| 55 | Rolled tapestry of a hunting scene | [111] | 110g |
+| 56 | Navigator's tools in fitted case | [22] | 95g |
+| 57 | Set of gold alchemist's tools | [22] | 120g |
+| 58 | Folded ceremonial tent cloth | [22] | 80g |
+| 59 | Collection of pressed exotic butterflies | [22] | 70g |
+| 60 | Merchant's silver scales | [22] | 85g |
+| 61 | Marble bust of unknown noble | [222] | 100g |
+| 62 | Ornate wooden strongbox | [22] | 60g |
+| 63 | Rolled ceremonial carpet | [111] | 90g |
+| 64 | Mounted trophy head of an exotic beast | [222] | 80g |
+| 65 | Stone tablet with carved inscription | [222] | 110g |
+| 66 | Gilded birdcage | [222] | 75g |
+| 67 | Set of decorative ceremonial armour | [333] | 150g |
+| 68 | Carved wooden throne | [333] | 120g |
+| 69 | Bolt of imported silk | [111] | 100g |
+| 70 | Rolled world map, hand-drawn | [111] | 140g |
+| 71 | Taxidermied exotic beast (lg) | [333] | 130g |
+| 72 | Silver framed ornate mirror | [322] | 110g |
+| 73 | Gilded harpsichord component | [333] | 150g |
+| 74 | Noble's traveling wardrobe | [333] | 120g |
+| 75 | Crate of rare pottery, intact | [333] | 140g |
+| 76 | Folded ceremonial canopy | [222] | 160g |
+| 77 | Brass astronomical instrument | [321] | 180g |
+| 78 | Rolled tapestry of battle | [111] | 200g |
+| 79 | Carved stone sarcophagus lid | [333] | 170g |
+| 80 | Crated stained glass panel | [333] | 150g |
+| 81 | Gold-inlaid writing desk | [333] | 200g |
+| 82 | Gilded suit of parade armour | [333] | 250g |
+| 83 | Crate of fine porcelain | [33] | 180g |
+| 84 | Rolled grand tapestry of a legend | [111] | 220g |
+| 85 | Noble's portrait | [33] | 190g |
+| 86 | Merchant's ledger chest | [333] | 160g |
+| 87 | Broken marble statue | [332] | 300g |
+| 88 | Ornate ceremonial throne | [331] | 280g |
+| 89 | Gilded reliquary | [232] | 240g |
+| 90 | Crated clockwork automaton | [333] | 350g |
+| 91 | Small gold ingot | [1] | 200g |
+| 92 | Matched set of sapphire jewelry | [1] | 300g |
+| 93 | Fist-sized uncut ruby | [1] | 400g |
+| 94 | Pouch of cut diamonds | [1] | 500g |
+| 95 | Ancient gold coin collection | [1] | 350g |
+| 96 | Emerald encrusted goblet | [11] | 450g |
+| 97 | Golden statuette | [11] | 600g |
+| 98 | Jeweled crown | [21] | 800g |
+| 99 | Chest of mixed gemstones | [22] | 1000g |
+| 100 | Obsidian dragon scale ring | [1] | 2500g |
+
+---
+
+### GOODS & SERVICES PRICE REFERENCE
+
+Use these as a baseline for pricing other items the party is looking to buy or sell. Prices are in gold. 
 
 > Prices assume a city with working markets. In small settlements, rare goods cost double or aren't available.
 
@@ -2852,7 +2905,7 @@ Prices are in gold. Use these as a baseline for pricing other items the party is
 | Lodging, private room | 10 |
 | Physician, minor treatment | 20 |
 | Physician, serious treatment | 50 |
-| Fence (offers 20% of sale value) | - |
+| Fence (offers 50% of sale value) | - |
 | Bribe, minor official | 10 |
 | Bribe, guard | 20 |
 | Bribe, someone important | 50+ |
@@ -2861,3 +2914,249 @@ Prices are in gold. Use these as a baseline for pricing other items the party is
 | Gear repair or restock | 10% of item value, rounded up |
 
 ---
+
+# TOME 4: ORRELIA, HERSELF
+
+![Hexmap of Orrelia](img/orrelia-hex.png)
+
+## NEAR RING
+
+*Rumours about all six should be circulating in Glimmerhold's taverns before the party leaves.*
+
+---
+
+### N1 - Grassland
+
+**Dungeon:** A logging operation that expanded into something it shouldn't have. A central camp of a dozen buildings, supply depot, foreman's locked office and a deep pit the workers dug on company orders and then sealed over before abandoning the site entirely.
+
+**Landmark:** *The Ivory Meadow* - a clearing in the forest where the grass grows white. It has grown white since a battle three generations past but the soil tests as normal. Sheep grazed here are unharmed except their wool grows in straight instead of curling.
+
+**Rumour:** *"The logging camp northeast of the city hasn't taken on new workers in six months. Pay is good, the foreman won't say why they're not hiring. My cousin applied twice."*
+
+**Wandering Faction:** A timber merchant's survey team, mapping an area they have no permission to map, asking locals about the camp.
+
+---
+
+### N2 - Grassland
+
+**Dungeon:** Two Pale Ward Syndicate factions; House Venhall and House Mourne intermediaries, are contesting ownership of an old ranch on the eastern road. The ranch itself is the dungeon: main house, ranch office, animal barns, an old steward and a contested shipping manifest hidden somewhere in the building that both sides are paying separately to find. Neither side knows the other is looking.
+
+**Landmark:** *The Bridge of Eleven Names* - a stone bridge over the eastern river. The current dedication plaque reads *"The Bridge of Municipal Achievement."* The previous ten plaques are stacked under the south pylon. The Ferrymaster maintains and updates each new plaque.
+
+**Rumour:** *"Both the Venhalls and the Mournes have hired people to go into that ranch on the eastern road. Nobody's told either crew about the other. The steward is up to something."*
+
+**Wandering Faction:** The Ferrymaster, conducting business between the river crossings here and in F2. Doesn't charge goblins and doesn't explain why.
+
+---
+
+### N3 - Grassland
+
+**Dungeon:** *(Hidden - WITS save or local knowledge to locate)* What looks like an overgrown waystation off the south road. Someone has been carefully maintaining it to look abandoned while operating from within. Multiple rooms, a lower level that isn't on any building record, and whoever is inside has been there long enough to make it very comfortable and very defensible.
+
+**Landmark:** *The Quiet Wall* - a low stone wall running east to west for about fifteen kilometres through the southeastern grassland. Small niches cut into it at regular intervals, each containing a stone no larger than a fist with a name scratched into it. All different names. New ones appear after the Grey Procession each Falling. Nobody is ever seen adding them.
+
+**Rumour:** *"Someone is definitely in that waystation off the south road. The Watch has been asking after it very casually, which is how you know they care very much."*
+
+**Wandering Faction:** A merchant caravan on the south road, heavily loaded, lightly guarded, asking about the waystation with the curiosity of folks who are looking for someone.
+
+---
+
+### N4 - Forest
+
+**Dungeon:** Something has been living in the old Thornwood barrow downs for at least two seasons and has reorganised the space to it's liking. The original burial chambers rerouted, new passages opened up, the outer mound now serving as an entrance to something larger and stranger below. The barrow is visible from the road, which is why it's been left alone. Strange things have started growing out of the upper chambers.
+
+**Landmark:** *A crater, more recent than the northern crater.* The peculiar thing about these craters is that they don't look like they were impacted by something, they look like something got up and left.
+
+**Rumour:** *"The old barrow in the Thornwood, I saw something coming out of it that wasn't using the entrance."*
+
+**Wandering Faction:** A cult group, moving through the Thornwood on a route they've clearly walked before. Not looking for trouble.
+
+---
+
+### N5 - Grassland
+
+**Dungeon:** An camp in the western plains that has become a fortified bandit compound. Multiple buildings, a wall of salvaged timber, a locked storehouse and a group of folks who describe themselves as foresters. Three separate factions are paying them for access to what's below the compound.
+
+**Landmark:** *The Field of Pressed Swords* - a clearing where by tradition, the swords of soldiers who died in the Northern War were driven hilt-down into the ground. Approximately nine hundred of them by last count. Nobody takes the swords. This is not superstition exactly, it's something more specific than superstition like an arrow in the back.
+
+**Rumour:** *"The Egg is still standing out near the western river. Big stone obelisk, marks the old eastern advance from a war eons ago. Every seven years or so, it gets cleaned. I've been trying to catch the cleaner for thirty years."*
+
+**Wandering Faction:** A trapper on their way to the Shimmer Flats. Has been watching the compound. Will trade information if found valuable.
+
+---
+
+### N6 - Forest
+
+**Dungeon:** A ruined watchtower consumed entirely by the forest canopy. The trunk of the tree that swallowed it now the only way to the upper floors. The forest around it was Northern War territory, the tower was used as a signalling post. The signal logs are still up there and something has been nesting in them for a few months.
+
+**Landmark:** *A giant hanging cage* - iron, old, suspended from the canopy by chains that go up further than the eye can follow. Large enough to hold several people.
+
+**Rumour:** *"Three groups went into that part of the forest looking for the old watchtower records. None of them came back. Whatever's sitting on those records is not friendly."*
+
+**Wandering Faction:** A Watch patrol doing their road patrols. Disgruntled and hungry.
+
+
+---
+
+
+## FAR RING
+
+*Rumours in the near ring should point toward the far ring. The far ring is stranger, the rumours are older and the Watch mostly absent.*
+
+---
+
+### F1 - Mountain
+
+**Dungeon:** *The Cut* - a slash across the northeastern mountain peaks. Something made it deliberately and at speed. Sigvald of the Cut, a dwarf stonemason, has been studying it for eighty years and published twelve monographs that other dwarves find academically interesting but uncomfortable. The dungeon is the approach itself: a fortified position held by two factions contesting access to the Cut, a dwarven observation post carved into the rock above, Sigvald's workshop at the base, and the Cut itself, which goes down, as well as across.
+
+**Landmark:** *A small fortified dwarven village* clinging to the only viable pass into the mountain range. A dozen buildings, a garrison, a tavern charging what it likes because there is nowhere else to go. Sigvald uses it as his resupply point and is considered its most unusual regular.
+
+**Rumour:** *"Sigvald says the slash in the mountain was made by something the size of a city, moving faster than anything that size should. His twelfth monograph says it came from the north, arced down and then west."*
+
+**Wandering Faction:** Refugees making their way down from the mountain settlements, heading towards Glimmerhold.
+
+---
+
+### F2 - Mountain
+
+**Dungeon:** A keep built by fire giants, long gone and the thing of legend. Glacial rivers flown in and out of the keep and down into F2. Inhabitants of the region think the place is haunted by the spirits of the giants.
+
+**Landmark:** *A river crossing* - the crossing is the only practical route between the southern mountain passes and Glimmerhold's southern gate. Whoever controls it controls a tax on everything moving between them. The Ferrymaster is not pleased with the Syndicate trying to gain control of this crossing.
+
+**Rumour:** *"The Syndicate is hiring folks to man the mountain river crossing. The rates they're offering suggest they expect trouble."*
+
+**Wandering Faction:** Dwarven mountaineers, scaling the mountain peaks attempting to capture lightning in large metal kegs.
+
+---
+
+### F3 - Forest
+
+**Dungeon:** *(Hidden - WITS save or local knowledge to locate)* **The Archivist of Pale Hours** - the Screaming Lich occupies a dungeon approximately fifty kilometres east of Glimmerhold that is both a legitimate arcane library and an active threat to several things the world considers valuable. The dungeon is not on any map the party will find easily. The cultists who serve the Lich are mostly researchers, which means they are extremely dangerous and genuinely enthusiastic about footnotes. The dungeon has an extensive above ground component disguised as an old arcane library, and a below ground component that is not disguised as anything except the home of a Lich.
+
+**Landmark:** *A standing stone covered in carvings* that are to anyone with Academy training, recognisably the Lich's runes. The stone is warm to the touch. The carvings glow at night.
+
+**Rumour:** *"Everything east of the Coldwater road belongs to the Screaming Lich's people. You can go through it, they won't stop you, they'll just know you did. And the Lich remembers everything, forever."*
+
+**Wandering Faction:** A Screaming Cultist research team, carrying sealed specimen cases. Not hostile to the party but probably not safe to follow.
+
+---
+
+### F4 - Grassland
+
+**Dungeon:** A warlord's encampment. Professional, organised, currently between employers, built around an old manor atop one of the mesas. The manor predates the company and has a basement that goes down into the mesa. The Gobfather has a standing interest in what's in the basement.
+
+**Landmark:** *A collection of mesas* stabbing out from the plains, roughly 100 feet high each. Birds circle the flats of all of them, apparently waiting for their next meal. Something must live up there.
+
+**Rumour:** *"The mercenary company in the old manor southeast of the city is not looking for a new contract. They've found something in the building and they're trying to work out what it's worth before they approach a buyer. This is taking longer than they expected."*
+
+**Wandering Faction:** A cult patrol moving south, quiet, not looking for trouble, but noting everything they pass.
+
+---
+
+### F5 - Aquatic
+
+**Dungeon:** A burial site submerged in the lake, elaborate and old. Barrows, standing stones in a deliberate arrangement, a processional road still visible in the lakebed. The Twelve Bell mercenary company has been contracted to hold the lake; a different party has hired the Silent Lanterns to extract something from it's depths.
+
+**Landmark:** *An old garden on a small island* - old enough that folks disagree about who planted it there.
+
+**Rumour:** *"The Twelve Bell took a job southeast of the city. They never say who they're working for, but they brought their full complement. That means whatever's there is worth guarding and worth taking."*
+
+**Wandering Faction:** A lake monster who doesn't appreciate unwelcomed company.
+
+---
+
+### F6 - Forest
+
+**Dungeon:** An old temple in the southwestern forest that a poaching ring has been using as a base for two years, operating out of the outer chambers without going deeper. Something in the deeper chambers has started moving. The poaching ring is currently pretending nothing has changed and is hiring additional personnel with unusual urgency.
+
+**Landmark:** *Another large crater.* Third impact site in the wider region. Also appears as if something ejected itself from the site rather than ran itself into it.
+
+**Rumour:** *"There's a way through the southern forest that cuts two days off the road. The people who know it take it. The people who take it for the first time without being shown don't come out the other side."*
+
+**Wandering Faction:** A bandit caravan that has taken the wrong road and is trying desperately to find their way.
+
+---
+
+### F7 - Desert
+
+**Dungeon:** *(Hidden - WITS save or local knowledge to locate)* Two factions are in open war over an excavation site in the desert southwest of the city. The site is an old monastery, partially excavated, partially still buried, with a lower level that one faction has accessed. The Gobfather has financial interest in the outcome. He hasn't told the party which faction he favours.
+
+**Landmark:** *A standing stone covered in carvings* that shift depending on the time of day. The shapes physically move between the stone's surface markings in a pattern that repeats on a cycle matching the moon.
+
+**Rumour:** *"It's not what it looks like. Everyone who lives in the desert southwest of the city knows it's not what it looks like. That stone means something."*
+
+**Wandering Faction:** A Screaming Cult group that knows about the site and is weighing whether to sell that knowledge or access it.
+
+---
+
+### F8 - Desert
+
+**Dungeon:** A tavern on the desert road that offers clean beds, good food and a locked door between the common room and the rest of the building. The hospitality is impeccable. The tavern is staffed by people who are not what they appear and are operating from the back rooms, something the Gobfather would find very useful.
+
+**Landmark:** *A deep saltwater oasis* - palm trees and aloe bushes circle a pond of clear saltwater. The pond's depth go for kilometres and nobody has ever seen the bottom.
+
+**Rumour:** *"The tavern on the western desert road is fine. The people are fine. The food is fine. I've stayed there twice. Both times I woke up in the morning with the distinct impression that everything in my pack had been looked through."*
+
+**Wandering Faction:** A Watch patrol operating well outside its jurisdiction, looking for whoever runs the tavern.
+
+---
+
+### F9 - Desert
+
+**Dungeon:** *The Shimmer Flats* - a stretch of desert where the sand was melted into glass by dragon-fire, leaving pale red translucent panels warm to the touch. Below the glass something moves. Below the thing that moves is the actual dungeon: a structure old enough that the dragon that made the glass was a relatively recent visitor, with multiple levels and a sealed lower section that the glass was the original lock.
+
+**Landmark:** *Glassblowers Workshop* - the glassmith has set up shop in the middle of the desert due to the rare sand found nowhere else, where the glass that results has the perfect material properties to support viable glass weapons.
+
+**Rumour:** *"The glass in the Shimmer Flats has been warm for a hundred years. It's been getting warmer for the last three. My grandfather could stand on it in the Cold."*
+
+**Wandering Faction:** A lone expert hunter who has been watching the Shimmer Flats for six months and is waiting for their partners arrival.
+
+---
+
+### F10 - Tundra
+
+**Dungeon:** The tundra northwest of Glimmerhold swallows things and keeps them. What looks like an abandoned settlement is a settlement in the process of being reclaimed. Someone emptied it out, someone else moved back in. The above ground buildings are a front. The below ground component is why the settlement existed, why it was abandoned, and why someone came back.
+
+**Landmark:** *A unique enormous tree* standing alone in the frost-hardened scrub with no reason to be alive, let alone this size. The locals know it as a waymarker.
+
+**Rumour:** *"There's a road northwest of the city that leads somewhere much more dangerous than the tundra. Most travellers go around."*
+
+**Wandering Faction:** Three assassins, impersonating a Watch patrol, professional, with a fake warrant and paperwork.
+
+---
+
+### F11 - Tundra
+
+**Dungeon:** The “mine” far northwest of Glimmerhold starts as clean dwarven work and ends in something older. Upper levels are mapped, reinforced, partially collapsed by design. The deeper levels contradict the records the dwarves left behind. They broke into something, sealed most of it and left. Heat appears in pockets below and isn't natural. The lowest mapped level ends at a door the dwarves did not build.
+
+**Landmark:** A *large crater*, older but matching the southern impacts. Clean rim, fractured permafrost shifting underfoot. The mine sits just outside it.
+
+**Rumour:** *The dwarves didn’t leave because the ore ran out. They found something else, mapped it then sealed themselves out. The last team took the key.*
+
+**Wandering Faction:** Well-funded treasure hunters asking about depths they shouldn’t know exist.
+
+---
+
+### F12 - Grassland
+
+**Dungeon:** *The Drowned Plateau* - the northern river flooded one hundred years ago, stayed flooded for two years, then receded. The land grows abundantly now but smells faintly of old wet troll in dry summer. The farmers work it and the yield is excellent. Below the farmland is the reason it flooded: an old structure, partially intact, accessible through the drainage channels the farmers dug and then quietly stopped maintaining. Someone in the Ward Council has been sitting on a survey report about it for fifteen years.
+
+**Landmark:** *Margot's Mill* - the mill that Margot the Miller kept running through the final winter of the Northern War, feeding three settlements and at least one army company that wasn't supposed to be in the area. Margot is old now and tells the story differently every time. The mill still runs. The settlement around it is small, self-sufficient and extremely unwelcoming to anyone in uniform.
+
+**Rumour:** *"What they're ploughing up out on the Drowned Plateau isn't bones. Bones I could explain. This is different. The farmers have a word for it in their own dialect."*
+
+**Wandering Faction:** Veterans of the Northern War who stopped moving and started farming out of sheer exhaustion. Tolerant of goblins, hostile to anyone they associate with either side of the war. They have buried their valuables and will do so again when anyone with a banner rides past.
+
+---
+
+## GM NOTES
+
+**The three craters:** Two impact sites in the south and one in the north. The northern crater is far older than the southern ones, but all three predate Glimmerhold by many, many years. Maren Ashveil has been studying them.
+
+**Shadow of The Northern War:** The northern hexes all bear the war's mark. Veterans, ruins, abandoned settlements, sealed mines. The war is technically over but the consequences remain.
+
+**The southwestern desert:** Three desert hexes form a large desert with escalating strangeness. The Shimmer Flats are the surface indication of something much older. The monastery in southwestern corner and the waystation are all connected. The western desert should present as a coherent mystery.
+
+**The Gobfather's reach:** In the near ring, the Gobfather has active interest in at least four hexes. In the far ring, his reach gets thinner, he has financial interest in the north, standing intelligence on the east (the Lich) and nothing confirmed beyond that.
+
+**The long term Lich:** Far east is not a first session dungeon. The Screaming Lich is the Gobfather's opposite in the far ring, a faction, not just a monster. Cultists can be contacts. Information can be traded. The dungeon has a social layer the Brightwatch never bothered with. Goblins might.

@@ -1,5 +1,5 @@
 LOOT GOBLINS RULES REFERENCE
-*v1.0* - todo: statblocks, playtest
+*v1.0* - todo: buried thing, urchine, statblocks, playtest
 
 ---
 
@@ -1021,15 +1021,15 @@ The City of roughly 100,000 residents (locals and tourists, mind you) is governe
 
 - **The Coin Quarter** is full of merchants, money, noise, crowds and excellent cover. This is the kind of place where a small figure moving quickly is assumed to merely be making a delivery. The markets run three watches a day; but if you want the good stuff, the black market runs all four.
 
-- **The Docks**, colloquially known as **The Planks** to us locals. No questions asked is the motto round there, a promise and occasionally an epitaph. Everything that enters Glimmerhold unofficially has'ta come through the Planks first. It also smells worse than the Underhold, unless you're a big fan of sashimi.
+- **The Docks**, colloquially known as **The Planks** to us underlocals. No questions asked is the motto round there, a promise and occasionally an epitaph. Everything that enters Glimmerhold unofficially has'ta come through the Planks first. It also smells worse than the Underhold, unless you're a big fan of sashimi.
 
 - **The Anvil** is a clanging industrial headache where smiths turn steel into swords and the Watch arrive like clockwork to soothe the sensitive ears of those Pale Ward saps next door. To craft so much as a rivet in this city, one has to first craft a business plan and present to **Jarvis Pennington** and his construct K-47, who make sure that every craftsman is honest about their trade.
 
-- **The Pale Ward** is where the wealthy live. High walls, private guards, the kind of quiet that is purchased and maintained. Us goblins have no business there. Although let's be honest, this has never, in all of recorded history, stopped us.
+- **The Pale Ward** is where the rich chumps live. High walls, private guards, the kind of quiet that is purchased and maintained. Us goblins have no business there. Although let's be honest, this has never, in all of recorded history, stopped us.
 
-- **The Warrens**, a surface-adjacent district of cramped housing and even more cramped ambitions. Some goblins and a few kobolds of particular confidence have managed to integrate here. These gobs are *eccentric* even by our standards but honestly us Underhold dwellers are bit envious. Sometimes you get tired of the dark and the damp.
+- **The Warrens**, a surface adjacent district of cramped housing and even more cramped ambitions. Some goblins and a few kobolds of particular confidence have managed to integrate here. These goblins are *eccentric* even by our standards but honestly us Underhold dwellers are bit envious. Sometimes you get tired of the dark and the damp.
 
-- **Temple Row**, you'll find eight temples to eight gods. Standing in a row like an argument that has been going on too long to remember why it started.  The temple's clergy are mostly harmless. The crypts beneath them are most definitely not, but that's a job for more experienced goblins.
+- **Temple Row**, you'll find eight temples to eight gods. Standing in a row like an argument that has been going on too long to remember why it started.  The temple's clergy are mostly harmless to us. The crypts beneath them are most definitely not, but that's a job for more experienced goblins.
 
 The eight gods are: 
 - **Gorrath**, god of fire and industry.
@@ -1065,11 +1065,11 @@ Goblins didn't build the Underhold, they inherited it. We made it home and then,
 
 **The Underhold is not a goblin city.** This is a city where goblins were first, a distinction they are proud of and a distinction they would argue matters. They would argue this quite a lot in fact. The Gobfather doesn't rule the goblins. He *provides* for everything in the Underhold. All of it. The trolls, the kobolds, that one very old gnome who has been here so long nobody can remember them arriving. The Gobfather sees the Underhold as his, in the way a shepherd sees a flock; with genuine affection, clear authority and absolutely no illusions about the relationship. You'd best mind that.
 
-If you are unwanted up above, the Underhold will take you in. That's not sentiment, it's policy.
+If you are unwanted up above, the Underhold will take you in. That's not sentiment, that's policy.
 
 #### The folks of Underhold:
 
-**Goblins** are the most numerous and the most visible. Remarkable given that visibility is supposedly our least preferred quality. The goblin community is fractious, loud and staggeringly resilient. They work for the Gobfather, they complain about the Gobfather and they would die and occasionally do die, for the Gobfather. This is our idea of community.
+**Goblins** are the most numerous and the most visible. Remarkable given that visibility is supposedly our least preferred quality. The goblin community is fractious, loud and staggeringly resilient. We work for the Gobfather, we complain about the Gobfather and we would die and occasionally do die, for the Gobfather. This is our idea of community.
 
 **Kobolds** are small, crimson-scaled folk, vaguely draconic in such a way that a chihuahua is vaguely worg. They came down to the Underhold at least three generations ago when the surface temples started classifying them as vermin. They haven't forgiven this and they keep meticulous records of exactly how unforgiving they are. These fiesty little buggers are exceptional craftspeople, compulsive archivists and catastrophically litigious within the Underhold's informal legal system. There's roughly seventeen ongoing inter-kobold disputes that predate anyone currently alive still happening.
 
@@ -1109,63 +1109,50 @@ Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, on
 
 ### The Gobfather's Operation
 
-**Goals:** The Hoard to grow, the operation to run quietly and no problems that require fixing at scale.
-
-**Resources:** The Underhold, every piece of information that flows through it and a network of contacts that extends further into the surface city than anyone up there would be comfortable knowing.
-
-**Fears:** The Watch deciding the Underhold is worth the paperwork, a rival operation with better organisation and someone in the Brightwatch writing a report.
-
-**Relationship with players:** They *are* the players' relationship. This is the faction the party navigates everything else through.
+- **Goals:** The Hoard to grow, the operation to run quietly and no problems that require fixing at scale
+- **Resources:** The Underhold, every piece of information that flows through it and a network of contacts that extends further into the surface city than anyone up there would be comfortable knowing.
+- **Fears:** The Watch deciding the Underhold is worth the paperwork, a rival operation with better organisation and someone in the Brightwatch writing a report.
+- **Relationship with players:** They *are* the players' relationship. This is the faction the party navigates everything else through.
 
 ### The Glimmerhold Ward Council
 
-**Goals:** The city to run without complaint, ideally without anyone noticing who's running it.
-
-**Resources:** Legal authority, municipal resources and the Watch, none of which they deploy with any particular efficiency.
-
-**Fears:** A scandal. Specifically, the kind of scandal that ends careers. The Gobfather has files. The Council has always known this and has chosen, with remarkable unanimity, not to pursue the matter.
-
-**Relationship with players:** A distant bureaucratic obstacle most of the time. Occasionally, a Ward Councillor needs something done quietly, which is where goblins who are not supposed to exist become extremely useful.
+- **Goals:** The city to run without complaint, ideally without anyone noticing who's running it.
+- **Resources:** Legal authority, municipal resources and the Watch, none of which they deploy with any particular efficiency.
+- **Fears:** A scandal. Specifically, the kind of scandal that ends careers. The Gobfather has files. The Council has always known this and has chosen, with remarkable unanimity, not to pursue the matter.
+- **Relationship with players:** A distant bureaucratic obstacle most of the time. Occasionally, a Ward Councillor needs something done quietly, which is where goblins who are not supposed to exist become extremely useful.
 
 
 ### The Pale Ward Syndicate
 
-Three noble families, the Venhalls, the Cresswick-Norths and the Mourne family, who have been competing for commercial dominance of Glimmerhold's import trade for sixty years. They don't use violence directly, preferring lawyers, tariffs, rumour, marriage and the occasional hired inconvenience. They're aware the Gobfather exists, have at various points attempted to use him and he has at various points allowed this while charging considerably more than they expected.
+Three noble families, the Venhalls, the Cresswick-Norths and the Mourne family, have been competing for commercial dominance of Glimmerhold's trade for like sixty years. They don't use violence directly, they prefer lawyers, tariffs, rumours, marriage and the occasional hired inconvenience. They're aware the Gobfather exists and have at various points attempted to use him. He has at various points allowed this while charging considerably more than they expected.
 
-**Goals:** Each families wants pure control over Glimmerhold's economy.
-
-**Resources:** Copious amounts of wealth and connections.
-
-**Fears:** Each family fears the other family will rise up and surpass them, all three houses fear the Gobfather expands to the surface in a more public fashion.
-
-**Relationship with players:** Jobs from the Syndicate families come through intermediaries and pay extremely well. They also tend to involve stepping directly into someone else's ongoing conflict, which the goblins are not briefed on in advance. The Syndicate does not consider goblins a part of society, which means they also don't consider goblins a threat until they very suddenly do.
+- **Goals:** Each families wants pure control over Glimmerhold's economy.
+- **Resources:** Copious amounts of wealth and connections.
+- **Fears:** Each family fears the other family will rise up and surpass them, all three houses fear the Gobfather expands to the surface in a more public fashion.
+- **Relationship with players:** Jobs from the Syndicate families come through intermediaries and pay extremely well. They also tend to involve stepping directly into someone else's ongoing conflict, which the goblins are not briefed on in advance. The Syndicate does not consider goblins a part of society, which means they also don't consider goblins a threat until they very suddenly do.
 
 **Current status:** The Venhalls and Mourne family are in active dispute over a shipping contract worth more than the party will see in three campaigns. The Cresswick-Norths are trying to benefit from both sides being distracted.
 
 *The families in brief:*
 
-**House Venhall**, Old money. Imports textiles, spices and several things that are not textiles or spices. The family matriarch, **Lady Veth Venhall**, is seventy-two, sharp as a dagger and has been underestimated for sixty of those years. Her youngest son Pell is charming and useless and owes the Gobfather more than he should.
-
-**House Cresswick-North**, New money, which the old money finds distasteful and the newer money finds aspirational. They have the best lawyers in Glimmerhold, which is a great form of power. Lord **Daven Cresswick-North** is exactly as clever as he thinks he is, which turns out to be the most dangerous kind.
-
-**House Mourne**, The Mournes have produced three Watch Captains, two Councillors and one incident that nobody names but everyone knows. They consider themselves the moral authority of the Pale Ward, which is the Pale Ward's loss. **Selna Mourne** runs the family now. She is fair, careful and the only one of the three who has ever actually spoken to a goblin, which she considers research and the goblin in question considers extremely unsettling.
+- **House Venhall**. Old money. Imports textiles, spices and several things that are not textiles or spices. The family matriarch, **Lady Veth Venhall**, is seventy two, sharp as a dagger and has been underestimated for sixty of those years. Her youngest son Pell is charming and useless and owes the Gobfather way more than he should.
+- **House Cresswick-North**. New money, which the old money finds distasteful and the newer money finds aspirational. They've got the best lawyers in Glimmerhold, which is apparently a great form of power among these noble types. Lord **Daven Cresswick-North** is exactly as clever as he thinks he is, which is the most dangerous kind of clever.
+- **House Mourne**. The Mournes have produced three Watch Captains, two Councillors and one incident that nobody talks about but everyone knows about. They consider themselves the moral authority of the Pale Ward. **Selna Mourne** runs the family now, relatively speaking she's fair, careful and the only one of the three who has ever actually spoken to a goblin, which she considers research and the goblin in question considers unsettling.
 
 
 ### The Brightwatch Company
 
-The Brightwatch are Glimmerhold's most celebrated adventuring company. This is somewhat like being the tallest person in a city of very short people. True but not entirely the point.
+The Brightwatch are Glimmerhold's most celebrated adventuring company. This is somewhat like being the tallest in a city of very short folk. Sure it's a fact, but not entirely the point.
 
-They are competent and this must be acknowledged first, because everything else is easier to understand once you've acknowledged that the competent version of a hero is still, from the goblin perspective, a five-foot tall absolute force of nature with a weapon and no peripheral awareness for smaller creatures.
+They are competent and this is important, because everything else is easier to understand once you've acknowledged that the competent version of a hero is still, from a goblin's perspective, a six foot tall absolute force of nature with a weapon and no awareness for smaller creatures.
 
-They've cleared at least four-hundred fourteen dungeons, been celebrated in multiple ballads, have an account at a decent inn and maintain a standing relationship with the Watch that makes Captain Vorn simultaneously grateful and suspicious. They have never once noticed the goblins.
+They've cleared at least four-hundred fourteen dungeons, been celebrated in multiple ballads, have an account at a decent inn and maintain a standing relationship with the Watch that makes Captain Vorn simultaneously grateful and suspicious. They have never once noticed us goblins.
 
-This is partly skill on the goblins' behalf and partly the comfortable blindness of people who are used to being the most important thing in any room.
+This is partly skill on our behalf and partly the comfortable blindness of folks who are used to being the most important thing in any room.
 
-**Goals:** The Brightwatch Co. is merely in it for the thrill of adventure. They want to be rich and famous and they're succeeding.
-
-**Resources:** Connections to the Watch, respected by the Syndicate, a large bank vault and an even larger wealth of experience in dungeons.
-
-**Fears:** Definitely not death. The Brightwatch are mostly afraid of being shunned by the public at large.
+- **Goals:** The Brightwatch Co. is merely in it for the thrill of adventure. They want to be rich and famous and they're succeeding.
+- **Resources:** Connections to the Watch, respected by the Syndicate, a large bank vault and an even larger wealth of experience in dungeons.
+- **Fears:** Definitely not death. The Brightwatch are mostly afraid of being shunned by the public at large.
 
 > Brightwatch Co. statblocks are found in the Bestiary.
 
@@ -1175,7 +1162,7 @@ This is partly skill on the goblins' behalf and partly the comfortable blindness
 
 **Who he is:** A second son who joined the Brightwatch because the family estate wasn't his, neither was the patience for law school. He is handsome in the way of men who have never been told they are not and principled in the way of men who have never had their principles tested by genuine adversity. He does not hate goblins so much as he has a settled, uncomplicated belief that goblins are a problem. He has never spoken to one at any length. This is, for both sides, probably fine.
 
-**GM note:** Aldric is the party's first obstacle and eventual complication. He is not cruel. Given sufficient reason, a goblin who saves someone he loves or a betrayal by someone he trusts, he can be moved. This should take at least two sessions to set up and feel earned. Until then; he is an obstacle.
+**Relationship with players:** Aldric is the party's first obstacle and eventual complication. He is not cruel. Given sufficient reason, a goblin who saves someone he loves or a betrayal by someone he trusts, he can be moved. This should take at least two sessions to set up and feel earned. Until then; he is an obstacle.
 
 ---
 
@@ -1185,7 +1172,7 @@ This is partly skill on the goblins' behalf and partly the comfortable blindness
 
 She has a hypothesis and it is, unfortunately, correct.
 
-**GM note:** Maren knowing about the party is a slow-burn arc. Start with Pebble staring in the wrong direction. Escalate to notes found. Consider having her leave a note in a dungeon room that says, very simply, *I know you're here. I don't think you're the problem.* The party gets to decide what to do with that.
+**Relationship with players:** Maren knowing about the party is a slow-burn arc. Start with Pebble staring in the wrong direction. Escalate to notes found. Consider having her leave a note in a dungeon room that says, very simply, *I know you're here. I don't think you're the problem.* The party gets to decide what to do with that.
 
 ---
 
@@ -1193,7 +1180,7 @@ She has a hypothesis and it is, unfortunately, correct.
 
 **Who she is:** Sarboras Fess is the most professionally competent thief in Glimmerhold who is also definitely working as an adventurer and these are absolutely two separate careers and please do not look too closely at the coincidence of dungeon security incidents following Brightwatch visits. She is cheerful, charming, privately ruthless and the only member of the Brightwatch who has any idea goblins exist as a cultural phenomenon, which amuses her.
 
-**GM note:** Sarboras is a wild card. She might steal from the goblins. She might also sell them information, for the right price, framed as a coincidence. She finds the goblins funny in the way a professional finds a particularly audacious amateur funny although she will never admit this. She is not safe to approach but she is not, precisely, dangerous to approach either. It depends enormously on the day.
+**Relationship with players:** Sarboras is a wild card. She might steal from the goblins. She might also sell them information, for the right price, framed as a coincidence. She finds the goblins funny in the way a professional finds a particularly audacious amateur funny although she will never admit this. She is not safe to approach but she is not, precisely, dangerous to approach either. It depends enormously on the day.
 
 ---
 
@@ -1201,22 +1188,20 @@ She has a hypothesis and it is, unfortunately, correct.
 
 **Who he is:** Corvin serves a god of roads and travellers, the divine patron of people going somewhere difficult. He is devout without being earnest about it, which is a harder thing to maintain than it looks. He has been trying to get his companions to reconsider their assumptions about goblins since he joined the Brightwatch, with very limited success. He has helped a goblin once, anonymously and spent three days waiting to find out if it would come back to haunt him. It didn't. He is, very slowly, drawing a conclusion from this.
 
-**GM note:** Corvin is a door. Not a friend, not yet anyway, but the character most likely to become one if the goblins give him something to work with. A genuine conversation, a moment of being treated as a ally rather than a resource. He will not betray the Brightwatch. He will, if the situation is desperate enough and his conscience is engaged, look the other way. Starting a relationship with Corvin is a campaign-length project and should feel worth doing.
+**Relationship with players:** Corvin is a door. Not a friend, not yet anyway, but the character most likely to become one if the goblins give him something to work with. A genuine conversation, a moment of being treated as a ally rather than a resource. He will not betray the Brightwatch. He will, if the situation is desperate enough and his conscience is engaged, look the other way. Starting a relationship with Corvin is a campaign-length project and should feel worth doing.
 
 
 ### The Open Coats
 
 The most famous unlicensed magic practitioners currently at large are known throughout Orrelia as **the Open Coats**. A name that began as a description of their leader Rumblestride's coat and went on to become, to the Academy's considerable irritation, something people say with admiration. **Rumblestride** is a former shipmage who spent thirty years persuading the wind to cooperate on merchant vessels before deciding that working for other people was awfully tiresome. He moved to Glimmerhold, ran an alchemy shop in the Anvil for a decade-ish and then handed his licence back to the Academy. The clerk didn't know what to do with it; as far as anyone knows it's still on her desk. 
 
-Rumblestride's outerwear has become something of legend. A long charcoal coloured coat, fastened with sapphire buttons that catch light in rooms that don't have enough to justify the effect. It's lined in azure silk and possesses a quality witnesses consistently struggle to articulate beyond *"there's something about it"*. The coat does not billow dramatically when the wind blows, it billows dramatically regardless.
+Rumblestride's outerwear has become something of legend. A long charcoal coloured coat, fastened with sapphire buttons that catch light in rooms that don't have enough to justify the effect. It's lined in azure silk and possesses a quality witnesses consistently struggle to articulate beyond *"there's something about it"*.
 
-With him travel two other wizards. The first is **Dardanel Moonswaddle**, a baroque elf of considerable magical talent who finds the Academy's dress code personally offensive and has a penchant for illustrious fine gemstones. The second is **Rolart the Mad**, who is extremely old, deeply eccentric and accompanied everywhere by a canary familiar named Stefin. Stefin has opinions on magical theory and Rolart treats them as peer review. The three are wanted in four jurisdictions, celebrated in two others and the subject of at least one ballad the Academy has attempted to have suppressed.
+With him travel two other wizards. The first is **Dardanel Moonswaddle**, a baroque elf of considerable magical talent who has a penchant for illustrious fine gemstones. The second is **Rolart the Mad**, who is extremely old, deeply eccentric and accompanied everywhere by a canary familiar named Stefin. The three are wanted in four jurisdictions, celebrated in two others and the subject of at least one ballad the Academy has attempted to have suppressed.
 
-**Goals:** The Open Coats want to liberate magic from the Academy and give it back to the folks of the realm.
-
-**Resources:** They don't have much to their names but they're quite possibly the three strongest living mages in the realm.
-
-**Fears:** The worst possible outcome for the Open Coats would be to be brought back under the thumb of the Academy.
+- **Goals:** The Open Coats want to liberate magic from the Academy and give it back to the folks of the realm.
+- **Resources:** They don't have much to their names but they're quite possibly the three strongest living mages in the realm.
+- **Fears:** The worst possible outcome for the Open Coats would be to be brought back under the thumb of the Academy.
 
 > The Open Coats statblocks are found in the Bestiary.
 
@@ -1232,7 +1217,7 @@ The eight temples of Temple Row maintain a formal alliance of neutrality, mutual
 
 ### The Screaming Cult
 
-The Lich, formally **the Archivist of Pale Hours**, informally the Screaming Lich because of an incident forty years ago that has been somewhat unfairly memorialized, rules a dungeon roughly 50 kilometres east of Glimmerhold that is simultaneously a legitimate arcane library and an active threat to the continued existence of several things the world considers valuable. The cultists are researchers, mostly, which is to say they are extremely dangerous and also genuinely enthusiastic about footnotes.
+The Lich, formally **the Archivist of Pale Hours**, informally the Screaming Lich because of an incident forty years ago that has been somewhat unfairly memorialized, rules a dungeon roughly 50 kilometres east of Glimmerhold that is simultaneously a legitimate arcane library and an active threat to the continued existence of several things the world considers valuable. The Screaming Cultists are researchers mostly, which is to say they are extremely dangerous and also genuinely enthusiastic about footnotes.
 
 **Relationship with players:** The cultists appear on the dungeon encounter tables. They can be negotiated with. They are interested in knowledge, particularly knowledge about things they didn't know they didn't know. The Lich itself can be spoken to, given appropriate preparation and a tolerance for the cold.
 
@@ -1243,7 +1228,7 @@ The Lich, formally **the Archivist of Pale Hours**, informally the Screaming Lic
 
 The war to the north has ended, technically and there is a peace treaty that is, according to three separate parties I've talked to, either in effect, suspended, or under renegotiation, depending on the day you ask.
 
-What this means practically is that there are soldiers in the northern territories who answer to lords whose authority is unclear, alongside veterans who answer to no one at all, alongside refugees who have stopped moving and started farming out of sheer exhaustion, alongside opportunists who arrived three months after the fighting slowed and are doing very well indeed.
+What this means practically is that there are soldiers in the northern territories who answer to lords whose authority is unclear and veterans who answer to no one at all, alongside refugees who have stopped moving and started farming out of sheer exhaustion and opportunists who arrived three months after the fighting slowed and are doing very well for themselves.
 
 >**The actual history, for GMs**
 >
@@ -1364,7 +1349,7 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 ### Regional Superstitions
 
-#### Inner Ring (Near the City)
+#### Inner Ring
 
 *Leave something sweet at the Sunken Plaza on the first morning of the Turning.* The something is meant for whatever lives below the plaza, though nobody knows what lives below the plaza. The offering has been left continuously for at least a century and the something that takes it has been there at least as long. The sweet things disappear by noon.
 
@@ -1378,7 +1363,7 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 ---
 
-#### Outer Ring (Dense Wilderness)
+#### Outer Ring
 
 *In the forest: mark three trees before you sleep and check them in the morning.* If the marks are different, don't stay for a second night.
 
@@ -1395,7 +1380,7 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 *Near water: never count the fish.* Counting names a thing and a school of fish probably studied math.
 
 
-### Locals
+### Reknowned Locals
 
 #### Inner Ring
 
@@ -1412,14 +1397,14 @@ Most folks of the realm speak Glimmertongue; a dialect of the common language sp
 
 **Margot the Miller**, a woman in the northern reaches who, during the final Colds of the Northern War, kept her mill running for eight months past when everyone else stopped, supplying three settlements and at least one army company that wasn't supposed to be in the area. She's old now and tells the story differently every time, but the parts that stay the same are the important parts.
 
-**The Ferrymaster**, no one knows the Ferrymaster's name and the Ferrymaster has worked the river crossing between the eastern river crossings for longer than anyone can track. The Ferrymaster doesn't charge goblins and doesn't explain why. Nobody's pushed the matter because some arrangements are more comfortable when left unexplored.
+**The Ferrymaster**, no one knows the Ferrymaster's name (I heard rumours that he goes by Oult, or Oualt, or Oault...) and the Ferrymaster has worked the river between the eastern river crossings for longer than anyone can track. The Ferrymaster doesn't charge goblins and doesn't explain why. Nobody's pushed the matter because some arrangements are more comfortable when left unexplored.
 
 **Sigvald of the Cut**, a dwarf stonemason who lives alone in the mountain peaks near the geological anomaly known as the Cut. He has studied it for eighty-odd years and published twelve monographs that other dwarves find academically interesting but uncomfortable. He will speak to anyone who comes without a weapon and with a sincere question. He has theories about the Cut. They are almost certainly right and involve giant gods and even larger swords.
 
 ---
 ## SECTION 5: THE SEASONS AND THEIR FESTIVALS
 
-The world has no months, because months are an administrative convenience and the world predates administration. There are four seasons of approximately sixty days each, named by what they *do* rather than what they *are.*
+The world has no months. Months are an administrative convenience and our world predates administration, got it? There are four seasons of approximately sixty days each though, named by what they *do* rather than what they *are.*
 
 ### The Turning (Spring)
 
@@ -1433,7 +1418,7 @@ The Turning is named for the world turning back toward the sun, which is either 
 
 ### The Bright (Summer)
 
-The Bright is what everyone calls the long days. It is the best season for travel, the worst season for the Underhold (which gets warm and stays warm) and the season in which most of the heroic adventuring happens, because nobody writes ballads about saving the world in the rain.
+The Bright is what everyone calls the long days. It is the best season for travel, the worst season for the Underhold (which gets warm and stays warm) and the season in which most of the heroic adventuring happens, because nobody writes ballads about saving the world in the snow.
 
 **The Warden's Run:** A footrace from the city gate to the east river crossing, a distance of roughly 43 kilometres. Anyone can enter and the Watch runs it as an official event. The unofficial version involves the same route and different participants, usually with several items that need to be moved between start and finish without official notice. The winner of the unofficial version has never been announced, but the results are known.
 
@@ -1443,7 +1428,7 @@ The Bright is what everyone calls the long days. It is the best season for trave
 
 ### The Falling (Autumn)
 
-The Falling is named for leaves and also, less charitably, for what happens to plans made during the Bright when they encounter the realities of the coming Cold.
+The Falling is named for leaves and also less charitably, what happens to plans made during the Bright when they encounter the realities of the coming cold.
 
 **The Harvest Debt:** A formal accounting period recognised throughout the region where debts are tallied and contracts reviewed. The Gobfather's internal accounting coincides with the Harvest Debt; the Hoard is assessed, standings are reviewed, any goblin who's contributed significantly gets a better cut of the next job and any goblin who's been a problem gets a conversation. The Harvest Debt meeting is the only time the Gobfather sends a general invitation to the Underhold rather than individual summons, attendance is optional and non-attendance is noted.
 
@@ -1453,7 +1438,7 @@ The Falling is named for leaves and also, less charitably, for what happens to p
 
 ### The Colds (Winter)
 
-The Colds are honest about themself.
+There are two types of folk in Orrelia. One's who find the Colds dark, cold and miserable, and liars.
 
 **The Dark Week:** Seven days at the height of the Colds where the Underhold goes mostly dark by agreement, with lanterns reduced to one per passageway. It is ostensibly resource conservation, it is actually a period where the Underhold's various communities observe their own traditions privately, which is easier in the dark. What the kobolds do, nobody asks. What the Wights do, nobody wants to know. What the goblins do is mostly eat and complain about the cold, which is tradition enough.
 
@@ -1464,7 +1449,7 @@ The Colds are honest about themself.
 **The Brightwatch Dinner:** This doesn't actual involve the Brightwatch. Named after the Brightwatch tradition of holding a formal dinner to review the year's dungeon work, which became public knowledge after Sarboras described it to several people during the Silk Fair. The Underhold version is a mock-formal dinner where goblins report on the year's jobs in the style of the Brightwatch reviewing their work. Those who partake find it extremely funny and the Brightwatch has no idea it exists.
 
 
-> *The City doesn't acknowledge they exist. The city has never known they exist. The city will, in all probability, never know they exist. This is, the goblins would tell you, exactly the point. You cannot be underestimated if you have never been estimated in the first place.*
+> *The City doesn't acknowledge they exist. The city won't acknowledge they exist. The city will, in all probability, never acknowledge they exist. This is, the goblins would tell you, exactly the point. You cannot be underestimated if you have never been estimated in the first place.*
 
 ---
 
@@ -2601,7 +2586,7 @@ All consumables below are [1].
 #### Basic Consumables
 | d66 | Item | Common Seller | Value | Effect |
 |:---:|---|---|:---:|---|
-| 11 | Bent Cigarettes~ (3\*) | Underhold Street Trade | 6g | Clear 1 STRESS. Gain Fatigued. |
+| 11 | Bent Cigarettes~ (3\*) | Underhold Street Trade | 3g | Clear 1 STRESS. Gain Fatigued. |
 | 12 | Fungus Roll~ (3\*) | Underhold Street Trade | 8g | Gain +1 COURAGE. Gain Rattled. |
 | 13 | Cracked Adrenal Vial~ (2\*) | Black Market | 14g | Gain +2 COURAGE. Take 1 MEAT damage next Turn. |
 | 14 | Pocket Snuff~ (4\*) | Lowfling Bakers | 7g | Remove Disoriented. Gain Rattled. |
@@ -2640,7 +2625,7 @@ All consumables below are [1].
 
 #### Rare Black Market Consumables
 
-Illegal, unstable and single use.
+Illegal, unstable and single use (1\*).
 
 | d10| Item | Value | Effect |
 |:---:|---|:---:|---|
@@ -2653,7 +2638,7 @@ Illegal, unstable and single use.
 | 7 | Black Lantern Oil	| 33g | Reveal all hidden things nearby. Trigger an encounter and reset the Itch. |
 | 8 | Chainbreaker Gel~ | 30g | Ignore all conditions for one turn. Then gain a random condition. |
 | 9 | Grinning Tonic~ | 25g | Gain +2 COURAGE. Cannot retreat until next Turn. |
-| 10 | Saint’s Ash~ | 50g | Ignore death. If MEAT hits 0 this Round it goes to 1 then permanently lose 1 ZEST. |
+| 10 | Saint’s Ash~ | 70g | Ignore death. If MEAT hits 0 this Round it goes to 1 then permanently lose 1 ZEST. |
 
 ---
 

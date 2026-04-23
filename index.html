@@ -26,7 +26,7 @@
         <div class="topbtn"><a href="#top">^</a></div>
 
         <div id="core" class="core hidden">
- <p>CORE RULES
+  <p>LOOT GOBLINS RULES REFERENCE
 <em>v1.0</em> - todo: statblocks for harpies, vultures, drakes</p>
 <hr>
 <ul>
@@ -352,24 +352,24 @@
 <td>MEAT save during long rest</td>
 </tr>
 <tr>
-<td><strong>Hungry</strong></td>
-<td>No additional effect</td>
-<td>After eating</td>
-</tr>
-<tr>
 <td><strong>Fatigued</strong></td>
 <td>No additional effect</td>
 <td>Quick rest</td>
 </tr>
 <tr>
+<td><strong>Hungry</strong></td>
+<td>Third application &gt; Exhausted</td>
+<td>After eating</td>
+</tr>
+<tr>
 <td><strong>Exhausted</strong></td>
-<td>Third application = Unconscious</td>
+<td>Third application &gt; Unconscious</td>
 <td>Long rest</td>
 </tr>
 <tr>
 <td><strong>Unconscious</strong></td>
-<td>Cannot act, move, or speak</td>
-<td>Splashed with water, hit, or long rest</td>
+<td>Cannot take actions</td>
+<td>Splashed + ZEST save, damage, or long rest</td>
 </tr>
 </tbody>
 </table>
@@ -382,7 +382,7 @@
 <li><strong>(Players) + 2</strong> rolls on Hoard Armour table</li>
 <li><strong>(Players) × 2</strong> rolls on Hoard Odds &amp; Ends</li>
 <li><strong>(Players) × 2</strong> rolls on generic Loot table</li>
-<li><strong>3d10 × 1000</strong> gold for raw Hoard value</li>
+<li><strong>3d10 × 1000</strong> for starting Hoard gold stores</li>
 </ul>
 <hr>
 <h3 id="character-creation-steps" tabindex="-1">CHARACTER CREATION STEPS</h3>
@@ -447,7 +447,7 @@
 <p><strong>Lurkfish</strong>, Pack 3×2. Ear trumpet (press to surface: hear through it, detect creature count + intent). Rumour ledger.</p>
 <p><strong>Filchweasel</strong>, Pack 3×3. Sticky finger-wraps (steal [1] item without notice on MEAT roll). Lockpick set (4*).</p>
 <p><strong>Snitch</strong>, Pack 3×2. Forged documents (2*), "I know a guy." Collapsible disguise kit.</p>
-<p><strong>Boombro</strong>, Pack 2×3. Volatile experimental bombs (6): d8+d0; declare mode, Smoke (blinds), Shrapnel (2 dmg all), or Concussive (forces Vital Blow). Oops: roll of 1 = blows up in hand. Mysterious vial labeled "DO NOT" (1*).</p>
+<p><strong>Boombro</strong>, Pack 2×3. Volatile bombs (6*): d6+d0; 3 modes: Smoke (Blinds area for a Turn), Shrapnel (1 dmg to area on Break), or Concussive (area Knocked). Roll of 1 = blows up in hand. Mysterious vial labeled "DO NOT" (1*).</p>
 <h4 id="worglings-watchdog-companion" tabindex="-1">Worglings (Watchdog companion)</h4>
 <ul>
 <li><strong>Creation:</strong> Roll 1d6 for each of MEAT / ZEST / WITS / STRESS separately.</li>
@@ -466,8 +466,13 @@
 <p>The Watchdog can command a Worgling to move and take an action on their turn.</p>
 <hr>
 <h3 id="advancement" tabindex="-1">ADVANCEMENT</h3>
-<p>Return to Underhold &gt; add treasure to Hoard &gt; tally total value &gt; divide evenly as XP.<br>
-Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g &gt; 1 XP.</p>
+<p>The basic gameplay loop in Loot Goblins is as follows:</p>
+<ul>
+<li>Venture out, delve a dungeon.</li>
+<li>Return with loot to Underhold and deposit to the Hoard.</li>
+<li>Tally the total value of loot and divide by player count; this is the XP gain.</li>
+</ul>
+<p>Items kept personally or sold for gold don't contribute to XP. Donated gold is 1 XP per 1 gold.</p>
 <table>
 <thead>
 <tr>
@@ -478,15 +483,15 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <tbody>
 <tr>
 <td>2</td>
-<td>1,000</td>
+<td>800</td>
 </tr>
 <tr>
 <td>3</td>
-<td>3,000</td>
+<td>2,000</td>
 </tr>
 <tr>
 <td>4</td>
-<td>6,000</td>
+<td>3,600</td>
 </tr>
 <tr>
 <td>5+</td>
@@ -546,7 +551,7 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <li>Both roll attack dice and assign Break + Damage dice.</li>
 <li>Higher Break die wins; winner deals chronic MEAT damage.</li>
 <li>Tie = weapons clang, both gain 1 COURAGE, no damage.</li>
-<li>COURAGE cannot be added to parry rolls.</li>
+<li>COURAGE cannot be added to parry rolls outside Bolstered.</li>
 </ol>
 <hr>
 <h3 id="vital-blow" tabindex="-1">Vital Blow</h3>
@@ -723,7 +728,7 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <td>Light</td>
 <td>d6+d6</td>
 <td>[1]</td>
-<td>,</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Medium</td>
@@ -777,14 +782,14 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <td>2</td>
 <td>[1]</td>
 <td>None</td>
-<td>,</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Medium</td>
 <td>3</td>
 <td>[1]</td>
 <td>None</td>
-<td>,</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Heavy</td>
@@ -1045,7 +1050,7 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <li>Each Turn the party acts or makes noise: roll Itch die, subtract result.</li>
 <li><strong>Itch hits 3:</strong> Foreshadow danger.</li>
 <li><strong>Itch hits exactly 0:</strong> Set to 3, foreshadow danger.</li>
-<li><strong>Itch drops below 0:</strong> Roll encounter, reset to 20. Roll of 6 = roll again, keep new result.</li>
+<li><strong>Itch drops below 0:</strong> Roll encounter, reset to 20. Roll of 6 = roll one more time, keep new result.</li>
 <li><strong>Quick Rest:</strong> Itch die steps up (d6→d8→d10→d12→d20). Resets on leaving dungeon for a Watch+.</li>
 </ul>
 <p>Itch advances on Turns only. Combat Rounds do not advance it. Cannot step above d20.</p>
@@ -1306,9 +1311,9 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 </thead>
 <tbody>
 <tr>
-<td>ooxo</td>
-<td>oooo</td>
-<td>oooo</td>
+<td>[-][-][x][-]</td>
+<td>[-][-][-][-]</td>
+<td>[1][2][3][4]</td>
 </tr>
 <tr>
 <td>Even</td>
@@ -1323,10 +1328,12 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <ol>
 <li>A polite message.</li>
 <li>A meeting. Consequences described once.</li>
-<li>Tony Goblioni appears.</li>
 <li>Next job is designed to fix the problem.</li>
 <li>Protection removed. The Underhold may shun the party.</li>
 </ol>
+<ul>
+<li>No jobs. Gobfather starts sending assassins.</li>
+</ul>
 <hr>
 <h3 id="jobs" tabindex="-1">Jobs</h3>
 <p>Roll d20 for work when the Gobfather isn't offering. Pay = 1d6×10 gold.</p>
@@ -1377,7 +1384,7 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 <tr>
 <td>8</td>
 <td>Escort someone</td>
-<td>The person being escorted is the danger</td>
+<td>The folk being escorted is the danger</td>
 </tr>
 <tr>
 <td>9</td>
@@ -1475,7 +1482,7 @@ Items kept personally or sold for gold don't contribute to XP. Donated gold = 1g
 </tr>
 <tr>
 <td>6</td>
-<td>Secret way in. Person telling you knows about it.</td>
+<td>Secret way in. Folk telling you knows about it.</td>
 </tr>
 <tr>
 <td>7</td>
@@ -1631,6 +1638,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <p>The party may spend a day on one activity when in the City.</p>
 <h4 id="carouse" tabindex="-1">Carouse</h4>
 <p>Pull gold from the Hoard. Sanctioned (ask first) or unsanctioned (just take it, WITS save or Gobfather knows, drop to Bad Standing).</p>
+<p>Cannot take Sanctioned gold if not Square.</p>
 <p>Roll up to 3d10. Withdraw (n)d10×10 gold. Repay within (n)×2 days.</p>
 <p>Then make a ZEST save:</p>
 <ul>
@@ -1791,22 +1799,23 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <tbody>
 <tr>
 <td>Hole in the wall</td>
-<td>1,000g</td>
+<td>500g</td>
 <td>One room, one entrance, barely fits the party</td>
 </tr>
 <tr>
 <td>Proper base</td>
-<td>3,000g</td>
+<td>1,500g</td>
 <td>Two-three rooms, back exit, actual beds</td>
 </tr>
 <tr>
 <td>Established hideout</td>
-<td>6,000g</td>
+<td>3,000g</td>
 <td>Multiple rooms, defensible, room for guests</td>
 </tr>
 </tbody>
 </table>
 <p>Provides: Full Rest safely, personal storage, contact channel outside Gobfather, secure base.</p>
+<p>Funds for a safehouse can come from any source; goblins personal savings, a loan, stolen. The payment is given to whoever owns the property.</p>
 <p><strong>Upgrades (one each):</strong></p>
 <table>
 <thead>
@@ -2127,7 +2136,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <p>Spit does not take sides and does not extend credit. She makes a stew that contains something different every day and it's quite remarkable every time. If you ask what's in it you will be asked to leave.</p>
 <p><strong>The Board</strong>, you'll become quite familiar with this weathered piece of wood. A large cork job board outside the Rusty Fang covered in waterproofed parchment squares. This is where jobs get posted when the Gobfather doesn't have work. Nobody reputable posts on this board. This is not a deterrent, it is, for most of the Underhold, an endorsement.</p>
 <p><strong>The Gobfather's operation</strong> runs from somewhere deep in the Underhold that only a handful of people have ever been invited to see. It's quite a comfortable space. Messages come up by Crowfolk runner or Lowfling intermediary and gold comes down in quantities the surface world would find alarming if it knew. The arrangement sustains approximately four-thousand residents of the Underhold and indirectly much of the surface black market.</p>
-<p>Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous person in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name "Lucious Caesar" and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that <em>actually</em> matters and reports it all to the big man below because that's the job and the job is what he loves. He's also incredibly handsome.</p>
+<p>Also let's not forget Tony Goblioni. I.. he... is the Gobfather's right hand, one of the realms most proficient spies and the most dangerous guys in any room when nobody is looking. He has been around the world more times than most people have been across Glimmerhold and his pack is three times as large as he is. Beyond the Underhold he publishes maps under the name "Lucious Caesar" and they are extraordinary maps. The kind of maps other cartographers study with a mixture of admiration and personal inadequacy. As Tony Goblioni he maps everything that <em>actually</em> matters and reports it all to the big man below because that's the job and the job is what he loves. He's also incredibly handsome.</p>
 <hr>
 <h2 id="section-2-factions" tabindex="-1">SECTION 2: FACTIONS</h2>
 <blockquote>
@@ -2246,7 +2255,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <p><em>"Drowned King weather."</em> When it rains for more than an afternoon.</p>
 <p><em>"It counts by heartbeat."</em> Said of anything in the wilderness that hunts by sensing you specifically. Walk slower.</p>
 <p><em>"Northmen, that."</em> Anything that goes north lately stays north. Applied to objects, people and good decisions equally.</p>
-<p><em>"Fire and sense."</em> Everything a sensible person needs when the weather turns. General pragmatism.</p>
+<p><em>"Fire and sense."</em> Everything sensible folk needs when the weather turns. General pragmatism.</p>
 <p><em>"Left something for the Horned Beast."</em> An offering made to bad luck in advance. Leave a small gift in the forest before asking it for anything.</p>
 <p><em>"Quiet past the stones."</em> Warning to stop talking and start watching. Usually near ruins.</p>
 <p><em>"Road gold."</em> Money made quickly, gone quickly, not worth mourning. Grassland caravan trader saying.</p>
@@ -2286,7 +2295,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <h4 id="inner-ring" tabindex="-1">Inner Ring</h4>
 <p><strong>Pell Venhall</strong>, not a hero by any definition that involves virtue, but certainly a local one by the definition that involves name recognition. The youngest Venhall son is beloved by the Warrens for reasons that include his gambling, his accessibility, his tendency to forget that goblins aren't supposed to be served in the taverns he patronises and a spectacular incident two years ago involving a stolen wedding cake that the Warrens still talks about.</p>
 <p><strong>Boubastous Shakur</strong>, a retired Watch officer who now runs a soup kitchen near the Warrens. He knows where every body is buried because he put several of them there during his career and he's been making amends ever since, in a very practical manner. He has contacts in every district and an inexplicable soft spot for kobolds.</p>
-<p><strong>The Archivist of Temple Row</strong>, not a person but a rotating position. Currently held by an elderly gnome named <strong>Tuck</strong> who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.</p>
+<p><strong>The Archivist of Temple Row</strong>, not someone but a rotating position. Currently held by an elderly gnome named <strong>Tuck</strong> who has been in the post for forty years, which is either because he keeps getting re-elected or because nobody noticed the elections stopped. Tuck knows where everything in the archive is and will share most of it, all he asks is for interesting questions in return.</p>
 <p><strong>Grimbus Goldfinch</strong>, the most famous Whyzician in Glimmerhold. Grimbus operates out of a cluttered set of rooms near the Warrens. He charges what he thinks you can afford (which is sometimes more than you expect and occasionally nothing at all), he does not discriminate by species and he keeps meticulous records that have been stolen from him twice and returned both times.</p>
 <h4 id="outer-ring" tabindex="-1">Outer Ring</h4>
 <p><strong>Margot the Miller</strong>, a woman in the northern reaches who, during the final Colds of the Northern War, kept her mill running for eight months past when everyone else stopped, supplying three settlements and at least one army company that wasn't supposed to be in the area. She's old now and tells the story differently every time, but the parts that stay the same are the important parts.</p>
@@ -2802,7 +2811,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <p><strong>GUILD ENFORCER</strong> - <em>Run</em></p>
 <ul>
 <li>MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3</li>
-<li><strong>paired blades:</strong> d6+d6+d6+d6</li>
+<li><strong>Paired Blades:</strong> d6+d6+d6+d6</li>
 <li><strong>Vital Blow:</strong> Rattled.</li>
 <li><strong>Special:</strong> Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.</li>
 </ul>
@@ -2844,7 +2853,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <hr>
 <h4 id="underhold" tabindex="-1">UNDERHOLD</h4>
 <blockquote>
-<p><strong>THE GOBFATHER:</strong> <em>Doom</em></p>
+<p><strong>THE GOBFATHER:</strong> - <em>Doom</em></p>
 <ul>
 <li>MEAT 30(2+) / ZEST 18(2+) / WITS 13(3+) / STRESS 20 / DEF4</li>
 <li><strong>Giant Gob Fists:</strong> d8+d6+d8+d6</li>
@@ -2864,46 +2873,46 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 </blockquote>
 <h4 id="brightwatch-company" tabindex="-1">BRIGHTWATCH COMPANY</h4>
 <blockquote>
-<p><strong>ALDRIC VANE</strong>, <em>Fighter, Doom tier</em></p>
+<p><strong>ALDRIC VANE</strong> - <em>Fighter, Doom tier</em></p>
 <ul>
 <li>MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5</li>
-<li><strong>Hero Sword</strong>, d8+d8</li>
-<li><strong>Shield Bash</strong>, d4+d6, on hit target gains Knocked. Requires shield equipped.</li>
+<li><strong>Hero Sword:</strong> d8+d8</li>
+<li><strong>Shield Bash:</strong> d4+d6, on hit target gains Knocked. Requires shield equipped.</li>
 <li><strong>Vital Blow:</strong> Rattled and Disoriented.</li>
-<li><strong>Special</strong>, Indomitable. <em>Riposte:</em> when parrying, use d12+d8. <em>Mounted:</em> when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. <em>Duty:</em> Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.</li>
+<li><strong>Special:</strong> Indomitable. <em>Riposte:</em> when parrying, use d12+d8. <em>Mounted:</em> when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. <em>Duty:</em> Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.</li>
 </ul>
 </blockquote>
 <hr>
 <blockquote>
-<p><strong>MAREN ASHVEIL</strong>, <em>Wizard, Doom tier</em></p>
+<p><strong>MAREN ASHVEIL</strong> - <em>Wizard, Doom tier</em></p>
 <ul>
 <li>MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1</li>
-<li><strong>Staff</strong>, d4+d6</li>
-<li><strong>Arcane Bolt (4*)</strong>, rd6+rd8, WITS damage. Ignores non-magical DEF.</li>
-<li><strong>Seeker (3*)</strong>, summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.</li>
+<li><strong>Staff:</strong> d4+d6</li>
+<li><strong>Arcane Bolt (4*):</strong> rd6+rd8, WITS damage. Ignores non-magical DEF.</li>
+<li><strong>Seeker (3*):</strong> summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water.</li>
 <li><strong>Vital Blow:</strong> Concussed.</li>
-<li><strong>Special</strong>, Indomitable. <em>Detect:</em> Maren's familiar, a small grey cat named <strong>Pebble</strong>, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. <em>Counterspell:</em> once per encounter, negate one magical effect targeting Maren or an adjacent ally. <em>Read:</em> Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.</li>
+<li><strong>Special:</strong> Indomitable. <em>Detect:</em> Maren's familiar, a small grey cat named <strong>Pebble</strong>, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. <em>Counterspell:</em> once per encounter, negate one magical effect targeting Maren or an adjacent ally. <em>Read:</em> Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.</li>
 </ul>
 </blockquote>
 <hr>
 <blockquote>
-<p><strong>SARBORAS FESS</strong>, <em>Rogue, Doom tier</em></p>
+<p><strong>SARBORAS FESS</strong> - <em>Rogue, Doom tier</em></p>
 <ul>
 <li>MEAT 18(2+) / ZEST 10(4+) / WITS 16(2+) / STRESS 6 / DEF2</li>
-<li><strong>Twin Daggers</strong>, d6+d6+d6+d6</li>
-<li><strong>Garrotte (2*)</strong>, MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.</li>
+<li><strong>Twin Daggers:</strong> d6+d6+d6+d6</li>
+<li><strong>Garrotte (2*):</strong> MEAT save or Immobilize and Bleed, can repeat this MEAT save on their action to break free.</li>
 <li><strong>Vital Blow:</strong> Rattled.</li>
-<li><strong>Special</strong>, Indomitable. <em>Vanish:</em> if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. <em>Lift:</em> Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. <em>Professional Habit:</em> Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.</li>
+<li><strong>Special:</strong> Indomitable. <em>Vanish:</em> if Sarboras dealt no damage to MEAT with their attack they vanish. Cannot be targeted until they attack again. <em>Lift:</em> Sarboras may attempt to steal any [1] item on a MEAT save (2+) in any social situation. They will not resist doing this. It is not malicious. It is professional. <em>Professional Habit:</em> Sarboras will pilfer anything unattended that has obvious value. This includes things the goblins have already pilfered, left somewhere, or are actively using.</li>
 </ul>
 </blockquote>
 <hr>
 <blockquote>
-<p><strong>CORVIN SALTMARSH</strong>, <em>Cleric, Doom tier</em></p>
+<p><strong>CORVIN SALTMARSH</strong> - <em>Cleric, Doom tier</em></p>
 <ul>
 <li>MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3</li>
-<li><strong>Blessed Mace</strong>, d6+d8</li>
+<li><strong>Blessed Mace:</strong> d6+d8</li>
 <li><strong>Vital Blow:</strong> Frightened.</li>
-<li><strong>Special</strong>, Indomitable. <em>Heal:</em> may use their action to restore d6 STRESS to any visible ally. <em>Sanctuary:</em> once per encounter, target ally cannot be attacked for one round. <em>Sermon:</em> once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. <em>Decency:</em> Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.</li>
+<li><strong>Special:</strong> Indomitable. <em>Heal:</em> may use their action to restore d6 STRESS to any visible ally. <em>Sanctuary:</em> once per encounter, target ally cannot be attacked for one round. <em>Sermon:</em> once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. <em>Decency:</em> Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.</li>
 </ul>
 </blockquote>
 <h4 id="the-open-coats-1" tabindex="-1">THE OPEN COATS</h4>
@@ -2939,13 +2948,13 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 </blockquote>
 <h4 id="others" tabindex="-1">OTHERS</h4>
 <blockquote>
-<p><strong>THE SCREAMING LICH</strong>, <em>Lich, Doom tier</em></p>
+<p><strong>THE SCREAMING LICH</strong> - <em>Lich, Doom tier</em></p>
 <ul>
 <li>MEAT 0(6+) / ZEST 0(6+) / WITS 30(2+) / STRESS 40 / DEF4</li>
 <li><strong>Finger of Death:</strong> d8+d8, if this kills a creature they are raised the next round as an Undead.</li>
-<li><strong>Necrotic Scream (2*)</strong>, ZEST save or take 8d8 chronic MEAT damage.</li>
+<li><strong>Necrotic Scream (2*):</strong> ZEST save or take 8d8 chronic MEAT damage.</li>
 <li><strong>Vital Blow:</strong> Chilled, Rattled, Exhausted.</li>
-<li><strong>Special</strong>, Indomitable. <em>Death Ward:</em> The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. <em>Phylactery:</em> If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.</li>
+<li><strong>Special:</strong> Indomitable. <em>Death Ward:</em> The lich may take 1 STRESS to increase it's DEF to 6 when targeted by a non-magical attack. <em>Phylactery:</em> If a lich STRESS is filled they disappear and reform in 1d6 days. To destroy a lich you must find and destroy their phylactery; the relic that houses their soul.</li>
 </ul>
 </blockquote>
 <hr>
@@ -2967,9 +2976,15 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <li><strong>Vital Blow:</strong> Standard.</li>
 <li><strong>Special:</strong> At 0 MEAT; Unconscious. Recovers with rest. Takes [22] in pack.</li>
 <li><strong>Inventory:</strong> [1] Body slot + [1] Mouth slot.</li>
-<li><strong>Danger:</strong> Rolls ZEST. Failure = ignores commands until safe.</li>
 </ul>
 </blockquote>
+<ul>
+<li>
+<ul>
+<li><strong>Danger:</strong> Rolls ZEST. Failure = ignores commands until safe.</li>
+</ul>
+</li>
+</ul>
 <hr>
 <blockquote>
 <p><strong>MUCKSOW</strong> - <em>Scum</em></p>
@@ -3148,7 +3163,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <td style="text-align:center">(3)</td>
 <td style="text-align:center">[11]</td>
 <td style="text-align:center">25g</td>
-<td>rd8+rd6. Quiver(6)[1]</td>
+<td>rd8+rd6. Quiver(6) [1]</td>
 </tr>
 <tr>
 <td style="text-align:center">20</td>
@@ -3156,7 +3171,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <td style="text-align:center">(3)</td>
 <td style="text-align:center">[11]</td>
 <td style="text-align:center">30g</td>
-<td>rd8+rd6. Bolts(6)[1]</td>
+<td>rd8+rd6. Bolts(6) [1]</td>
 </tr>
 </tbody>
 </table>
@@ -3236,7 +3251,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <td style="text-align:center">[1]</td>
 <td style="text-align:center">4</td>
 <td style="text-align:center">45g</td>
-<td>MEAT 8+</td>
+<td>MEAT 7+</td>
 </tr>
 <tr>
 <td style="text-align:center">9</td>
@@ -3244,7 +3259,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <td style="text-align:center">[1]</td>
 <td style="text-align:center">4</td>
 <td style="text-align:center">50g</td>
-<td>MEAT 8+</td>
+<td>MEAT 7+</td>
 </tr>
 <tr>
 <td style="text-align:center">10</td>
@@ -4322,7 +4337,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <h3 id="encounter-tables" tabindex="-1">ENCOUNTER TABLES</h3>
 <p>Encounter tables are <strong>d6</strong> and specific to the area the party is in. Create a table for each distinct area or dungeon level. Results should reflect what actually lives or patrols that area.</p>
 <p>When the Itch drops below 0 or during travel/camp, roll on the relevant encounter table and then if in a dungeon reset the Itch to 20. Results are not always combat, some encounters are noise, evidence of danger, or something passing nearby.</p>
-<p>When you roll a 6, roll again and take the new result. This is to ensure 6's are not common.</p>
+<p>When you roll a 6, roll one more and take the new result. This is to ensure 6's are not common.</p>
 <p>For each encounter, roll Reaction if the creature's disposition is not obvious.</p>
 <h5 id="example-entrance-to-the-screaming-lichs-dungeon" tabindex="-1">Example: Entrance to the Screaming Lich's Dungeon</h5>
 <table>
@@ -4561,7 +4576,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 </tr>
 <tr>
 <td>2</td>
-<td>3	An old wandering hermit. They are delirious from the cold. Roll Reaction.</td>
+<td>An old wandering hermit. They are delirious from the cold. Roll Reaction.</td>
 </tr>
 <tr>
 <td>3</td>
@@ -4658,9 +4673,7 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <hr>
 <h3 id="basic-loot-table" tabindex="-1">BASIC LOOT TABLE</h3>
 <blockquote>
-<p>Gold values represent what a fence will pay you (roughly 20% cut from their buyer).
-A private buyer, a collector, or someone who specifically needs the item will pay more. If you can find one.
-For a rough full value of an item, multiply the value by 5 and round up.</p>
+<p>Finding a buyer for stolen loot can be difficult. A common fence will pay 50% value for items.</p>
 </blockquote>
 <p>Roll <strong>1d100</strong> when generating loot.</p>
 <h4 id="140-scrap-and-common" tabindex="-1">1–40: Scrap and Common</h4>
@@ -5887,7 +5900,7 @@ For a rough full value of an item, multiply the value by 5 and round up.</p>
 <h3 id="magic-items" tabindex="-1">MAGIC ITEMS</h3>
 <p>Magic items cannot be crafted. They are found, stolen, or taken from someone who no longer needs them.</p>
 <blockquote>
-<p>All magic item values below are fence prices. A wizard, collector, or desperate soul will pay considerably more.</p>
+<p>All magic item values below are what a wizard, collector, or desperate soul will pay, a common fence will pay 50%.</p>
 </blockquote>
 <h4 id="weapons-d66-1116" tabindex="-1">Weapons (d66: 11–16)</h4>
 <table>
@@ -6270,9 +6283,6 @@ For a rough full value of an item, multiply the value by 5 and round up.</p>
 <hr>
 <h3 id="valuables-worth-taking" tabindex="-1">VALUABLES WORTH TAKING</h3>
 <p>Roll <strong>d100</strong> when the party finds something worth taking or to fill a room.</p>
-<blockquote>
-<p>Gold values are approximate full values.</p>
-</blockquote>
 <table>
 <thead>
 <tr>
@@ -6887,7 +6897,7 @@ For a rough full value of an item, multiply the value by 5 and round up.</p>
 </table>
 <hr>
 <h3 id="goods--services-price-reference" tabindex="-1">GOODS &amp; SERVICES PRICE REFERENCE</h3>
-<p>Prices are in gold. Use these as a baseline for pricing other items the party is looking to buy or sell.</p>
+<p>Use these as a baseline for pricing other items the party is looking to buy or sell. Prices are in gold.</p>
 <blockquote>
 <p>Prices assume a city with working markets. In small settlements, rare goods cost double or aren't available.</p>
 </blockquote>
@@ -7240,7 +7250,7 @@ For a rough full value of an item, multiply the value by 5 and round up.</p>
 <p><strong>Rumour:</strong> <em>"What they're ploughing up out on the Drowned Plateau isn't bones. Bones I could explain. This is different. The farmers have a word for it in their own dialect."</em></p>
 <p><strong>Wandering Faction:</strong> Veterans of the Northern War who stopped moving and started farming out of sheer exhaustion. Tolerant of goblins, hostile to anyone they associate with either side of the war. They have buried their valuables and will do so again when anyone with a banner rides past.</p>
 <hr>
-<h1 id="gm-notes" tabindex="-1">GM NOTES</h1>
+<h2 id="gm-notes" tabindex="-1">GM NOTES</h2>
 <p><strong>The three craters:</strong> Two impact sites in the south and one in the north. The northern crater is far older than the southern ones, but all three predate Glimmerhold by many, many years. Maren Ashveil has been studying them.</p>
 <p><strong>Shadow of The Northern War:</strong> The northern hexes all bear the war's mark. Veterans, ruins, abandoned settlements, sealed mines. The war is technically over but the consequences remain.</p>
 <p><strong>The southwestern desert:</strong> Three desert hexes form a large desert with escalating strangeness. The Shimmer Flats are the surface indication of something much older. The monastery in southwestern corner and the waystation are all connected. The western desert should present as a coherent mystery.</p>

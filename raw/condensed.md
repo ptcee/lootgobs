@@ -1,5 +1,5 @@
 LOOT GOBLINS RULES REFERENCE
-*v1.0* - todo: buried thing, urchine, statblocks, playtest
+*v1.0* - todo: formatting consistency, playtest
 
 ---
 
@@ -342,7 +342,7 @@ After assigning dice, if Break die and Damage die show the **same value**: criti
 
 **Block**, Shields absorb 1 damage per use marked. d10 Damage dice cannot be blocked. Shield fully marked = broken. Excess damage carries over normally. Requires MEAT 7+.
 
-**Parry**, Requires dual wield. d4 dice excluded from parry rolls.
+**Parry**, choose one weapon; d4 dice excluded from parry rolls.
 1. Attacker declares attack. Defender declares parry.
 2. Both roll attack dice and assign Break + Damage dice.
 3. Higher Break die wins; winner deals chronic MEAT damage.
@@ -1457,17 +1457,45 @@ There are two types of folk in Orrelia. One's who find the Colds dark, cold and 
 
 ## SECTION 1: BESTIARY
 
-### BASIC BESTIARY
-
 Monster stat blocks use the same MEAT / ZEST / WITS stats as players. Monsters do not have COURAGE. Their attacks list specific dice and any Vital Blow effect that replaces the Injury Table on a failed save.
 
 **Vital Blow entries** describe the effect applied to the player on a failed Vital Blow roll against that monster's attack. This replaces the standard injury table roll.
 
-**Morale Break** is a universal rule for all monsters. When a monster takes 3 or more MEAT damage from a single hit, it must roll against its own MEAT target number or flee/surrender. Monsters with the **Indomitable** keyword automatically succeed.
+**Morale Break** is a universal rule for all enemies. When an enemy takes 3 or more MEAT damage from a single hit, it must make a ZEST save or flee/surrender. Enemies with the **Indomitable** keyword automatically succeed.
 
 Threat tiers: **Scum / Danger / Run / Doom**
 
 Use the following stat blocks as a framework for your own monsters and NPCs.
+
+Blueprints are designed for a party of 4, aiming for roughly 3 rounds of combat. Impactful and decisive.
+
+#### Blueprint Stat Blocks
+
+> **[SCUM BLUEPRINT]**
+> - MEAT 5(6+) / ZEST 5(6+) / WITS 6(5+) / STRESS 3 / DEF 1
+> - **Attack:** d4+d6
+> - **Indomitable:** No
+> - **Design intent:** Manageable 1v1. Dangerous in numbers (3+). Should not threaten the party alone. TPK chance: <5%.
+
+> **[DANGER BLUEPRINT]**
+> - MEAT 10(4+) / ZEST 8(5+) / WITS 8(5+) / STRESS 6 / DEF 2
+> - **Attack:** d6+d8
+> - **Indomitable:** No
+> - **Design intent:** Tense 4v4. Party may take a beating. TPK chance: 5–20%.
+
+> **[RUN BLUEPRINT]**
+> - MEAT 16(2+) / ZEST 10(4+) / WITS 10(4+) / STRESS 10 / DEF 3
+> - **Attack:** d8+d10
+> - **Indomitable:** Yes
+> - **Design intent:** Real chance of losing a goblin. Retreat may be optimal. TPK chance: ~50%.
+
+> **[DOOM BLUEPRINT]**
+> - MEAT 24(2+) / ZEST 14(3+) / WITS 12(4+) / STRESS 14 / DEF 4
+> - **Attack:** d10+d10
+> - **Indomitable:** Yes
+> - **Design intent:** Likely wipe at 1v1 or 4v4. Outsmart it or run. TPK chance: 60%+.
+
+### BASIC BESTIARY
 
 > **GIANT RAT** - *Scum*
 > - MEAT 4(6+) / ZEST 6(5+) / WITS 3(6+) / STRESS 3 / DEF1
@@ -1476,7 +1504,7 @@ Use the following stat blocks as a framework for your own monsters and NPCs.
 > - **Special:** Pack Hunters: If three or more rats are present they are all Bolstered.
 
 > **BAT SWARM** - *Scum*
-> - MEAT 7(5+) / ZEST 5(6+) / WITS 4(6+) / STRESS 0 / DEF1
+> - MEAT 9(5+) / ZEST 13(3+) / WITS 4(6+) / STRESS 0 / DEF1
 > - **Smother:** d4+d6
 > - **Vital Blow:** Disoriented.
 > - **Special:** Each point of MEAT represents one bat. Fire attacks are Bolstered against them.
@@ -1489,19 +1517,19 @@ Use the following stat blocks as a framework for your own monsters and NPCs.
 > - **Special:** None.
 
 > **UNDEAD** - *Danger*
-> - MEAT 12(4+) / ZEST 0(-) / WITS 3(6+) / STRESS 8 / DEF2
+> - MEAT 9(5+) / ZEST 0(-) / WITS 3(6+) / STRESS 7 / DEF2
 > - **Rotting Claw:** d6+d6
 > - **Vital Blow:** Rattled.
 > - **Special:** Indomitable. ZEST 0 means permanently feral, attacking the nearest non-undead mindlessly. Immune to Frightened and Rattled.
 
 > **HELLHOUND** - *Danger*
-> - MEAT 8(5+) / ZEST 7(5+) / WITS 6(5+) / STRESS 4 / DEF2
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 6(5+) / STRESS 6 / DEF2
 > - **Flame Bite:** d6+d6
 > - **Vital Blow:** Apply Burning.
 > - **Special:** Pack Hunters. If three or more Hellhounds are present they are all Bolstered.
 
 > **GIANT SPIDER** - *Danger*
-> - MEAT 8(5+) / ZEST 7(5+) / WITS 9(5+) / STRESS 4 / DEF2
+> - MEAT 8(5+) / ZEST 7(5+) / WITS 9(5+) / STRESS 5 / DEF2
 > - **Venomous Bite:** d4+d8 on hit the target gains Poisoned.
 > - **Vital Blow:** Trigger Poisoned.
 > - **Special:** Ambush: first attack from hiding is Bolstered. Web: once per encounter Hinder all attacks against it for one round.
@@ -1509,7 +1537,7 @@ Use the following stat blocks as a framework for your own monsters and NPCs.
 ---
 
 > **ORC WARRIOR** - *Danger*
-> - MEAT 12(4+) / ZEST 10(4+) / WITS 5(6+) / STRESS 6 / DEF3
+> - MEAT 10(4+) / ZEST 10(4+) / WITS 5(6+) / STRESS 7 / DEF2
 > - **Greatclub:** d8+d8
 > - **Vital Blow:** Concussed.
 > - **Special:** Thick Skull: Vital Blow threshold is 5 instead of 3.
@@ -1599,7 +1627,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### AQUATIC
 
 > **SNAPPING TURTLE** - *Scum*
-> - MEAT 7(5+) / ZEST 6(5+) / WITS 3(6+) / STRESS 4 / DEF3
+> - MEAT 6(5+) / ZEST 6(5+) / WITS 3(6+) / STRESS 4 / DEF3
 > - **Bite:** d6+d6
 > - **Vital Blow:** Knocked.
 > - **Special:** Shell: when the turtle takes a Vital Blow it retreats into its shell, gaining DEF5 until its next action. Cannot attack while shelled.
@@ -1607,7 +1635,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **RIVER TROLL** - *Danger*
-> - MEAT 14(3+) / ZEST 8(5+) / WITS 4(6+) / STRESS 8 / DEF3
+> - MEAT 11(4+) / ZEST 10(4+) / WITS 6(5+) / STRESS 7 / DEF3
 > - **Greatclub:** d8+d8
 > - **Vital Blow:** Slimed.
 > - **Special:** Regenerate: restore 2 damage at the start of each action. Burning stops regeneration.
@@ -1615,7 +1643,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **WATER ELEMENTAL** - *Run*
-> - MEAT 18(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
+> - MEAT 17(2+) / ZEST 0(-) / WITS 6(5+) / STRESS 0 / DEF2
 > - **Surge:** d8+3d10, assign one Break die and the remaining dice as damage to different targets. 
 > - **Vital Blow:** Drowning: gain Immobilized, while persists take d4 damage at the start of their action.
 > - **Special:** Indomitable. Elemental: takes half damage (rounded up) from non magical weapons. 
@@ -1641,7 +1669,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **BOG WRAITH** - *Danger*
-> - MEAT 9(5+) / ZEST 0(-) / WITS 8(5+) / STRESS 5 / DEF2
+> - MEAT 7(5+) / ZEST 0(-) / WITS 8(5+) / STRESS 4 / DEF2
 > - **Draining Touch:** d6+d6 ZEST damage
 > - **Vital Blow:** Standard.
 > - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up).
@@ -1649,7 +1677,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **HYDRA** - *Run*
-> - MEAT 20(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 12 / DEF2
+> - MEAT 16(2+) / ZEST 12(4+) / WITS 4(6+) / STRESS 10 / DEF2
 > - **Multi-Bite:** d6+3d6, assign one Break die and the remaining dice as damage to different targets.
 > - **Vital Blow:** Standard.
 > - **Special:** Indomitable. Regrow: when the Hydra takes 5 or more MEAT damage from a single hit it regrows; restore 4 STRESS. Burning prevents regrowth.
@@ -1683,7 +1711,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **DEATH WORM** - *Run*
-> - MEAT 22(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 12 / DEF3
+> - MEAT 17(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 12 / DEF3
 > - **Crush:** d8+d10, target is Immobilized on hit.
 > - **Acid Spit (2\*):** rd6+rd8, damage is doubled vs shields.
 > - **Vital Blow:** Equipped armour DEF reduced by 1 permanently.
@@ -1701,7 +1729,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### FOREST
 
 > **GROVEHOUND** - *Scum*
-> - MEAT 7(5+) / ZEST 8(5+) / WITS 6(5+) / STRESS 4 / DEF1
+> - MEAT 4(6+) / ZEST 8(5+) / WITS 6(5+) / STRESS 4 / DEF1
 > - **Bite:** d4+d8
 > - **Vital Blow:** Knocked.
 > - **Special:** Pack Hunters: if three or more grovehounds are present they are all Bolstered.
@@ -1709,15 +1737,15 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **TREANT** - *Danger*
-> - MEAT 16(2+) / ZEST 10(4+) / WITS 6(5+) / STRESS 10 / DEF3
+> - MEAT 12(4+) / ZEST 10(4+) / WITS 6(5+) / STRESS 10 / DEF3
 > - **Branch Slam:** d8+d8
 > - **Vital Blow:** Immobilized and Knocked.
 > - **Special:** Indomitable. Fire Vulnerability: Burning deals double damage and must make a ZEST save or flee. Root Network: when one Treant is attacked, all Treants within the forest are aware.
 
 ---
 
-> **GREEN DRAGON** - *Run*
-> - MEAT 24(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 14 / DEF4
+> **YOUNG GREEN DRAGON** - *Run*
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 16(2+) / STRESS 10 / DEF4
 > - **Claw:** d8+d10
 > - **Poison Breath (2\*):** rd6+5rd4, assign one Break die and the remaining dice as damage to different targets. Any target hit is Poisoned.
 > - **Vital Blow:** Trigger Poisoned.
@@ -1726,7 +1754,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **THE HORNED BEAST** - *Doom*
-> - MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 12 / DEF3
+> - MEAT 20(2+) / ZEST 21(2+) / WITS 14(3+) / STRESS 16 / DEF3
 > - **Gore:** d8+d10
 > - **Vital Blow:** Target flies 10ft and is Knocked, Winded and Bleeds upon landing.
 > - **Special:** Indomitable. Hunter: has been tracking the party since they entered the forest. Knows the terrain. Unknowable: reaction rolls for The Horned Beast always result in Hostile, it does not negotiate.
@@ -1735,7 +1763,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### GRASSLAND
 
 > **GIANT VULTURE** - *Scum*
-> - MEAT 8(5+) / ZEST 9(5+) / WITS 10(4+) / STRESS 4 / DEF2
+> - MEAT 3(6+) / ZEST 9(5+) / WITS 10(4+) / STRESS 6 / DEF1
 > - **Talon:** d6+d6
 > - **Vital Blow:** Target is grabbed and lifted; Immobilized. MEAT save each round to break free or when the Vulture drops them. 1d6 falling damage per 10 feet.
 > - **Special:** Airborne: cannot be targeted by non-ranged attacks while flying. Keen Sight: cannot be surprised, detects hidden creatures automatically.
@@ -1743,7 +1771,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **MANTICORE** - *Danger*
-> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 8 / DEF3
+> - MEAT 11(4+) / ZEST 12(4+) / WITS 8(5+) / STRESS 5 / DEF3
 > - **Claw** - d8+d8
 > - **Tail Spike (3\*):** rd6+rd6
 > - **Vital Blow:** Winded and Bleed.
@@ -1760,7 +1788,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **THE SIEGE GOLEM** - *Doom*
-> - MEAT 30(2+) / ZEST 0(-) / WITS 0(-) / STRESS 20 / DEF5
+> - MEAT 20(2+) / ZEST 0(-) / WITS 0(-) / STRESS 20 / DEF5
 > - **Crushing Fist:** d10+d10
 > - **Sweep:** d8+3d8, assign one Break die and the remaining dice as damage to different targets.
 > - **Vital Blow:** Target immediately rolls on the Permanent Injury table.
@@ -1769,7 +1797,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### TUNDRA
 
 > **HOARFOX** - *Scum*
-> - MEAT 9(5+) / ZEST 8(5+) / WITS 7(5+) / STRESS 5 / DEF2
+> - MEAT 6(5+) / ZEST 8(5+) / WITS 7(5+) / STRESS 3 / DEF1
 > - **Bite:** d6+d6
 > - **Vital Blow:** Chilled.
 > - **Special:** Pack Hunters: if three or more are present they are all Bolstered. Tireless: cannot be outrun in tundra terrain.
@@ -1777,7 +1805,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **FROST WRAITH** - *Danger*
-> - MEAT 10(4+) / ZEST 0(-) / WITS 10(4+) / STRESS 6 / DEF2
+> - MEAT 9(5+) / ZEST 0(-) / WITS 10(4+) / STRESS 5 / DEF2
 > - **Freeze:** d6+d6 ignores shields.
 > - **Vital Blow:** Immobilized and Chilled.
 > - **Special:** Indomitable. Incorporeal: halve all damage taken (rounded up). Cold Aura: all creatures adjacent to the wraith are Hindered on ZEST saves.
@@ -1785,7 +1813,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **FROST GIANT** - *Run*
-> - MEAT 22(2+) / ZEST 14(3+) / WITS 6(5+) / STRESS 12 / DEF4
+> - MEAT 17(2+) / ZEST 14(3+) / WITS 6(5+) / STRESS 12 / DEF4
 > - **Boulder:** rd8+rd10
 > - **Vital Blow:** Knocked.
 > - **Special:** Indomitable. Throw: instead of attacking, the giant hurls a party member d3 x10ft. They take d6 damage on landing.
@@ -1800,8 +1828,8 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 #### MOUNTAIN
 
-> **GIANT MOUNTAIN GOAT** - *Scum*
-> - MEAT 8(5+) / ZEST 9(5+) / WITS 5(6+) / STRESS 4 / DEF1
+> **MOUNTAIN GOAT** - *Scum*
+> - MEAT 6(5+) / ZEST 9(5+) / WITS 5(6+) / STRESS 4 / DEF1
 > - **Headbutt:** d6+d6
 > - **Vital Blow:** Knocked.
 > - **Special:** Sure-Footed: immune to terrain movement penalties. Charge: if the goat moves before attacking, the attack is Bolstered.
@@ -1809,7 +1837,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **STONE TROLL** - *Danger*
-> - MEAT 18(2+) / ZEST 10(4+) / WITS 4(6+) / STRESS 10 / DEF4
+> - MEAT 14(3+) / ZEST 10(4+) / WITS 4(6+) / STRESS 8 / DEF4
 > - **Boulder Fist:** d8+d10
 > - **Vital Blow:** Concussed.
 > - **Special:** Indomitable. Thick Hide: DEF counts as 5 against d4 and d6 attacks. Petrify: in direct sunlight, the troll turns to stone.
@@ -1817,7 +1845,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **WYVERN** - *Run*
-> - MEAT 24(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 14 / DEF4
+> - MEAT 18(2+) / ZEST 14(3+) / WITS 10(4+) / STRESS 12 / DEF4
 > - **Claw:** d8+d10
 > - **Tail Sting:** d6+d8 on hit the target gains Poisoned.
 > - **Vital Blow:** Trigger Poisoned.
@@ -1836,8 +1864,8 @@ Threat tiers: **Scum / Danger / Run / Doom**
 #### CITY
 
 
-> **CITY GUARD (or BANDIT)** - *Scum*
-> - MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 4 / DEF2
+> **CITY GUARD / BANDIT** - *Scum*
+> - MEAT 7(5+) / ZEST 6(5+) / WITS 5(6+) / STRESS 3 / DEF2
 > - **Club:** d6+d6
 > - **Vital Blow:** Standard.
 > - **Special:** Numbers: for every guard beyond the first attacking the same target, that target is Hindered on their next roll. Scatter: when half the guards in the encounter are killed or flee, the rest flee.
@@ -1845,7 +1873,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **CITY WATCH CAPTAIN** - *Danger*
-> - MEAT 12(4+) / ZEST 10(4+) / WITS 12(4+) / STRESS 8 / DEF3
+> - MEAT 10(4+) / ZEST 10(4+) / WITS 12(4+) / STRESS 8 / DEF3
 > - **Shortsword:** d6+d8
 > - **Vital Blow:** Arrested - Target is Immobilized and Captured when combat ends.
 > - **Special:** Backup: at the end of each round, d4 additional guards arrive until the captain whistles them off. Authoritative: During the first round all enemies must pass a ZEST save or be Hindered on their first action.
@@ -1853,7 +1881,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **GUILD ENFORCER** - *Run*
-> - MEAT 14(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
+> - MEAT 15(3+) / ZEST 12(4+) / WITS 14(3+) / STRESS 10 / DEF3
 > - **Paired Blades:** d6+d6+d6+d6
 > - **Vital Blow:** Rattled.
 > - **Special:** Indomitable. Shadowed: cannot be surprised, immune to ambushes. Contract: the Enforcer has a specific target. They will not attack anyone else unless attacked first. Professional: immune to Frightened and Rattled.
@@ -1865,7 +1893,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 > - **Quarterstaff:** d4+d6
 > - **Soul Bolt (4\*):** rd8+rd8 ZEST damage *(Blast Fractured Mind)*
 > - **Vital Blow:** Concussed.
-> - **Special:** Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 10 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
+> - **Special:** Indomitable. *Counterspell:* once per encounter, negate any magical effect targeting the Magister or an adjacent ally. *Ward:* the Magister has a magical shield granting 15 STRESS that must be depleted before they take damage. The ward does not regenerate. *City Authority:* the Magister can summon d8 City Guards as an action. They arrive next round.
 
 ---
 
@@ -1902,7 +1930,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **TONY GOBLIONI** - *Scum*
-> - MEAT 7(6+) / ZEST 10(5+) / WITS 15(2+) / STRESS 6 / DEF2
+> - MEAT 7(6+) / ZEST 10(5+) / WITS 15(2+) / STRESS 6 / DEF1
 > - **Heavy Tome:** d6+d6
 > - **Vital Blow:** Concussed.
 > - **Special:** Indomitable, if Gobfather is present. *Sense of Direction:* Immune to Disoriented, Concussed and Immobilized. *Master Cartographer:* Can never be lost. *Master Spy:* Has DEF5 vs Hindered attacks.
@@ -1913,20 +1941,20 @@ Threat tiers: **Scum / Danger / Run / Doom**
 
 > **ALDRIC VANE** - *Fighter, Doom tier*
 > - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 20 / DEF5
-> - **Hero Sword:** d8+d8
-> - **Shield Bash:** d4+d6, on hit target gains Knocked. Requires shield equipped.
+> - **Hero Sword:** d10+d10
+> - **Shield Bash:** d4+d6, on hit target gains Knocked.
 > - **Vital Blow:** Rattled and Disoriented.
-> - **Special:** Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon. This is exploitable.
+> - **Special:** Indomitable. *Riposte:* when parrying, use d12+d8. *Mounted:* when on horseback, first attack is Bolstered and successful Vital Blow forces a MEAT save or Knocked. *Duty:* Aldric will always stop to arrest or confront any creature committing an obvious crime, even mid-dungeon.
 
 ---
 
 > **MAREN ASHVEIL** - *Wizard, Doom tier*
 > - MEAT 6(5+) / ZEST 10(4+) / WITS 20(2+) / STRESS 12 / DEF1
 > - **Staff:** d4+d6
-> - **Arcane Bolt (4\*):** rd6+rd8, WITS damage. Ignores non-magical DEF. *(Blast Blunt Object)*
+> - **Arcane Bolt (4\*):** rd6+rd8, WITS damage. Treats non-magical DEF as 1. *(Blast Blunt Object)*
 > - **Seeker (3\*):** summons a mote of tracking light. It follows the last creature it detected for d6 turns. Maren's attacks are bolstered against the target. Will not cross running water. *(Summon Bright Hunger)*
 > - **Vital Blow:** Concussed.
-> - **Special:** Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes things down immediately, those notes exist somewhere.
+> - **Special:** Indomitable. *Detect:* Maren's familiar, a small grey cat named **Pebble**, can smell goblins, kobolds and fresh magic at a range of 30ft. Pebble will stare at whatever it has detected until Maren notices. *Counterspell:* once per encounter, negate one magical effect targeting Maren or an adjacent ally. *Read:* Maren can identify any magic item correctly on a WITS save (2+). She writes it all down, those notes exist somewhere.
 
 ---
 
@@ -1940,35 +1968,35 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **CORVIN SALTMARSH** - *Cleric, Doom tier*
-> - MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 11 / DEF3
+> - MEAT 10(4+) / ZEST 20(2+) / WITS 10(4+) / STRESS 16 / DEF3
 > - **Blessed Mace:** d6+d8
 > - **Vital Blow:** Frightened.
-> - **Special:** Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. This is a quality he has maintained against considerable social pressure.
+> - **Special:** Indomitable. *Heal:* may use their action to restore d6 STRESS to any visible ally. *Sanctuary:* once per encounter, target ally cannot be attacked for one round. *Sermon:* once per session, Corvin may speak for one turn about his faith. All Scum-tier creatures that fail a ZEST save are Charmed until Corvin attacks them. *Decency:* Corvin will treat any creature that is clearly suffering or in need with compassion. 
 
 #### THE OPEN COATS
 
 > **RUMBLESTRIDE** - *Doom*
-> - MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 12 / DEF3
-> - **Conjured Ice Blade:** d8+d8, on hit target gains Chilled. *(Twist Sharp Element)*
-> - **Vital Blow:** Immobilized (the cold gets into the joints).
-> - **Special:** *Indomitable.* *Stilled Moment:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 1d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* something about it. Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
+> - MEAT 12(4+) / ZEST 15(3+) / WITS 16(2+) / STRESS 16 / DEF3
+> - **Conjured Ice Blade:** d10+d8, on hit target gains Chilled. *(Twist Sharp Element)*
+> - **Vital Blow:** Immobilized.
+> - **Special:** *Indomitable.* *Time Stop:* once per encounter, Rumblestride removes himself from time for one round. He can take two actions in this turn and heals 2d8 damage. *Walk Away:* Rumblestride will disengage and leave the moment combat becomes unnecessary. He also will not pursue. *The Coat:* Attacks that would reduce Rumblestride below 3 MEAT are reduced to dealing 1 damage instead.
 
 ---
 
 > **DARDANEL MOONSWADDLE** - *Doom*
-> - MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 10 / DEF2
-> - **Void Lance (4\*):** rd8+rd10, ignores DEF from armour. Dardanel chooses the colour of the impact. *(Blast Distant Blood)*
-> - **Vital Blow:** Rattled and Disoriented (the colours are overwhelming).
+> - MEAT 10(4+) / ZEST 16(2+) / WITS 18(2+) / STRESS 12 / DEF2
+> - **Void Lance (4\*):** rd10+rd10, treats all DEF as 1. *(Blast Distant Blood)*
+> - **Vital Blow:** Rattled and Disoriented.
 > - **Special:** *Indomitable.* *Grease Field (2\*):* covers a 15ft area. All creatures entering or starting their turn in the area must pass a MEAT save or gain Knocked. *Dramatic Positioning:* Dardanel is always in the most visually interesting part of the room. He cannot be flanked because he has already considered all possible angles. Add 1 free COURAGE die to any Void Lance roll made from an elevated position.
 
 ---
 
 > **ROLART THE MAD** - *Doom*
-> - MEAT 8(5+) / ZEST 20(2+) / WITS 5(6+) / STRESS 20 / DEF1
+> - MEAT 5(6+) / ZEST 20(2+) / WITS 5(6+) / STRESS 23 / DEF1
 > - **Stefin's Suggestion:** d4+d4, the canary indicates a target and something unpleasant happens to them.
 > - **Conflagration (3\*):** rd6+5rd6, assign one Break die and the remaining dice as damage to different targets. If three dice match roll on the Major Magical Mishaps table. *(Shatter Bright Element)*
 > - **Vital Blow:** Burning.
-> - **Special:** *Indomitable.* *Stefin Knows:* the canary cannot be fooled, charmed, or surprised and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Cascading Incident:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *What Does He Want:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral and observing, 5-6 he has decided something needs to be on fire.
+> - **Special:** *Indomitable.* *Stefin Knows:* Stefin cannot be fooled, charmed, or surprised and neither can Rolart while Stefin is present and conscious. Stefin has 2 MEAT. *Bring Chaos:* whenever Rolart rolls a mishap on a spell, roll  twice on the Major Mishaps table. *Is Chaos:* Rolart's motivation in any encounter is unclear even to Rolart. Roll a d6 at the start of combat: 1-2 he is helpful, 3-4 he is neutral, 5-6 everything needs to be on fire.
 
 #### OTHERS
 
@@ -1982,7 +2010,7 @@ Threat tiers: **Scum / Danger / Run / Doom**
 ---
 
 > **SIGVALD OF THE CUT** - *Run*
-> - MEAT 12(3+) / ZEST 20(2+) / WITS 8(4+) / STRESS 15 / DEF5
+> - MEAT 12(3+) / ZEST 20(2+) / WITS 8(4+) / STRESS 10 / DEF5
 > - **Grum's Greataxe:** d8+d10
 > - **Vital Blow:** Standard and Bleed.
 > - **Special:** Indomitable. *Stoneflesh:* Sigvald is weathered from the peaks and ignores any critical hit damage dice. *Favoured of Grum:* Sigvald cannot be Concussed, Disoriented or Knocked.
@@ -2188,8 +2216,8 @@ Roll two d6. The first die is the row (1-6), the second die is the column (1-6).
 
 | d10 | Dungeon |
 |:---:|---|
-| 1 | A dormant volcanic chamber filled with abandoned ironworks and fire drakes guarding ancient dwarven blueprints. |
-| 2 | A high altitude monastery once used to train giant hawks is now a tiered dungeon occupied by territorial harpies and elementals. |
+| 1 | A dormant volcanic chamber filled with abandoned ironworks and stone trolls guarding ancient dwarven blueprints. |
+| 2 | A high altitude monastery once used to train giant hawks is now a tiered dungeon occupied by territorial wyverns. |
 | 3 | A silver mine that hit a pocket of eternal cold that contains miners frozen in mid-swing and tunnels lined with jagged, magical frost. |
 | 4 | A ridge-side prison where prisoners are forced to mine obsidian blocks from the peaks while chained to the sheer cliffs. |
 | 5 | A dungeon located inside a mountain that hangs above a dark lightless pit and features a series of precarious chambers connected by swinging chains. |
@@ -2388,7 +2416,7 @@ Badlands, dunes, salt flats, baked ruins. The heat is the first enemy. Everythin
 | 3 | A dry, clicking sound follows the party from behind the nearest cover. It stops when they stop. |
 | 4 | A cartographer leading a weary beast of burden. Desperate for water or supplies. Roll Reaction. |
 | 5 | A **Dust Devil** whips up behind the party. |
-| 6 | **The Buried Thing** rises up from the sand in front of the party. |
+| 6 | **The Glass Sphynx** rises up from the sand in front of the party. |
 
 ---
 
@@ -2414,10 +2442,10 @@ Coastlines, rivers, lakes, flooded ruins. Things live in the water. They are awa
 | Roll | Encounter |
 |---|---|
 | 1 | The water is moving against the current. Has been for a while. |
-| 2 | d6 **Urchine** drifting in the water, spines pointed the party's direction. |
+| 2 | d6 **Snapping Turtles** drifting in the water, looking in the party's direction. |
 | 3 | d4 **River Trolls** splashing in a pool, unaware of the party. |
 | 4 | A raft paddled by two nervous merchants. They have seen something upstream and want company. Roll Reaction. |
-| 5 | d6 **Snapping Turtles** notice the party approach. |
+| 5 | d6 **Water Elementals** rush at the party. |
 | 6 | Something vast moves beneath the surface, keeping pace with the party. It knows they are there. |
 
 ---

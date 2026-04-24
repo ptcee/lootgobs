@@ -1561,7 +1561,7 @@ Blueprints are designed for a party of 4, aiming for roughly 3 rounds of combat.
 ---
 
 > **KNIGHT ERRANT** - *Doom*
-> - MEAT 14(3+) / ZEST 12(4+) / WITS 8(5+) / STRESS 10 / DEF5. 
+> - MEAT 18(2+) / ZEST 12(4+) / WITS 8(5+) / STRESS 14 / DEF5. 
 > - **Mounted Lance:** d8+d10
 > - **On foot, Sword:** d8+d8
 > - **Vital Blow:** Rattled. 
@@ -1569,14 +1569,14 @@ Blueprints are designed for a party of 4, aiming for roughly 3 rounds of combat.
 
 
 > **HORSE** *Scum*
-> - MEAT 12(4+) / ZEST 8(5+) / WITS 4(6+) / STRESS 6 / DEF1
+> - MEAT 9(5+) / ZEST 8(5+) / WITS 4(6+) / STRESS 3 / DEF1
 > - **Kick:** d6+d6 only attacks when cornered or panicked.
 > - **Special:** Panic: when the horse takes damage or is exposed to fire, it must pass a ZEST save or bolt in a random direction. A rider must pass a MEAT save or be thrown, taking d4 MEAT damage. Mount: a mounted rider moves 30ft per round instead of 15ft.
 
 ---
 
 > **DRAGON** - *Doom*
-> - MEAT 30(2+) / ZEST 16(2+) / WITS 14(3+) / STRESS 15 / DEF5
+> - MEAT 30(2+) / ZEST 16(2+) / WITS 14(3+) / STRESS 15 / DEF4
 > - **Claw:** d8+d10
 > - **Fire Breath (3\*):** rd10+4rd10, assign one Break die and the remaining dce as damage to different targets.
 > - **Vital Blow:** Burning.
@@ -1594,7 +1594,7 @@ Blueprints are designed for a party of 4, aiming for roughly 3 rounds of combat.
 ---
 
 > **HERO - FIGHTER** - *Doom*
-> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 12 / DEF5
+> - MEAT 16(2+) / ZEST 14(3+) / WITS 8(5+) / STRESS 15 / DEF5
 > - **Hero Sword:** d8+d8
 > - **Vital Blow:** Rattled and Disoriented.
 > - **Special:** Indomitable. Riposte: when parrying, use d12+d8.
@@ -1610,7 +1610,7 @@ Blueprints are designed for a party of 4, aiming for roughly 3 rounds of combat.
 ---
 
 > **HERO - CLERIC** - *Doom*
-> - MEAT 10(4+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
+> - MEAT 15(3+) / ZEST 16(2+) / WITS 10(4+) / STRESS 8 / DEF3
 > - **Blessed Mace:** d6+d8
 > - **Vital Blow:** Frightened.
 > - **Special:** Indomitable. Heal: may use their action, restore d6 STRESS to any ally visible to the cleric. *(Grow Fractured Flesh)*

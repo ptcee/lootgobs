@@ -26,8 +26,8 @@
         <div class="topbtn"><a href="#top">^</a></div>
 
         <div id="core" class="core hidden">
-   <p>LOOT GOBLINS RULES REFERENCE
-<em>v1.0</em> - todo: formatting consistency, playtest</p>
+    <p>LOOT GOBLINS RULES REFERENCE
+<em>v1.5</em> - new itch rules/overland itch</p>
 <hr>
 <ul>
 <li><a href="#tome-1-core-mechanics">TOME 1: CORE MECHANICS</a>
@@ -45,9 +45,9 @@
 <ul>
 <li><a href="#section-1-the-city">SECTION 1: THE CITY</a></li>
 <li><a href="#section-2-factions">SECTION 2: FACTIONS</a></li>
-<li><a href="#section-4-the-language-of-orrelia">SECTION 3: THE LANGUAGE OF ORRELIA</a></li>
-<li><a href="#section-5-the-landscape">SECTION 4: THE LANDSCAPE</a></li>
-<li><a href="#section-6-the-seasons-and-their-festivals">SECTION 5: THE SEASONS AND THEIR FESTIVALS</a></li>
+<li><a href="#section-3-the-language-of-orrelia">SECTION 3: THE LANGUAGE OF ORRELIA</a></li>
+<li><a href="#section-4-the-landscape">SECTION 4: THE LANDSCAPE</a></li>
+<li><a href="#section-5-the-seasons-and-their-festivals">SECTION 5: THE SEASONS AND THEIR FESTIVALS</a></li>
 </ul>
 </li>
 <li><a href="#tome-3-bestiary-and-tables">TOME 3: BESTIARY AND TABLES</a>
@@ -56,12 +56,7 @@
 <li><a href="#section-2-tables">SECTION 2: TABLES</a></li>
 </ul>
 </li>
-<li><a href="#tome-4-orrelia-herself">TOME 4: ORRELIA, HERSELF</a>
-<ul>
-<li><a href="#near-ring">NEAR RING</a></li>
-<li><a href="#far-ring">FAR RING</a></li>
-</ul>
-</li>
+<li><a href="#tome-4-orrelia-herself">TOME 4: ORRELIA, HERSELF</a></li>
 </ul>
 <hr>
 <blockquote>
@@ -318,7 +313,7 @@
 </tr>
 <tr>
 <td><strong>Charmed</strong></td>
-<td>Cannot attack charmer</td>
+<td>Cannot attack charmer or spend COURAGE</td>
 <td>MEAT reduced or ZEST save as action</td>
 </tr>
 <tr>
@@ -1045,22 +1040,59 @@
 <hr>
 <h2 id="section-5-exploring-dungeons" tabindex="-1">SECTION 5: EXPLORING DUNGEONS</h2>
 <h3 id="the-itch" tabindex="-1">The Itch</h3>
-<p>Starts at <strong>20.</strong> Represents the dungeon waking up.</p>
+<p>The count starts at <strong>20,</strong> the die starts at <strong>d6.</strong> Represents the dungeon waking up to the party's presence.</p>
+<p>Each Turn the party acts or makes noise: roll the Itch die and subtract the result from the total.</p>
 <ul>
-<li>Each Turn the party acts or makes noise: roll Itch die, subtract result.</li>
 <li><strong>Itch hits 3:</strong> Foreshadow danger.</li>
 <li><strong>Itch hits exactly 0:</strong> Set to 3, foreshadow danger.</li>
-<li><strong>Itch drops below 0:</strong> Roll encounter, reset to 20. Roll of 6 = roll one more time, keep new result.</li>
-<li><strong>Quick Rest:</strong> Itch die steps up (d6→d8→d10→d12→d20). Resets on leaving dungeon for a Watch+.</li>
+<li><strong>Itch drops below 0:</strong> Trigger the dungeon's <strong>Scratch</strong>, then reset to 20.</li>
+<li><strong>Quick Rest:</strong> step the Itch die up (d4&gt;<strong>d6</strong>&gt;d8&gt;d10&gt;d12&gt;d20). Resets on leaving the dungeon for a Watch or more.</li>
 </ul>
-<p>Itch advances on Turns only. Combat Rounds do not advance it. Cannot step above d20.</p>
+<p>Itch advances on Turns only. Combat Rounds do not advance it. Cannot step above d20. The Itch die always <strong>starts at d6</strong>: a fresh dungeon is already alert.</p>
+<p><strong>The Scratch:</strong> Before each delve the GM picks or writes the dungeon's complication: what happens if the party stays too long. A dungeon should breathe, it should feel alive. Instead of random encounters, there should be narrative consequences specific to that dungeon and its current fiction that move and evolve with the players and world. Here are six types of complications:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lockdown</strong></td>
+<td>Every unopened door bars shut. Leave through the entrance or find another way out.</td>
+</tr>
+<tr>
+<td><strong>Reinforcements</strong></td>
+<td>The controlling faction calls for help. d6 creatures enter from the entrance and sweep inward. If the faction is already Hunting, add +2 to the roll.</td>
+</tr>
+<tr>
+<td><strong>The Apex</strong></td>
+<td>The dungeon's most dangerous creature activates and moves toward the most recent noise. It does not stop.</td>
+</tr>
+<tr>
+<td><strong>Structural Failure</strong></td>
+<td>One random room collapses or floods. The party hears it. That room's contents are gone.</td>
+</tr>
+<tr>
+<td><strong>Authority</strong></td>
+<td>Outside forces arrive at the entrance and wait. They will be there when the party tries to leave.</td>
+</tr>
+<tr>
+<td><strong>Darkness</strong></td>
+<td>Every light source fails simultaneously. No explanation.</td>
+</tr>
+</tbody>
+</table>
+<p>The type is a framework and you can create your own <strong>Scratch</strong>, also write the specific version in the dungeon's notes before play. Not "Reinforcements" but "d4 bandits enter from the street door and sweep each room."</p>
+<p>Triggering a Scratch also steps up the Overland Itch die once when the party leaves. The dungeon being loud has consequences outside as well.</p>
 <hr>
 <h3 id="dungeon-procedures" tabindex="-1">Dungeon Procedures</h3>
 <p><strong>Turns:</strong> Mark a Turn for any action taking meaningful time (searching, lock-picking, treating wounds, arguing). Roll Itch die.</p>
 <p><strong>Noise:</strong> Significant noise (fight, dropped torch) = roll Itch die immediately, in addition to any Turn.</p>
-<p><strong>Light:</strong> Torches <strong>(4*)</strong>, mark use every 3 Turns. In darkness: all saves Hindered + gain Rattled on failed save. Lanterns provide steady light; need oil to restock.</p>
+<p><strong>Light:</strong> Torches generally have <strong>(4*)</strong>. Determine who is carrying the lit torch and mark a use every 3 Turns. In darkness: all saves Hindered + gain Rattled on failed save. Lanterns provide steady light but need oil to restock.</p>
 <p><strong>Locks:</strong> MEAT save. Without appropriate tools: TN +2.</p>
-<p><strong>Traps:</strong> Relevant stat save based on approach. Noticing = WITS. Disarming = MEAT. Smashing = ZEST. Always foreshadow traps before they trigger.</p>
+<p><strong>Traps:</strong> A trap the party finds and doesn't disarm is an alarm for both sides. If avoided or rearmed the party can use it deliberately. A trap reset after the party passes is a rear guard; anything following them triggers it first. A fresh trap (oil still wet, dust disturbed) that wasn't there last time means someone returned after the party's last visit.</p>
 <p><strong>Reaction Rolls (2d6):</strong></p>
 <table>
 <thead>
@@ -1093,16 +1125,66 @@
 </tbody>
 </table>
 <p>Results shift based on party behavior.</p>
+<h3 id="factions" tabindex="-1">Factions</h3>
+<p>A dungeon should have at least two factions within: groups with goals, fears, and a threshold for violence. Each faction has an <strong>Alert State</strong> that changes based on what the party does.</p>
+<p>A faction doesn't need to be a group of humanoids. A nest of giant rats is a faction.</p>
+<p><strong>Alert States:</strong> Unaware &gt; Suspicious &gt; Hostile &gt; Hunting</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>State</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><strong>Unaware</strong></td>
+<td>Standard Reaction roll on first contact.</td>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>Suspicious</strong></td>
+<td>Reaction roll at −2. Scouts move one room toward the most recent noise per Turn.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Hostile</strong></td>
+<td>No Reaction roll - attacks on sight. A creature that escapes will escalate to Hunting.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Hunting</strong></td>
+<td>Each Turn the party spends in the dungeon, roll the Itch die. On a 1 or 2, a hunting group arrives at the party's location.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Escalating:</strong></p>
+<ul>
+<li>Fighting faction members: Unaware &gt; Suspicious. Kill without survivors: stays Suspicious.</li>
+<li>Significant noise: one step up.</li>
+<li>Kill a faction leader: straight to Hunting.</li>
+<li>A Hunting faction that finds the party at rest gets a full round before the party can act.</li>
+</ul>
+<p><strong>De-escalating:</strong></p>
+<ul>
+<li>Leave the dungeon: resets to Unaware over d4 sessions.</li>
+<li>Successful bribe or negotiation: one step down.</li>
+<li>Break the faction entirely: resets to Unaware, but there are downstream consequences, other factions notice, Standing may be affected.</li>
+</ul>
+<p>A faction's <strong>Alert State</strong> should be noted on the GM's faction card and updated in play. See the Faction Card format in the GM reference materials.</p>
 <hr>
 <h2 id="section-6-travel-downtime--the-city" tabindex="-1">SECTION 6: TRAVEL, DOWNTIME &amp; THE CITY</h2>
 <h3 id="overland-travel" tabindex="-1">Overland Travel</h3>
 <p>5×5 hex flower. City at centre. Inner ring = 6 hexes (easy reach). Outer ring = 12 hexes (expedition territory).</p>
+<p>A <strong>Watch</strong> is 6 hours. There are four per day: <strong>Morning, Afternoon, Evening, Night.</strong> The party typically travels during Morning and Afternoon, camps during Evening, and rests during Night, but pushing further always has a cost.</p>
 <p><strong>Travel Sequence (each Watch):</strong></p>
 <ol>
 <li>Pick direction.</li>
 <li>Roll weather.</li>
-<li>WITS save to navigate. Fail = drift to adjacent hex.</li>
-<li>Roll d6 encounter die. 1 = encounter, 2 = foreshadow.</li>
+<li>WITS save to navigate. Fail: drift into adjacent hex. Roll the Drift die for that hex before the encounter die (see Hex Cards in GM reference materials).</li>
+<li>Roll the <strong>Overland Itch</strong> (see below).</li>
 </ol>
 <p><strong>Movement:</strong></p>
 <table>
@@ -1127,7 +1209,92 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Weather (roll d6 per Watch by season):</strong></p>
+<h4 id="the-overland-itch" tabindex="-1">The Overland Itch</h4>
+<p>The same logic as the dungeon Itch, scaled to travel. The world notices the party. The louder they are, metaphorically and literally, the faster complications happen.</p>
+<p><strong>Starts at 20. Die starts at d6.</strong> Roll the Overland Itch die after the party describes how they will travel. How many rolls depends on how loud their plan is. Feel free to also roll the Itch die if the party does something loud mid travel.</p>
+<table>
+<thead>
+<tr>
+<th>Watch type</th>
+<th>Itch rolls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quiet</strong> - uneventful travel, no incidents</td>
+<td>3 rolls</td>
+</tr>
+<tr>
+<td><strong>Active</strong> - navigation save made, weather effect, minor incident</td>
+<td>4 rolls</td>
+</tr>
+<tr>
+<td><strong>Loud</strong> - combat, visible fire, loud mucksow, pushed through severe weather, evidence left behind</td>
+<td>5 rolls</td>
+</tr>
+</tbody>
+</table>
+<p>This should always be obvious from what happened, no tracking needed. When the players are describing how they travel, decide how loud they're being.</p>
+<p><strong>Step the die UP when the party:</strong></p>
+<ul>
+<li>Fights a wandering encounter</li>
+<li>Camps with a visible fire in a dangerous hex</li>
+<li>Leaves evidence, a body, a trail, an uncleaned campsite</li>
+<li>Triggers a dungeon Itch Consequence and then leaves the hex</li>
+<li>Has a Loud Mucksow make noise</li>
+<li>Pushes through persistent severe weather instead of sheltering</li>
+</ul>
+<p><strong>Step the die DOWN when the party:</strong></p>
+<ul>
+<li>Completes a full Watch without incident</li>
+<li>Takes a Long Rest inside proper shelter (building, cave)</li>
+<li>Deliberately changes route to lose a tail</li>
+<li>Cleans up evidence of passage (costs time, WITS save)</li>
+<li>Spends a Watch scouting a dungeon hex rather than moving</li>
+</ul>
+<p><strong>The die does not step down on reset.</strong> A party that burned the Itch to 0 at d12 resets the total to 20 but stays at d12. Earning the step-down requires careful travel.</p>
+<p><strong>When the Overland Itch hits 0</strong>, the Scratch triggers. Roll or pick based on what fits the current hex.</p>
+<table>
+<thead>
+<tr>
+<th>d6</th>
+<th>Scratch Consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Caught Up.</strong> Something tracking them arrives. Roll Reaction.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Roadblock.</strong> The route is watched: guards, a faction patrol, a toll. Go around (+1 Watch) or talk through it.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Word Travels Fast.</strong> The next hex's factions starts at Suspicious before the party arrives.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Followed In.</strong> The next dungeon delve starts with the Itch at 15 instead of 20.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Ambush.</strong> A prepared encounter, creatures with chosen ground. First action is Bolstered.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>The Gobfather Hears.</strong> Drop one Standing step.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="weather" tabindex="-1">Weather</h4>
+<h5 id="weather-persistence" tabindex="-1">Weather Persistence</h5>
+<p>On a <strong>1-3 result</strong> on any seasonal table, roll a <strong>d4</strong>, that's how many Watches the weather lasts before rolling again. Skip Step 3 of the Travel Sequence for that many watches.</p>
+<p>Each Watch of persistent severe weather the party chooses:</p>
+<p><strong>Shelter:</strong> No progress. 1 ration per goblin. Counts as a Quick Rest only. Does not step up the Overland Itch die.</p>
+<p><strong>Push through:</strong> Make progress. Apply the weather effect. Each goblin gains 1 STRESS and loses 1 COURAGE. Counts as a <strong>Loud Watch</strong> for Overland Itch (nothing is moving out there except you).</p>
 <p><strong>Spring</strong></p>
 <table>
 <thead>
@@ -1296,7 +1463,61 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Camping:</strong> 1 Watch, counts as Long Rest. Roll encounter die at end. Fire is warm but visible.</p>
+<h4 id="rest" tabindex="-1">Rest</h4>
+<p><strong>Quick Rest (1 Turn in dungeon / part of a Watch overland):</strong> clear d4+1 STRESS (d6+1 if eating). Any Suspicious or higher faction moves one space closer during a Quick Rest, the dungeon notices the party has gone quiet.</p>
+<p><strong>Long Rest (1 Watch minimum):</strong></p>
+<ul>
+<li>Clear all STRESS. Clear conditions that allow it.</li>
+<li>Roll Itch die at the start and end of the rest.</li>
+<li>Any Suspicious or higher faction moves two spaces closer during a Long Rest.</li>
+<li>A Hunting faction during a Long Rest arrives. No roll needed.</li>
+<li><strong>Fire:</strong> Full light restored. Steps up Dungeon Itch die for the duration, and steps up Overland Itch die once when the party leaves. All attempts to hide are Hindered.</li>
+<li><strong>Watch posted:</strong> one goblin stays awake and gains no benefit from rest. On anything approaching: ZEST save
+<ul>
+<li>success means the party gets a full turn to act before the threat arrives.</li>
+</ul>
+</li>
+</ul>
+<h4 id="scouting" tabindex="-1">Scouting</h4>
+<p>Spending a Watch adjacent to a dungeon hex without entering generates <strong>one Rumour</strong> about it (roll on the regional table, or GM picks something specific). Two Watches of scouting gives two Rumours. Each scouting Watch costs 1 ration per goblin and rolls the encounter die normally.</p>
+<p>A scouting Watch counts as a <strong>Quiet Watch</strong> for the Overland Itch and steps the die down, the party is careful, stationary and leaving no trail.</p>
+<h4 id="hex-tracks" tabindex="-1">Hex Tracks</h4>
+<p>The world doesn't wait. Each hex with an active situation has a <strong>track starting at 0.</strong> Each session that passes without the party visiting, step it up by 1. At 4 the situation resolves.</p>
+<table>
+<thead>
+<tr>
+<th>d6</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Resolved badly.</strong> Evidence of violence. The dungeon, if any, is now empty.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Dug in.</strong> Whoever won has settled. Faction starts at Hostile on the party's next arrival.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Abandoned.</strong> Whatever was here left. Dungeon accessible but empty.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Escalated.</strong> Dungeon Itch starts at 15 on the next delve.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Changed hands.</strong> A third party arrived. Existing Rumours about this hex are now wrong.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Reputation arrives.</strong> NPCs have heard about the party. First Reaction at +2 or −2.</td>
+</tr>
+</tbody>
+</table>
+<p>The party can intervene in a track by visiting and resolving the situation themselves. A track at 3 is a time-pressure mission.</p>
 <hr>
 <h3 id="the-gobfather--standing" tabindex="-1">The Gobfather &amp; Standing</h3>
 <p>The Gobfather controls the Hoard, assigns work, and tracks what the party does.</p>
@@ -1605,7 +1826,7 @@ Loyalty −1: stiff them, bring heat, ask for something costly.</p>
 <tr>
 <td>1</td>
 <td><strong>Loud</strong></td>
-<td>Sudden movement, damage, or combat &gt; roll Itch die.</td>
+<td>Combat or sudden noise triggers an immediate Itch roll <em>and</em> steps the die up <em>before</em> rolling. Overland any Watch is one step higher. Quiet &gt; Active &gt; Loud.</td>
 </tr>
 <tr>
 <td>2</td>
@@ -1615,12 +1836,12 @@ Loyalty −1: stiff them, bring heat, ask for something costly.</p>
 <tr>
 <td>3</td>
 <td><strong>Cowardly</strong></td>
-<td>If danger, ZEST save or it flees and ignores commands until calmed.</td>
+<td>Combat or sudden noise makes it bolt. ZEST save or d4: 1: toward the entrance, 2: into the next space, 3: toward the nearest noise, 4: out of the dungeon. If it exits, the party retrieves it after the delve and rolls the Overland Itch die, it may have led something back.</td>
 </tr>
 <tr>
 <td>4</td>
 <td><strong>Curious</strong></td>
-<td>If unattended, WITS save or it drops a random carried item nearby.</td>
+<td>If unattended, WITS save or it drops a random carried item. This counts as noise. Roll the Dungeon Itch die. The item is somewhere in the dungeon now.</td>
 </tr>
 </tbody>
 </table>
@@ -1633,6 +1854,8 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <strong>Inventory:</strong> 3x3. Can retrieve from any slot.
 <strong>Danger:</strong> Rolls ZEST. Failure = ignores commands until safe.</p>
 </blockquote>
+<p>Players can rent the same mucksow over multiple delves. If it survives it bonds with the party.</p>
+<p><strong>Bonded (survived 2+ delves):</strong> the Mucksow gains a Loyalty stat like a Contact, starting at 2. Loyalty 3: it follows the party to the entrance rather than bolting. Loyalty 0: it bolts at the first opportunity. Losing a bonded Mucksow drops the handler contact's Loyalty by 1 immediately.</p>
 <hr>
 <h3 id="downtime" tabindex="-1">Downtime</h3>
 <p>The party may spend a day on one activity when in the City.</p>
@@ -2055,6 +2278,9 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 <li>Goals, resources, fears.</li>
 </ul>
 <p>Clever goblins should be able to play factions against each other.</p>
+<blockquote>
+<p>THE CELLAR SAMPLE DUNGEON HERE</p>
+</blockquote>
 <h3 id="session-zero-checklist" tabindex="-1">Session Zero Checklist</h3>
 <ul>
 <li>How lethal do you want it?</li>
@@ -4378,342 +4604,148 @@ MEAT 5(6+) / ZEST 5(5+) / WITS 3(6+) / STRESS 3 / DEF1<br>
 </tr>
 </tbody>
 </table>
-<h3 id="encounter-tables" tabindex="-1">ENCOUNTER TABLES</h3>
-<p>Encounter tables are <strong>d6</strong> and specific to the area the party is in. Create a table for each distinct area or dungeon level. Results should reflect what actually lives or patrols that area.</p>
-<p>When the Itch drops below 0 or during travel/camp, roll on the relevant encounter table and then if in a dungeon reset the Itch to 20. Results are not always combat, some encounters are noise, evidence of danger, or something passing nearby.</p>
-<p>When you roll a 6, roll one more and take the new result. This is to ensure 6's are not common.</p>
-<p>For each encounter, roll Reaction if the creature's disposition is not obvious.</p>
-<h5 id="example-entrance-to-the-screaming-lichs-dungeon" tabindex="-1">Example: Entrance to the Screaming Lich's Dungeon</h5>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>A patrol of d4 <strong>Undead</strong> shambles through. They have not noticed the party.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Distant screaming echoes from deeper in. The Itch decreases by 10.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A lone <strong>Goblin</strong> scavenger, same as the party. Nervous. Possibly friendly. Roll Reaction.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>d4 <strong>Giant Rats</strong> burst from a crack in the wall, drawn by the smell of food.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>A pile of fresh charred bones. Something large ate recently. Evidence only, no encounter.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>d6 <strong>Hellhounds</strong> - Undead, hungry, looking for something to eat.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="forest-2" tabindex="-1">FOREST</h4>
-<p>Old growth, dark canopy, things that remember when goblins were prey. They still think so.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>All noise goes dead silent. A heavy scent fills the area. Something is here.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6 <strong>Giant Spiders</strong> lowering slowly from above on silver threads.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d6 <strong>Grovehounds</strong> have been tracking the party for a while, they finally have gotten close enough for the party to notice.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>A wandering scout. They are wary and checking traps and snares. Roll Reaction.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>The party stumbles upon a <strong>Treant</strong>. Roll reaction.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong>The Horned Beast</strong> has been tracking the party with grovehounds. Wants to know why they have come to this place.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="grassland-2" tabindex="-1">GRASSLAND</h4>
-<p>Open plains, trade roads, farmland, rolling hills. Nowhere to hide. Everyone can see you. You can see everyone.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>A distant cloud of movement. A stampede or a large patrol is heading towards the party.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d4 <strong>Bandits</strong> perched on a vantage point, eyeing the party’s loot.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A travelling merchant. They know the local wildlife. Roll Reaction.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>High pitched whistling or chirping from the ground. A localized alarm system of small burrowing insects.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>d4 <strong>Giant Vultures</strong> circle above the party, scavenging for food.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>A <strong>Knight Errant</strong> crosses the party's path heading back to The City. They hate goblins.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="swamp-2" tabindex="-1">SWAMP</h4>
-<p>Bogland, marshes, drowned forests. The ground cannot be trusted. Neither can anything else.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Thick bubbles rise from the muck with a loud sulfurous pop. Roll the Itch twice.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6 <strong>Giant Ticks</strong> clinging to a narrow path the party must cross.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A heavy splash right behind the party. A submerged predator just missed its window of opportunity.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>A goblin, alone, very muddy and deeply lost. Claims to know the way out. (They don't.)  Roll Reaction.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>d6 <strong>Giant Ticks</strong> skimming across the murky water.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>A <strong>Hydra</strong> slowly approaches the party. A chill falls over the area and the low muddy water rises a few inches around them.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="mountain-2" tabindex="-1">MOUNTAIN</h4>
-<p>High passes, cliff paths, ancient ruins, thin air. The terrain kills as readily as anything living on it.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Loose stones and dust tumble from above. A warning of a clumsy predator. MEAT save or take d6 MEAT damage and gain Fatigue.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>A pass that should be open is blocked. Something piled the rocks there deliberately. Recently.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d4 <strong>Mountain Goats</strong> charge towards the party, attempting to ram them.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>A surly dwarf, alone, heavily armed, going the other way fast. Roll Reaction.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>A <strong>Stone Troll</strong>, moving accross the party's path begins hurling boulders.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>A <strong>Wyvern</strong> dive bombs the party. Their large nest is nearby</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="desert-2" tabindex="-1">DESERT</h4>
-<p>Badlands, dunes, salt flats, baked ruins. The heat is the first enemy. Everything else is second.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>A shimmering haze makes the path ahead appear to melt or shift. Roll the Itch twice.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6 <strong>Sand Vipers</strong> burst from beneath the loose floor/sand.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A dry, clicking sound follows the party from behind the nearest cover. It stops when they stop.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>A cartographer leading a weary beast of burden. Desperate for water or supplies. Roll Reaction.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>A <strong>Dust Devil</strong> whips up behind the party.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong>The Glass Sphynx</strong> rises up from the sand in front of the party.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="tundra-2" tabindex="-1">TUNDRA</h4>
-<p>Frozen wastes, ice plains, dead forests, permanent grey sky. Everything here is either surviving or dying. Sometimes both.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>A low, rhythmic thumping felt through the floor. Something massive is walking nearby.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>An old wandering hermit. They are delirious from the cold. Roll Reaction.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d4 <strong>Hoarfoxes</strong> haven't eaten in days and smell the party. The party hears a howl nearby.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Blue sparks of electricity jump between the party's metal gear. A magical surge is near.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>A <strong>Frost Giant's</strong> massive footprints are still steaming in the frozen ground.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong>The White Death</strong>, a giant white wyrm rises up from beneath the party. MEAT save or gain Knocked.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="aquatic-1" tabindex="-1">AQUATIC</h4>
-<p>Coastlines, rivers, lakes, flooded ruins. Things live in the water. They are aware of you before you are aware of them.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>The water is moving against the current. Has been for a while.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6 <strong>Snapping Turtles</strong> drifting in the water, looking in the party's direction.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d4 <strong>River Trolls</strong> splashing in a pool, unaware of the party.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>A raft paddled by two nervous merchants. They have seen something upstream and want company. Roll Reaction.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>d6 <strong>Water Elementals</strong> rush at the party.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Something vast moves beneath the surface, keeping pace with the party. It knows they are there.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h4 id="city-1" tabindex="-1">CITY</h4>
-<p>Back streets, market crowds, the docks, the Gobfather's territory. The City is never safe but at least you know what is dangerous.</p>
-<table>
-<thead>
-<tr>
-<th>Roll</th>
-<th>Encounter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>A bucket of filth or debris is emptied from above. MEAT save or d4 damage and Slimed.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6 <strong>Bandits</strong> leaning against a wall, demanding a passage tax.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A Frantic Rat-Catcher chasing d4 <strong>Giant Rats</strong>. Roll Reaction.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Local bells begin to ring out. A fire or riot is starting nearby.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>A group of street urchins begin following the party, mocking their gear.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>A <strong>City Watch Captain</strong> with d8 guards. They think you look like the suspects they're following.</td>
-</tr>
-</tbody>
-</table>
+<!-- ### ENCOUNTER TABLES
+
+Encounter tables are **d6** and specific to the area the party is in. Create a table for each distinct area or dungeon level. Results should reflect what actually lives or patrols that area.
+
+When the Itch drops below 0 or during travel/camp, roll on the relevant encounter table and then if in a dungeon reset the Itch to 20. Results are not always combat, some encounters are noise, evidence of danger, or something passing nearby.
+
+When you roll a 6, roll one more and take the new result. This is to ensure 6's are not common.
+
+For each encounter, roll Reaction if the creature's disposition is not obvious.
+
+##### Example: Entrance to the Screaming Lich's Dungeon
+
+| Roll | Encounter |
+|---|---|
+| 1 | A patrol of d4 **Undead** shambles through. They have not noticed the party. |
+| 2 | Distant screaming echoes from deeper in. The Itch decreases by 10. |
+| 3 | A lone **Goblin** scavenger, same as the party. Nervous. Possibly friendly. Roll Reaction. |
+| 4 | d4 **Giant Rats** burst from a crack in the wall, drawn by the smell of food. |
+| 5 | A pile of fresh charred bones. Something large ate recently. Evidence only, no encounter. |
+| 6 | d6 **Hellhounds** - Undead, hungry, looking for something to eat. |
+
+---
+
+#### FOREST
+
+Old growth, dark canopy, things that remember when goblins were prey. They still think so.
+
+| Roll | Encounter |
+|---|---|
+| 1 | All noise goes dead silent. A heavy scent fills the area. Something is here. |
+| 2 | d6 **Giant Spiders** lowering slowly from above on silver threads. |
+| 3 | d6 **Grovehounds** have been tracking the party for a while, they finally have gotten close enough for the party to notice. |
+| 4 | A wandering scout. They are wary and checking traps and snares. Roll Reaction. |
+| 5 | The party stumbles upon a **Treant**. Roll reaction.  |
+| 6 | **The Horned Beast** has been tracking the party with grovehounds. Wants to know why they have come to this place. |
+
+---
+
+#### GRASSLAND
+
+Open plains, trade roads, farmland, rolling hills. Nowhere to hide. Everyone can see you. You can see everyone.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A distant cloud of movement. A stampede or a large patrol is heading towards the party. |
+| 2 | d4 **Bandits** perched on a vantage point, eyeing the party’s loot. |
+| 3 | A travelling merchant. They know the local wildlife. Roll Reaction. |
+| 4 | High pitched whistling or chirping from the ground. A localized alarm system of small burrowing insects. |
+| 5 | d4 **Giant Vultures** circle above the party, scavenging for food. |
+| 6 | A **Knight Errant** crosses the party's path heading back to The City. They hate goblins. |
+
+---
+
+#### SWAMP
+
+Bogland, marshes, drowned forests. The ground cannot be trusted. Neither can anything else.
+
+| Roll | Encounter |
+|---|---|
+| 1 | Thick bubbles rise from the muck with a loud sulfurous pop. Roll the Itch twice. |
+| 2 | d6 **Giant Ticks** clinging to a narrow path the party must cross. |
+| 3 | A heavy splash right behind the party. A submerged predator just missed its window of opportunity. |
+| 4 | A goblin, alone, very muddy and deeply lost. Claims to know the way out. (They don't.)  Roll Reaction. |
+| 5 | d6 **Giant Ticks** skimming across the murky water. |
+| 6 | A **Hydra** slowly approaches the party. A chill falls over the area and the low muddy water rises a few inches around them. |
+
+---
+
+#### MOUNTAIN
+
+High passes, cliff paths, ancient ruins, thin air. The terrain kills as readily as anything living on it.
+
+| Roll | Encounter |
+|---|---|
+| 1 | Loose stones and dust tumble from above. A warning of a clumsy predator. MEAT save or take d6 MEAT damage and gain Fatigue. |
+| 2 | A pass that should be open is blocked. Something piled the rocks there deliberately. Recently. |
+| 3 | d4 **Mountain Goats** charge towards the party, attempting to ram them. |
+| 4 | A surly dwarf, alone, heavily armed, going the other way fast. Roll Reaction. |
+| 5 | A **Stone Troll**, moving accross the party's path begins hurling boulders. |
+| 6 | A **Wyvern** dive bombs the party. Their large nest is nearby |
+
+---
+
+#### DESERT
+
+Badlands, dunes, salt flats, baked ruins. The heat is the first enemy. Everything else is second.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A shimmering haze makes the path ahead appear to melt or shift. Roll the Itch twice. |
+| 2 | d6 **Sand Vipers** burst from beneath the loose floor/sand. |
+| 3 | A dry, clicking sound follows the party from behind the nearest cover. It stops when they stop. |
+| 4 | A cartographer leading a weary beast of burden. Desperate for water or supplies. Roll Reaction. |
+| 5 | A **Dust Devil** whips up behind the party. |
+| 6 | **The Glass Sphynx** rises up from the sand in front of the party. |
+
+---
+
+#### TUNDRA
+
+Frozen wastes, ice plains, dead forests, permanent grey sky. Everything here is either surviving or dying. Sometimes both.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A low, rhythmic thumping felt through the floor. Something massive is walking nearby. |
+| 2 | An old wandering hermit. They are delirious from the cold. Roll Reaction. |
+| 3 | d4 **Hoarfoxes** haven't eaten in days and smell the party. The party hears a howl nearby. |
+| 4 | Blue sparks of electricity jump between the party's metal gear. A magical surge is near. |
+| 5 | A **Frost Giant's** massive footprints are still steaming in the frozen ground. |
+| 6 | **The White Death**, a giant white wyrm rises up from beneath the party. MEAT save or gain Knocked. |
+
+---
+
+#### AQUATIC
+
+Coastlines, rivers, lakes, flooded ruins. Things live in the water. They are aware of you before you are aware of them.
+
+| Roll | Encounter |
+|---|---|
+| 1 | The water is moving against the current. Has been for a while. |
+| 2 | d6 **Snapping Turtles** drifting in the water, looking in the party's direction. |
+| 3 | d4 **River Trolls** splashing in a pool, unaware of the party. |
+| 4 | A raft paddled by two nervous merchants. They have seen something upstream and want company. Roll Reaction. |
+| 5 | d6 **Water Elementals** rush at the party. |
+| 6 | Something vast moves beneath the surface, keeping pace with the party. It knows they are there. |
+
+---
+
+#### CITY
+
+Back streets, market crowds, the docks, the Gobfather's territory. The City is never safe but at least you know what is dangerous.
+
+| Roll | Encounter |
+|---|---|
+| 1 | A bucket of filth or debris is emptied from above. MEAT save or d4 damage and Slimed. |
+| 2 | d6 **Bandits** leaning against a wall, demanding a passage tax. |
+| 3 | A Frantic Rat-Catcher chasing d4 **Giant Rats**. Roll Reaction. |
+| 4 | Local bells begin to ring out. A fire or riot is starting nearby. |
+| 5 | A group of street urchins begin following the party, mocking their gear. |
+| 6 | A **City Watch Captain** with d8 guards. They think you look like the suspects they're following. |
+
+--- -->
 <hr>
 <h3 id="basic-loot-table" tabindex="-1">BASIC LOOT TABLE</h3>
 <blockquote>

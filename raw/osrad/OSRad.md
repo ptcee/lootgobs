@@ -5,13 +5,13 @@ You're a skater in the realm of Orrelia. Elf, goblin, dwarf, orc, lowfling, what
 
 It's The Warden's Run Long Weekend, the city clears out for **3 days** while everyone watches the race in the eastern grasslands. 
 
-You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to record and create memories of your skate tricks! This is the perfect time to hit the busier spots in Glimmerhold and capture tricks for a skate video. You have 3 days to land the best tricks you can before the city returns to it's overcrowded self.
+You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to record and create memories of your skate tricks! This is the perfect time to hit the busier spots in Glimmerhold and capture tricks for a skate "video". You have 3 days to land the best tricks you can before the city returns to it's overcrowded self.
 
 ---
 
 ## YOUR SKATER
 
-Pick a name and a species. Then assign **6 points** across four stats. No stat may exceed 3.
+Pick a name and a species. Then assign **6 points** across three stats. No stat may exceed 3.
 
 - **FLIP:** How many dice you roll for flip tricks. Roll FLIP+1 dice.
 - **GRIND:** How many dice you roll for grinds. Roll GRIND+1 dice.

@@ -243,6 +243,6 @@ The first skater calls and attempts a trick. If they land it, the next skater mu
 
 S.K.8. does not tick the Kickout Clock or the Daylight Clock. You can Clip SK8 tricks but you don't get props for them.
 
-Need a reason to play skate still.......
+Need a reason to play skate still....... rewards vs risks
 
 ---

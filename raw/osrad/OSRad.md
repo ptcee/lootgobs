@@ -5,7 +5,7 @@ You're a skater in the realm of Orrelia. Elf, goblin, dwarf, orc, lowfling, what
 
 It's The Warden's Run Long Weekend, the city clears out for **3 days** while everyone watches the race in the eastern grasslands. 
 
-You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to record and create memories of your skate tricks! This is the perfect time to hit the busier spots in Glimmerhold and capture tricks for a skate... "video." You have 3 days to land the best tricks you can before the city returns to it's overcrowded self.
+You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to record and create memories of your skate tricks! This is the perfect time to hit the busier spots in Glimmerhold and capture tricks for a skate video. You have 3 days to land the best tricks you can before the city returns to it's overcrowded self.
 
 ---
 
@@ -13,9 +13,9 @@ You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to rec
 
 Pick a name and a species. Then assign **6 points** across four stats. No stat may exceed 3.
 
-**FLIP:** How many dice you roll for flip tricks. Roll FLIP+1 dice.
-**GRIND:** How many dice you roll for grinds. Roll GRIND+1 dice.
-**TECH:** How many dice you may reroll on any attempt.
+- **FLIP:** How many dice you roll for flip tricks. Roll FLIP+1 dice.
+- **GRIND:** How many dice you roll for grinds. Roll GRIND+1 dice.
+- **TECH:** How many dice you may reroll on any attempt.
 
 Each skater has 3 **GNAR**. These are your hit points. When GNAR hits 0, you're day is over. GNAR refreshes the next day.
 
@@ -23,12 +23,12 @@ Each skater has 3 **GNAR**. These are your hit points. When GNAR hits 0, you're 
 
 All folks skate, some skate different.
 
-**Goblin:** Start with TECH 1, GNAR 2.
-**Dwarf:** GNAR 4. FLIP and GRIND max out at 2.
-**Elf:** FLIP maxes out at 4.
-**Orc:** Slams do not tick the Kickout Clock. Still lose GNAR.
-**Lowling:** May reroll all dice holding any 4s once per spot.
-**Human:** Assign 7 points instead of 6.
+- **Goblin:** Start with TECH 1, GNAR 2.
+- **Dwarf:** GNAR 4. FLIP and GRIND max out at 2.
+- **Elf:** FLIP maxes out at 4.
+- **Orc:** Slams do not tick the Kickout Clock. Still lose GNAR.
+- **Lowling:** May reroll all dice holding any 4s once per spot.
+- **Human:** Assign 7 points instead of 6.
 
 
 ---

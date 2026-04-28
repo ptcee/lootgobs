@@ -1,5 +1,5 @@
 # OSRad
-*A one page TTRPG of shredding, glory, and eating shit in the world of Orrelia*
+*A one page TTRPG of shredding, glory and eating shit in the world of Orrelia*
 
 You're a skater in the realm of Orrelia. Elf, goblin, dwarf, orc, lowfling, whatever. You've got your board and you know the sickest spots. 
 

@@ -223,7 +223,7 @@ Every spot has a Legend Track from 0 to 6. Track it on a d6 set aside at the spo
 | 5 | The spot is known. Skaters arrive to watch. Roll Vibe twice and pick the better result. |
 | 6 | Legendary. This spot is part of Orrelia's history. You may skate it once without ticking the Kickout Clock before it resets. |
 
-If the spot's Legend Track hits 6 while you are there, each skater may immediately add one trick to their Video Part for free.
+If the spot's Legend Track hits 6 while you are there, each skater may immediately attempt a trick without ticking the Daylight clock.
 
 ---
 
@@ -235,12 +235,14 @@ Each skater keeps a list of their landed tricks across the session or campaign. 
 
 ---
 
-### S.K.A.T.E.
+### S.K.8.
 
-Two or more skaters can run a game of S.K.A.T.E. at any feature.
+Two or more skaters can run a game of S.K.8. at any feature.
 
-The first skater calls and attempts a trick. If they land it, the next skater must attempt the exact same trick. If that skater bails or cannot form the sequence, they take a letter (S, K, A, T, E). First to spell SKATE is out.
+The first skater calls and attempts a trick. If they land it, the next skater must attempt the exact same trick. If that skater bails or cannot form the sequence, they take a letter (S, K, 8). First to spell SK8 is out.
 
-S.K.A.T.E. does not tick the Kickout Clock or the Light Clock. 
+S.K.8. does not tick the Kickout Clock or the Daylight Clock. You can Clip SK8 tricks but you don't get props for them.
+
+Need a reason to play skate still.......
 
 ---

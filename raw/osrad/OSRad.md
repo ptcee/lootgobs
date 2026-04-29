@@ -254,13 +254,15 @@ When arriving at a spot, players may tick the Kickout Clock up 2 to light a lant
 
 ## PROPS
 
+When a player lands a trick at a spot, the spot's notoriety grows.
+
+**Lock it Down:** Add 1 tick to the spot's Legend Track.
+
 You can always add a landed trick to your video part. You can only have up to 5 clips in your part. You can swap old clips for new ones.
 
 **Clip it:** Add the trick to your Video Part. Record the spot and trick sequence on your character sheet.
 
-When you land a trick Lock it Down. If the trick sequence was 3 or more dice you also choose Get Hype or Lock In:
-
-**Lock it Down:** Add 1 tick to the spot's Legend Track with your initials. (max 6.)
+When you land a trick gain one option below. If the trick sequence was 4 or more dice choose both.
 
 **Get Hype:** Restore 1 GNAR to you or a friend.
 

@@ -1,5 +1,5 @@
 # OSRAD.
-*A one page TTRPG of shredding glory and eating shit in the world of Orrelia*
+*A one page TTRPG of shredding glory and eating shit in the world of Orrelia for 2-4 players*
 
 You're a skater in the realm of Orrelia. Elf, goblin, dwarf, orc, lowfling, whatever. You've got your board and you know the sickest spots.
 
@@ -7,13 +7,13 @@ It's The Warden's Run Long Weekend, most of the city clears out for **3 days** w
 
 You got your hands on a *Reveal Wide Mind* spell scroll, which allows you to record and create memories of your skate tricks! This is the perfect time to hit the busier spots in Glimmerhold and capture tricks for a skate "video". You have 3 days to land the best tricks you can before the city returns to its overcrowded self.
 
-Players aren't trying to win. They're trying to get the raddest clips before the city shuts them down.
+Players aren't trying to win, they're trying to get the raddest clips before the city shuts them down.
 
 ---
 
-## YOUR SKATER
+## CREATING A SKATER
 
-Pick a name and a species. Then assign **6 points** across three stats. No stat may exceed 3.
+Pick a name and roll a species. Then assign **6 points** across three stats. No stat may exceed 3.
 
 - **FLIP:**
   - How many dice you roll for flip tricks.
@@ -24,7 +24,20 @@ Pick a name and a species. Then assign **6 points** across three stats. No stat 
   - Spend 1 TECH to change a die into a 4 once per trick.
   - *Refreshes after each trick attempt.*
 
-Each skater has 3 **GNAR**. These are your hit points. When GNAR hits 0, your day is over. GNAR refreshes at the start of the next day.
+Each skater has 3 **GNAR**. These are your hit points. When GNAR is 0, you're too beat up to skate. GNAR refreshes at the start of the next day.
+
+### Species Bonuses
+
+All folks skate, some skate different.
+
+| d6 | Species | Bonus |
+|----|---------|----------|
+| 1 | **Goblin** | GNAR 2, may ignore 1 slam per day. |
+| 2 | **Dwarf** | GNAR 4, FLIP and GRIND max at 2. |
+| 3 | **Elf** | FLIP maxes at 4. |
+| 4 | **Orc** | Slams do not tick the Kickout Clock. |
+| 5 | **Halfling** | May change a 6 into any die once per day. |
+| 6 | **Human** | Assign 7 points instead of 6. |
 
 Roll d6 for **Style** and **Steez**.
 
@@ -43,25 +56,16 @@ Roll d6 for **Style** and **Steez**.
 
 | d6 | Steez |
 |----|-------|
-| 1 | Low and scrappy. Hands drag, lands on one foot, somehow holds on. |
+| 1 | Scrappy. Hands drag, lands on one foot, somehow holds on. |
 | 2 | Textbook. Every trick exactly as it should be done. |
-| 3 | Technical. Has a notebook breaking down tricks. |
-| 4 | Loud. Stomps every landing. Slams are extra gnarly. |
+| 3 | Technical. Has a notebook breaking down every trick. |
+| 4 | Loud. Stomps every landing. Slams extra hard. |
 | 5 | Floaty. Extra hangtime, makes tricks look effortless. |
 | 6 | Chaos. Full send every time. |
 
----
+### Crew Name
 
-## SPECIES BONUSES
-
-All folks skate, some skate different.
-
-- **Goblin:** GNAR 2, may ignore 1 slam per day.
-- **Dwarf:** GNAR 4. FLIP and GRIND max out at 2.
-- **Elf:** FLIP maxes out at 4.
-- **Orc:** Slams do not tick the Kickout Clock. Still lose GNAR.
-- **Halfling:** May change a 6 into any die once per day.
-- **Human:** Assign 7 points instead of 6.
+After all players create their skaters, have them come up with a crew name and name for their skate video.
 
 ---
 
@@ -71,11 +75,12 @@ Before rolling, **call your trick**. State whether it's a flip trick, a grind, o
 
 All tricks **start with a single d6**, then add your stat dice.
 
-1. **Roll your dice pool.** Start with a single d6. Add your stat dice from there. (FLIP or GRIND d6s, or both for combos.)
-3. **Reroll:** You may reroll up to your TECH stat. Each reroll can include any number of dice. There is no limit to how many times a single die can be rerolled. Hold dice you want to keep, reroll the rest until you're happy or out of TECH. 
-4. **Check for a slam.** After rolling and rerolling, if two or more dice show 1, you slam. Lose 1 GNAR. Tick the Kickout Clock down. Your turn ends.
-5. **Arrange your dice into a sequence** to build the trick. The first die in any sequence must show a 4 (unless switch). Unused dice are discarded.
-6. **If you cannot form a valid sequence**, you bail. Tick the Kickout Clock down.
+1. **Roll your dice pool.** Start with a single d6. Add your stat dice from there.
+2. **Pop your trick.** You may spend 1 TECH to change one die into a 4.
+3. **Reroll:** You may reroll a number of times equal to your TECH stat. Hold dice you want to keep, reroll the rest until you're happy or reach TECH number. 
+4. **Check for a slam.** After rolling and rerolling, if two or more dice show 1, you slam. Lose 1 GNAR. Tick the Kickout Clock up. Your turn ends.
+5. **Arrange your dice into a sequence** to build the trick. Unused dice are discarded.
+6. **If you cannot form a valid sequence**, you bail. Tick the Kickout Clock up.
 7. **If you land the trick**, get some props (see PROPS) and add it to your Video Part.
 
 ---
@@ -155,13 +160,13 @@ Roll a handful of d6s (3–8) and push them together on the table. Each die valu
 | 5 | City Gate - stack all together, must touch at least 2 features |
 | 6 | Noble Ward - merge all together, can touch up to 4 features |
 
-**Features** are determined by adding adjacent values to the spot's value. For each die, take its own value and add the value of every die touching it in each cardinal direction. Look up the total on the Feature table. That's what's there. City Gate and Noble Ward spots sum all dice into a single feature.
+**Features** are determined by adding adjacent values to the spot's value. For each die, take its own value and add the value of every die touching it in each cardinal direction. Look up the total on the Feature table, that's what's there. City Gate and Noble Ward spots sum all dice into a single feature.
 
 > A feature can be **Gnarly** or **Technical.**
 >
 > A **Gnarly** feature costs 1 GNAR to attempt.
 >
-> A **Technical** doesn't start with the base 1d6.
+> A **Technical** feature costs 1 TECH to attempt.
 
 | Sum | Feature | Effect |
 |----|-------|-----------|
@@ -184,8 +189,8 @@ Roll a handful of d6s (3–8) and push them together on the table. Each die valu
 | 19 | Shipyard Half Pipe | - |
 | 20 | 30ft Long Tower Handrail | Gnarly & Technical |
 | 21 | 18ft Roof Drop | - |
-| 22-24 | City Gate Triple Kinked Rail | Technical |
-| 25-27 | Temple Row 48 Stair | Gnarly | - |
+| 22-24 | City Gate Triple Kinked Rail | Double Technical |
+| 25-27 | Temple Row 48 Stair | Double Gnarly | - |
 | 28-30 | The Warrens Gap | - |
 | 31-33 | Pale Ward Gate Rail | Technical |
 | 34+ | The Underhold Sewer Walls | - |
@@ -220,10 +225,10 @@ Roll for the vibe at each spot:
 
 | Roll | Vibe | Effect |
 |----|----|
-| 1 | Active Guards | Landed tricks also tick the Kickout. +1 Props |
+| 1 | Active Guards | Landed tricks also tick the Kickout. |
 | 2 | No Trespassing | Bails and Slams tick the Kickout 2. |
 | 3 | Folks are watching | Kickout starts at 1. |
-| 4-6 | Quiet | Normal Kickout Clock |
+| 4-6 | Quiet | Normal Kickout Clock. |
 
 > **GM Tip: Read the Spot as a place.** When the dice hit the table you're not looking at a stat block. You're looking at a street corner, a market approach, a ruined ward alley. Read it like a skater would: where's the entry, where's the exit, what's the natural line? A Barrel Kicker next to a Stone Hubba next to a Gutter Gap isn't three separate features, it's a line. Describe it that way before anyone rolls. Describe the atmosphere of the area. Low sums are tight back alleys with cracked stone and stacked crates. High sums are civic spaces, something was built here with intention. Give players the place first. "You're in the Pale Ward, just off the market approach. There's a long marble ledge running the full length of a shuttered guild hall and a stair set dropping to the docks road." Then let them find the lines.
 
@@ -243,7 +248,7 @@ The Daylight Clock starts at **0** and does not reset between spots. Tick it up 
 
 #### Lanterns
 
-When arriving at a spot, players may tick the Kickout Clock up 2 to light a lantern. Lighting a lantern adds 2 to the Daylight Clock. The longer you linger, the higher chance of being kicked out.
+When arriving at a spot, players may tick the Kickout Clock up 2 to light a lantern. Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher chance of being kicked out.
 
 ---
 
@@ -253,7 +258,7 @@ You can always add a landed trick to your video part. You can only have up to 5 
 
 **Clip it:** Add the trick to your Video Part. Record the spot and trick sequence on your character sheet.
 
-When you land a trick choose one option from below, if your trick sequence had 3 or more dice, choose two:
+When you land a trick Lock it Down. If the trick sequence was 3 or more dice you also Get Hype:
 
 **Lock it Down:** Add 1 tick to the spot's Legend Track with your initials. (max 6.)
 
@@ -280,19 +285,17 @@ If the Legend Track hits 6 while you're there, the Local Legend shows up and cha
 
 ### The Video Part
 
-At the start of the session, the crew comes up with a name for their skate video.
-
 Each skater keeps a list of their landed tricks across the session. At the end of play, the group narrates (watches) their parts together and decides who had the sickest tricks. That skater gets **Last Part**. Last Part means you are the raddest. There is no points system, the crew just knows who shred the hardest.
 
 ---
 
 ### S.K.8.
 
-Two or more skaters can run a game of S.K.8. at any feature.
+The first skater calls and attempts a trick on a specfic feature. If they land it, the next skater must attempt the exact same trick. If that skater bails or slams, they take a letter (S, K, 8). If you take all three letters in SK8 you're out. Last skater standing wins.
 
-The first skater calls and attempts a trick. If they land it, the next skater must attempt the exact same trick. If that skater bails or slams, they take a letter (S, K, 8). First to spell SK8 is out.
+After the game ends tick the Kickout Clock and Daylight Clock twice each. 
 
-S.K.8. does not tick the Kickout Clock or the Daylight Clock. You can Clip S.K.8. tricks but you don't get Props for them. A clip earned in S.K.8. occupies one of your five Video Part slots.
+You can Clip S.K.8. tricks but you don't get Props for them.
 
 ---
 
@@ -309,7 +312,7 @@ When a spot hits Legend 6, a known local steps up and challenges the crew to S.K
 | 3 | An elven city planner who designed half these spots. FLIP 3. |
 | 4 | A dwarven stonemason who grinds his own ledges on lunch break. GRIND 3, FLIP 1. |
 | 5 | A retired crowfolk courier who skated every street in Glimmerhold for twenty years. TECH 3. |
-| 6 | An old orc who skated in the first generation before anyone had a name for it. FLIP 3, GRIND 3, TECH 0. |
+| 6 | An old orc who skated in the first generation before anyone had a name for it. FLIP 3, GRIND 3, TECH 1. |
 | 7 | A young noble who bought the best board money can buy and actually rips. FLIP 3. |
 | 8 | An apprentice wizard whose board is slightly, illegally, enchanted. TECH 4. |
 | 9 | A temple acolyte who skates the sacred steps before dawn prayers. GRIND 3. |
@@ -323,7 +326,7 @@ When a spot hits Legend 6, a known local steps up and challenges the crew to S.K
 | 17 | A retired assassin who will not explain why skating was professionally useful. TECH 4. |
 | 18 | A travelling monk whose order considers skating a form of meditation. FLIP 3. |
 | 19 | A watch recruit who recognises you from earlier and has a point to prove. GRIND 1, TECH 1. |
-| 20 | The original builder of the spot you skated today, older than you expected. FLIP 3, GRIND 3, TECH 0. |
+| 20 | The original builder of the spot you skated today, older than you expected. FLIP 3, GRIND 3, TECH 3. |
 
 ### Their Attitude
 
@@ -381,12 +384,12 @@ When a spot hits Legend 6, a known local steps up and challenges the crew to S.K
 
 | d6 | Effect |
 |----|------------|
-| 1 | They tip you to a secret line. The next spot's Kickout Clock resets to 0 when it hits 3. |
-| 2 | Word spreads fast. The next Vibe roll is automatically Quiet. |
+| 1 | They know a guard. The next spot's Kickout Clock resets to 0 when it hits 3. |
+| 2 | They tip you to a secret line. The next Vibe roll is automatically Quiet. |
 | 3 | They cameo in your video. Each skater can add a 6th clip that cannot be swapped. |
 | 4 | They tag a spot on your behalf. Tick up the Legend Track at the next spot. |
-| 5 | Respect earned. The next Local Legend you face rolls Attitude twice, take the friendlier result. |
-| 6 | They show up tomorrow and hype you up. The crew gain +1 TECH tomorrow. |
+| 5 | Respect earned. The next Local Legend you face roll Attitude twice, take the friendlier result. |
+| 6 | They show up tomorrow and hype you up. The crew gain permanent +1 TECH tomorrow. |
 
 #### If the Crew Loses
 
@@ -395,7 +398,7 @@ When a spot hits Legend 6, a known local steps up and challenges the crew to S.K
 | 1 | Word got around. The next Kickout Clock starts at 3. |
 | 2 | The crowd remembers. Roll the next Vibe twice and take the lower result. |
 | 3 | Bruised ego. Must spend 2 TECH to change to a 4 at the next spot. |
-| 4 | They claim the ward. All spots tomorrow tick down 1 Legend. |
+| 4 | They run this district. All spots tomorrow tick down 1 Legend. |
 | 5 | They follow you. The next Local Legend is the same challenger, Hostile, with TECH +1. |
 | 6 | Somebody filmed it. The GM describes the slam or bail that lost it. It lives on forever. |
 
@@ -409,9 +412,9 @@ You have 3 days. When a spots Legend hits 6, the Local Legend appears. The Dayli
 
 **2. Session it.** Players take turns calling and attempting tricks. Bails and slams tick the Kickout Clock up. Landed tricks earn Props. At the end of each full round, tick the Daylight Clock up.
 
-**3. Get kicked out or move on.** When the Kickout Clock hits 6 the spot is done. Find another. When the Daylight Clock hits 6, night falls.
+**3. Face the Local Legend.** A local steps up when a spot's Legend hits 6. They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into tomorrow.
 
-**4. Face the Local Legend.** A local steps up when a spot's Legend hits 6. They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into tomorrow.
+**4. Get kicked out or move on.** When the Kickout Clock hits 6 the spot is done. Find another. When the Daylight Clock hits 6, night falls.
 
 **5. New day.** GNAR refreshes. Clocks reset. Mark a day. After 3 days total the city returns to normal and it's over.
 

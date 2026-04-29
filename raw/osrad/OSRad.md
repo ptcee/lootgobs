@@ -258,11 +258,13 @@ You can always add a landed trick to your video part. You can only have up to 5 
 
 **Clip it:** Add the trick to your Video Part. Record the spot and trick sequence on your character sheet.
 
-When you land a trick Lock it Down. If the trick sequence was 3 or more dice you also Get Hype:
+When you land a trick Lock it Down. If the trick sequence was 3 or more dice you also choose Get Hype or Lock In:
 
 **Lock it Down:** Add 1 tick to the spot's Legend Track with your initials. (max 6.)
 
 **Get Hype:** Restore 1 GNAR to you or a friend.
+
+**Lock In:** On your next trick you may treat a 2 as a 4 for your sequence starting die.
 
 ---
 

@@ -203,6 +203,10 @@
             font-style: normal;
         }
 
+        blockquote ul, h3 {
+            margin: 0px;
+        }
+
         .pre {
             background: rgba(0, 0, 0, 0.07);
             border: 1px solid var(--border);
@@ -325,6 +329,7 @@
             display: flex;
             flex-direction: column;
             gap: 6px;
+            margin-bottom: 16px;
         }
 
         .loop-step {
@@ -910,49 +915,52 @@
     <!-- BUILDING A SPOT -->
     <div class="two-col">
         <div class="col">
-            <div class="card blue">
+            <div class="card pink">
                 <h2>Skate Spots</h2>
                 <p>Create a skate spot using the <strong>Spot Generator</strong> to shred a location from Glimmerhold's
                     streets and alleys.</p>
 
                 <h3>Building a Spot</h3>
-                <p>Roll a handful of d6s (3-8) and push them together on the table. Each die value determines the spot
-                    type and where it can sit.</p>
+                <p>Roll a handful of 3d6s +1 for each player and push them together on the table. Each die value
+                    determines the type of area
+                    and where it can sit.</p>
                 <table>
                     <tr>
                         <th>Die</th>
-                        <th>Spot Type</th>
+                        <th>Area Type</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Back Alley - touches no more than 1 other feature</td>
+                        <td>Back Alley - touches no more than 1 other area</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>City Street - touches no more than 2 features</td>
+                        <td>City Street - touches no more than 2 areas</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Ward Corner - touches no more than 3 features</td>
+                        <td>Ward Corner - touches no more than 3 areas</td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Market Square - can touch up to 4 features</td>
+                        <td>Market Square - can touch up to 4 areas</td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>City Gate - stack all 5s together, must touch at least 2 features</td>
+                        <td>City Gate - stack all 5s together, must touch at least 2 areas</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Noble Ward - merge all 6s in a line, can touch up to 4 features</td>
+                        <td>Noble Ward - merge all 6s in a line, can touch up to 4 areas</td>
                     </tr>
                 </table>
 
-                <p><strong>Features</strong> are determined by adding adjacent values to the spot's value. For each die,
+                <p><strong>Features</strong> are determined by adding adjacent values to the areas's value. For each
+                    die,
                     take its own value and add the value of every die touching it in each cardinal direction. Look up
-                    the total on the Feature table, that's what's there. City Gate and Noble Ward spots sum all dice
-                    into a single feature.</p>
+                    the total on the Feature table, that's what's there. City Gate and Noble Ward spots sum all stacked
+                    or merged dice
+                    into a single value.</p>
 
                 <blockquote>
                     A feature can be <strong>Gnarly</strong> or <strong>Technical.</strong><br>
@@ -1100,7 +1108,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Wet or Rained On</td>
+                                <td>Wet, Damp and Stinky</td>
                             </tr>
                             <tr>
                                 <td>3</td>
@@ -1200,13 +1208,14 @@
         </div>
         <!-- CLOCKS -->
         <div class="col">
-            <div class="card pink">
+            <div class="card yellow">
                 <h2>Clocks</h2>
                 <p>Both clocks count <strong>up to 6 from 0</strong>. Track them each with a d6.</p>
                 <h3>The Kickout Clock</h3>
-                <p>Every spot starts with a Kickout Clock of <strong>6</strong>. It ticks up whenever someone bails or
+                <p>Every spot starts with a Kickout Clock of <em>6</em>. It ticks up from <strong>0</strong> whenever
+                    someone bails or
                     slams. When it hits 6, the guards arrive, the locals shut it down, or the wizard locks the gate.
-                    Move on.</p>
+                    This spot is unskateable for the rest of the day.</p>
                 <h3>The Daylight Clock</h3>
                 <p>The Daylight Clock starts at <strong>0</strong> and does not reset between spots. Tick it up at the
                     end of each full round of skaters. When it hits 6, night has fallen. Reset to 0 and start the next
@@ -1217,7 +1226,7 @@
                     chance of being kicked out.</p>
             </div>
             <!-- KUDOS -->
-            <div class="card green">
+            <div class="card blue">
                 <h2>Kudos</h2>
                 <p>When you land a trick your crew daps you up, high fives you, gives you hugs. Choose one option below.
                     If the trick sequence was 4 or more dice choose two instead.
@@ -1231,19 +1240,22 @@
                             session</em>.</li>
                 </ul>
                 <blockquote>
-                    If <strong>playing solo</strong>, you start each day with 1 <em>Second Wind</em> that you can spend to restore 1 GNAR to
-                        yourself.
+                    If <strong>playing solo</strong>, you start each day with 1 <em>Second Wind</em> that you can spend
+                    to restore 1 GNAR to
+                    yourself.
                 </blockquote>
             </div>
             <!-- THE SESSION ITSELF -->
-            <div class="card yellow">
+            <div class="card green">
                 <h2>The Session</h2>
                 <h3>Legendary Spots</h3>
                 <p>Every spot has a Legend Track from 1 to 6. Roll a d6 and mark the starting Legend when skaters
                     arrive.</p>
 
-                <p>When a skater lands a trick at a spot, the spot's notoriety grows.</p>
-                <p><strong>Lock it Down:</strong> Add 1 tick to the spot's Legend Track.</p>
+                <p>When a skater lands <strong>a 4+ dice trick</strong> at a spot, <strong>the spot's notoriety
+                        grows:</strong></p>
+                <p><em>Lock it Down:</em> Add 1 tick to the spot's Legend Track everytime a trick with 4+ dice is landed
+                    there.</p>
 
                 <table>
                     <tr>
@@ -1268,14 +1280,16 @@
                             any clocks.</td>
                     </tr>
                 </table>
-                <p>If the Legend Track hits 6 while you're there, the Local Legend shows up and challenges the crew.</p>
+                <p>If the Legend Track <strong>hits 6 while you're there</strong>, a Local Legend shows up and
+                    challenges the crew.</p>
 
                 <h3>The Video Part</h3>
 
-                <p>You can always add a landed trick to your video part if you have a free clip slot. You can only have
+                <p>You can always add a landed trick to your video part if you <em>have a free clip slot</em>. You can
+                    only have
                     up to 5 clips in your part. You can swap old clips for new ones by <strong>using Kudos for
                         B-Roll</strong>.</p>
-                <p><strong>Clip it:</strong> Add the trick to your Video Part. Record the spot and trick sequence on
+                <p><em>Clip it:</em> Add the trick to your Video Part. Record the spot, trick and score on
                     your character sheet in an empty clip slot.</p>
 
                 <p>Each skater keeps a list of their landed tricks across the session. At the end of play, the group
@@ -1283,17 +1297,18 @@
                         Part</strong>. Last Part means you are the raddest, you shred the hardest.
                 </p>
 
-                <h3>S.K.8.</h3>
-                <p>The first skater calls and attempts a trick on a specific feature. If they land it, the next skater
-                    must attempt the exact same trick. If that skater bails or slams, they take a letter (S, K, 8). If
-                    you take all three letters in SK8 you're out. Last skater standing wins.</p>
-                <p>After the game ends tick the Kickout Clock and Daylight Clock twice each.</p>
+                <h3>Playing S.K.8.</h3>
+                <p>The first skater calls and attempts a trick on a specific feature. <em>Local Legends always go first.</em> If
+                    they land it, the next skater must attempt the exact same trick. If that skater bails or slams, they
+                    take a letter (S, K, 8). If you <strong>take all three letters in SK8 you're out</strong>. Last skater standing wins.
+                </p>
+                <p>After the game ends tick the Kickout Clock and Daylight Clock <strong>twice</strong> each.</p>
                 <p>You can Clip S.K.8. tricks but you don't get Kudos for them.</p>
             </div>
         </div>
     </div>
 
-    <div class="card pink" style="margin-bottom:20px;">
+    <div class="card yellow">
         <h2>The Local Legend</h2>
         <p>When a spot hits Legend 6, a known local steps up and challenges the crew to S.K.8. Roll d20 on each table.
             They have FLIP 2, GRIND 2, TECH 2 unless noted.</p>
@@ -1387,8 +1402,7 @@
                     </tr>
                     <tr>
                         <td>20</td>
-                        <td>The original builder of the spot you skated today, older than you expected. FLIP 3, GRIND 3,
-                            TECH 3.</td>
+                        <td>Tony Goblioni. Shredlord of Glimmerhold. Only shows up on day 3. If day 1 or 2, mark Tony for Day 3 and roll again. FLIP 3, GRIND 3, TECH 4.</td>
                     </tr>
                 </table>
             </div>
@@ -1596,12 +1610,11 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>They tag a spot on your behalf. Tick up the Legend Track at the next spot.</td>
+                        <td>They tag a spot on your behalf. At the next spot tick the Legend track up one after rolling.</td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Respect earned. The next Local Legend you face roll Attitude twice, take the friendlier
-                            result.</td>
+                        <td>Respect earned. Only tick the Daylight clock once, then roll on this table again.</td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -1624,11 +1637,11 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Bruised ego. Must spend 2 TECH to change to a 4 at the next spot.</td>
+                        <td>Bruised ego. Gnarly and Technical features at the next spot cost double to attempt.</td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>They run this district. All spots tomorrow tick down 1 Legend.</td>
+                        <td>They run this district. All spots tomorrow tick down 1 Legend after rolling.</td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -1636,7 +1649,7 @@
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Somebody filmed it. The GM describes the slam or bail that lost it. It lives on forever.
+                        <td>Somebody filmed it. Embarrassing. Reduce one of your Clip scores by 3.
                         </td>
                     </tr>
                 </table>
@@ -1647,13 +1660,13 @@
     <div class="card green">
         <h2>Running Local Legends</h2>
         <p>
-            OSRad is a GMless game, mostly. The Kickout and Daylight Clocks can be tracked by players and the players
+            OSRad is effectively a GMless game. The Kickout and Daylight Clocks can be tracked by players and the players
             can build spots together. The only thing that needs automation is the Local Legend. See below for how to run
             them.
         </p>
         <p>
-            <strong>One player can roll for the Local Legend. They always uses all their TECH rerolls on every
-                attempt.</strong>
+            <strong>One player can roll tricks for the Local Legend.</strong> They always uses all their TECH rerolls on every
+                attempt.
             If they have no 4 in their pool after the initial roll, they spend 1
             TECH to convert a die to a 4 before rerolling. They play to land, every
             time.
@@ -1665,9 +1678,13 @@
         </p>
 
         <blockquote>
-            <strong>d6</strong> - trick type. <strong>d8</strong> - specific trick
-            from that list. <strong>d4</strong> - on a 4, the trick is modified: odd
-            d6 = switch, even d6 = nollie. On 1-3, ignore the d4. <br /><br />
+            <ul>
+            <li><strong>d6</strong> - trick type.</li>
+            <li><strong>d8</strong> - specific trick from that list.</li>
+            <li><strong>d4</strong> - on a 4, the trick is modified
+            <ul><li>odd d6 = switch, even d6 = nollie.</li><li>On 1-3, ignore the d4.</li></ul>
+            </li>
+            </ul>
             For a <strong>Combo</strong>, the d8 gives the flip trick then roll the d8
             again for the grind.
         </blockquote>
@@ -1855,7 +1872,7 @@
         </blockquote>
     </div>
 
-    <div class="card yellow" style="margin-bottom:20px;">
+    <div class="card blue">
         <h2>The Gameplay Loop</h2>
         <p style="margin-bottom:14px;">You have 3 days. When a spot's Legend hits 6, the Local Legend appears. The
             Daylight Clock ticks up every round. When it hits 6 reset and you do it again.</p>
@@ -1888,8 +1905,9 @@
                     the city returns to normal and it's over.</div>
             </div>
         </div>
-        <p style="margin-top:16px;">At the end of the run, the crew watches the Video Parts together and tallies up who
-            had the sickest tricks. The skater with the most points gets Last Part. That's it. That's the game.</p>
+        <p>At the end of the run, the crew watches the Video Parts together and tallies up who
+            had the sickest tricks. <strong>The skater with the most points gets Last Part.</strong> That's it. That's
+            the game.</p>
     </div>
 
     <div class="sheet-ref">

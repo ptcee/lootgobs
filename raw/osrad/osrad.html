@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Old School Radical. A One Page TTRPG</title>
+    <title>Old School Radical. A One Page TTRPG.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
@@ -14,6 +14,7 @@
         :root {
             --main: #00a2ca;
             --highlight: #e1457c;
+            --die: #6ab85b;
             --bg: #f5f0e8;
             --card-pink: #f6dee6;
             --card-blue: #dbedf7;
@@ -203,7 +204,7 @@
             font-style: normal;
         }
 
-        pre {
+        .pre {
             background: rgba(0, 0, 0, 0.07);
             border: 1px solid var(--border);
             border-radius: 6px;
@@ -211,7 +212,6 @@
             font-size: 11px;
             font-family: 'Courier New', monospace;
             margin: 8px 0;
-            white-space: pre;
         }
 
         code {
@@ -268,7 +268,7 @@
             height: 26px;
             border-radius: 5px;
             background: white;
-            border: 2px solid var(--main);
+            border: 2px solid var(--die);
             flex-shrink: 0;
             vertical-align: middle;
         }
@@ -279,7 +279,7 @@
         }
 
         .pd {
-            fill: var(--main);
+            fill: var(--die);
         }
 
         .trick-row {
@@ -308,6 +308,11 @@
             flex: 1;
         }
 
+        .conditables {
+            display: flex;
+            gap: 10px;
+        }
+
         .note {
             font-size: 10px;
             color: #666;
@@ -326,7 +331,7 @@
         .loop-step {
             display: flex;
             gap: 12px;
-            align-items: flex-start;
+            align-items: center;
             background: rgba(0, 0, 0, 0.05);
             border-radius: 8px;
             padding: 8px 12px;
@@ -359,7 +364,6 @@
 
         .sheet-ref h2 {
             color: var(--highlight);
-            text-shadow: 2px 2px 0 var(--main);
         }
 
         .sheet-ref img {
@@ -379,6 +383,10 @@
 
         @media only screen and (max-width: 1000px) {
             .two-col {
+                flex-direction: column;
+            }
+
+            .conditables {
                 flex-direction: column;
             }
         }
@@ -408,7 +416,7 @@
     <div class="two-col">
 
         <div class="col">
-            <div class="card pink">
+            <div class="card green">
                 <h2>Creating a Skater</h2>
                 <p>Pick a name and roll a species. Then assign <strong>6 points</strong> across three stats. No stat may
                     exceed 3.</p>
@@ -530,7 +538,7 @@
                     video.</p>
             </div>
 
-            <div class="card blue">
+            <div class="card yellow">
                 <h2>Doing Tricks</h2>
                 <p>Before rolling, <strong>call your trick</strong>. State whether it's a flip trick, a grind, or a
                     combo. This determines which stat you use. Describe how you're performing the trick on the feature
@@ -554,25 +562,90 @@
         </div>
 
         <div class="col-fixed">
-            <div class="card green">
+            <div class="card blue">
                 <h2>Reading the Dice</h2>
 
                 <h3>The Sequence</h3>
                 <p>Tricks are built by reading dice left to right.</p>
 
                 <blockquote>
-                    A <strong>[4]</strong> must always start your trick, unless you are skating switch.<br><br>
+                    A <div class="die 4">
+                        <svg viewBox="0 0 18 18">
+                            <circle cx="5" cy="5" r="1.8" class="pd" />
+                            <circle cx="13" cy="5" r="1.8" class="pd" />
+                            <circle cx="5" cy="13" r="1.8" class="pd" />
+                            <circle cx="13" cy="13" r="1.8" class="pd" />
+                        </svg>
+                    </div> must always start your trick, unless you are skating switch.<br><br>
                     Skaters can spend 1 TECH to change a die result into a 4 after the initial roll.<br><br>
                     You may only convert one die into a 4 per trick attempt.
                 </blockquote>
 
-                <p><strong>[1]</strong> is a modifier die. Placed at the start it means <em>switch</em>. Placed at the
-                    end it means <em>nollie</em>. It is not used in the middle of a sequence. A rolled 1 that doesn't
-                    fit your sequence is discarded.</p>
+                <p>
+                <div class="die 1"><svg viewBox="0 0 18 18">
+                        <circle cx="9" cy="9" r="1.8" class="pd" />
+                    </svg></div> is a modifier die. Placed at the start it means <em>switch</em>. Placed at the
+                end it means <em>nollie</em>. It is not used in the middle of a sequence. A rolled 1 that doesn't
+                fit your sequence is discarded.</p>
 
-                <pre>[ 4 ][ 2 ]        - kickflip
-[ 1 ][ 4 ][ 2 ]   - switch kickflip
-[ 4 ][ 2 ][ 1 ]   - nollie kickflip</pre>
+                <div class="pre">
+                    <p>
+                    <div class="die 4">
+                        <svg viewBox="0 0 18 18">
+                            <circle cx="5" cy="5" r="1.8" class="pd" />
+                            <circle cx="13" cy="5" r="1.8" class="pd" />
+                            <circle cx="5" cy="13" r="1.8" class="pd" />
+                            <circle cx="13" cy="13" r="1.8" class="pd" />
+                        </svg>
+                    </div>
+                    <div class="die 2"><svg viewBox="0 0 18 18">
+                            <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                            <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                        </svg>
+                    </div>
+                     - kickflip
+                    </p>
+                    <p>
+                    <div class="die 1"><svg viewBox="0 0 18 18">
+                            <circle cx="9" cy="9" r="1.8" class="pd" />
+                        </svg>
+                    </div>
+                    <div class="die 4">
+                        <svg viewBox="0 0 18 18">
+                            <circle cx="5" cy="5" r="1.8" class="pd" />
+                            <circle cx="13" cy="5" r="1.8" class="pd" />
+                            <circle cx="5" cy="13" r="1.8" class="pd" />
+                            <circle cx="13" cy="13" r="1.8" class="pd" />
+                        </svg>
+                    </div>
+                    <div class="die 2"><svg viewBox="0 0 18 18">
+                            <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                            <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                        </svg>
+                    </div>
+                     - switch kickflip
+                    </p>
+                    <p>
+                        <div class="die 1"><svg viewBox="0 0 18 18">
+                            <circle cx="9" cy="9" r="1.8" class="pd" />
+                        </svg>
+                    </div>
+                    <div class="die 4">
+                        <svg viewBox="0 0 18 18">
+                            <circle cx="5" cy="5" r="1.8" class="pd" />
+                            <circle cx="13" cy="5" r="1.8" class="pd" />
+                            <circle cx="5" cy="13" r="1.8" class="pd" />
+                            <circle cx="13" cy="13" r="1.8" class="pd" />
+                        </svg>
+                    </div>
+                    <div class="die 2"><svg viewBox="0 0 18 18">
+                            <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                            <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                        </svg>
+                    </div>
+                     - nollie kickflip
+                </p>
+                </div>
 
                 <div class="dice-tables">
                     <div>
@@ -690,7 +763,7 @@
                             </div>
                             <span class="trick-name">Big Spin</span>
                         </div>
-                        <div class="note">Same die twice = doubled flip. <code>[4][2][2]</code> = double kickflip.</div>
+                        <div class="note">Same die twice = double flip. <code>[4][2][2]</code> = double kickflip.</div>
                     </div>
 
                     <div>
@@ -816,7 +889,7 @@
     <div class="two-col">
 
         <div class="col">
-            <div class="card yellow">
+            <div class="card blue">
                 <h2>Skate Spots</h2>
                 <p>Create a skate spot using the <strong>Spot Generator</strong> to shred a location from Orrelia's
                     streets and ruins.</p>
@@ -995,62 +1068,68 @@
                 </table>
 
                 <h3>Spot Conditions</h3>
-                <p>Check the highest and lowest neighbouring dice for each feature to add some flavour to them.</p>
-                <p><strong>If the die is 1, 2, or 3: Sketchy Spot.</strong> Check the highest neighbour.</p>
-                <table>
-                    <tr>
-                        <th>Die</th>
-                        <th>Condition</th>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Wet or Rained On</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Full of Gravel</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Cracked and Rough</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Pigeon Shit Everywhere</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Guard Patrol Route; roll Vibe twice, take lower</td>
-                    </tr>
-                </table>
-                <p><strong>If the die is 4, 5, or 6: Hype Spot.</strong> Check the lowest neighbour.</p>
-                <table>
-                    <tr>
-                        <th>Die</th>
-                        <th>Condition</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Secret Line; roll Vibe twice, take higher</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Swepted and Tidy</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Buttery Smooth Stone</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Freshly Waxed</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Dwarven Marble; smoothest stone in Orrelia</td>
-                    </tr>
-                </table>
+                <p>Check the highest or lowest neighbouring dice for each feature to add some flavour to them.</p>
+                <div class="conditables">
+                    <div>
+                        <p><strong>If the die is 1, 2, or 3: Sketchy Spot.</strong> Check the highest neighbour.</p>
+                        <table>
+                            <tr>
+                                <th>Die</th>
+                                <th>Condition</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Wet or Rained On</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Full of Gravel</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Cracked and Rough</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Pigeon Shit Everywhere</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Guard Patrol Route; roll Vibe twice, take lower</td>
+                            </tr>
+                        </table>
+                    </div>
 
+                    <div>
+                        <p><strong>If the die is 4, 5, or 6: Hype Spot.</strong> Check the lowest neighbour.</p>
+                        <table>
+                            <tr>
+                                <th>Die</th>
+                                <th>Condition</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Secret Line; roll Vibe twice, take higher</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Swepted and Tidy</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Buttery Smooth Stone</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Freshly Waxed</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Dwarven Marble; smoothest stone in Orrelia</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
                 <h3>The Vibe</h3>
                 <p>Roll for the vibe at each spot:</p>
                 <table>
@@ -1114,7 +1193,7 @@
                     kicked out.</p>
             </div>
 
-            <div class="card blue">
+            <div class="card green">
                 <h2>Props</h2>
                 <p>When you land a trick gain one option below. If the trick sequence was 4 or more dice choose both.
                 </p>
@@ -1123,7 +1202,7 @@
                 </p>
             </div>
 
-            <div class="card green">
+            <div class="card yellow">
                 <h2>The Session</h2>
                 <h3>Legendary Spots</h3>
                 <p>Every spot has a Legend Track from 1 to 6. Roll a d6 and mark the starting Legend when players
@@ -1532,7 +1611,7 @@
         </div>
     </div>
 
-    <div class="card green" style="margin-bottom:20px;">
+    <div class="card yellow" style="margin-bottom:20px;">
         <h2>The Gameplay Loop</h2>
         <p style="margin-bottom:14px;">You have 3 days. When a spot's Legend hits 6, the Local Legend appears. The
             Daylight Clock ticks up every round. When it hits 6 reset and you do it again.</p>

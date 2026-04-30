@@ -7,8 +7,7 @@
     <title>Old School Radical. A One Page TTRPG.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style>
         :root {
@@ -264,11 +263,11 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 26px;
-            height: 26px;
+            width: 20px;
+            height: 20px;
             border-radius: 5px;
             background: white;
-            border: 2px solid var(--die);
+            /* border: 2px solid var(--die); */
             flex-shrink: 0;
             vertical-align: middle;
         }
@@ -319,7 +318,6 @@
             color: #666;
             font-style: italic;
             padding: 5px 0 0;
-            border-top: 1px dotted var(--faint);
             margin-top: 6px;
         }
 
@@ -391,8 +389,9 @@
                 flex-direction: column;
             }
 
-             .page-header h1 {
-            font-size: 6.5em; }
+            .page-header h1 {
+                font-size: 6.5em;
+            }
         }
     </style>
 </head>
@@ -401,8 +400,7 @@
 
     <div class="page-header">
         <h1>OSRad.</h1>
-        <div class="tagline">A one page TTRPG of shredding glory and eating shit in the world of Orrelia for 1-4
-            players.
+        <div class="tagline">A one page TTRPG of shredding glory and eating shit in the world of Orrelia for 1-4 players.
         </div>
         <p class="intro">
             You're a skater in the realm of Orrelia. Elf, goblin, dwarf, orc, halfling, whatever. You've got your board
@@ -422,16 +420,13 @@
         <div class="col">
             <div class="card green">
                 <h2>Creating a Skater</h2>
-                <p>Pick a name and roll a species. Then assign <strong>6 points</strong> across three stats. No stat may
-                    exceed 3.</p>
+                <p>Pick a name and roll a species. Then assign <strong>6 points</strong> across three stats. No stat may exceed 3.</p>
                 <ul>
                     <li><strong>FLIP:</strong> How many dice you roll for flip tricks.</li>
                     <li><strong>GRIND:</strong> How many dice you roll for grinds.</li>
-                    <li><strong>TECH:</strong> Spend 1 TECH to reroll. Spend 1 TECH to change a die into a 4 once per
-                        trick. <em>Refreshes after each trick attempt.</em></li>
+                    <li><strong>TECH:</strong> Spend 1 TECH to reroll. Spend 1 TECH to change a die into a 4 once per trick. <em>Refreshes after each trick attempt.</em></li>
                 </ul>
-                <p>Each skater has 3 <strong>GNAR</strong>. These are your hit points. When GNAR is 0, you're too beat
-                    up to skate. GNAR refreshes at the start of the next day.</p>
+                <p>Each skater has 3 <strong>GNAR</strong>. These are your hit points. When GNAR is 0 you're too beat up to skate. GNAR refreshes at the start of the next day.</p>
 
                 <h3>Species Bonuses</h3>
                 <p>All folks skate, some skate different.</p>
@@ -485,7 +480,7 @@
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Stolen noblewear. Silk collars, frilly cuffs, one glove. Prince but make it Punk.</td>
+                        <td>Stolen noblewear. Silk collars, frilly cuffs, one glove. Prince but Punk.</td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -538,29 +533,22 @@
                 </table>
 
                 <h3>Crew Name</h3>
-                <p>After all players create their skaters, have them come up with a crew name and name for their skate
-                    video.</p>
+                <p>After all players create their skaters, have them come up with a crew name and name for their skat video.</p>
             </div>
 
             <div class="card yellow">
                 <h2>Doing Tricks</h2>
-                <p>Before rolling, <strong>call your trick</strong>. State whether it's a flip trick, a grind, or a
-                    combo. This determines which stat you use. Describe how you're performing the trick on the feature
-                    you're at.</p>
+                <p>Before rolling, <strong>call your trick</strong>. State whether it's a flip trick, a grind, or a combo. This determines which stat you use. Describe how you're performing the trick on the feature you're at.</p>
                 <p>All tricks <strong>start with a single d6</strong>, then add your stat dice.</p>
                 <ol>
                     <li><strong>Roll your dice pool.</strong> Start with a single d6. Add your stat dice from there.
                     </li>
                     <li><strong>Pop your trick.</strong> You may spend 1 TECH to change one die into a 4.</li>
-                    <li><strong>Reroll:</strong> You may reroll a number of times equal to your TECH stat. Hold dice you
-                        want to keep, reroll the rest until you're happy or reach TECH number.</li>
-                    <li><strong>Check for a slam.</strong> After rolling and rerolling, if two or more dice show 1, you
-                        slam. Lose 1 GNAR. Tick the Kickout Clock up. Your turn ends.</li>
-                    <li><strong>Arrange your dice into a sequence</strong> to build the trick. Unused dice are
-                        discarded.</li>
+                    <li><strong>Reroll:</strong> You may reroll a number of times equal to your TECH stat. Hold dice you want to keep, reroll the rest until you're happy or reach TECH number.</li>
+                    <li><strong>Check for a slam.</strong> After rolling and rerolling, if two or more dice show 1, you slam. Lose 1 GNAR. Tick the Kickout Clock up. Your turn ends.</li>
+                    <li><strong>Arrange your dice into a sequence</strong> to build the trick. Unused dice are discarded.</li>
                     <li><strong>If you cannot form a valid sequence</strong>, you bail. Tick the Kickout Clock up.</li>
-                    <li><strong>If you land the trick</strong>, get some props (see PROPS) and add it to your Video
-                        Part.</li>
+                    <li><strong>If you land the trick</strong>, get some props (see PROPS) and add it to your Video Part.</li>
                 </ol>
             </div>
         </div>
@@ -607,7 +595,7 @@
                             <circle cx="12.5" cy="12.5" r="2" class="pd" />
                         </svg>
                     </div>
-                     - kickflip
+                    - kickflip
                     </p>
                     <p>
                     <div class="die 1"><svg viewBox="0 0 18 18">
@@ -627,7 +615,7 @@
                             <circle cx="12.5" cy="12.5" r="2" class="pd" />
                         </svg>
                     </div>
-                     - switch kickflip
+                    - switch kickflip
                     </p>
                     <p>
                     <div class="die 4">
@@ -643,12 +631,12 @@
                             <circle cx="12.5" cy="12.5" r="2" class="pd" />
                         </svg>
                     </div>
-                     <div class="die 1"><svg viewBox="0 0 18 18">
+                    <div class="die 1"><svg viewBox="0 0 18 18">
                             <circle cx="9" cy="9" r="1.8" class="pd" />
                         </svg>
                     </div>
-                     - nollie kickflip
-                </p>
+                    - nollie kickflip
+                    </p>
                 </div>
 
                 <div class="dice-tables">
@@ -882,10 +870,7 @@
 
                 <h3>Combos</h3>
                 <p>Combos are riskier. More dice means more chances to slam.</p>
-                <p>For a flip into grind or grind flip out, roll both your FLIP and GRIND dice pools together. Hold and
-                    reroll as normal, building one continuous sequence. The <code>-</code> separates the flip from the
-                    grind portion when recording. You assign dice to your first trick and then assign remaining dice to
-                    your second trick.</p>
+                <p>For a flip into grind or grind flip out, roll both your FLIP and GRIND dice pools together. Hold and reroll as normal, building one continuous sequence. The <code>-</code> separates the flip from the grind portion when recording. You assign dice to your first trick and then assign remaining dice to your second trick.</p>
             </div>
         </div>
     </div>
@@ -895,12 +880,10 @@
         <div class="col">
             <div class="card blue">
                 <h2>Skate Spots</h2>
-                <p>Create a skate spot using the <strong>Spot Generator</strong> to shred a location from Orrelia's
-                    streets and ruins.</p>
+                <p>Create a skate spot using the <strong>Spot Generator</strong> to shred a location from Orrelia's streets and ruins.</p>
 
                 <h3>Building a Spot</h3>
-                <p>Roll a handful of d6s (3-8) and push them together on the table. Each die value determines the spot
-                    type.</p>
+                <p>Roll a handful of d6s (3-8) and push them together on the table. Each die value determines the spot type.</p>
                 <table>
                     <tr>
                         <th>Die</th>
@@ -932,10 +915,7 @@
                     </tr>
                 </table>
 
-                <p><strong>Features</strong> are determined by adding adjacent values to the spot's value. For each die,
-                    take its own value and add the value of every die touching it in each cardinal direction. Look up
-                    the total on the Feature table, that's what's there. City Gate and Noble Ward spots sum all dice
-                    into a single feature.</p>
+                <p><strong>Features</strong> are determined by adding adjacent values to the spot's value. For each die, take its own value and add the value of every die touching it in each cardinal direction. Look up the total on the Feature table, that's what's there. City Gate and Noble Ward spots sum all dice into a single feature.</p>
 
                 <blockquote>
                     A feature can be <strong>Gnarly</strong> or <strong>Technical.</strong><br>
@@ -1138,7 +1118,7 @@
                 <p>Roll for the vibe at each spot:</p>
                 <table>
                     <tr>
-                        <th>Roll</th>
+                        <th>d6</th>
                         <th>Vibe</th>
                         <th>Effect</th>
                     </tr>
@@ -1165,16 +1145,7 @@
                 </table>
 
                 <blockquote>
-                    <strong>Lil' side note: Read the Spot as a place.</strong> When the dice hit the table you're not
-                    looking at
-                    a stat block. You're looking at a street corner, a market approach, a ruined ward alley. Read it
-                    like a skater would: where's the entry, where's the exit, what's the natural line? A Barrel Kicker
-                    next to a Stone Hubba next to a Gutter Gap isn't three separate features, it's a line. Describe it
-                    that way before anyone rolls. Describe the atmosphere of the area. Low sums are tight back alleys
-                    with cracked stone and stacked crates. High sums are civic spaces, something was built here with
-                    intention. Give players the place first. "You're in the Pale Ward, just off the market approach.
-                    There's a long marble ledge running the full length of a shuttered guild hall and a stair set
-                    dropping to the docks road." Then let them find the lines.
+                    <strong>Lil' side note: Read the Spot as a place.</strong> When the dice hit the table you're not looking at a stat block. You're looking at a street corner, a market approach, a ruined ward alley. Read it like a skater would: where's the entry, where's the exit, what's the natural line? A Barrel Kicker next to a Stone Hubba next to a Gutter Gap isn't three separate features, it's a line. Describe it that way before anyone rolls. Describe the atmosphere of the area. Low sums are tight back alley with cracked stone and stacked crates. High sums are civic spaces, something was built here with intention. Give players the place first. "You're in the Pale Ward, just off the market approach. There's a long marble ledge running the full length of a shuttered guild hall and a stair set dropping to the docks road." Then let them find the lines.
                 </blockquote>
             </div>
         </div>
@@ -1184,40 +1155,33 @@
                 <h2>Clocks</h2>
                 <p>Both clocks count <strong>up to 6 from 0</strong>. Track them each with a d6.</p>
                 <h3>The Kickout Clock</h3>
-                <p>Every spot starts with a Kickout Clock of <strong>6</strong>. It ticks up whenever someone bails or
-                    slams. When it hits 6, the guards arrive, the locals shut it down, or the wizard locks the gate.
-                    Move on.</p>
+                <p>Every spot starts with a Kickout Clock of <strong>6</strong>. It ticks up whenever someone bails or slams. When it hits 6, the guards arrive, the locals shut it down, or the wizard locks the gate. Move on.</p>
                 <h3>The Daylight Clock</h3>
-                <p>The Daylight Clock starts at <strong>0</strong> and does not reset between spots. Tick it up at the
-                    end of each full round of skaters. When it hits 6, night has fallen. Reset to 0 and start the next
-                    day. You have 3 days.</p>
+                <p>The Daylight Clock starts at <strong>0</strong> and does not reset between spots. Tick it up at the end of each full round of skaters. When it hits 6, night has fallen. Reset to 0 and start the next day. You have 3 days.</p>
                 <h3>Lanterns</h3>
-                <p>When arriving at a spot, players may tick the Kickout Clock up 2 to light a lantern. Lighting a
-                    lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher chance of being
-                    kicked out.</p>
+                <p>When arriving at a spot, if a skater has a Lantern they may tick the Kickout Clock up 2 to light a lantern. Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher chance of being kicked out.</p>
             </div>
 
             <div class="card green">
                 <h2>Props</h2>
-                <p>When you land a trick gain one option below. If the trick sequence was 4 or more dice choose both.
+                <p>When you land a trick gain one option below. If the trick sequence was 4 or more dice choose two.
                 </p>
                 <p><strong>Get Hype:</strong> Restore 1 GNAR to you or a friend.</p>
-                <p><strong>Lock In:</strong> On your next trick you may treat a 2 as a 4 for your sequence starting die.
-                </p>
+                <p><strong>Lock In:</strong> Next trick you may treat a 2 as a 4 for your sequence starting die.</p>
+                <p><strong>Light it Up:</strong> Gain 1 Lantern. A skater may only choose this option once per session.</p>
             </div>
 
             <div class="card yellow">
                 <h2>The Session</h2>
                 <h3>Legendary Spots</h3>
-                <p>Every spot has a Legend Track from 1 to 6. Roll a d6 and mark the starting Legend when players
-                    arrive.</p>
+                <p>Every spot has a Legend Track from 1 to 6. Roll a d6 and mark the starting Legend when skaters arrive.</p>
 
-                <p>When a player lands a trick at a spot, the spot's notoriety grows.</p>
+                <p>When a skater lands a trick at a spot, the spot's notoriety grows.</p>
                 <p><strong>Lock it Down:</strong> Add 1 tick to the spot's Legend Track.</p>
 
                 <table>
                     <tr>
-                        <th>Legend</th>
+                        <th>d6</th>
                         <th>Effect</th>
                     </tr>
                     <tr>
@@ -1242,23 +1206,17 @@
 
                 <h3>The Video Part</h3>
 
-                <p>You can always add a landed trick to your video part. You can only have up to 5 clips in your part.
-                    You can swap old clips for new ones.</p>
-                <p><strong>Clip it:</strong> Add the trick to your Video Part. Record the spot and trick sequence on
-                    your character sheet.</p>
+                <p>You can always add a landed trick to your video part. You can only have up to 5 clips in your part. You can swap old clips for new ones.</p>
+                <p><strong>Clip it:</strong> Add the trick to your Video Part. Record the spot and trick sequence on your character sheet.</p>
 
-                <p>Each skater keeps a list of their landed tricks across the session. At the end of play, the group
-                    narrates (watches) their parts together and decides who had the sickest tricks. That skater gets
-                    <strong>Last Part</strong>. Last Part means you are the raddest. There is no points system, the crew
-                    just knows who shred the hardest.
+                <p>Each skater keeps a list of their landed tricks across the session. At the end of play, the group narrates (watches) their parts together and decides who had the sickest tricks. That skater gets
+                    <strong>Last Part</strong>. Last Part means you are the raddest. There is no points system, the crew just knows who shred the hardest.
                 </p>
 
 
 
                 <h3>S.K.8.</h3>
-                <p>The first skater calls and attempts a trick on a specific feature. If they land it, the next skater
-                    must attempt the exact same trick. If that skater bails or slams, they take a letter (S, K, 8). If
-                    you take all three letters in SK8 you're out. Last skater standing wins.</p>
+                <p>The first skater calls and attempts a trick on a specific feature. If they land it, the next skater must attempt the exact same trick. If that skater bails or slams, they take a letter (S, K, 8). If you take all three letters in SK8 you're out. Last skater standing wins.</p>
                 <p>After the game ends tick the Kickout Clock and Daylight Clock twice each.</p>
                 <p>You can Clip S.K.8. tricks but you don't get Props for them.</p>
             </div>
@@ -1622,34 +1580,26 @@
         <div class="loop-steps">
             <div class="loop-step">
                 <span class="num">1</span>
-                <div class="txt"><strong>Find a spot.</strong> Roll the spot generator. The GM reads the dice as a
-                    place, describes the location and the natural lines. Players roll Vibe.</div>
+                <div class="txt"><strong>Find a spot.</strong> Roll the spot generator. The GM reads the dice as a place, describes the location and the natural lines. Players roll Vibe.</div>
             </div>
             <div class="loop-step">
                 <span class="num">2</span>
-                <div class="txt"><strong>Session it.</strong> Players take turns calling and attempting tricks. Bails
-                    and slams tick the Kickout Clock up. Landed tricks earn Props. At the end of each full round, tick
-                    the Daylight Clock up.</div>
+                <div class="txt"><strong>Session it.</strong> Players take turns calling and attempting tricks. Bails and slams tick the Kickout Clock up. Landed tricks earn Props. At the end of each full round, tick the Daylight Clock up.</div>
             </div>
             <div class="loop-step">
                 <span class="num">3</span>
-                <div class="txt"><strong>Face the Local Legend.</strong> A local steps up when a spot's Legend hits 6.
-                    They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into
-                    tomorrow.</div>
+                <div class="txt"><strong>Face the Local Legend.</strong> A local steps up when a spot's Legend hits 6. They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into tomorrow.</div>
             </div>
             <div class="loop-step">
                 <span class="num">4</span>
-                <div class="txt"><strong>Get kicked out or move on.</strong> When the Kickout Clock hits 6 the spot is
-                    done. Find another. When the Daylight Clock hits 6, night falls.</div>
+                <div class="txt"><strong>Get kicked out or move on.</strong> When the Kickout Clock hits 6 the spot is done. Find another. When the Daylight Clock hits 6, night falls.</div>
             </div>
             <div class="loop-step">
                 <span class="num">5</span>
-                <div class="txt"><strong>New day.</strong> GNAR refreshes. Clocks reset. Mark a day. After 3 days total
-                    the city returns to normal and it's over.</div>
+                <div class="txt"><strong>New day.</strong> GNAR refreshes. Clocks reset. Mark a day. After 3 days total the city returns to normal and it's over.</div>
             </div>
         </div>
-        <p style="margin-top:16px;">At the end of the run, the crew watches the Video Parts together and decides who had
-            the sickest tricks. That skater gets last part. That's it. That's the game.</p>
+        <p style="margin-top:16px;">At the end of the run, the crew watches the Video Parts together and decides who had the sickest tricks. That skater gets last part. That's it. That's the game.</p>
     </div>
 
     <div class="sheet-ref">

@@ -561,9 +561,9 @@
                 <p>Pick a name and roll a species. Then assign <strong>4 points</strong> across three stats. Each stat
                     starts at 1 and no stat may exceed 3.</p>
                 <ul>
-                    <li><strong>FLIP:</strong> How many dice you roll for flip tricks.</li>
-                    <li><strong>GRIND:</strong> How many dice you roll for grinds.</li>
-                    <li><strong>TECH:</strong> Spend 1 TECH to reroll any number of dice. If your intial reroll has no 4 you can change 1 die to a 4. <em>Refreshes before each trick attempt.</em></li>
+                    <li><strong>FLIP:</strong> Number of dice you roll for flip tricks.</li>
+                    <li><strong>GRIND:</strong> Number of dice you roll for grinds.</li>
+                    <li><strong>TECH:</strong> Rerolls per trick. Each use can reroll up to TECH dice. After your first reroll, if you have no 4, set one die to 4. <em>Refreshes before each trick attempt.</em></li>
                 </ul>
                 <p>Each skater has 3 <strong>GNAR</strong>. These are effectively your hit points. When GNAR is 0 you're
                     too beat up to skate. GNAR refreshes at the start of the next day.</p>
@@ -584,7 +584,7 @@
                     <tr>
                         <td>2</td>
                         <td><strong>Dwarf</strong></td>
-                        <td><em>Stoneskin:</em> GNAR 4, FLIP and GRIND max at 2.</td>
+                        <td><em>Stoneskin:</em> GNAR 4, FLIP max at 2.</td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -1030,6 +1030,7 @@
                     <p>When you add a trick to your Video Part calculate it's trick score.</p>
                     <ul>
                         <li>1 pt for each die in the sequence.</li>
+                        <li>1 pt if flip & grind don't exist in clip list.</li>
                         <li>2 pt if on a <strong>Gnarly</strong> feature.</li>
                         <li>2 pt if on a <strong>Technical</strong> feature.</li>
                         <li>2 pt if consecutive trick in a <strong>line</strong>.</li>

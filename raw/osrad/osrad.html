@@ -33,6 +33,10 @@
             padding: 0;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background: var(--bg);
             color: var(--text);
@@ -221,11 +225,11 @@
         .card img {
             display: block;
             margin: 16px auto;
-            max-width: 100%; 
+            max-width: 100%;
         }
 
         .pre {
-            background: rgba(0, 0, 0, 0.07);
+            background: rgba(90, 90, 90, 0.07);
             border: 1px solid var(--border);
             border-radius: 6px;
             padding: 10px 14px;
@@ -315,6 +319,10 @@
             border-bottom: none;
         }
 
+        .trick-row:hover {
+            background: rgba(0, 0, 0, 0.03);
+        }
+
         .trick-name {
             margin-left: 5px;
         }
@@ -329,7 +337,8 @@
             flex: 1;
         }
 
-        .conditables, .feattables {
+        .conditables,
+        .feattables {
             display: flex;
             gap: 10px;
         }
@@ -376,13 +385,19 @@
         }
 
         .sheet-ref {
-            margin-top: 52px;
+            margin-top: 16px;
             border-top: 3px dashed var(--highlight);
             padding-top: 28px;
         }
 
         .sheet-ref h2 {
             color: var(--highlight);
+        }
+
+        .sheet-ref p {
+            font-size: 11px;
+            color: #2d2a2a;
+            font-style: italic;
         }
 
         .sheet-ref img {
@@ -408,9 +423,63 @@
             width: 100%;
         }
 
+        #nav {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+        }
+
+        #nav-toggle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--main);
+            color: #fff;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+
+        #nav-menu {
+            display: none;
+            position: absolute;
+            bottom: 48px;
+            right: 0;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 6px 0;
+            min-width: 180px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        #nav-menu.open {
+            display: block;
+        }
+
+        #nav-menu a {
+            display: block;
+            padding: 7px 16px;
+            font-size: 12px;
+            color: #333;
+            text-decoration: none;
+            font-family: var(--font, monospace);
+        }
+
+        #nav-menu a:hover {
+            background: #fa9ad5;
+        }
+
         @media only screen and (max-width: 960px) {
             .two-col {
                 flex-direction: column;
+                gap: 0;
             }
 
             .conditables {
@@ -437,8 +506,8 @@
             }
 
             .cputable {
-            width: 100%;
-        }
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -465,6 +534,25 @@
         </p>
     </div>
 
+    <div id="nav">
+        <div id="nav-menu">
+            <a href="#dotricks">Doing Tricks</a>
+            <a href="#scoring"><em>▸ Scoring</em></a>
+            <a href="#spots">Skate Spots</a>
+            <a href="#kudos">Kudos</a>
+            <a href="#session">The Session</a>
+            <a href="#legspots"><em>▸ Legendary Spots</em></a>
+            <a href="#video"><em>▸ The Video</em></a>
+            <a href="#sk8"><em>▸ S.K.8.</em></a>
+            <a href="#legends1">Local Legends</a>
+            <a href="#legends2"><em>▸ Run</em></a>
+            <a href="#tricks">Full Trick List</a>
+            <a href="#loop">Play Loop</a>
+        </div>
+        <button id="nav-toggle" onclick="document.getElementById('nav-menu').classList.toggle('open')"
+            title="jump">☰</button>
+    </div>
+
     <div class="two-col">
         <!-- CHAR GEN  -->
         <div class="col">
@@ -475,8 +563,7 @@
                 <ul>
                     <li><strong>FLIP:</strong> How many dice you roll for flip tricks.</li>
                     <li><strong>GRIND:</strong> How many dice you roll for grinds.</li>
-                    <li><strong>TECH:</strong> Spend 1 TECH to reroll any number of dice. Spend 2 TECH to change a die into a 4 once per
-                        trick. <em>Refreshes before each trick attempt.</em></li>
+                    <li><strong>TECH:</strong> Spend 1 TECH to reroll any number of dice. If your intial reroll has no 4 you can change 1 die to a 4. <em>Refreshes before each trick attempt.</em></li>
                 </ul>
                 <p>Each skater has 3 <strong>GNAR</strong>. These are effectively your hit points. When GNAR is 0 you're
                     too beat up to skate. GNAR refreshes at the start of the next day.</p>
@@ -589,25 +676,21 @@
                 <p>After all players create their skaters, come up with a crew name and name for the video.</p>
             </div>
 
-            <div class="card yellow">
+            <div class="card yellow" id="dotricks">
                 <h2>Doing Tricks</h2>
-                <p>Before rolling, <strong>call your trick</strong>. State whether it's a flip trick, a grind, or a
-                    combo. This determines which stat you use. Describe how you're performing the trick and what feature
-                    you're at.</p>
-                <p>All tricks <strong>start with a single d6</strong>, then add your stat dice.</p>
+                <p>Before rolling, <strong>call your trick</strong>. State whether it's nollie or switch, a flip trick, grind, or combo. This determines which stats you use. Describe how you're performing the trick and on which feature.</p>
+                <p>All tricks <strong>start with a single base d6</strong>, then add your stat dice.</p>
                 <ol>
                     <li><strong>Roll your dice pool.</strong> Start with a single d6. Add your stat dice from there.
                     </li>
-                    <li><strong>Pop your trick.</strong> Trick sequences must begin with a 4. You may spend 2 TECH to
-                        change one die into a 4 if you didn't roll one.</li>
-                    <li><strong>Rerolls;</strong> You may spend 1 TECH to reroll any number of dice.</li>
+                    <li><strong>Rerolls:</strong> You may spend 1 TECH to reroll any number of dice.</li>
+                    <li><strong>Pop your trick.</strong> After your first reroll, if you do not have a 4 you may change 1 die into a 4.</li>
                     <li><strong>Check for a slam.</strong> After rolling and rerolling, if two or more dice show 1, you
                         slam. Lose 1 GNAR. Tick the Kickout Clock up. Your turn ends.</li>
                     <li><strong>Arrange your dice into a sequence</strong> to build the trick. Unused dice are
                         discarded.</li>
                     <li><strong>If you cannot form a valid sequence</strong>, you bail. Tick the Kickout Clock up.</li>
-                    <li><strong>If you land the trick</strong>, get some kudos (see KUDOS) and add it to your Video
-                        Part.</li>
+                    <li><strong>If you land the trick</strong>, get some kudos (see KUDOS) and clip it!</li>
                 </ol>
             </div>
         </div>
@@ -628,9 +711,8 @@
                             <circle cx="13" cy="13" r="1.8" class="pd" />
                         </svg>
                     </div> must always start your trick, unless you are skating switch.<br><br>
-                    Skaters can spend 2 TECH to change a die result into a 4 after the initial roll if they did not roll a 4.<br><br>
-                    You may only convert one die into a 4 per trick attempt.
-                </blockquote>
+                    Skaters can change a die result into a 4 after their first reroll if they do not roll
+                    a 4.</blockquote>
 
                 <p>
                 <div class="die 1"><svg viewBox="0 0 18 18">
@@ -778,12 +860,22 @@
                                 </svg></div>
                             <span class="trick-name">Laserflip</span>
                         </div>
-                          <!-- [6][2] hardflip -->
-                <div class="trick-row"><em>7</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Hardflip</span>
-                </div>
+                        <!-- [6][2] hardflip -->
+                        <div class="trick-row"><em>7</em>
+                            <div class="die 6"><svg viewBox="0 0 18 18">
+                                    <circle cx="5" cy="5" r="1.8" class="pd" />
+                                    <circle cx="13" cy="5" r="1.8" class="pd" />
+                                    <circle cx="5" cy="9" r="1.8" class="pd" />
+                                    <circle cx="13" cy="9" r="1.8" class="pd" />
+                                    <circle cx="5" cy="13" r="1.8" class="pd" />
+                                    <circle cx="13" cy="13" r="1.8" class="pd" />
+                                </svg></div>
+                            <div class="die 2"><svg viewBox="0 0 18 18">
+                                    <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                    <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                                </svg></div>
+                            <span class="trick-name">Hardflip</span>
+                        </div>
                         <!-- [3][5] big spin -->
                         <div class="trick-row"><em>8</em>
                             <div class="die 3"><svg viewBox="0 0 18 18">
@@ -909,17 +1001,21 @@
                             <span class="trick-name">Bluntslide</span>
                         </div>
                     </div>
-                    <div class="note"><p>Optional <strong>Advanced Tricks</strong> at the end of this doc.</p></div>
+                    <div class="note">
+                        <p>Optional <strong>Advanced Tricks</strong> at the end of this doc.</p>
+                    </div>
                 </div>
 
                 <blockquote>
                     <p>Declared intent distinguishes shared notation.</p>
                     <p>Combos: use <code>-</code> between tricks when recording.</p>
-                    </blockquote>
+                </blockquote>
 
                 <h3>Combos</h3>
                 <p>Combos are riskier. More dice means more chances to slam.</p>
-                <p>For a flip into grind or grind flip out, roll both your FLIP and GRIND dice pools together, along with the base d6. Reroll as normal, building one continuous sequence. The <code>-</code> separates the flip from the
+                <p>For a flip into grind or grind flip out, roll both your FLIP and GRIND dice pools together, along
+                    with the base d6. Reroll as normal, building one continuous sequence. The <code>-</code> separates
+                    the flip from the
                     grind portion when recording. You assign dice to your first trick and then assign remaining dice to
                     your second trick.</p>
 
@@ -929,13 +1025,13 @@
                     that trick as well.</p>
                 <p>If you declare you're doing a line, your TECH doesn't refresh.</p>
 
-                <blockquote>
+                <blockquote id="scoring">
                     <h3>Scoring</h3>
                     <p>When you add a trick to your Video Part calculate it's trick score.</p>
                     <ul>
                         <li>1 pt for each die in the sequence.</li>
-                        <li>1 pt if on a <strong>Gnarly</strong> feature.</li>
-                        <li>1 pt if on a <strong>Technical</strong> feature.</li>
+                        <li>2 pt if on a <strong>Gnarly</strong> feature.</li>
+                        <li>2 pt if on a <strong>Technical</strong> feature.</li>
                         <li>2 pt if consecutive trick in a <strong>line</strong>.</li>
                     </ul>
                 </blockquote>
@@ -946,7 +1042,7 @@
     <!-- BUILDING A SPOT -->
     <div class="two-col">
         <div class="col">
-            <div class="card pink">
+            <div class="card pink" id="spots">
                 <h2>Skate Spots</h2>
                 <p>Create a skate spot using the <strong>Spot Generator</strong> to shred a location from Glimmerhold's
                     streets and alleys. A spot is made up of a number of features you can do tricks on.</p>
@@ -970,7 +1066,7 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Ward Corner - touches no more than 3 areas</td>
+                        <td>Ward Junction - touches no more than 3 areas</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -999,145 +1095,145 @@
                     A <strong>Technical</strong> feature costs 1 TECH to attempt.
                 </blockquote>
                 <div class="feattables">
-                <div>
-                <table>
-                    <tr>
-                        <th>Sum</th>
-                        <th>Feature</th>
-                        <th>Effect</th>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Cobblestone Curb</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Merchant Crate</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Cracked Flagstone Step</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Market Statue Block</td>
-                        <td>Technical</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Tavern Bench</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Manual Slab</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Barrel Kicker</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Stone Hubba</td>
-                        <td>Technical</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Iron Rail</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Collapsed Manor Archway</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Tavern Awning Drop</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Smithy Ledge</td>
-                        <td>Technical</td>
-                    </tr>
-                </table>
-                </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Sum</th>
+                                <th>Feature</th>
+                                <th>Effect</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Cobblestone Curb</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Merchant Crate</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Cracked Flagstone Step</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Market Statue Block</td>
+                                <td>Technical</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Tavern Bench</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Manual Slab</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Barrel Kicker</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Stone Hubba</td>
+                                <td>Technical</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Iron Rail</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Collapsed Manor Archway</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Tavern Awning Drop</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Smithy Ledge</td>
+                                <td>Technical</td>
+                            </tr>
+                        </table>
+                    </div>
 
-                <div>
-                <table class="tablemerge">
-                    <tr class="hideheader">
-                        <th>Sum</th>
-                        <th>Feature</th>
-                        <th>Effect</th>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>Gutter Gap</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>8 Stair Set</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Aqueduct Bank</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>Ruined Wall Quarter Pipe</td>
-                        <td>Gnarly</td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>Shipyard Half Pipe</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>30ft Long Tower Handrail</td>
-                        <td>Gnarly &amp; Technical</td>
-                    </tr>
-                    <tr>
-                        <td>21</td>
-                        <td>18ft Roof Drop</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>22-24</td>
-                        <td>City Gate Triple Kinked Rail</td>
-                        <td>Double Technical</td>
-                    </tr>
-                    <tr>
-                        <td>25-27</td>
-                        <td>Temple Row 48 Stair</td>
-                        <td>Double Gnarly</td>
-                    </tr>
-                    <tr>
-                        <td>28-30</td>
-                        <td>The Warrens Gap</td>
-                        <td>—</td>
-                    </tr>
-                    <tr>
-                        <td>31-33</td>
-                        <td>Pale Ward Gate Rail</td>
-                        <td>Technical</td>
-                    </tr>
-                    <tr>
-                        <td>34+</td>
-                        <td>The Underhold Sewer Walls</td>
-                        <td>—</td>
-                    </tr>
-                </table>
-                </div>
+                    <div>
+                        <table class="tablemerge">
+                            <tr class="hideheader">
+                                <th>Sum</th>
+                                <th>Feature</th>
+                                <th>Effect</th>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Gutter Gap</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>8 Stair Set</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Aqueduct Bank</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Ruined Wall Quarter Pipe</td>
+                                <td>Gnarly</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Shipyard Half Pipe</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>30ft Long Tower Handrail</td>
+                                <td>Gnarly &amp; Technical</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>18ft Roof Drop</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>22-24</td>
+                                <td>City Gate Triple Kinked Rail</td>
+                                <td>Double Technical</td>
+                            </tr>
+                            <tr>
+                                <td>25-27</td>
+                                <td>Temple Row 48 Stair</td>
+                                <td>Double Gnarly</td>
+                            </tr>
+                            <tr>
+                                <td>28-30</td>
+                                <td>The Warrens Gap</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>31-33</td>
+                                <td>Pale Ward Gate Rail</td>
+                                <td>Technical</td>
+                            </tr>
+                            <tr>
+                                <td>34+</td>
+                                <td>The Underhold Sewer Walls</td>
+                                <td>—</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
 
                 <h3>Feature Conditions</h3>
@@ -1160,7 +1256,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Cracked and Rough</td>
+                                <td>Guard Patrol Route; -1 to Vibe roll</td>
                             </tr>
                             <tr>
                                 <td>5</td>
@@ -1168,7 +1264,7 @@
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td>Guard Patrol Route; -1 to Vibe roll</td>
+                                <td>Cracked and Rough</td>
                             </tr>
                         </table>
                     </div>
@@ -1248,7 +1344,7 @@
                     <p>Describe the place first, then how you're hucking your trick. "There's a long marble ledge
                         running the full length of a shuttered guild hall over a gutter gap along the docks road, I'm
                         going to nollie noseblunt the ledge, heelflip out over the gap."</p>
-                        
+
                 </blockquote>
             </div>
         </div>
@@ -1271,14 +1367,15 @@
                     end of each full round of skaters. When it hits 6, night has fallen. Reset to 0 and start the next
                     day. You have 3 days.</p>
                 <h3>Lanterns</h3>
-                <p>When arriving at a spot, if a skater has a Lantern they may tick the Kickout Clock up 2 to light it. Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher
+                <p>When arriving at a spot, if a skater has a Lantern they may tick the Kickout Clock up 2 to light it.
+                    Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher
                     chance of being kicked out. A skater can only use their Lantern once per session.</p>
             </div>
             <!-- KUDOS -->
-            <div class="card blue">
+            <div class="card blue" id="kudos">
                 <h2>Kudos</h2>
                 <p>When you land a trick your crew daps you up, high fives you, gives you hugs. Choose one option below.
-                    If the trick sequence was 4 or more dice choose two instead.
+                    If the trick sequence was 4 or more points choose two instead.
                 </p>
                 <ul>
                     <li><strong>B-Roll:</strong> Swap one of your clips with this trick.</li>
@@ -1295,15 +1392,16 @@
                 </blockquote>
             </div>
             <!-- THE SESSION ITSELF -->
-            <div class="card green">
+            <div class="card green" id="session">
                 <h2>The Session</h2>
-                <h3>Legendary Spots</h3>
+                <h3 id="legspots">Legendary Spots</h3>
                 <p>Every spot has a Legend Track from 1 to 6. Roll a d6 and mark the starting Legend when skaters
                     arrive.</p>
 
-                <p>When a skater lands <strong>a 4+ dice trick</strong> at a spot, <strong>the spot's notoriety
+                <p>When a skater lands <strong>a 4+ point trick</strong> at a spot, <strong>the spot's notoriety
                         grows:</strong></p>
-                <p><em>Lock it Down:</em> Add 1 tick to the spot's Legend Track everytime a trick with 4+ dice is landed
+                <p><em>Lock it Down:</em> Add 1 tick to the spot's Legend Track everytime a trick with 4+ points is
+                    landed
                     there.</p>
 
                 <table>
@@ -1332,7 +1430,7 @@
                 <p>If the Legend Track <strong>hits 6 while you're there</strong>, a Local Legend shows up and
                     challenges the crew.</p>
 
-                <h3>The Video Part</h3>
+                <h3 id="video">The Video Part</h3>
 
                 <p>You can always add a landed trick to your video part if you <em>have a free clip slot</em>. You can
                     only have
@@ -1346,7 +1444,7 @@
                         Part</strong>. Last Part means you are the raddest, you shred the hardest.
                 </p>
 
-                <h3>Playing S.K.8.</h3>
+                <h3 id="sk8">Playing S.K.8.</h3>
                 <p>The first skater calls and attempts a trick on a specific feature. <em>Local Legends always go
                         first.</em> If
                     they land it, the next skater must attempt the exact same trick. If that skater bails or slams, they
@@ -1359,7 +1457,7 @@
         </div>
     </div>
 
-    <div class="card yellow">
+    <div class="card yellow" id="legends1">
         <h2>The Local Legend</h2>
         <p>When a spot hits Legend 6, a known local steps up and challenges the crew to S.K.8. Roll d20 on each table.
             They have FLIP 2, GRIND 2, TECH 2 unless noted.</p>
@@ -1710,7 +1808,7 @@
         </div>
     </div>
 
-    <div class="card green">
+    <div class="card green" id="legends2">
         <h2>Running Local Legends</h2>
         <p>
             OSRad is effectively a GMless game. The Kickout and Daylight Clocks can be tracked by players and the
@@ -1720,22 +1818,18 @@
         </p>
         <p>
             <strong>One player can roll tricks for the Local Legend.</strong> They always uses all their TECH rerolls on
-            every
-            attempt.
-            If they have no 4 in their pool after the initial roll, they <strong>spend only 1
-            TECH</strong> to convert a die to a 4 before rerolling. They play to land, every
-            time.
+            every attempt if needed. They play to land, every time.
         </p>
 
         <h3>Calling Their Trick</h3>
         <p>
-            Roll <strong>d6 + d8 + d4</strong> simultaneously. Read them in order.
+            Roll <strong>d6 + d8* + d4</strong> simultaneously. Read them in order.
         </p>
 
         <blockquote>
             <ul>
                 <li><strong>d6</strong> - trick type.</li>
-                <li><strong>d8</strong> - specific trick from that list.</li>
+                <li><strong>d8</strong> - specific trick from that list. *(or d4/d20)</li>
                 <li><strong>d4</strong> - on a 4, the trick is modified
                     <ul>
                         <li>odd d6 = switch, even d6 = nollie.</li>
@@ -1743,358 +1837,804 @@
                     </ul>
                 </li>
             </ul>
-            For a <strong>Combo</strong>, the d8 gives the flip trick then roll the d8
+            For a <strong>Combo</strong>, the d4/d8/d20 gives the flip trick then roll the die
             again for the grind.
         </blockquote>
         <div class="two-col">
 
-        <div class="two-col cputable">
-            <div class="col cputable2">
-                <h3>Trick Type - Dominant Stat</h3>
-                <p class="note">
-                    Use when one stat is higher.
-                </p>
-                <table>
-                    <tr>
-                        <th>d6</th>
-                        <th>Trick Type</th>
-                    </tr>
-                    <tr>
-                        <td>1-4</td>
-                        <td>Dominant stat trick</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Weaker stat trick</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Combo</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col cputable2">
-                <h3>Trick Type - Equal Stats</h3>
-                <p class="note">
-                    Use when FLIP and GRIND are equal.
-                </p>
-                <table>
-                    <tr>
-                        <th>d6</th>
-                        <th>Trick Type</th>
-                    </tr>
-                    <tr>
-                        <td>1-2</td>
-                        <td>Flip trick</td>
-                    </tr>
-                    <tr>
-                        <td>3-4</td>
-                        <td>Grind</td>
-                    </tr>
-                    <tr>
-                        <td>5-6</td>
-                        <td>Combo</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="two-col cputable">
-            <div class="col cputable2">
-                <h3>Die Size by Stat</h3>
-                <p class="note">
-                    Applies to whichever stat is being used.
-                </p>
-                <table>
-                    <tr>
-                        <th>Stat</th>
-                        <th>d8 Range</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>d4 (or d8 rolls 1-4 only)</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Full d8</td>
-                    </tr>
-                    <tr>
-                        <td>3+</td>
-                        <td>Advanced d20</td>
-                    </tr>
-                </table>
+            <div class="two-col cputable">
+                <div class="col cputable2">
+                    <h3>Trick Type - Dominant Stat</h3>
+                    <p class="note">
+                        Use when one stat is higher.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>d6</th>
+                            <th>Trick Type</th>
+                        </tr>
+                        <tr>
+                            <td>1-4</td>
+                            <td>Dominant stat trick</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Weaker stat trick</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Combo</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col cputable2">
+                    <h3>Trick Type - Equal Stats</h3>
+                    <p class="note">
+                        Use when FLIP and GRIND are equal.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>d6</th>
+                            <th>Trick Type</th>
+                        </tr>
+                        <tr>
+                            <td>1-2</td>
+                            <td>Flip trick</td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>Grind</td>
+                        </tr>
+                        <tr>
+                            <td>5-6</td>
+                            <td>Combo</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
-            <div class="col cputable2">
-                <h3>Switch / Nollie</h3>
-                <p class="note">
-                    Only applies when d4 = 4.
-                </p>
-                <table>
-                    <tr>
-                        <th>d6</th>
-                        <th>Modifier</th>
-                    </tr>
-                    <tr>
-                        <td>Odd</td>
-                        <td>Switch</td>
-                    </tr>
-                    <tr>
-                        <td>Even</td>
-                        <td>Nollie</td>
-                    </tr>
-                </table>
+            <div class="two-col cputable">
+                <div class="col cputable2">
+                    <h3>Die Size by Stat</h3>
+                    <p class="note">
+                        Applies to whichever stat is being used.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Stat</th>
+                            <th>d8 Range</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>d4 (or d8 rolls 1-4 only)</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Full d8</td>
+                        </tr>
+                        <tr>
+                            <td>3+</td>
+                            <td>Advanced d20</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col cputable2">
+                    <h3>Switch / Nollie</h3>
+                    <p class="note">
+                        Only applies when d4 = 4.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>d6</th>
+                            <th>Modifier</th>
+                        </tr>
+                        <tr>
+                            <td>Odd</td>
+                            <td>Switch</td>
+                        </tr>
+                        <tr>
+                            <td>Even</td>
+                            <td>Nollie</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-        </div>
         </div>
 
         <blockquote style="margin-top: 10px">
             <strong>Example:</strong> FLIP 1 / GRIND 3, dominant GRIND. Roll
-            d6=3, d8=6, d4=4. Type: dominant (GRIND). Trick: Smith. d4=4 and
+            d6=3, d20=6, d4=4. Type: dominant (GRIND). Trick: Smith. d4=4 and
             d6=3 (odd): <strong>Switch Smith Grind.</strong>
         </blockquote>
     </div>
-<div class="two-col">
+    <div class="two-col">
 
-<div class="col-fixed card blue">
-        <h2>Advanced Trick List</h2>
-        <p>Optional expanded list for experienced crews and high stat Local Legends. Roll d20 to use these with the basic d8 list.</p>
-        <div class="dice-tables">
-            <div>
-                <h3>Flip Tricks</h3>
-                <!-- [5][2] fs/bs flip -->
-                        <div class="trick-row"><em>&ensp;9</em>
-                            <div class="die 5">
-                                <svg viewBox="0 0 18 18">
-                                    <circle cx="5" cy="5" r="1.8" class="pd" />
-                                    <circle cx="13" cy="5" r="1.8" class="pd" />
-                                    <circle cx="9" cy="9" r="1.8" class="pd" />
-                                    <circle cx="5" cy="13" r="1.8" class="pd" />
-                                    <circle cx="13" cy="13" r="1.8" class="pd" />
-                                </svg>
-                            </div>
-                            <div class="die 2"><svg viewBox="0 0 18 18">
-                                    <circle cx="5.5" cy="5.5" r="2" class="pd" />
-                                    <circle cx="12.5" cy="12.5" r="2" class="pd" />
-                                </svg></div>
-                            <span class="trick-name">fs/bs Flip</span>
+        <div class="col-fixed card blue" id="tricks">
+            <h2>Advanced Trick List</h2>
+            <p>Optional expanded list for experienced crews and high stat Local Legends. Roll d20 to use these with the
+                basic d8 list.</p>
+            <div class="dice-tables">
+                <div>
+                    <h3>Flip Tricks</h3>
+                    <!-- [4] ollie -->
+                    <div class="trick-row"><em>1&ensp;</em>
+                        <div class="die 4">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
+                        </div> <span class="trick-name">Ollie</span>
+                    </div>
+                    <!-- [2] kickflip -->
+                    <div class="trick-row"><em>2&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Kickflip</span>
+                    </div>
+                    <!-- [6] heelflip -->
+                    <div class="trick-row"><em>3&ensp;</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Heelflip</span>
+                    </div>
+                    <!-- [5] shuv -->
+                    <div class="trick-row"><em>4&ensp;</em>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
                         </div>
-                <!-- [2][2] double kickflip -->
-                <div class="trick-row"><em>10</em>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Double Flip</span>
-                </div>
-                <!-- [6][6] double heelflip -->
-                <div class="trick-row"><em>11</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Double Heel</span>
-                </div>
-                <!-- [5][3] 360 shuvit -->
-                <div class="trick-row"><em>12</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">360 Shuvit</span>
-                </div>
-                <!-- [3][2] inward heel -->
-                <div class="trick-row"><em>13</em>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Inward Heel</span>
-                </div>
-                <!-- [2][3] varial flip -->
-               <div class="trick-row"><em>14</em>
-                            <div class="die 2"><svg viewBox="0 0 18 18">
-                                    <circle cx="5.5" cy="5.5" r="2" class="pd" />
-                                    <circle cx="12.5" cy="12.5" r="2" class="pd" />
-                                </svg></div>
-                            <div class="die 3"><svg viewBox="0 0 18 18">
-                                    <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
-                                    <circle cx="9" cy="9" r="1.8" class="pd" />
-                                    <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
-                                </svg></div>
-                            <span class="trick-name">Varial Flip</span>
+                        <span class="trick-name">Shuvit</span>
+                    </div>
+                    <!-- [2][3] tre -->
+                    <div class="trick-row"><em>5&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Tre Flip</span>
+                    </div>
+                    <!-- [5][6] laserflip -->
+                    <div class="trick-row"><em>6&ensp;</em>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
                         </div>
-                <!-- [5][6] varial heel -->
-                <div class="trick-row"><em>15</em>
-                            <div class="die 5">
-                                <svg viewBox="0 0 18 18">
-                                    <circle cx="5" cy="5" r="1.8" class="pd" />
-                                    <circle cx="13" cy="5" r="1.8" class="pd" />
-                                    <circle cx="9" cy="9" r="1.8" class="pd" />
-                                    <circle cx="5" cy="13" r="1.8" class="pd" />
-                                    <circle cx="13" cy="13" r="1.8" class="pd" />
-                                </svg>
-                            </div>
-                            <div class="die 6"><svg viewBox="0 0 18 18">
-                                    <circle cx="5" cy="5" r="1.8" class="pd" />
-                                    <circle cx="13" cy="5" r="1.8" class="pd" />
-                                    <circle cx="5" cy="9" r="1.8" class="pd" />
-                                    <circle cx="13" cy="9" r="1.8" class="pd" />
-                                    <circle cx="5" cy="13" r="1.8" class="pd" />
-                                    <circle cx="13" cy="13" r="1.8" class="pd" />
-                                </svg></div>
-                            <span class="trick-name">Varial Heel</span>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Laserflip</span>
+                    </div>
+                    <!-- [6][2] hardflip -->
+                    <div class="trick-row"><em>7&ensp;</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Hardflip</span>
+                    </div>
+                    <!-- [3][5] big spin -->
+                    <div class="trick-row"><em>8&ensp;</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
                         </div>
-                <!-- [5][5] 540 shuvit -->
-                <div class="trick-row"><em>16</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">540 Shuvit</span>
+                        <span class="trick-name">Big Spin</span>
+                    </div>
+                    <!-- [5][2] fs/bs flip -->
+                    <div class="trick-row"><em>9&ensp;</em>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
+                        </div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">fs/bs Flip</span>
+                    </div>
+                    <!-- [2][2] double kickflip -->
+                    <div class="trick-row"><em>10</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Double Flip</span>
+                    </div>
+                    <!-- [6][6] double heelflip -->
+                    <div class="trick-row"><em>11</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Double Heel</span>
+                    </div>
+                    <!-- [5][3] 360 shuvit -->
+                    <div class="trick-row"><em>12</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">360 Shuvit</span>
+                    </div>
+                    <!-- [3][2] inward heel -->
+                    <div class="trick-row"><em>13</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Inward Heel</span>
+                    </div>
+                    <!-- [2][3] varial flip -->
+                    <div class="trick-row"><em>14</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Varial Flip</span>
+                    </div>
+                    <!-- [5][6] varial heel -->
+                    <div class="trick-row"><em>15</em>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
+                        </div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Varial Heel</span>
+                    </div>
+                    <!-- [5][5] 540 shuvit -->
+                    <div class="trick-row"><em>16</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">540 Shuvit</span>
+                    </div>
+                    <!-- [3][3] bigspin flip -->
+                    <div class="trick-row"><em>17</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Big Spin Flip</span>
+                    </div>
+                    <!-- [6][3] impossible -->
+                    <div class="trick-row"><em>18</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Impossible</span>
+                    </div>
+                    <!-- [2][5] gazelle flip -->
+                    <div class="trick-row"><em>19</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Gazelle Flip</span>
+                    </div>
+                    <!-- [6][5] hospital flip -->
+                    <div class="trick-row"><em>20</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Hospital Flip</span>
+                    </div>
                 </div>
-                <!-- [3][3] bigspin flip -->
-                <div class="trick-row"><em>17</em>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Big Spin Flip</span>
-                </div>
-                <!-- [6][3] impossible -->
-                <div class="trick-row"><em>18</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Impossible</span>
-                </div>
-                <!-- [2][5] gazelle flip -->
-                <div class="trick-row"><em>19</em>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Gazelle Flip</span>
-                </div>
-                <!-- [6][5] hospital flip -->
-                <div class="trick-row"><em>20</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Hospital Flip</span>
-                </div>
-            </div>
-            <div>
-                <h3>Grinds</h3>
-                <!-- [2][2] nosegrind -->
-                <div class="trick-row"><em>&ensp;9</em>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Nosegrind</span>
-                </div>
-                <!-- [2][6] feeble grind -->
-                <div class="trick-row"><em>10</em>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Feeble Grind</span>
-                </div>
-                <!-- [3][2] noseslide -->
-                <div class="trick-row"><em>11</em>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Noseslide</span>
-                </div>
-                <!-- [3][6] overcrook -->
-                <div class="trick-row"><em>12</em>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Overcrook</span>
-                </div>
-                <!-- [5][2] noseblunt -->
-                <div class="trick-row"><em>13</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 2"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="2" class="pd" /><circle cx="12.5" cy="12.5" r="2" class="pd" /></svg></div>
-                    <span class="trick-name">Noseblunt</span>
-                </div>
-                <!-- [5][3] overcrooked slide -->
-                <div class="trick-row"><em>14</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Barley Grind</span>
-                </div>
-                <!-- [3][5] 270 lipslide -->
-                <div class="trick-row"><em>15</em>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">270 Lipslide</span>
-                </div>
-                <!-- [5][6] salad grind -->
-                <div class="trick-row"><em>16</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Salad Grind</span>
-                </div>
-                <!-- [6][3] hurricane -->
-                <div class="trick-row"><em>17</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 3"><svg viewBox="0 0 18 18"><circle cx="5.5" cy="5.5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="12.5" cy="12.5" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Hurricane</span>
-                </div>
-                <!-- [6][5] willy grind -->
-                <div class="trick-row"><em>18</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Willy Grind</span>
-                </div>
-                <!-- [6][6] crailslide -->
-                <div class="trick-row"><em>19</em>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 6"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="5" cy="9" r="1.8" class="pd" /><circle cx="13" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Crailslide</span>
-                </div>
-                <!-- [5][5] darkslide -->
-                <div class="trick-row"><em>20</em>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <div class="die 5"><svg viewBox="0 0 18 18"><circle cx="5" cy="5" r="1.8" class="pd" /><circle cx="13" cy="5" r="1.8" class="pd" /><circle cx="9" cy="9" r="1.8" class="pd" /><circle cx="5" cy="13" r="1.8" class="pd" /><circle cx="13" cy="13" r="1.8" class="pd" /></svg></div>
-                    <span class="trick-name">Darkslide</span>
+                <div>
+                    <h3>Grinds</h3>
+                    <!-- [6] 50-50 -->
+                    <div class="trick-row"><em>1&ensp;</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">50-50</span>
+                    </div>
+                    <!-- [2] 5-0 -->
+                    <div class="trick-row"><em>2&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">5-0</span>
+                    </div>
+                    <!-- [3] boardslide -->
+                    <div class="trick-row"><em>3&ensp;</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Boardslide</span>
+                    </div>
+                    <!-- [5] lipslide -->
+                    <div class="trick-row"><em>4&ensp;</em>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
+                        </div>
+                        <span class="trick-name">Lipslide</span>
+                    </div>
+                    <!-- [6][2] crooked -->
+                    <div class="trick-row"><em>5&ensp;</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Crooked</span>
+                    </div>
+                    <!-- [2][3] smith -->
+                    <div class="trick-row"><em>6&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Smith</span>
+                    </div>
+                    <!-- [3][3] tailslide -->
+                    <div class="trick-row"><em>7&ensp;</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Tailslide</span>
+                    </div>
+                    <!-- [2][5] bluntslide -->
+                    <div class="trick-row"><em>8&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 5">
+                            <svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg>
+                        </div>
+                        <span class="trick-name">Bluntslide</span>
+                    </div>
+                    <!-- [2][2] nosegrind -->
+                    <div class="trick-row"><em>9&ensp;</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Nosegrind</span>
+                    </div>
+                    <!-- [2][6] feeble grind -->
+                    <div class="trick-row"><em>10</em>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Feeble Grind</span>
+                    </div>
+                    <!-- [3][2] noseslide -->
+                    <div class="trick-row"><em>11</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Noseslide</span>
+                    </div>
+                    <!-- [3][6] overcrook -->
+                    <div class="trick-row"><em>12</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Overcrook</span>
+                    </div>
+                    <!-- [5][2] noseblunt -->
+                    <div class="trick-row"><em>13</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 2"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="2" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="2" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Noseblunt</span>
+                    </div>
+                    <!-- [5][3] overcrooked slide -->
+                    <div class="trick-row"><em>14</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Barley Grind</span>
+                    </div>
+                    <!-- [3][5] 270 lipslide -->
+                    <div class="trick-row"><em>15</em>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">270 Lipslide</span>
+                    </div>
+                    <!-- [5][6] salad grind -->
+                    <div class="trick-row"><em>16</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Salad Grind</span>
+                    </div>
+                    <!-- [6][3] hurricane -->
+                    <div class="trick-row"><em>17</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 3"><svg viewBox="0 0 18 18">
+                                <circle cx="5.5" cy="5.5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="12.5" cy="12.5" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Hurricane</span>
+                    </div>
+                    <!-- [6][5] willy grind -->
+                    <div class="trick-row"><em>18</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Willy Grind</span>
+                    </div>
+                    <!-- [6][6] crailslide -->
+                    <div class="trick-row"><em>19</em>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 6"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="5" cy="9" r="1.8" class="pd" />
+                                <circle cx="13" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Crailslide</span>
+                    </div>
+                    <!-- [5][5] darkslide -->
+                    <div class="trick-row"><em>20</em>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <div class="die 5"><svg viewBox="0 0 18 18">
+                                <circle cx="5" cy="5" r="1.8" class="pd" />
+                                <circle cx="13" cy="5" r="1.8" class="pd" />
+                                <circle cx="9" cy="9" r="1.8" class="pd" />
+                                <circle cx="5" cy="13" r="1.8" class="pd" />
+                                <circle cx="13" cy="13" r="1.8" class="pd" />
+                            </svg></div>
+                        <span class="trick-name">Darkslide</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="card pink">
-        <h2>The Gameplay Loop</h2>
-        <p style="margin-bottom:14px;">You have 3 days. When a spot's Legend hits 6, the Local Legend appears. The
-            Daylight Clock ticks up every round. When it hits 6 reset and you do it again.</p>
-        <div class="loop-steps">
-            <div class="loop-step">
-                <span class="num">1</span>
-                <div class="txt"><strong>Find a spot.</strong> Roll the spot generator. Together the group desribes the
-                    dice as a
-                    place. Players roll Vibe.</div>
+        <div class="card pink" id="loop">
+            <h2>The Gameplay Loop</h2>
+            <p style="margin-bottom:14px;">You have 3 days. When a spot's Legend hits 6, the Local Legend appears. The
+                Daylight Clock ticks up every round. When it hits 6 reset and you do it again.</p>
+            <div class="loop-steps">
+                <div class="loop-step">
+                    <span class="num">1</span>
+                    <div class="txt"><strong>Find a spot.</strong> Roll the spot generator. Together the group desribes
+                        the
+                        dice as a
+                        place. Players roll Vibe.</div>
+                </div>
+                <div class="loop-step">
+                    <span class="num">2</span>
+                    <div class="txt"><strong>Session it.</strong> Players take turns calling and attempting tricks.
+                        Bails
+                        and slams tick the Kickout Clock up. Landed tricks earn Kudos. At the end of each full round,
+                        tick
+                        the Daylight Clock up.</div>
+                </div>
+                <div class="loop-step">
+                    <span class="num">3</span>
+                    <div class="txt"><strong>Face the Local Legend.</strong> A local steps up when a spot's Legend hits
+                        6.
+                        They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into
+                        tomorrow.</div>
+                </div>
+                <div class="loop-step">
+                    <span class="num">4</span>
+                    <div class="txt"><strong>Get kicked out or move on.</strong> When the Kickout Clock hits 6 the spot
+                        is
+                        done. Find another. When the Daylight Clock hits 6, night falls.</div>
+                </div>
+                <div class="loop-step">
+                    <span class="num">5</span>
+                    <div class="txt"><strong>New day.</strong> GNAR refreshes. Daylight resets. Mark a day. After 3 days
+                        total
+                        the city returns to normal and it's over.</div>
+                </div>
             </div>
-            <div class="loop-step">
-                <span class="num">2</span>
-                <div class="txt"><strong>Session it.</strong> Players take turns calling and attempting tricks. Bails
-                    and slams tick the Kickout Clock up. Landed tricks earn Kudos. At the end of each full round, tick
-                    the Daylight Clock up.</div>
-            </div>
-            <div class="loop-step">
-                <span class="num">3</span>
-                <div class="txt"><strong>Face the Local Legend.</strong> A local steps up when a spot's Legend hits 6.
-                    They challenge the crew to S.K.8. Win or lose, roll on the consequence table. It carries into
-                    tomorrow.</div>
-            </div>
-            <div class="loop-step">
-                <span class="num">4</span>
-                <div class="txt"><strong>Get kicked out or move on.</strong> When the Kickout Clock hits 6 the spot is
-                    done. Find another. When the Daylight Clock hits 6, night falls.</div>
-            </div>
-            <div class="loop-step">
-                <span class="num">5</span>
-                <div class="txt"><strong>New day.</strong> GNAR refreshes. Daylight resets. Mark a day. After 3 days
-                    total
-                    the city returns to normal and it's over.</div>
-            </div>
+            <p>At the end of the run, the crew watches the parts together and tallies up who
+                had the sickest tricks. The skater with the most points gets <strong>Last Part.</strong> That's it.
+                That's
+                the game.</p>
         </div>
-        <p>At the end of the run, the crew watches the parts together and tallies up who
-            had the sickest tricks. The skater with the most points gets <strong>Last Part.</strong> That's it. That's
-            the game.</p>
-    </div>
 
-    
-</div>
+
+    </div>
 
     <div class="sheet-ref">
-        <h2>Printables!</h2>
-        <p style="font-size:11px; color:#888; font-style:italic; margin-top:4px;">Print and use these at the table.</p>
-        <a href="osrad-printables.pdf" target="_blank">OSRad. Tracking Sheet PDF</a>
+        <div class="pre">
+            <h2>Printables!</h2>
+            <p>Print and use these at the table.</p>
+            <a href="osrad-printables.pdf" target="_blank">OSRad. Tracking Sheet PDF</a>
+        </div>
     </div>
 
+
+    <script>
+        document.addEventListener('click', e => {
+            if (!document.getElementById('nav').contains(e.target))
+                document.getElementById('nav-menu').classList.remove('open');
+        });
+    </script>
 
 </body>
 

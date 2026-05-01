@@ -329,7 +329,7 @@
             flex: 1;
         }
 
-        .conditables {
+        .conditables, .feattables {
             display: flex;
             gap: 10px;
         }
@@ -402,6 +402,14 @@
             margin: 10px 0;
         }
 
+        .cputable {
+            width: 50%;
+        }
+
+        .cputable2 {
+            width: 100%;
+        }
+
         @media only screen and (max-width: 960px) {
             .two-col {
                 flex-direction: column;
@@ -414,6 +422,25 @@
             .page-header h1 {
                 font-size: 6.5em;
             }
+
+            .feattables {
+                flex-wrap: wrap;
+            }
+
+            .hideheader {
+                display: none;
+                margin-top: 0;
+            }
+
+            .tablemerge {
+                margin-top: -20px;
+                border-top: solid 0.2px #cfcfcf;
+                width: 92%;
+            }
+
+            .cputable {
+            width: 100%;
+        }
         }
     </style>
 </head>
@@ -983,7 +1010,8 @@
                     A <strong>Gnarly</strong> feature costs 1 GNAR to attempt and if you slam your GNAR goes to 0.<br>
                     A <strong>Technical</strong> feature costs 1 TECH to attempt.
                 </blockquote>
-
+                <div class="feattables">
+                <div>
                 <table>
                     <tr>
                         <th>Sum</th>
@@ -1050,6 +1078,16 @@
                         <td>Smithy Ledge</td>
                         <td>Technical</td>
                     </tr>
+                </table>
+                </div>
+
+                <div>
+                <table class="tablemerge">
+                    <tr class="hideheader">
+                        <th>Sum</th>
+                        <th>Feature</th>
+                        <th>Effect</th>
+                    </tr>
                     <tr>
                         <td>15</td>
                         <td>Gutter Gap</td>
@@ -1111,6 +1149,8 @@
                         <td>—</td>
                     </tr>
                 </table>
+                </div>
+                </div>
 
                 <h3>Feature Conditions</h3>
                 <p>Check the highest or lowest neighbouring dice for each feature to add some flavour to them.</p>
@@ -1243,9 +1283,8 @@
                     end of each full round of skaters. When it hits 6, night has fallen. Reset to 0 and start the next
                     day. You have 3 days.</p>
                 <h3>Lanterns</h3>
-                <p>When arriving at a spot, if a skater has a Lantern they may tick the Kickout Clock up 2 to light a
-                    lantern. Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher
-                    chance of being kicked out.</p>
+                <p>When arriving at a spot, if a skater has a Lantern they may tick the Kickout Clock up 2 to light it. Lighting a lantern ignores 2 ticks to the Daylight Clock. The longer you linger, the higher
+                    chance of being kicked out. A skater can only use their Lantern once per session.</p>
             </div>
             <!-- KUDOS -->
             <div class="card blue">
@@ -1719,9 +1758,10 @@
             For a <strong>Combo</strong>, the d8 gives the flip trick then roll the d8
             again for the grind.
         </blockquote>
-
         <div class="two-col">
-            <div class="col">
+
+        <div class="two-col cputable">
+            <div class="col cputable2">
                 <h3>Trick Type - Dominant Stat</h3>
                 <p class="note">
                     Use when one stat is higher.
@@ -1745,7 +1785,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col">
+            <div class="col cputable2">
                 <h3>Trick Type - Equal Stats</h3>
                 <p class="note">
                     Use when FLIP and GRIND are equal.
@@ -1771,8 +1811,8 @@
             </div>
         </div>
 
-        <div class="two-col" style="margin-top: 8px; margin-bottom: 0">
-            <div class="col">
+        <div class="two-col cputable">
+            <div class="col cputable2">
                 <h3>Die Size by Stat</h3>
                 <p class="note">
                     Applies to whichever stat is being used.
@@ -1793,7 +1833,7 @@
                 </table>
             </div>
 
-            <div class="col">
+            <div class="col cputable2">
                 <h3>Switch / Nollie</h3>
                 <p class="note">
                     Only applies when d4 = 4.
@@ -1814,6 +1854,8 @@
                 </table>
             </div>
         </div>
+        </div>
+
         <blockquote style="margin-top: 10px">
             <strong>Example:</strong> FLIP 1 / GRIND 3, dominant GRIND. Roll
             d6=3, d8=6, d4=4. Type: dominant (GRIND). Trick: Smith. d4=4 and
